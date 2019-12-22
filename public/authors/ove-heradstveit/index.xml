@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ove Heradstveit | Tormod Bøe</title>
+    <link>/authors/ove-heradstveit/</link>
+      <atom:link href="/authors/ove-heradstveit/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ove Heradstveit</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ove Heradstveit</title>
+      <link>/authors/ove-heradstveit/</link>
+    </image>
+    
+    <item>
+      <title>Complex families and health complaints among adolescents: A population-based cross-sectional study</title>
+      <link>/publication/nilsen-2019-complex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nilsen-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The youth@hordaland Study</title>
+      <link>/publication/skogen-economic-circumstances-childhood-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/skogen-economic-circumstances-childhood-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eilif Vingen Sunde | Tormod Bøe</title>
+    <link>/authors/eilif-vingen-sunde/</link>
+      <atom:link href="/authors/eilif-vingen-sunde/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eilif Vingen Sunde</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Eilif Vingen Sunde</title>
+      <link>/authors/eilif-vingen-sunde/</link>
+    </image>
+    
+    <item>
+      <title>Complex families and health complaints among adolescents: A population-based cross-sectional study</title>
+      <link>/publication/nilsen-2019-complex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nilsen-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

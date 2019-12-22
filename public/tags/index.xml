@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,10 +13,122 @@
     </image>
     
     <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/source-themes/</guid>
+      <title>adolescence</title>
+      <link>/tags/adolescence/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/adolescence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alcohol use</title>
+      <link>/tags/alcohol-use/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/alcohol-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>economic circumstances</title>
+      <link>/tags/economic-circumstances/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/economic-circumstances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>economic volatility</title>
+      <link>/tags/economic-volatility/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/economic-volatility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relative poverty</title>
+      <link>/tags/relative-poverty/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/relative-poverty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>substance use</title>
+      <link>/tags/substance-use/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/substance-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>⛔ no doi found</title>
+      <link>/tags/no-doi-found/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/no-doi-found/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adhd</title>
+      <link>/tags/adhd/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/adhd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>childhood</title>
+      <link>/tags/childhood/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/childhood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latent class analysis</title>
+      <link>/tags/latent-class-analysis/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/latent-class-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>longitudinal</title>
+      <link>/tags/longitudinal/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/longitudinal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mental health</title>
+      <link>/tags/mental-health/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/mental-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poverty</title>
+      <link>/tags/poverty/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/poverty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sleep</title>
+      <link>/tags/sleep/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/sleep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youth@hordaland</title>
+      <link>/tags/youthhordaland/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/youthhordaland/</guid>
       <description></description>
     </item>
     
@@ -45,6 +157,78 @@
     </item>
     
     <item>
+      <title>adolescents</title>
+      <link>/tags/adolescents/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/adolescents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>age groups</title>
+      <link>/tags/age-groups/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/age-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behavior</title>
+      <link>/tags/behavior/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emotions</title>
+      <link>/tags/emotions/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/emotions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mental health and psychiatry</title>
+      <link>/tags/mental-health-and-psychiatry/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/mental-health-and-psychiatry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prosocial behavior</title>
+      <link>/tags/prosocial-behavior/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/prosocial-behavior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>questionnaires</title>
+      <link>/tags/questionnaires/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/questionnaires/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research validity</title>
+      <link>/tags/research-validity/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/tags/research-validity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -65,6 +249,374 @@
       <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3560:classroom dynamics &amp; student adjustment &amp; att</title>
+      <link>/tags/3560classroom-dynamics-student-adjustment-att/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/3560classroom-dynamics-student-adjustment-att/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adolescence (13-17 yrs)</title>
+      <link>/tags/adolescence-13-17-yrs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/adolescence-13-17-yrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adulthood (18 yrs &amp; older)</title>
+      <link>/tags/adulthood-18-yrs-older/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/adulthood-18-yrs-older/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>article</title>
+      <link>/tags/article/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>difficulties initiating and maintaining sleep scal</title>
+      <link>/tags/difficulties-initiating-and-maintaining-sleep-scal/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/difficulties-initiating-and-maintaining-sleep-scal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>empirical study</title>
+      <link>/tags/empirical-study/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/empirical-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epidemiology</title>
+      <link>/tags/epidemiology/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/epidemiology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>female</title>
+      <link>/tags/female/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/female/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>human</title>
+      <link>/tags/human/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/human/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insomnia</title>
+      <link>/tags/insomnia/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/insomnia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>male</title>
+      <link>/tags/male/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/male/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non attendance</title>
+      <link>/tags/non-attendance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/non-attendance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>norway</title>
+      <link>/tags/norway/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/norway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantitative study</title>
+      <link>/tags/quantitative-study/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/quantitative-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school</title>
+      <link>/tags/school/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school absence</title>
+      <link>/tags/school-absence/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/school-absence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school attendance</title>
+      <link>/tags/school-attendance/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/school-attendance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school attendance measure</title>
+      <link>/tags/school-attendance-measure/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/school-attendance-measure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school refusal</title>
+      <link>/tags/school-refusal/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/school-refusal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>schools</title>
+      <link>/tags/schools/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/schools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service use</title>
+      <link>/tags/service-use/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/service-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>short mood and feelings questionnaire</title>
+      <link>/tags/short-mood-and-feelings-questionnaire/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/short-mood-and-feelings-questionnaire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>truancy</title>
+      <link>/tags/truancy/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/truancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>young adulthood (18-29 yrs)</title>
+      <link>/tags/young-adulthood-18-29-yrs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/young-adulthood-18-29-yrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youth@hordaland background</title>
+      <link>/tags/youthhordaland-background/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/tags/youthhordaland-background/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bergen child study</title>
+      <link>/tags/bergen-child-study/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/bergen-child-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bergen child study socioeconomic status internalizing and externalizing problems family process</title>
+      <link>/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>family process</title>
+      <link>/tags/family-process/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/family-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internalizing and externalizing problems</title>
+      <link>/tags/internalizing-and-externalizing-problems/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/internalizing-and-externalizing-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socioeconomic status</title>
+      <link>/tags/socioeconomic-status/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/tags/socioeconomic-status/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alcohol problems</title>
+      <link>/tags/alcohol-problems/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/alcohol-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alcohol problems drug use adolescence validation crafft screening</title>
+      <link>/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biostatistics</title>
+      <link>/tags/biostatistics/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/biostatistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crafft</title>
+      <link>/tags/crafft/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/crafft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drug use</title>
+      <link>/tags/drug-use/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/drug-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environmental health</title>
+      <link>/tags/environmental-health/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/environmental-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>/tags/general/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medicine/public health</title>
+      <link>/tags/medicine/public-health/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/medicine/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public health</title>
+      <link>/tags/public-health/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>screening</title>
+      <link>/tags/screening/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/screening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vaccine</title>
+      <link>/tags/vaccine/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/vaccine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>validation</title>
+      <link>/tags/validation/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/tags/validation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bcs</title>
+      <link>/tags/bcs/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/bcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sdq</title>
+      <link>/tags/sdq/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/sdq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ses</title>
+      <link>/tags/ses/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/ses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sleep ses sdq bergen child study bcs</title>
+      <link>/tags/sleep-ses-sdq-bergen-child-study-bcs/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/sleep-ses-sdq-bergen-child-study-bcs/</guid>
       <description></description>
     </item>
     

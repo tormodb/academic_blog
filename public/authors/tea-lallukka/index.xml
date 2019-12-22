@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tea Lallukka | Tormod Bøe</title>
+    <link>/authors/tea-lallukka/</link>
+      <atom:link href="/authors/tea-lallukka/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tea Lallukka</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tea Lallukka</title>
+      <link>/authors/tea-lallukka/</link>
+    </image>
+    
+    <item>
+      <title>The Social Gradient of Sleep in Adolescence: Results from the Youth@ Hordaland Survey</title>
+      <link>/publication/hysingsocialgradientsleep-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/hysingsocialgradientsleep-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

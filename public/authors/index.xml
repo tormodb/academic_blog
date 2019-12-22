@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,12 +13,428 @@
     </image>
     
     <item>
+      <title>Heleen Riper</title>
+      <link>/authors/heleen-riper/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/heleen-riper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jens Christoffer Skogen</title>
+      <link>/authors/jens-christoffer-skogen/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jens-christoffer-skogen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mikkel Magnus Thørrisen</title>
+      <link>/authors/mikkel-magnus-th%C3%B8rrisen/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mikkel-magnus-th%C3%B8rrisen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Randi Wågø Aas</title>
+      <link>/authors/randi-wag%C3%B8-aas/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/randi-wag%C3%B8-aas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tormod Bøe</title>
+      <link>/authors/tormod-b%C3%B8e/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/tormod-b%C3%B8e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annett Arntzen</title>
+      <link>/authors/annett-arntzen/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/annett-arntzen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astri Syse</title>
+      <link>/authors/astri-syse/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/astri-syse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bjorn Heine Strand</title>
+      <link>/authors/bjorn-heine-strand/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/bjorn-heine-strand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elisabeth Fosse</title>
+      <link>/authors/elisabeth-fosse/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/elisabeth-fosse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Espen Dahl</title>
+      <link>/authors/espen-dahl/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/espen-dahl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jon Ivar Elstad</title>
+      <link>/authors/jon-ivar-elstad/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jon-ivar-elstad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mira Aaboen Sletten</title>
+      <link>/authors/mira-aaboen-sletten/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mira-aaboen-sletten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nina Drange</title>
+      <link>/authors/nina-drange/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/nina-drange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steinar Krokstad</title>
+      <link>/authors/steinar-krokstad/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/steinar-krokstad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terje A Eikemo</title>
+      <link>/authors/terje-a-eikemo/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/terje-a-eikemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Tormod Bøe is an associate professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Børge Sivertsen</title>
+      <link>/authors/b%C3%B8rge-sivertsen/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/b%C3%B8rge-sivertsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eilif Vingen Sunde</title>
+      <link>/authors/eilif-vingen-sunde/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/eilif-vingen-sunde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingrid Kvestad</title>
+      <link>/authors/ingrid-kvestad/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ingrid-kvestad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keith J Petrie</title>
+      <link>/authors/keith-j-petrie/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/keith-j-petrie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kjell Morten Stormark</title>
+      <link>/authors/kjell-morten-stormark/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kjell-morten-stormark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kyrre Breivik</title>
+      <link>/authors/kyrre-breivik/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kyrre-breivik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mari Hysing</title>
+      <link>/authors/mari-hysing/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mari-hysing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ove Heradstveit</title>
+      <link>/authors/ove-heradstveit/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ove-heradstveit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sondre Aasen Nilsen</title>
+      <link>/authors/sondre-aasen-nilsen/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/sondre-aasen-nilsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Dearing</title>
+      <link>/authors/eric-dearing/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/eric-dearing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henrik Daae Zachrisson</title>
+      <link>/authors/henrik-daae-zachrisson/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/henrik-daae-zachrisson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Einar R Heiervang</title>
+      <link>/authors/einar-r-heiervang/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/einar-r-heiervang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irene Bircow Elgen</title>
+      <link>/authors/irene-bircow-elgen/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/irene-bircow-elgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joop J Hox</title>
+      <link>/authors/joop-j-hox/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/joop-j-hox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lisbeth Beate Sandtorv</title>
+      <link>/authors/lisbeth-beate-sandtorv/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/lisbeth-beate-sandtorv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rolf Gjestad</title>
+      <link>/authors/rolf-gjestad/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/rolf-gjestad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanne C Smid</title>
+      <link>/authors/sanne-c-smid/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/sanne-c-smid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Silje Katrine Elgen Fevang</title>
+      <link>/authors/silje-katrine-elgen-fevang/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/silje-katrine-elgen-fevang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siren Haugland</title>
+      <link>/authors/siren-haugland/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/siren-haugland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Øystein Hetlevik</title>
+      <link>/authors/%C3%B8ystein-hetlevik/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/%C3%B8ystein-hetlevik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anna Sofia Serlachius</title>
+      <link>/authors/anna-sofia-serlachius/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/anna-sofia-serlachius/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arvid Lundervold</title>
+      <link>/authors/arvid-lundervold/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/arvid-lundervold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astri J Lundervold</title>
+      <link>/authors/astri-j-lundervold/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/astri-j-lundervold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courtney L. Mcnamara</title>
+      <link>/authors/courtney-l.-mcnamara/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/courtney-l.-mcnamara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erling F. Solheim</title>
+      <link>/authors/erling-f.-solheim/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/erling-f.-solheim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keith J. Petrie</title>
+      <link>/authors/keith-j.-petrie/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/keith-j.-petrie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kyrre Brevik</title>
+      <link>/authors/kyrre-brevik/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/kyrre-brevik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mirza Balaj</title>
+      <link>/authors/mirza-balaj/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/mirza-balaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stine Lehman</title>
+      <link>/authors/stine-lehman/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/stine-lehman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Bøe</title>
+      <link>/authors/t.-b%C3%B8e/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-b%C3%B8e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terje A. Eikemo</title>
+      <link>/authors/terje-a.-eikemo/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/terje-a.-eikemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anders Lillevik Thorsen</title>
+      <link>/authors/anders-lillevik-thorsen/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/anders-lillevik-thorsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astri J. Lundervold</title>
+      <link>/authors/astri-j.-lundervold/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/astri-j.-lundervold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lin Sørensen</title>
+      <link>/authors/lin-s%C3%B8rensen/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/lin-s%C3%B8rensen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Silje Elisabeth Hasmo Holm</title>
+      <link>/authors/silje-elisabeth-hasmo-holm/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/silje-elisabeth-hasmo-holm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tea Lallukka</title>
+      <link>/authors/tea-lallukka/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/tea-lallukka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Eilertsen</title>
+      <link>/authors/thomas-eilertsen/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/thomas-eilertsen/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -26,6 +442,134 @@
       <link>/authors/robert-ford/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kristin Gärtner Askeland</title>
+      <link>/authors/kristin-gartner-askeland/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/kristin-gartner-askeland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berit Skretting Solberg</title>
+      <link>/authors/berit-skretting-solberg/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/berit-skretting-solberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Einar Heiervang</title>
+      <link>/authors/einar-heiervang/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/einar-heiervang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ole Bernt Fasmer</title>
+      <link>/authors/ole-bernt-fasmer/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/ole-bernt-fasmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robert Goodman</title>
+      <link>/authors/robert-goodman/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/authors/robert-goodman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. J. Lundervold</title>
+      <link>/authors/a.-j.-lundervold/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/a.-j.-lundervold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ann Kristin Knudsen</title>
+      <link>/authors/ann-kristin-knudsen/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/ann-kristin-knudsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B. Sivertsen</title>
+      <link>/authors/b.-sivertsen/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/b.-sivertsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Heiervang</title>
+      <link>/authors/e.-heiervang/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/e.-heiervang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Hysing</title>
+      <link>/authors/m.-hysing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-hysing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R. Goodman</title>
+      <link>/authors/r.-goodman/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/r.-goodman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ståle Pallesen</title>
+      <link>/authors/stale-pallesen/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/authors/stale-pallesen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon Øverland</title>
+      <link>/authors/simon-%C3%B8verland/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/authors/simon-%C3%B8verland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hege Kornør</title>
+      <link>/authors/hege-korn%C3%B8r/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/authors/hege-korn%C3%B8r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K. M. Stormark</title>
+      <link>/authors/k.-m.-stormark/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/k.-m.-stormark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Torsheim</title>
+      <link>/authors/t.-torsheim/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/authors/t.-torsheim/</guid>
       <description></description>
     </item>
     

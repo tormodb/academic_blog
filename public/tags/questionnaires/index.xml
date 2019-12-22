@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questionnaires | Tormod Bøe</title>
+    <link>/tags/questionnaires/</link>
+      <atom:link href="/tags/questionnaires/index.xml" rel="self" type="application/rss+xml" />
+    <description>questionnaires</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>questionnaires</title>
+      <link>/tags/questionnaires/</link>
+    </image>
+    
+    <item>
+      <title>The Strengths and Difficulties Questionnaire (SDQ): Factor Structure and Gender Equivalence in Norwegian Adolescents</title>
+      <link>/publication/boestrengthsdifficultiesquestionnaire-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/boestrengthsdifficultiesquestionnaire-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+---
+title: "Delayed Sleep Phase Syndrome in Adolescents: Prevalence and Correlates in a Large Population Based Study"
+date: 2013-01-01
+publishDate: 2019-12-22T21:18:32.695240Z
+authors: ["Børge Sivertsen", "Ståle Pallesen", "Kjell Morten Stormark", "Tormod Bøe", "Astri J. Lundervold", "Mari Hysing"]
+publication_types: ["2"]
+abstract: "The aims of this study were to estimate the prevalence of delayed sleep phase syndrome (dsps) in adolescence, and to examine the association to insomnia and school non-attendance. data stem from a large population based study in hordaland county in norway conducted in 2012, the ung@hordaland study. in all, 10,220 adolescents aged 16–18 years (54% girls) provided self-reported data on a range of sleep parameters: dsps was defined according to the international classification of sleep disorders, revised (icsd-r) criteria, while insomnia was defined according to the quantitative criteria for insomnia. other sleep parameters included time in bed, sleep duration, sleep efficiency, oversleeping, sleep onset latency, wake after sleep onset, subjective sleep need, sleep deficiency, sleepiness and tiredness. sleep data were calculated separately for weekdays and weekends. data on school non-attendance were provided by official registers. the prevalence of dsps was 3.3%, and significantly higher among girls (3.7%) than boys (2.7%). there was a strong overlap between dsps and insomnia, with more than half of the adolescents with dsps also meeting the criteria for insomnia (53.8% for boys and 57.1% for girls). adolescents with dsps had significantly higher odds ratios (or) of non-attendance at school. after adjusting for sociodeographical factors, insomnia and depression, the adjusted ors for days of non-attendance were orhspace0.167em=hspace0.167em3.22 (95% ci: 1.94-5.34) for boys and orhspace0.167em=hspace0.167em1.87 (95% ci: 1.25-2.80) for girls. a similar effect was found for hours of non-attendance for boys, with an adjusted orhspace0.167em=hspace0.167em3.05 (95% ci: 1.89-4.92). the effect for girls was no longer significant after full adjustment (or =1.48 [95% ci: 0.94-2.32]). this is one of the first studies to estimate the prevalence of dsps in adolescents. the high prevalence of dsps, and overlap with insomnia, in combination with the odds of school non-attendance, suggest that a broad and thorough clinical approach is warranted when adolescents present with symptoms of dsps."
+featured: false
+publication: ""
+tags: ["epidemiology", "public health", "biostatistics", "environmental health", "general", "medicine/public health", "vaccine", "⛔ no doi found"]
+doi: "10/gbfgqx"
+---
+

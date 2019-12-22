@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bjorn Heine Strand | Tormod Bøe</title>
+    <link>/authors/bjorn-heine-strand/</link>
+      <atom:link href="/authors/bjorn-heine-strand/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bjorn Heine Strand</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Bjorn Heine Strand</title>
+      <link>/authors/bjorn-heine-strand/</link>
+    </image>
+    
+    <item>
+      <title>29 recommendations to combat social inequalities in health. The Norwegian Council on Social Inequalities in Health</title>
+      <link>/publication/arntzen-29-recommendationscombat-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/arntzen-29-recommendationscombat-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

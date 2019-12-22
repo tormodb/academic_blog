@@ -5,7 +5,7 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>1</title>
@@ -13,22 +13,35 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Road to Independence: Mental health  problems in unaccompanied refugee  minors</title>
+      <link>/publication/boe-road-independence-mental-2019-a/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/boe-road-independence-mental-2019-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parental Emotional Well-Being and Parenting Practices Mediate the Association between Ses and Mental Health Problems in Children</title>
+      <link>/publication/boe-parentalemotionalwellbeing-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/boe-parentalemotionalwellbeing-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Childhood Sleep Problems and Familial Socioeconomic Status</title>
+      <link>/publication/boe-childhoodsleepproblems-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/boe-childhoodsleepproblems-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stability of Mental Health Problems across Middle Childhood — Results from the Bergen Child Study</title>
+      <link>/publication/boestabilitymental-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/boestabilitymental-2010/</guid>
+      <description></description>
     </item>
     
   </channel>

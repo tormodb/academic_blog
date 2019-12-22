@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article | Tormod Bøe</title>
+    <link>/tags/article/</link>
+      <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <description>article</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>article</title>
+      <link>/tags/article/</link>
+    </image>
+    
+    <item>
+      <title>Sleep and School Attendance in Adolescence: Results from a Large Population-Based Study.</title>
+      <link>/publication/hysing-sleepschoolattendance-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/hysing-sleepschoolattendance-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

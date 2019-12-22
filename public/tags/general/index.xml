@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general | Tormod Bøe</title>
+    <link>/tags/general/</link>
+      <atom:link href="/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>general</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>general</title>
+      <link>/tags/general/</link>
+    </image>
+    
+    <item>
+      <title>Delayed Sleep Phase Syndrome in Adolescents: Prevalence and Correlates in a Large Population Based Study</title>
+      <link>/publication/sivertsen-delayedsleepphase-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/sivertsen-delayedsleepphase-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

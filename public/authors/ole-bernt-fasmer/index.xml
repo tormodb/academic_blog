@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ole Bernt Fasmer | Tormod Bøe</title>
+    <link>/authors/ole-bernt-fasmer/</link>
+      <atom:link href="/authors/ole-bernt-fasmer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ole Bernt Fasmer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ole Bernt Fasmer</title>
+      <link>/authors/ole-bernt-fasmer/</link>
+    </image>
+    
+    <item>
+      <title>Holdninger Til Bruk Av Medisiner Hos Voksne Med ADHD Målt Ved Hjelp Av Beliefs about Medicines Questionnaire (BMQ)</title>
+      <link>/publication/solberg-holdningertilbruk-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/solberg-holdningertilbruk-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

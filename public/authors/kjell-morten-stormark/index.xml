@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kjell Morten Stormark | Tormod Bøe</title>
+    <link>/authors/kjell-morten-stormark/</link>
+      <atom:link href="/authors/kjell-morten-stormark/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kjell Morten Stormark</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Kjell Morten Stormark</title>
+      <link>/authors/kjell-morten-stormark/</link>
+    </image>
+    
+    <item>
+      <title>Complex families and health complaints among adolescents: A population-based cross-sectional study</title>
+      <link>/publication/nilsen-2019-complex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nilsen-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subjective Economic Status in Adolescence: Determinants and Associations with Mental Health in the Norwegian Youth@Hordaland Study</title>
+      <link>/publication/boe-subjective-economic-status-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/boe-subjective-economic-status-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measurement Equivalence and Convergent Validity of a Mental Health Rating Scale</title>
+      <link>/publication/smid-measurement-equivalence-convergent-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/smid-measurement-equivalence-convergent-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adolescent School Absenteeism and Service Use in a Population-Based Study</title>
+      <link>/publication/askeland-adolescent-school-absenteeism-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/askeland-adolescent-school-absenteeism-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleep and School Attendance in Adolescence: Results from a Large Population-Based Study.</title>
+      <link>/publication/hysing-sleepschoolattendance-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/hysing-sleepschoolattendance-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delayed Sleep Phase Syndrome in Adolescents: Prevalence and Correlates in a Large Population Based Study</title>
+      <link>/publication/sivertsen-delayedsleepphase-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/sivertsen-delayedsleepphase-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleep Problems as a Mediator of the Association between Parental Education Levels, Perceived Family Economy and Poor Mental Health in Children</title>
+      <link>/publication/boe-sleepproblemsmediator-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/boe-sleepproblemsmediator-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
