@@ -5,12 +5,21 @@
     <link>/categories/blogdown/</link>
       <atom:link href="/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <description>blogdown</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>blogdown</title>
       <link>/categories/blogdown/</link>
     </image>
+    
+    <item>
+      <title>Testing academic frameword</title>
+      <link>/post/testing-academic-frameword/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/testing-academic-frameword/</guid>
+      <description>&lt;p&gt;Just testing whether the switch to Academic allows me to post.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building a blogdown publication list from bibtex file</title>

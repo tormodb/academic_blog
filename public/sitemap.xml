@@ -38,8 +38,13 @@
   </url>
   
   <url>
+    <loc>/categories/blogdown/</loc>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
   </url>
   
   <url>
@@ -58,12 +63,17 @@
   </url>
   
   <url>
-    <loc>/categories/project/</loc>
-    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/project/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,8 +83,23 @@
   </url>
   
   <url>
+    <loc>/categories/rmark/</loc>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/rmarkdown/</loc>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/testing-academic-frameword/</loc>
+    <lastmod>2019-12-23T13:15:52+01:00</lastmod>
   </url>
   
   <url>
@@ -195,11 +220,6 @@
   <url>
     <loc>/authors/terje-a-eikemo/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -363,22 +383,12 @@
   </url>
   
   <url>
-    <loc>/categories/blogdown/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/building-a-blogdown-publication-list-from-bibtex-file/</loc>
     <lastmod>2018-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/rmarkdown/</loc>
     <lastmod>2018-08-08T00:00:00+00:00</lastmod>
   </url>
   

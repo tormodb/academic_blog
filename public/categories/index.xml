@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>blogdown</title>
+      <link>/categories/blogdown/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>project</title>
       <link>/categories/project/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmark</title>
+      <link>/categories/rmark/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/rmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -53,26 +77,10 @@
     </item>
     
     <item>
-      <title>blogdown</title>
-      <link>/categories/blogdown/</link>
-      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R</title>
       <link>/categories/r/</link>
       <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>/categories/rmarkdown/</link>
-      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
