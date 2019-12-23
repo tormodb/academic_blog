@@ -133,15 +133,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Tormod Bøe is an associate professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Børge Sivertsen</title>
       <link>/authors/b%C3%B8rge-sivertsen/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -435,6 +426,15 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/authors/thomas-eilertsen/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Tormod Bøe is an associate professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics.&lt;/p&gt;
+</description>
     </item>
     
     <item>

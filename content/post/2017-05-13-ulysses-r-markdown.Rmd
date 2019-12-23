@@ -1,0 +1,39 @@
+---
+title: Ulysses, R, markdown
+author: Tormod
+date: '2019-05-13'
+categories:
+  - reproducible workflow
+  - ulysses
+  - writing
+tags:
+  - r
+  - reproducible
+  - rmarkdown
+slug: ulysses-r-markdown
+draft: yes
+---
+
+# How-to use Ulysses, Rstudio together (updated)
+
+1. Use Zotero for inserting references in Ulysses manuscript 
+2. Add YAML, indicate as code-block YAML in Ulysses.
+```
+---
+title: "Title of paper"
+author: "Tormod Bøe"
+date: "19 april 2016"
+output: html_document
+csl: apa.csl # must be located in same folder as paper
+css: APAStyle.css  # must be located in same folder as paper
+bibliography: "references".bib # must be located in same folder as paper
+---
+```
+3. Export as "Text" -> "Markdown" to Rstudio.
+4. Remove ```` and ```` from beginning and end of YAML.
+5. Knit
+
+It is not possible to go back from .Rmd to Ulysses gracefully. Better to write additional stuff in Ulysses, then copy this back into the r file (making sure that any extra references used are included in the bibtext file)
+
+Tables can be insterted in Ulysses using plain markdown, figures must can be inserted in-text.
+

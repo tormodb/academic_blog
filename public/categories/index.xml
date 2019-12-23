@@ -5,7 +5,7 @@
     <link>/categories/</link>
       <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,18 +13,74 @@
     </image>
     
     <item>
-      <title>Demo</title>
-      <link>/categories/demo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/categories/demo/</guid>
+      <title>project</title>
+      <link>/categories/project/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducible workflow</title>
+      <link>/categories/reproducible-workflow/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/reproducible-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ulysses</title>
+      <link>/categories/ulysses/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/ulysses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>/categories/writing/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/categories/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bibtex</title>
+      <link>/categories/bibtex/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/categories/bibtex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>/categories/blogdown/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/categories/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/categories/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>/categories/css/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/categories/css/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,28 @@
+---
+title: css, bibtex, blogdown
+author: Tormod
+date: '2017-05-13'
+slug: css-bibtex-blogdown
+categories:
+  - blogdown
+  - R
+  - reproducible workflow
+  - rmarkdown
+  - bibtex
+  - css
+tags: []
+description: ''
+draft: yes
+topics: []
+---
+
+Auxillary files can be placed in the `content` folder, i.e. `aux` and linked to in yaml header: 
+
+```{r, eval=F}
+csl: aux/apa.csl
+css: aux/APAStyle.css
+keep_md: yes
+bibliography: aux/lifeevents.bib
+```
+
+rmarkdown will then use this to produce html file in `public/post` folder. At least bibtex file, not so sure about css though... 

@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,8 +15,56 @@
     <item>
       <title>adolescence</title>
       <link>/tags/adolescence/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/tags/adolescence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>childhood</title>
+      <link>/tags/childhood/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/childhood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mental health</title>
+      <link>/tags/mental-health/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/mental-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>/tags/project/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducible</title>
+      <link>/tags/reproducible/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/reproducible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>/tags/rmarkdown/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -69,18 +117,26 @@
     </item>
     
     <item>
-      <title>adhd</title>
-      <link>/tags/adhd/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/adhd/</guid>
+      <title>APA</title>
+      <link>/tags/apa/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/apa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>childhood</title>
-      <link>/tags/childhood/</link>
+      <title>blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adhd</title>
+      <link>/tags/adhd/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/childhood/</guid>
+      <guid>/tags/adhd/</guid>
       <description></description>
     </item>
     
@@ -97,14 +153,6 @@
       <link>/tags/longitudinal/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/tags/longitudinal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mental health</title>
-      <link>/tags/mental-health/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/mental-health/</guid>
       <description></description>
     </item>
     
@@ -129,30 +177,6 @@
       <link>/tags/youthhordaland/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/tags/youthhordaland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     

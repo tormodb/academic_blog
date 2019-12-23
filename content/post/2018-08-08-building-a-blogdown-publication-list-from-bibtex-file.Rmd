@@ -1,0 +1,96 @@
+---
+title: Building a blogdown publication list from bibtex file
+author: Tormod Bøe
+date: '2018-08-08'
+slug: building-a-blogdown-publication-list-from-bibtex-file
+categories:
+  - blogdown
+  - R
+  - rmarkdown
+  - bibtex
+tags: []
+---
+
+I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there. 
+
+The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.
+
+The goal was to get pretty close to this yaml result, as I am using the setup from Rob Hyndman's excellent site, which he has shared on github. 
+
+```{r, eval = F}
+---
+author: Rob&nbsp;J&nbsp;Hyndman, Shu Fan
+comments: false
+date: 2014-05-22 01:46:18+00:00
+slug: mefm
+title: Monash Electricity Forecasting Model
+wordpress_id: 2452
+kind:
+  unpublished
+tags:
+  - electricity
+- forecasting
+file: MEFMR1.pdf
+---
+```
+
+```{r, eval = F}
+devtools::install_github("ottlngr/bib2df")
+library(bib2df)
+bib <- bib2df("/.../bibtex_file.bib", separate_names = F)
+```
+
+```{r, eval = F}
+yamllist <- list()
+for (i in 1:nrow(bib)) { 
+  au <- paste0("author: ", paste(bib$AUTHOR[[i]], collapse =", "))
+  co <- paste0("comments: false")
+  yr <- paste0("date: '", paste(bib$YEAR[[i]]),"'")
+  date <- paste0(bib$YEAR[[i]])
+  slu <- paste0("slug: ", paste(bib$BIBTEXKEY[[i]]))
+  tit <- paste0("title: ", paste(bib$TITLE[[i]]))
+  pub <- paste("kind:", "  published", sep = "\n")
+  name <- paste0("article", i, sep = '')
+  # abst <- paste0(bib$ABSTRACT[[i]])
+  tmp <- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub)
+  yamllist[[name]] <- tmp
+}
+```
+
+I did this two times, the second time adding some extra fields... 
+
+```{r, eval = F}
+yamllist2 <- list()
+for (i in 1:nrow(bib)) { 
+  au <- paste0("author: ", paste(bib$AUTHOR[[i]], collapse =", "))
+  co <- paste0("comments: false")
+  yr <- paste0("date: '", paste(bib$YEAR[[i]]),"'")
+  date <- paste0(bib$YEAR[[i]])
+  slu <- paste0("slug: ", paste(bib$BIBTEXKEY[[i]]))
+  tit <- paste0("title: ", paste(bib$TITLE[[i]]))
+  pub <- paste("kind:", "  published", sep = "\n")
+  name <- paste0("article", i, sep = '')
+  abst <- paste0(bib$ABSTRACT[[i]])
+  tmp2 <- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub, abst = abst, date = date)
+  yamllist2[[name]] <- tmp2
+}
+```
+
+This loop prints out the markdown files into the `publications` folder in my `blogdown` project.
+
+```{r, eval = F}
+for (i in 1:length(yamllist)) {
+  cat(paste0("---", sep = "\n"),
+      paste0(unlist(yamllist[i]), sep = "\n"), 
+      paste0("---", sep = "\n"), 
+      paste0("\n", yamllist2[[i]]$abst, sep = "\n"), file = paste0("content/publications/", yamllist2[[i]]$date, "-01-01-", names(yamllist)[i], ".md"))
+}
+```
+
+Unfortunately, I was not able to get rid of the spacing before the final "---" in the YAML output, nor the spacings before the yaml fields title, author etc. I had to reopen the files in atom - for ease - and did a manual removal there. For files that did not work directly, I also used the "Update Metadata" adding from `bookdown`. Took a while, but still a lot less than manually copying and pasting this information from the web or reference manager would have done. 
+
+
+
+
+
+

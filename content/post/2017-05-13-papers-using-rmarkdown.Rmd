@@ -1,0 +1,64 @@
+---
+title: Papers using rmarkdown
+author: Tormod Bøe
+date: '2017-05-13'
+slug: papers-using-rmarkdown
+categories:
+  - rmarkdown
+  - reproducible workflow
+tags:
+  - r
+  - rmarkdown
+  - reproducible
+  - APA
+description: ''
+draft: yes
+topics: []
+keep_md: yes
+---
+
+# Introduction
+
+Children who grow up in families with poor economy are at increased risk for negative promotionansvarlig developmental outcomes. The three main theoretical frameworks that have been proposed to explain these associations are the family process perspective (underscoring how poor economy influences parental mental health, intrafamily conflict, poor parenting and children’s mental health), the family investment perspective (focusing on the constraints poor economy make on opportunities for making potentially stimulating investments into the famkily which may benefit childrens (especially) cognitive development),  and the cumulative stress perspective, suggesting that chidlren in poorer families are exposed to more chaos, unpredictability and instability compare dto their affluent peers, which intereferes with their developmental processes through adverse influencsed on the stress—responsivity system of children [@Evans:2013jl].
+
+## Two paths of influence
+Adverse life-events and family stressors could potentially influence children’s mental heaalth problems in two ways; 1) they could have independent and cumulative effects on mental helath problems, increaseing the symptom load of children who experience them [@Evans:2013jl], and 2) they could have differential impact on children from poor families, such that the same level of adverse experiences [@Atkinson:2015cs] could produce worse outcomes in children from poor economic backgrounds, due to already limiting coping resources among children from thse backgrounds [@Veldman:2015ep].  
+
+[@Veldman:2015ep] # normal citation
+
+[-@Veldman:2015ep] # no name, only year in brackets
+
+@Veldman:2015ep # name outside bracket, year in brackets
+
+
+## Current study
+The current study is an investigation into the life-stressors and family belastnigner that are experiences by Norwegian children in families where parents perceive the family economy to be poor. We expected there to be a higher frequency of negative life-evetns and curent family stressors in families with a poor economy, and were interested in investigating whethre the influence of such circumstances interacted with poor family economy, to produce a cumulative infliuence on their rate of mental health problems .  
+
+## measruring cumulative adversity
+
+in a recent publication (evans, 2013, psych bull) several approaches to measruring cumulative the disadvantage to risk n is reviwed, and, despite several limitations, it is concluded that a cumulative risk approach (dichotomizing and adding together specific indicators of risk) is favorable compared to other approaches such as summary scores, factor scores and other approaches that previously has been used to combine information about risk factors in studies of cumulative risk. See also () for examples of studies comparing different approaches. 
+
+Evans (2013) further recommends several potential extensions of the CR approach such as a) creating domain specific risks and assessing their interactions, b) checking for nonlinearity in the association with outcomes, and c) assessing total CR in combination with specific riskfactors in order to investigate whether a single risk factor is responsible for the majority of influence of the CR. 
+
+- defining risk
+- temporal issues
+- mediation
+- additivity
+- CR domains and interactions/additivity between these domains
+	- what domains are viable? 
+	- see online table 3 of Evans paper for suggestions about domains (proximity/distality), individual/social 
+
+## Measuring risk in the current study
+
+Simple cumulative risk approach - then check for interaction with family economy?
+CR: Life-events, family stressors (domain specific)
+
+
+```{r, results='asis', echo=FALSE}
+stargazer::stargazer(head(USArrests), digits = 2, type = "html", title = "Table 1. Descriptives")
+```
+
+This is a test
+
+
+# References

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rmarkdown | Tormod Bøe</title>
+    <link>/categories/rmarkdown/</link>
+      <atom:link href="/categories/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>rmarkdown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+    </image>
+    
+    <item>
+      <title>Building a blogdown publication list from bibtex file</title>
+      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <description>
+
+
+&lt;p&gt;I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there.&lt;/p&gt;
+&lt;p&gt;The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.&lt;/p&gt;
+&lt;p&gt;The goal was to get pretty close to this yaml result, as I am using the setup from Rob Hyndman’s excellent site, which he has shared on github.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;---
+author: Rob&amp;amp;nbsp;J&amp;amp;nbsp;Hyndman, Shu Fan
+comments: false
+date: 2014-05-22 01:46:18+00:00
+slug: mefm
+title: Monash Electricity Forecasting Model
+wordpress_id: 2452
+kind:
+  unpublished
+tags:
+  - electricity
+- forecasting
+file: MEFMR1.pdf
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;ottlngr/bib2df&amp;quot;)
+library(bib2df)
+bib &amp;lt;- bib2df(&amp;quot;/.../bibtex_file.bib&amp;quot;, separate_names = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;yamllist &amp;lt;- list()
+for (i in 1:nrow(bib)) { 
+  au &amp;lt;- paste0(&amp;quot;author: &amp;quot;, paste(bib$AUTHOR[[i]], collapse =&amp;quot;, &amp;quot;))
+  co &amp;lt;- paste0(&amp;quot;comments: false&amp;quot;)
+  yr &amp;lt;- paste0(&amp;quot;date: &amp;#39;&amp;quot;, paste(bib$YEAR[[i]]),&amp;quot;&amp;#39;&amp;quot;)
+  date &amp;lt;- paste0(bib$YEAR[[i]])
+  slu &amp;lt;- paste0(&amp;quot;slug: &amp;quot;, paste(bib$BIBTEXKEY[[i]]))
+  tit &amp;lt;- paste0(&amp;quot;title: &amp;quot;, paste(bib$TITLE[[i]]))
+  pub &amp;lt;- paste(&amp;quot;kind:&amp;quot;, &amp;quot;  published&amp;quot;, sep = &amp;quot;\n&amp;quot;)
+  name &amp;lt;- paste0(&amp;quot;article&amp;quot;, i, sep = &amp;#39;&amp;#39;)
+  # abst &amp;lt;- paste0(bib$ABSTRACT[[i]])
+  tmp &amp;lt;- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub)
+  yamllist[[name]] &amp;lt;- tmp
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I did this two times, the second time adding some extra fields…&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;yamllist2 &amp;lt;- list()
+for (i in 1:nrow(bib)) { 
+  au &amp;lt;- paste0(&amp;quot;author: &amp;quot;, paste(bib$AUTHOR[[i]], collapse =&amp;quot;, &amp;quot;))
+  co &amp;lt;- paste0(&amp;quot;comments: false&amp;quot;)
+  yr &amp;lt;- paste0(&amp;quot;date: &amp;#39;&amp;quot;, paste(bib$YEAR[[i]]),&amp;quot;&amp;#39;&amp;quot;)
+  date &amp;lt;- paste0(bib$YEAR[[i]])
+  slu &amp;lt;- paste0(&amp;quot;slug: &amp;quot;, paste(bib$BIBTEXKEY[[i]]))
+  tit &amp;lt;- paste0(&amp;quot;title: &amp;quot;, paste(bib$TITLE[[i]]))
+  pub &amp;lt;- paste(&amp;quot;kind:&amp;quot;, &amp;quot;  published&amp;quot;, sep = &amp;quot;\n&amp;quot;)
+  name &amp;lt;- paste0(&amp;quot;article&amp;quot;, i, sep = &amp;#39;&amp;#39;)
+  abst &amp;lt;- paste0(bib$ABSTRACT[[i]])
+  tmp2 &amp;lt;- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub, abst = abst, date = date)
+  yamllist2[[name]] &amp;lt;- tmp2
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This loop prints out the markdown files into the &lt;code&gt;publications&lt;/code&gt; folder in my &lt;code&gt;blogdown&lt;/code&gt; project.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;for (i in 1:length(yamllist)) {
+  cat(paste0(&amp;quot;---&amp;quot;, sep = &amp;quot;\n&amp;quot;),
+      paste0(unlist(yamllist[i]), sep = &amp;quot;\n&amp;quot;), 
+      paste0(&amp;quot;---&amp;quot;, sep = &amp;quot;\n&amp;quot;), 
+      paste0(&amp;quot;\n&amp;quot;, yamllist2[[i]]$abst, sep = &amp;quot;\n&amp;quot;), file = paste0(&amp;quot;content/publications/&amp;quot;, yamllist2[[i]]$date, &amp;quot;-01-01-&amp;quot;, names(yamllist)[i], &amp;quot;.md&amp;quot;))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, I was not able to get rid of the spacing before the final “—” in the YAML output, nor the spacings before the yaml fields title, author etc. I had to reopen the files in atom - for ease - and did a manual removal there. For files that did not work directly, I also used the “Update Metadata” adding from &lt;code&gt;bookdown&lt;/code&gt;. Took a while, but still a lot less than manually copying and pasting this information from the web or reference manager would have done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>css, bibtex, blogdown</title>
+      <link>/post/css-bibtex-blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/css-bibtex-blogdown/</guid>
+      <description>
+
+
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
+css: aux/APAStyle.css
+keep_md: yes
+bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Papers using rmarkdown</title>
+      <link>/post/papers-using-rmarkdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/papers-using-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Children who grow up in families with poor economy are at increased risk for negative promotionansvarlig developmental outcomes. The three main theoretical frameworks that have been proposed to explain these associations are the family process perspective (underscoring how poor economy influences parental mental health, intrafamily conflict, poor parenting and children’s mental health), the family investment perspective (focusing on the constraints poor economy make on opportunities for making potentially stimulating investments into the famkily which may benefit childrens (especially) cognitive development), and the cumulative stress perspective, suggesting that chidlren in poorer families are exposed to more chaos, unpredictability and instability compare dto their affluent peers, which intereferes with their developmental processes through adverse influencsed on the stress—responsivity system of children &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;two-paths-of-influence&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Two paths of influence&lt;/h2&gt;
+&lt;p&gt;Adverse life-events and family stressors could potentially influence children’s mental heaalth problems in two ways; 1) they could have independent and cumulative effects on mental helath problems, increaseing the symptom load of children who experience them &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;, and 2) they could have differential impact on children from poor families, such that the same level of adverse experiences &lt;span class=&#34;citation&#34;&gt;[@Atkinson:2015cs]&lt;/span&gt; could produce worse outcomes in children from poor economic backgrounds, due to already limiting coping resources among children from thse backgrounds &lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt; # normal citation&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[-@Veldman:2015ep]&lt;/span&gt; # no name, only year in brackets&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;@Veldman:2015ep&lt;/span&gt; # name outside bracket, year in brackets&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;current-study&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Current study&lt;/h2&gt;
+&lt;p&gt;The current study is an investigation into the life-stressors and family belastnigner that are experiences by Norwegian children in families where parents perceive the family economy to be poor. We expected there to be a higher frequency of negative life-evetns and curent family stressors in families with a poor economy, and were interested in investigating whethre the influence of such circumstances interacted with poor family economy, to produce a cumulative infliuence on their rate of mental health problems .&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measruring-cumulative-adversity&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;measruring cumulative adversity&lt;/h2&gt;
+&lt;p&gt;in a recent publication (evans, 2013, psych bull) several approaches to measruring cumulative the disadvantage to risk n is reviwed, and, despite several limitations, it is concluded that a cumulative risk approach (dichotomizing and adding together specific indicators of risk) is favorable compared to other approaches such as summary scores, factor scores and other approaches that previously has been used to combine information about risk factors in studies of cumulative risk. See also () for examples of studies comparing different approaches.&lt;/p&gt;
+&lt;p&gt;Evans (2013) further recommends several potential extensions of the CR approach such as a) creating domain specific risks and assessing their interactions, b) checking for nonlinearity in the association with outcomes, and c) assessing total CR in combination with specific riskfactors in order to investigate whether a single risk factor is responsible for the majority of influence of the CR.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;defining risk&lt;/li&gt;
+&lt;li&gt;temporal issues&lt;/li&gt;
+&lt;li&gt;mediation&lt;/li&gt;
+&lt;li&gt;additivity&lt;/li&gt;
+&lt;li&gt;CR domains and interactions/additivity between these domains
+&lt;ul&gt;
+&lt;li&gt;what domains are viable?&lt;/li&gt;
+&lt;li&gt;see online table 3 of Evans paper for suggestions about domains (proximity/distality), individual/social&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measuring-risk-in-the-current-study&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Measuring risk in the current study&lt;/h2&gt;
+&lt;p&gt;Simple cumulative risk approach - then check for interaction with family economy?
+CR: Life-events, family stressors (domain specific)&lt;/p&gt;
+&lt;table style=&#34;text-align:center&#34;&gt;
+&lt;caption&gt;
+&lt;strong&gt;Table 1. Descriptives&lt;/strong&gt;
+&lt;/caption&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Statistic
+&lt;/td&gt;
+&lt;td&gt;
+N
+&lt;/td&gt;
+&lt;td&gt;
+Mean
+&lt;/td&gt;
+&lt;td&gt;
+St. Dev.
+&lt;/td&gt;
+&lt;td&gt;
+Min
+&lt;/td&gt;
+&lt;td&gt;
+Pctl(25)
+&lt;/td&gt;
+&lt;td&gt;
+Pctl(75)
+&lt;/td&gt;
+&lt;td&gt;
+Max
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Murder
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+9.50
+&lt;/td&gt;
+&lt;td&gt;
+1.96
+&lt;/td&gt;
+&lt;td&gt;
+7.90
+&lt;/td&gt;
+&lt;td&gt;
+8.27
+&lt;/td&gt;
+&lt;td&gt;
+9.75
+&lt;/td&gt;
+&lt;td&gt;
+13.20
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Assault
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+243.83
+&lt;/td&gt;
+&lt;td&gt;
+41.15
+&lt;/td&gt;
+&lt;td&gt;
+190
+&lt;/td&gt;
+&lt;td&gt;
+212
+&lt;/td&gt;
+&lt;td&gt;
+272.8
+&lt;/td&gt;
+&lt;td&gt;
+294
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+UrbanPop
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+67.50
+&lt;/td&gt;
+&lt;td&gt;
+17.86
+&lt;/td&gt;
+&lt;td&gt;
+48
+&lt;/td&gt;
+&lt;td&gt;
+52
+&lt;/td&gt;
+&lt;td&gt;
+79.5
+&lt;/td&gt;
+&lt;td&gt;
+91
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Rape
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+32.58
+&lt;/td&gt;
+&lt;td&gt;
+10.46
+&lt;/td&gt;
+&lt;td&gt;
+19.50
+&lt;/td&gt;
+&lt;td&gt;
+23.65
+&lt;/td&gt;
+&lt;td&gt;
+40.12
+&lt;/td&gt;
+&lt;td&gt;
+44.50
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a test&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+---
+title: Learning blogdown
+author: Tormod
+date: '2017-05-13'
+slug: learning-blogdown
+categories:
+  - R
+  - blogdown
+tags:
+  - blogdown
+description: ''
+draft: yes
+topics: []
+output: html_document
+---
+
+Some code:
+
+```{r}
+knitr::kable(head(mtcars))
+```
+```{r}
+plot(mtcars[1:3])
+```
+
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(x=cyl, y = disp)) + geom_point()
+```
+

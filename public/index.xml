@@ -33,6 +33,62 @@
     </item>
     
     <item>
+      <title>After the Divorce: Academic Achievement, Mental health, and Health Complaints in Adolescence </title>
+      <link>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barn i Bergen</title>
+      <link>/post/barn-i-bergen/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/barn-i-bergen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barn i Bergen</title>
+      <link>/project/barn-i-bergen/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/barn-i-bergen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nye mønstre - trygg oppvekst</title>
+      <link>/project/nye-m%C3%B8nstre-trygg-oppvekst/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/nye-m%C3%B8nstre-trygg-oppvekst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ung@hordaland og bruk av helsetjenester </title>
+      <link>/project/ung-hordaland-og-bruk-av-helsetjenester/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/ung-hordaland-og-bruk-av-helsetjenester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ung@hordaland og gjennomstrømning i videregående opplæring </title>
+      <link>/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Veien til Selvstendighet.</title>
+      <link>/project/veien-til-selvstendighet/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/veien-til-selvstendighet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sociodemographic characteristics associated with alcohol consumption and alcohol-related consequences, a latent class analysis of The Norwegian WIRUS screening study</title>
       <link>/publication/skogen-sociodemographiccharacteristicsassociated-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
@@ -49,263 +105,36 @@
     </item>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
+      <title>Ulysses, R, markdown</title>
+      <link>/post/ulysses-r-markdown/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>/post/ulysses-r-markdown/</guid>
+      <description>
 
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&#39;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&#34;how-to-use-ulysses-rstudio-together-updated&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;How-to use Ulysses, Rstudio together (updated)&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Use Zotero for inserting references in Ulysses manuscript&lt;/li&gt;
+&lt;li&gt;Add YAML, indicate as code-block YAML in Ulysses.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Title of paper&amp;quot;
+author: &amp;quot;Tormod Bøe&amp;quot;
+date: &amp;quot;19 april 2016&amp;quot;
+output: html_document
+csl: apa.csl # must be located in same folder as paper
+css: APAStyle.css  # must be located in same folder as paper
+bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folder as paper
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Export as “Text” -&amp;gt; “Markdown” to Rstudio.&lt;/li&gt;
+&lt;li&gt;Remove &lt;code&gt;and&lt;/code&gt; from beginning and end of YAML.&lt;/li&gt;
+&lt;li&gt;Knit&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It is not possible to go back from .Rmd to Ulysses gracefully. Better to write additional stuff in Ulysses, then copy this back into the r file (making sure that any extra references used are included in the bibtext file)&lt;/p&gt;
+&lt;p&gt;Tables can be insterted in Ulysses using plain markdown, figures must can be inserted in-text.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -478,6 +307,74 @@ Three
     </item>
     
     <item>
+      <title>Building a blogdown publication list from bibtex file</title>
+      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <description>
+
+
+&lt;p&gt;I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there.&lt;/p&gt;
+&lt;p&gt;The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.&lt;/p&gt;
+&lt;p&gt;The goal was to get pretty close to this yaml result, as I am using the setup from Rob Hyndman’s excellent site, which he has shared on github.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;---
+author: Rob&amp;amp;nbsp;J&amp;amp;nbsp;Hyndman, Shu Fan
+comments: false
+date: 2014-05-22 01:46:18+00:00
+slug: mefm
+title: Monash Electricity Forecasting Model
+wordpress_id: 2452
+kind:
+  unpublished
+tags:
+  - electricity
+- forecasting
+file: MEFMR1.pdf
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;ottlngr/bib2df&amp;quot;)
+library(bib2df)
+bib &amp;lt;- bib2df(&amp;quot;/.../bibtex_file.bib&amp;quot;, separate_names = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;yamllist &amp;lt;- list()
+for (i in 1:nrow(bib)) { 
+  au &amp;lt;- paste0(&amp;quot;author: &amp;quot;, paste(bib$AUTHOR[[i]], collapse =&amp;quot;, &amp;quot;))
+  co &amp;lt;- paste0(&amp;quot;comments: false&amp;quot;)
+  yr &amp;lt;- paste0(&amp;quot;date: &amp;#39;&amp;quot;, paste(bib$YEAR[[i]]),&amp;quot;&amp;#39;&amp;quot;)
+  date &amp;lt;- paste0(bib$YEAR[[i]])
+  slu &amp;lt;- paste0(&amp;quot;slug: &amp;quot;, paste(bib$BIBTEXKEY[[i]]))
+  tit &amp;lt;- paste0(&amp;quot;title: &amp;quot;, paste(bib$TITLE[[i]]))
+  pub &amp;lt;- paste(&amp;quot;kind:&amp;quot;, &amp;quot;  published&amp;quot;, sep = &amp;quot;\n&amp;quot;)
+  name &amp;lt;- paste0(&amp;quot;article&amp;quot;, i, sep = &amp;#39;&amp;#39;)
+  # abst &amp;lt;- paste0(bib$ABSTRACT[[i]])
+  tmp &amp;lt;- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub)
+  yamllist[[name]] &amp;lt;- tmp
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I did this two times, the second time adding some extra fields…&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;yamllist2 &amp;lt;- list()
+for (i in 1:nrow(bib)) { 
+  au &amp;lt;- paste0(&amp;quot;author: &amp;quot;, paste(bib$AUTHOR[[i]], collapse =&amp;quot;, &amp;quot;))
+  co &amp;lt;- paste0(&amp;quot;comments: false&amp;quot;)
+  yr &amp;lt;- paste0(&amp;quot;date: &amp;#39;&amp;quot;, paste(bib$YEAR[[i]]),&amp;quot;&amp;#39;&amp;quot;)
+  date &amp;lt;- paste0(bib$YEAR[[i]])
+  slu &amp;lt;- paste0(&amp;quot;slug: &amp;quot;, paste(bib$BIBTEXKEY[[i]]))
+  tit &amp;lt;- paste0(&amp;quot;title: &amp;quot;, paste(bib$TITLE[[i]]))
+  pub &amp;lt;- paste(&amp;quot;kind:&amp;quot;, &amp;quot;  published&amp;quot;, sep = &amp;quot;\n&amp;quot;)
+  name &amp;lt;- paste0(&amp;quot;article&amp;quot;, i, sep = &amp;#39;&amp;#39;)
+  abst &amp;lt;- paste0(bib$ABSTRACT[[i]])
+  tmp2 &amp;lt;- list(au=au, co =co, yr=yr,slu=slu, tit=tit , pub=pub, abst = abst, date = date)
+  yamllist2[[name]] &amp;lt;- tmp2
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This loop prints out the markdown files into the &lt;code&gt;publications&lt;/code&gt; folder in my &lt;code&gt;blogdown&lt;/code&gt; project.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;for (i in 1:length(yamllist)) {
+  cat(paste0(&amp;quot;---&amp;quot;, sep = &amp;quot;\n&amp;quot;),
+      paste0(unlist(yamllist[i]), sep = &amp;quot;\n&amp;quot;), 
+      paste0(&amp;quot;---&amp;quot;, sep = &amp;quot;\n&amp;quot;), 
+      paste0(&amp;quot;\n&amp;quot;, yamllist2[[i]]$abst, sep = &amp;quot;\n&amp;quot;), file = paste0(&amp;quot;content/publications/&amp;quot;, yamllist2[[i]]$date, &amp;quot;-01-01-&amp;quot;, names(yamllist)[i], &amp;quot;.md&amp;quot;))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, I was not able to get rid of the spacing before the final “—” in the YAML output, nor the spacings before the yaml fields title, author etc. I had to reopen the files in atom - for ease - and did a manual removal there. For files that did not work directly, I also used the “Update Metadata” adding from &lt;code&gt;bookdown&lt;/code&gt;. Took a while, but still a lot less than manually copying and pasting this information from the web or reference manager would have done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
@@ -528,6 +425,343 @@ Three
     </item>
     
     <item>
+      <title>css, bibtex, blogdown</title>
+      <link>/post/css-bibtex-blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/css-bibtex-blogdown/</guid>
+      <description>
+
+
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
+css: aux/APAStyle.css
+keep_md: yes
+bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning blogdown</title>
+      <link>/post/learning-blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/learning-blogdown/</guid>
+      <description>
+
+
+&lt;p&gt;Some code:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(head(mtcars))&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;cyl&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;disp&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;hp&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;drat&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;wt&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;qsec&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;vs&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;am&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;gear&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;carb&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Mazda RX4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.620&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16.46&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Mazda RX4 Wag&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Datsun 710&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;22.8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;108&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;93&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.85&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.320&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.61&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Hornet 4 Drive&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;21.4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;258&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.08&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.215&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19.44&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Hornet Sportabout&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;360&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;175&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.440&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Valiant&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18.1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;225&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;105&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.76&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.460&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20.22&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars[1:3])&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+ggplot(mtcars, aes(x=cyl, y = disp)) + geom_point()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Papers using rmarkdown</title>
+      <link>/post/papers-using-rmarkdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/papers-using-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Children who grow up in families with poor economy are at increased risk for negative promotionansvarlig developmental outcomes. The three main theoretical frameworks that have been proposed to explain these associations are the family process perspective (underscoring how poor economy influences parental mental health, intrafamily conflict, poor parenting and children’s mental health), the family investment perspective (focusing on the constraints poor economy make on opportunities for making potentially stimulating investments into the famkily which may benefit childrens (especially) cognitive development), and the cumulative stress perspective, suggesting that chidlren in poorer families are exposed to more chaos, unpredictability and instability compare dto their affluent peers, which intereferes with their developmental processes through adverse influencsed on the stress—responsivity system of children &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;two-paths-of-influence&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Two paths of influence&lt;/h2&gt;
+&lt;p&gt;Adverse life-events and family stressors could potentially influence children’s mental heaalth problems in two ways; 1) they could have independent and cumulative effects on mental helath problems, increaseing the symptom load of children who experience them &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;, and 2) they could have differential impact on children from poor families, such that the same level of adverse experiences &lt;span class=&#34;citation&#34;&gt;[@Atkinson:2015cs]&lt;/span&gt; could produce worse outcomes in children from poor economic backgrounds, due to already limiting coping resources among children from thse backgrounds &lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt; # normal citation&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[-@Veldman:2015ep]&lt;/span&gt; # no name, only year in brackets&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;@Veldman:2015ep&lt;/span&gt; # name outside bracket, year in brackets&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;current-study&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Current study&lt;/h2&gt;
+&lt;p&gt;The current study is an investigation into the life-stressors and family belastnigner that are experiences by Norwegian children in families where parents perceive the family economy to be poor. We expected there to be a higher frequency of negative life-evetns and curent family stressors in families with a poor economy, and were interested in investigating whethre the influence of such circumstances interacted with poor family economy, to produce a cumulative infliuence on their rate of mental health problems .&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measruring-cumulative-adversity&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;measruring cumulative adversity&lt;/h2&gt;
+&lt;p&gt;in a recent publication (evans, 2013, psych bull) several approaches to measruring cumulative the disadvantage to risk n is reviwed, and, despite several limitations, it is concluded that a cumulative risk approach (dichotomizing and adding together specific indicators of risk) is favorable compared to other approaches such as summary scores, factor scores and other approaches that previously has been used to combine information about risk factors in studies of cumulative risk. See also () for examples of studies comparing different approaches.&lt;/p&gt;
+&lt;p&gt;Evans (2013) further recommends several potential extensions of the CR approach such as a) creating domain specific risks and assessing their interactions, b) checking for nonlinearity in the association with outcomes, and c) assessing total CR in combination with specific riskfactors in order to investigate whether a single risk factor is responsible for the majority of influence of the CR.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;defining risk&lt;/li&gt;
+&lt;li&gt;temporal issues&lt;/li&gt;
+&lt;li&gt;mediation&lt;/li&gt;
+&lt;li&gt;additivity&lt;/li&gt;
+&lt;li&gt;CR domains and interactions/additivity between these domains
+&lt;ul&gt;
+&lt;li&gt;what domains are viable?&lt;/li&gt;
+&lt;li&gt;see online table 3 of Evans paper for suggestions about domains (proximity/distality), individual/social&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measuring-risk-in-the-current-study&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Measuring risk in the current study&lt;/h2&gt;
+&lt;p&gt;Simple cumulative risk approach - then check for interaction with family economy?
+CR: Life-events, family stressors (domain specific)&lt;/p&gt;
+&lt;table style=&#34;text-align:center&#34;&gt;
+&lt;caption&gt;
+&lt;strong&gt;Table 1. Descriptives&lt;/strong&gt;
+&lt;/caption&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Statistic
+&lt;/td&gt;
+&lt;td&gt;
+N
+&lt;/td&gt;
+&lt;td&gt;
+Mean
+&lt;/td&gt;
+&lt;td&gt;
+St. Dev.
+&lt;/td&gt;
+&lt;td&gt;
+Min
+&lt;/td&gt;
+&lt;td&gt;
+Pctl(25)
+&lt;/td&gt;
+&lt;td&gt;
+Pctl(75)
+&lt;/td&gt;
+&lt;td&gt;
+Max
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Murder
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+9.50
+&lt;/td&gt;
+&lt;td&gt;
+1.96
+&lt;/td&gt;
+&lt;td&gt;
+7.90
+&lt;/td&gt;
+&lt;td&gt;
+8.27
+&lt;/td&gt;
+&lt;td&gt;
+9.75
+&lt;/td&gt;
+&lt;td&gt;
+13.20
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Assault
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+243.83
+&lt;/td&gt;
+&lt;td&gt;
+41.15
+&lt;/td&gt;
+&lt;td&gt;
+190
+&lt;/td&gt;
+&lt;td&gt;
+212
+&lt;/td&gt;
+&lt;td&gt;
+272.8
+&lt;/td&gt;
+&lt;td&gt;
+294
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+UrbanPop
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+67.50
+&lt;/td&gt;
+&lt;td&gt;
+17.86
+&lt;/td&gt;
+&lt;td&gt;
+48
+&lt;/td&gt;
+&lt;td&gt;
+52
+&lt;/td&gt;
+&lt;td&gt;
+79.5
+&lt;/td&gt;
+&lt;td&gt;
+91
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;
+Rape
+&lt;/td&gt;
+&lt;td&gt;
+6
+&lt;/td&gt;
+&lt;td&gt;
+32.58
+&lt;/td&gt;
+&lt;td&gt;
+10.46
+&lt;/td&gt;
+&lt;td&gt;
+19.50
+&lt;/td&gt;
+&lt;td&gt;
+23.65
+&lt;/td&gt;
+&lt;td&gt;
+40.12
+&lt;/td&gt;
+&lt;td&gt;
+44.50
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;This is a test&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cumulative effects of negative life events and family stress on children&#39;s mental health: the Bergen child study</title>
       <link>/publication/boe-cumulativeeffectsnegative-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
@@ -573,125 +807,6 @@ Three
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/publication/lehmaninternalstructurefosterparent-2017/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&#39;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discourse.gohugo.io&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👥 &lt;a href=&#34;https://spectrum.chat/academic&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/source_themes&#34;&gt;@source_themes&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
-&lt;ul&gt;
-&lt;li&gt;☕️ &lt;a href=&#34;https://paypal.me/cushen&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💵 &lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🖼️ &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👕 &lt;a href=&#34;https://academic.threadless.com/&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;👩‍💻 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-&lt;img data-src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
     </item>
     
     <item>
