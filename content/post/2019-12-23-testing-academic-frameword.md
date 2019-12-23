@@ -1,8 +1,8 @@
 ---
-title: Testing academic frameword
+title: Testing academic framework
 author: Tormod Bøe
 date: '2019-12-23'
-slug: testing-academic-frameword
+slug: testing-academic-framework
 categories:
   - blogdown
   - rmarkdown
