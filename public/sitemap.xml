@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>/post/barn-i-bergen/</loc>
-    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/barn-i-bergen/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
@@ -63,17 +58,12 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/project/</loc>
-    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -205,6 +195,11 @@
   <url>
     <loc>/authors/terje-a-eikemo/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1134,6 +1129,10 @@
   
   <url>
     <loc>/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/minimal/</loc>
   </url>
   
 </urlset>
