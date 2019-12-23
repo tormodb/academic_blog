@@ -80,5 +80,22 @@ for (i in 1:nrow(bib)) {
 </description>
     </item>
     
+    <item>
+      <title>css, bibtex, blogdown</title>
+      <link>/post/css-bibtex-blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>/post/css-bibtex-blogdown/</guid>
+      <description>
+
+
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
+css: aux/APAStyle.css
+keep_md: yes
+bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
