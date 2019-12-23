@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Tormod Bøe</title>
-    <link>/categories/r/</link>
-      <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/categories/r/</link>
+      <atom:link href="https://tormod.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://tormod.netlify.com/categories/r/</link>
     </image>
     
     <item>
       <title>Building a blogdown publication list from bibtex file</title>
-      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <link>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
       <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <guid>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
 
 
@@ -81,149 +81,10 @@ for (i in 1:nrow(bib)) {
     </item>
     
     <item>
-      <title>css, bibtex, blogdown</title>
-      <link>/post/css-bibtex-blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/css-bibtex-blogdown/</guid>
-      <description>
-
-
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
-css: aux/APAStyle.css
-keep_md: yes
-bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning blogdown</title>
-      <link>/post/learning-blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/learning-blogdown/</guid>
-      <description>
-
-
-&lt;p&gt;Some code:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(head(mtcars))&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;mpg&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;cyl&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;disp&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;hp&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;drat&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;wt&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;qsec&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;vs&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;am&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;gear&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;carb&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Mazda RX4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.620&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.46&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Mazda RX4 Wag&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.875&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Datsun 710&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;22.8&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;108&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;93&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.85&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.320&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.61&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Hornet 4 Drive&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;258&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.08&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.215&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19.44&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Hornet Sportabout&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.7&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;360&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;175&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.15&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.440&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Valiant&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;225&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;105&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.76&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.460&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20.22&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars[1:3])&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-ggplot(mtcars, aes(x=cyl, y = disp)) + geom_point()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://tormod.netlify.com/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://tormod.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -260,7 +121,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tormod.netlify.com/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

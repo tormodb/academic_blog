@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>project | Tormod Bøe</title>
-    <link>/categories/project/</link>
-      <atom:link href="/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/categories/project/</link>
+      <atom:link href="https://tormod.netlify.com/categories/project/index.xml" rel="self" type="application/rss+xml" />
     <description>project</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>project</title>
-      <link>/categories/project/</link>
+      <link>https://tormod.netlify.com/categories/project/</link>
     </image>
     
     <item>
       <title>After the Divorce: Academic Achievement, Mental health, and Health Complaints in Adolescence </title>
-      <link>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</link>
+      <link>https://tormod.netlify.com/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</guid>
+      <guid>https://tormod.netlify.com/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Barn i Bergen</title>
-      <link>/project/barn-i-bergen/</link>
+      <link>https://tormod.netlify.com/project/barn-i-bergen/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/barn-i-bergen/</guid>
+      <guid>https://tormod.netlify.com/project/barn-i-bergen/</guid>
       <description></description>
     </item>
     

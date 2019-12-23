@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rolf Gjestad | Tormod Bøe</title>
-    <link>/authors/rolf-gjestad/</link>
-      <atom:link href="/authors/rolf-gjestad/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/authors/rolf-gjestad/</link>
+      <atom:link href="https://tormod.netlify.com/authors/rolf-gjestad/index.xml" rel="self" type="application/rss+xml" />
     <description>Rolf Gjestad</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Rolf Gjestad</title>
-      <link>/authors/rolf-gjestad/</link>
+      <link>https://tormod.netlify.com/authors/rolf-gjestad/</link>
     </image>
     
     <item>
       <title>Symptoms Associated With Attention Deficit/Hyperactivity Disorder and Autism Spectrum Disorders in School-Aged Children Prenatally Exposed to Substances</title>
-      <link>/publication/sandtorv-symptoms-associated-attention-2018/</link>
+      <link>https://tormod.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sandtorv-symptoms-associated-attention-2018/</guid>
+      <guid>https://tormod.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</guid>
       <description></description>
     </item>
     

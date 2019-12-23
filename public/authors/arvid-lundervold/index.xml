@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arvid Lundervold | Tormod Bøe</title>
-    <link>/authors/arvid-lundervold/</link>
-      <atom:link href="/authors/arvid-lundervold/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/authors/arvid-lundervold/</link>
+      <atom:link href="https://tormod.netlify.com/authors/arvid-lundervold/index.xml" rel="self" type="application/rss+xml" />
     <description>Arvid Lundervold</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Arvid Lundervold</title>
-      <link>/authors/arvid-lundervold/</link>
+      <link>https://tormod.netlify.com/authors/arvid-lundervold/</link>
     </image>
     
     <item>
       <title>Inattention in primary school is not good for your future school achievement—A pattern classification study</title>
-      <link>/publication/lundervold-inattentionprimaryschool-2017-a/</link>
+      <link>https://tormod.netlify.com/publication/lundervold-inattentionprimaryschool-2017-a/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/lundervold-inattentionprimaryschool-2017-a/</guid>
+      <guid>https://tormod.netlify.com/publication/lundervold-inattentionprimaryschool-2017-a/</guid>
       <description></description>
     </item>
     

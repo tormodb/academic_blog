@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>screening | Tormod Bøe</title>
-    <link>/tags/screening/</link>
-      <atom:link href="/tags/screening/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/screening/</link>
+      <atom:link href="https://tormod.netlify.com/tags/screening/index.xml" rel="self" type="application/rss+xml" />
     <description>screening</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>screening</title>
-      <link>/tags/screening/</link>
+      <link>https://tormod.netlify.com/tags/screening/</link>
     </image>
     
     <item>
       <title>Psychometric Properties and Concurrent Validity of the Crafft among Norwegian Adolescents. Ung@hordaland, a Population-Based Study</title>
-      <link>/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
+      <link>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychometric Properties and Concurrent Validity of the Crafft among Norwegian Adolescents. Ung@hordaland, a Population-Based Study</title>
-      <link>/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
+      <link>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
       <description></description>
     </item>
     

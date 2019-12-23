@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ingrid Kvestad | Tormod Bøe</title>
-    <link>/authors/ingrid-kvestad/</link>
-      <atom:link href="/authors/ingrid-kvestad/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/authors/ingrid-kvestad/</link>
+      <atom:link href="https://tormod.netlify.com/authors/ingrid-kvestad/index.xml" rel="self" type="application/rss+xml" />
     <description>Ingrid Kvestad</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Ingrid Kvestad</title>
-      <link>/authors/ingrid-kvestad/</link>
+      <link>https://tormod.netlify.com/authors/ingrid-kvestad/</link>
     </image>
     
     <item>
       <title>Veien til selvstendighet</title>
-      <link>/publication/kvestadveientil-2019/</link>
+      <link>https://tormod.netlify.com/publication/kvestadveientil-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/kvestadveientil-2019/</guid>
+      <guid>https://tormod.netlify.com/publication/kvestadveientil-2019/</guid>
       <description></description>
     </item>
     

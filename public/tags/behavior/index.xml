@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>behavior | Tormod Bøe</title>
-    <link>/tags/behavior/</link>
-      <atom:link href="/tags/behavior/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/behavior/</link>
+      <atom:link href="https://tormod.netlify.com/tags/behavior/index.xml" rel="self" type="application/rss+xml" />
     <description>behavior</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>behavior</title>
-      <link>/tags/behavior/</link>
+      <link>https://tormod.netlify.com/tags/behavior/</link>
     </image>
     
     <item>
       <title>The Strengths and Difficulties Questionnaire (SDQ): Factor Structure and Gender Equivalence in Norwegian Adolescents</title>
-      <link>/publication/boestrengthsdifficultiesquestionnaire-2016/</link>
+      <link>https://tormod.netlify.com/publication/boestrengthsdifficultiesquestionnaire-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/boestrengthsdifficultiesquestionnaire-2016/</guid>
+      <guid>https://tormod.netlify.com/publication/boestrengthsdifficultiesquestionnaire-2016/</guid>
       <description></description>
     </item>
     

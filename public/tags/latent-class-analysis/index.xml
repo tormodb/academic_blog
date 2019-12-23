@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latent class analysis | Tormod Bøe</title>
-    <link>/tags/latent-class-analysis/</link>
-      <atom:link href="/tags/latent-class-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/latent-class-analysis/</link>
+      <atom:link href="https://tormod.netlify.com/tags/latent-class-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>latent class analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>latent class analysis</title>
-      <link>/tags/latent-class-analysis/</link>
+      <link>https://tormod.netlify.com/tags/latent-class-analysis/</link>
     </image>
     
     <item>
       <title>Economic volatility in childhood and subsequent adolescent mental health problems: a longitudinal population-based study of adolescents</title>
-      <link>/publication/boe-economicvolatilitychildhood-2017/</link>
+      <link>https://tormod.netlify.com/publication/boe-economicvolatilitychildhood-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/boe-economicvolatilitychildhood-2017/</guid>
+      <guid>https://tormod.netlify.com/publication/boe-economicvolatilitychildhood-2017/</guid>
       <description></description>
     </item>
     

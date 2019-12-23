@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bergen child study | Tormod Bøe</title>
-    <link>/tags/bergen-child-study/</link>
-      <atom:link href="/tags/bergen-child-study/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/bergen-child-study/</link>
+      <atom:link href="https://tormod.netlify.com/tags/bergen-child-study/index.xml" rel="self" type="application/rss+xml" />
     <description>bergen child study</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>bergen child study</title>
-      <link>/tags/bergen-child-study/</link>
+      <link>https://tormod.netlify.com/tags/bergen-child-study/</link>
     </image>
     
     <item>
       <title>Socioeconomic Status and Child Mental Health: The Role of Parental Emotional Well-Being and Parenting Practices</title>
-      <link>/publication/boe-socioeconomicstatuschild-2014/</link>
+      <link>https://tormod.netlify.com/publication/boe-socioeconomicstatuschild-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/boe-socioeconomicstatuschild-2014/</guid>
+      <guid>https://tormod.netlify.com/publication/boe-socioeconomicstatuschild-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sleep Problems as a Mediator of the Association between Parental Education Levels, Perceived Family Economy and Poor Mental Health in Children</title>
-      <link>/publication/boe-sleepproblemsmediator-2012/</link>
+      <link>https://tormod.netlify.com/publication/boe-sleepproblemsmediator-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/boe-sleepproblemsmediator-2012/</guid>
+      <guid>https://tormod.netlify.com/publication/boe-sleepproblemsmediator-2012/</guid>
       <description></description>
     </item>
     

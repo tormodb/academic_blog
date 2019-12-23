@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Siren Haugland | Tormod Bøe</title>
-    <link>/authors/siren-haugland/</link>
-      <atom:link href="/authors/siren-haugland/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/authors/siren-haugland/</link>
+      <atom:link href="https://tormod.netlify.com/authors/siren-haugland/index.xml" rel="self" type="application/rss+xml" />
     <description>Siren Haugland</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Siren Haugland</title>
-      <link>/authors/siren-haugland/</link>
+      <link>https://tormod.netlify.com/authors/siren-haugland/</link>
     </image>
     
     <item>
       <title>Symptoms Associated With Attention Deficit/Hyperactivity Disorder and Autism Spectrum Disorders in School-Aged Children Prenatally Exposed to Substances</title>
-      <link>/publication/sandtorv-symptoms-associated-attention-2018/</link>
+      <link>https://tormod.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sandtorv-symptoms-associated-attention-2018/</guid>
+      <guid>https://tormod.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adolescent School Absenteeism and Service Use in a Population-Based Study</title>
-      <link>/publication/askeland-adolescent-school-absenteeism-2015/</link>
+      <link>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/askeland-adolescent-school-absenteeism-2015/</guid>
+      <guid>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sleep and School Attendance in Adolescence: Results from a Large Population-Based Study.</title>
-      <link>/publication/hysing-sleepschoolattendance-2015/</link>
+      <link>https://tormod.netlify.com/publication/hysing-sleepschoolattendance-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/hysing-sleepschoolattendance-2015/</guid>
+      <guid>https://tormod.netlify.com/publication/hysing-sleepschoolattendance-2015/</guid>
       <description></description>
     </item>
     

@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>adolescence | Tormod Bøe</title>
-    <link>/tags/adolescence/</link>
-      <atom:link href="/tags/adolescence/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/adolescence/</link>
+      <atom:link href="https://tormod.netlify.com/tags/adolescence/index.xml" rel="self" type="application/rss+xml" />
     <description>adolescence</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>adolescence</title>
-      <link>/tags/adolescence/</link>
+      <link>https://tormod.netlify.com/tags/adolescence/</link>
     </image>
     
     <item>
       <title>Barn i Bergen</title>
-      <link>/project/barn-i-bergen/</link>
+      <link>https://tormod.netlify.com/project/barn-i-bergen/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/barn-i-bergen/</guid>
+      <guid>https://tormod.netlify.com/project/barn-i-bergen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The youth@hordaland Study</title>
-      <link>/publication/skogen-economic-circumstances-childhood-2019/</link>
+      <link>https://tormod.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-economic-circumstances-childhood-2019/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic volatility in childhood and subsequent adolescent mental health problems: a longitudinal population-based study of adolescents</title>
-      <link>/publication/boe-economicvolatilitychildhood-2017/</link>
+      <link>https://tormod.netlify.com/publication/boe-economicvolatilitychildhood-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/boe-economicvolatilitychildhood-2017/</guid>
+      <guid>https://tormod.netlify.com/publication/boe-economicvolatilitychildhood-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Moving into poverty during childhood is associated with later sleep problems</title>
-      <link>/publication/sivertsen-movingpovertychildhood-2017/</link>
+      <link>https://tormod.netlify.com/publication/sivertsen-movingpovertychildhood-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/sivertsen-movingpovertychildhood-2017/</guid>
+      <guid>https://tormod.netlify.com/publication/sivertsen-movingpovertychildhood-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adolescent School Absenteeism and Service Use in a Population-Based Study</title>
-      <link>/publication/askeland-adolescent-school-absenteeism-2015/</link>
+      <link>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/askeland-adolescent-school-absenteeism-2015/</guid>
+      <guid>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sleep and School Attendance in Adolescence: Results from a Large Population-Based Study.</title>
-      <link>/publication/hysing-sleepschoolattendance-2015/</link>
+      <link>https://tormod.netlify.com/publication/hysing-sleepschoolattendance-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/hysing-sleepschoolattendance-2015/</guid>
+      <guid>https://tormod.netlify.com/publication/hysing-sleepschoolattendance-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychometric Properties and Concurrent Validity of the Crafft among Norwegian Adolescents. Ung@hordaland, a Population-Based Study</title>
-      <link>/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
+      <link>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Psychometric Properties and Concurrent Validity of the Crafft among Norwegian Adolescents. Ung@hordaland, a Population-Based Study</title>
-      <link>/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
+      <link>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-psychometricpropertiesconcurrent-2013/</guid>
       <description></description>
     </item>
     

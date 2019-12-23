@@ -2,64 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Tormod Bøe</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/post/</link>
+      <atom:link href="https://tormod.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://tormod.netlify.com/post/</link>
     </image>
     
     <item>
       <title>Testing academic frameword</title>
-      <link>/post/testing-academic-frameword/</link>
+      <link>https://tormod.netlify.com/post/testing-academic-frameword/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/testing-academic-frameword/</guid>
+      <guid>https://tormod.netlify.com/post/testing-academic-frameword/</guid>
       <description>&lt;p&gt;Just testing whether the switch to Academic allows me to post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Ulysses, R, markdown</title>
-      <link>/post/ulysses-r-markdown/</link>
-      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>/post/ulysses-r-markdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;how-to-use-ulysses-rstudio-together-updated&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;How-to use Ulysses, Rstudio together (updated)&lt;/h1&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Use Zotero for inserting references in Ulysses manuscript&lt;/li&gt;
-&lt;li&gt;Add YAML, indicate as code-block YAML in Ulysses.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: &amp;quot;Title of paper&amp;quot;
-author: &amp;quot;Tormod Bøe&amp;quot;
-date: &amp;quot;19 april 2016&amp;quot;
-output: html_document
-csl: apa.csl # must be located in same folder as paper
-css: APAStyle.css  # must be located in same folder as paper
-bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folder as paper
----&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Export as “Text” -&amp;gt; “Markdown” to Rstudio.&lt;/li&gt;
-&lt;li&gt;Remove &lt;code&gt;and&lt;/code&gt; from beginning and end of YAML.&lt;/li&gt;
-&lt;li&gt;Knit&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;It is not possible to go back from .Rmd to Ulysses gracefully. Better to write additional stuff in Ulysses, then copy this back into the r file (making sure that any extra references used are included in the bibtext file)&lt;/p&gt;
-&lt;p&gt;Tables can be insterted in Ulysses using plain markdown, figures must can be inserted in-text.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Building a blogdown publication list from bibtex file</title>
-      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <link>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
       <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <guid>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
 
 
@@ -124,347 +90,10 @@ for (i in 1:nrow(bib)) {
     </item>
     
     <item>
-      <title>css, bibtex, blogdown</title>
-      <link>/post/css-bibtex-blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/css-bibtex-blogdown/</guid>
-      <description>
-
-
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
-css: aux/APAStyle.css
-keep_md: yes
-bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning blogdown</title>
-      <link>/post/learning-blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/learning-blogdown/</guid>
-      <description>
-
-
-&lt;p&gt;Some code:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(head(mtcars))&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;mpg&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;cyl&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;disp&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;hp&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;drat&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;wt&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;qsec&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;vs&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;am&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;gear&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;carb&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Mazda RX4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.620&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16.46&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Mazda RX4 Wag&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;160&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.90&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.875&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Datsun 710&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;22.8&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;108&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;93&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.85&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.320&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.61&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Hornet 4 Drive&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;21.4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;258&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;110&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.08&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.215&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19.44&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;Hornet Sportabout&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.7&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;360&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;175&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.15&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.440&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;17.02&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Valiant&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18.1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;225&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;105&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2.76&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3.460&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20.22&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars[1:3])&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-ggplot(mtcars, aes(x=cyl, y = disp)) + geom_point()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-05-13-learning-blogdown_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Papers using rmarkdown</title>
-      <link>/post/papers-using-rmarkdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/papers-using-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;Children who grow up in families with poor economy are at increased risk for negative promotionansvarlig developmental outcomes. The three main theoretical frameworks that have been proposed to explain these associations are the family process perspective (underscoring how poor economy influences parental mental health, intrafamily conflict, poor parenting and children’s mental health), the family investment perspective (focusing on the constraints poor economy make on opportunities for making potentially stimulating investments into the famkily which may benefit childrens (especially) cognitive development), and the cumulative stress perspective, suggesting that chidlren in poorer families are exposed to more chaos, unpredictability and instability compare dto their affluent peers, which intereferes with their developmental processes through adverse influencsed on the stress—responsivity system of children &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;.&lt;/p&gt;
-&lt;div id=&#34;two-paths-of-influence&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Two paths of influence&lt;/h2&gt;
-&lt;p&gt;Adverse life-events and family stressors could potentially influence children’s mental heaalth problems in two ways; 1) they could have independent and cumulative effects on mental helath problems, increaseing the symptom load of children who experience them &lt;span class=&#34;citation&#34;&gt;[@Evans:2013jl]&lt;/span&gt;, and 2) they could have differential impact on children from poor families, such that the same level of adverse experiences &lt;span class=&#34;citation&#34;&gt;[@Atkinson:2015cs]&lt;/span&gt; could produce worse outcomes in children from poor economic backgrounds, due to already limiting coping resources among children from thse backgrounds &lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[@Veldman:2015ep]&lt;/span&gt; # normal citation&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;[-@Veldman:2015ep]&lt;/span&gt; # no name, only year in brackets&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;@Veldman:2015ep&lt;/span&gt; # name outside bracket, year in brackets&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;current-study&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Current study&lt;/h2&gt;
-&lt;p&gt;The current study is an investigation into the life-stressors and family belastnigner that are experiences by Norwegian children in families where parents perceive the family economy to be poor. We expected there to be a higher frequency of negative life-evetns and curent family stressors in families with a poor economy, and were interested in investigating whethre the influence of such circumstances interacted with poor family economy, to produce a cumulative infliuence on their rate of mental health problems .&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;measruring-cumulative-adversity&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;measruring cumulative adversity&lt;/h2&gt;
-&lt;p&gt;in a recent publication (evans, 2013, psych bull) several approaches to measruring cumulative the disadvantage to risk n is reviwed, and, despite several limitations, it is concluded that a cumulative risk approach (dichotomizing and adding together specific indicators of risk) is favorable compared to other approaches such as summary scores, factor scores and other approaches that previously has been used to combine information about risk factors in studies of cumulative risk. See also () for examples of studies comparing different approaches.&lt;/p&gt;
-&lt;p&gt;Evans (2013) further recommends several potential extensions of the CR approach such as a) creating domain specific risks and assessing their interactions, b) checking for nonlinearity in the association with outcomes, and c) assessing total CR in combination with specific riskfactors in order to investigate whether a single risk factor is responsible for the majority of influence of the CR.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;defining risk&lt;/li&gt;
-&lt;li&gt;temporal issues&lt;/li&gt;
-&lt;li&gt;mediation&lt;/li&gt;
-&lt;li&gt;additivity&lt;/li&gt;
-&lt;li&gt;CR domains and interactions/additivity between these domains
-&lt;ul&gt;
-&lt;li&gt;what domains are viable?&lt;/li&gt;
-&lt;li&gt;see online table 3 of Evans paper for suggestions about domains (proximity/distality), individual/social&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;measuring-risk-in-the-current-study&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Measuring risk in the current study&lt;/h2&gt;
-&lt;p&gt;Simple cumulative risk approach - then check for interaction with family economy?
-CR: Life-events, family stressors (domain specific)&lt;/p&gt;
-&lt;table style=&#34;text-align:center&#34;&gt;
-&lt;caption&gt;
-&lt;strong&gt;Table 1. Descriptives&lt;/strong&gt;
-&lt;/caption&gt;
-&lt;tr&gt;
-&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;
-Statistic
-&lt;/td&gt;
-&lt;td&gt;
-N
-&lt;/td&gt;
-&lt;td&gt;
-Mean
-&lt;/td&gt;
-&lt;td&gt;
-St. Dev.
-&lt;/td&gt;
-&lt;td&gt;
-Min
-&lt;/td&gt;
-&lt;td&gt;
-Pctl(25)
-&lt;/td&gt;
-&lt;td&gt;
-Pctl(75)
-&lt;/td&gt;
-&lt;td&gt;
-Max
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;
-Murder
-&lt;/td&gt;
-&lt;td&gt;
-6
-&lt;/td&gt;
-&lt;td&gt;
-9.50
-&lt;/td&gt;
-&lt;td&gt;
-1.96
-&lt;/td&gt;
-&lt;td&gt;
-7.90
-&lt;/td&gt;
-&lt;td&gt;
-8.27
-&lt;/td&gt;
-&lt;td&gt;
-9.75
-&lt;/td&gt;
-&lt;td&gt;
-13.20
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;
-Assault
-&lt;/td&gt;
-&lt;td&gt;
-6
-&lt;/td&gt;
-&lt;td&gt;
-243.83
-&lt;/td&gt;
-&lt;td&gt;
-41.15
-&lt;/td&gt;
-&lt;td&gt;
-190
-&lt;/td&gt;
-&lt;td&gt;
-212
-&lt;/td&gt;
-&lt;td&gt;
-272.8
-&lt;/td&gt;
-&lt;td&gt;
-294
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;
-UrbanPop
-&lt;/td&gt;
-&lt;td&gt;
-6
-&lt;/td&gt;
-&lt;td&gt;
-67.50
-&lt;/td&gt;
-&lt;td&gt;
-17.86
-&lt;/td&gt;
-&lt;td&gt;
-48
-&lt;/td&gt;
-&lt;td&gt;
-52
-&lt;/td&gt;
-&lt;td&gt;
-79.5
-&lt;/td&gt;
-&lt;td&gt;
-91
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;
-Rape
-&lt;/td&gt;
-&lt;td&gt;
-6
-&lt;/td&gt;
-&lt;td&gt;
-32.58
-&lt;/td&gt;
-&lt;td&gt;
-10.46
-&lt;/td&gt;
-&lt;td&gt;
-19.50
-&lt;/td&gt;
-&lt;td&gt;
-23.65
-&lt;/td&gt;
-&lt;td&gt;
-40.12
-&lt;/td&gt;
-&lt;td&gt;
-44.50
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan=&#34;8&#34; style=&#34;border-bottom: 1px solid black&#34;&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;This is a test&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://tormod.netlify.com/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://tormod.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -501,7 +130,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://tormod.netlify.com/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

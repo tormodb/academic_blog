@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mikkel Magnus Thørrisen | Tormod Bøe</title>
-    <link>/authors/mikkel-magnus-th%C3%B8rrisen/</link>
-      <atom:link href="/authors/mikkel-magnus-th%C3%B8rrisen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/authors/mikkel-magnus-th%C3%B8rrisen/</link>
+      <atom:link href="https://tormod.netlify.com/authors/mikkel-magnus-th%C3%B8rrisen/index.xml" rel="self" type="application/rss+xml" />
     <description>Mikkel Magnus Thørrisen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Mikkel Magnus Thørrisen</title>
-      <link>/authors/mikkel-magnus-th%C3%B8rrisen/</link>
+      <link>https://tormod.netlify.com/authors/mikkel-magnus-th%C3%B8rrisen/</link>
     </image>
     
     <item>
       <title>Sociodemographic characteristics associated with alcohol consumption and alcohol-related consequences, a latent class analysis of The Norwegian WIRUS screening study</title>
-      <link>/publication/skogen-sociodemographiccharacteristicsassociated-2019/</link>
+      <link>https://tormod.netlify.com/publication/skogen-sociodemographiccharacteristicsassociated-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/skogen-sociodemographiccharacteristicsassociated-2019/</guid>
+      <guid>https://tormod.netlify.com/publication/skogen-sociodemographiccharacteristicsassociated-2019/</guid>
       <description></description>
     </item>
     

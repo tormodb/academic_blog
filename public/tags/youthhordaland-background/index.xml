@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>youth@hordaland background | Tormod Bøe</title>
-    <link>/tags/youthhordaland-background/</link>
-      <atom:link href="/tags/youthhordaland-background/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/youthhordaland-background/</link>
+      <atom:link href="https://tormod.netlify.com/tags/youthhordaland-background/index.xml" rel="self" type="application/rss+xml" />
     <description>youth@hordaland background</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>youth@hordaland background</title>
-      <link>/tags/youthhordaland-background/</link>
+      <link>https://tormod.netlify.com/tags/youthhordaland-background/</link>
     </image>
     
     <item>
       <title>Adolescent School Absenteeism and Service Use in a Population-Based Study</title>
-      <link>/publication/askeland-adolescent-school-absenteeism-2015/</link>
+      <link>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/askeland-adolescent-school-absenteeism-2015/</guid>
+      <guid>https://tormod.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</guid>
       <description></description>
     </item>
     

@@ -2,645 +2,605 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Tormod Bøe</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/</link>
+      <atom:link href="https://tormod.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://tormod.netlify.com/tags/</link>
     </image>
     
     <item>
       <title>adolescence</title>
-      <link>/tags/adolescence/</link>
+      <link>https://tormod.netlify.com/tags/adolescence/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/adolescence/</guid>
+      <guid>https://tormod.netlify.com/tags/adolescence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>childhood</title>
-      <link>/tags/childhood/</link>
+      <link>https://tormod.netlify.com/tags/childhood/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/childhood/</guid>
+      <guid>https://tormod.netlify.com/tags/childhood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mental health</title>
-      <link>/tags/mental-health/</link>
+      <link>https://tormod.netlify.com/tags/mental-health/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/mental-health/</guid>
+      <guid>https://tormod.netlify.com/tags/mental-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>project</title>
-      <link>/tags/project/</link>
+      <link>https://tormod.netlify.com/tags/project/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
-      <link>/tags/r/</link>
-      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reproducible</title>
-      <link>/tags/reproducible/</link>
-      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/reproducible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>/tags/rmarkdown/</link>
-      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/rmarkdown/</guid>
+      <guid>https://tormod.netlify.com/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>alcohol use</title>
-      <link>/tags/alcohol-use/</link>
+      <link>https://tormod.netlify.com/tags/alcohol-use/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/alcohol-use/</guid>
+      <guid>https://tormod.netlify.com/tags/alcohol-use/</guid>
       <description></description>
     </item>
     
     <item>
       <title>economic circumstances</title>
-      <link>/tags/economic-circumstances/</link>
+      <link>https://tormod.netlify.com/tags/economic-circumstances/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/economic-circumstances/</guid>
+      <guid>https://tormod.netlify.com/tags/economic-circumstances/</guid>
       <description></description>
     </item>
     
     <item>
       <title>economic volatility</title>
-      <link>/tags/economic-volatility/</link>
+      <link>https://tormod.netlify.com/tags/economic-volatility/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/economic-volatility/</guid>
+      <guid>https://tormod.netlify.com/tags/economic-volatility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>relative poverty</title>
-      <link>/tags/relative-poverty/</link>
+      <link>https://tormod.netlify.com/tags/relative-poverty/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/relative-poverty/</guid>
+      <guid>https://tormod.netlify.com/tags/relative-poverty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>substance use</title>
-      <link>/tags/substance-use/</link>
+      <link>https://tormod.netlify.com/tags/substance-use/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/substance-use/</guid>
+      <guid>https://tormod.netlify.com/tags/substance-use/</guid>
       <description></description>
     </item>
     
     <item>
       <title>⛔ no doi found</title>
-      <link>/tags/no-doi-found/</link>
+      <link>https://tormod.netlify.com/tags/no-doi-found/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/no-doi-found/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>APA</title>
-      <link>/tags/apa/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/apa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/blogdown/</guid>
+      <guid>https://tormod.netlify.com/tags/no-doi-found/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adhd</title>
-      <link>/tags/adhd/</link>
+      <link>https://tormod.netlify.com/tags/adhd/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/adhd/</guid>
+      <guid>https://tormod.netlify.com/tags/adhd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>latent class analysis</title>
-      <link>/tags/latent-class-analysis/</link>
+      <link>https://tormod.netlify.com/tags/latent-class-analysis/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/latent-class-analysis/</guid>
+      <guid>https://tormod.netlify.com/tags/latent-class-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>longitudinal</title>
-      <link>/tags/longitudinal/</link>
+      <link>https://tormod.netlify.com/tags/longitudinal/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/longitudinal/</guid>
+      <guid>https://tormod.netlify.com/tags/longitudinal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poverty</title>
-      <link>/tags/poverty/</link>
+      <link>https://tormod.netlify.com/tags/poverty/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/poverty/</guid>
+      <guid>https://tormod.netlify.com/tags/poverty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sleep</title>
-      <link>/tags/sleep/</link>
+      <link>https://tormod.netlify.com/tags/sleep/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/sleep/</guid>
+      <guid>https://tormod.netlify.com/tags/sleep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>youth@hordaland</title>
-      <link>/tags/youthhordaland/</link>
+      <link>https://tormod.netlify.com/tags/youthhordaland/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/tags/youthhordaland/</guid>
+      <guid>https://tormod.netlify.com/tags/youthhordaland/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adolescents</title>
-      <link>/tags/adolescents/</link>
+      <link>https://tormod.netlify.com/tags/adolescents/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/adolescents/</guid>
+      <guid>https://tormod.netlify.com/tags/adolescents/</guid>
       <description></description>
     </item>
     
     <item>
       <title>age groups</title>
-      <link>/tags/age-groups/</link>
+      <link>https://tormod.netlify.com/tags/age-groups/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/age-groups/</guid>
+      <guid>https://tormod.netlify.com/tags/age-groups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>behavior</title>
-      <link>/tags/behavior/</link>
+      <link>https://tormod.netlify.com/tags/behavior/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/behavior/</guid>
+      <guid>https://tormod.netlify.com/tags/behavior/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emotions</title>
-      <link>/tags/emotions/</link>
+      <link>https://tormod.netlify.com/tags/emotions/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/emotions/</guid>
+      <guid>https://tormod.netlify.com/tags/emotions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mental health and psychiatry</title>
-      <link>/tags/mental-health-and-psychiatry/</link>
+      <link>https://tormod.netlify.com/tags/mental-health-and-psychiatry/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/mental-health-and-psychiatry/</guid>
+      <guid>https://tormod.netlify.com/tags/mental-health-and-psychiatry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>prosocial behavior</title>
-      <link>/tags/prosocial-behavior/</link>
+      <link>https://tormod.netlify.com/tags/prosocial-behavior/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/prosocial-behavior/</guid>
+      <guid>https://tormod.netlify.com/tags/prosocial-behavior/</guid>
       <description></description>
     </item>
     
     <item>
       <title>questionnaires</title>
-      <link>/tags/questionnaires/</link>
+      <link>https://tormod.netlify.com/tags/questionnaires/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/questionnaires/</guid>
+      <guid>https://tormod.netlify.com/tags/questionnaires/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research validity</title>
-      <link>/tags/research-validity/</link>
+      <link>https://tormod.netlify.com/tags/research-validity/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/research-validity/</guid>
+      <guid>https://tormod.netlify.com/tags/research-validity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
+      <link>https://tormod.netlify.com/tags/source-themes/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/source-themes/</guid>
+      <guid>https://tormod.netlify.com/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>/tags/plot/</link>
+      <link>https://tormod.netlify.com/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/tags/plot/</guid>
+      <guid>https://tormod.netlify.com/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://tormod.netlify.com/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://tormod.netlify.com/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/tags/regression/</link>
+      <link>https://tormod.netlify.com/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/tags/regression/</guid>
+      <guid>https://tormod.netlify.com/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3560:classroom dynamics &amp; student adjustment &amp; att</title>
-      <link>/tags/3560classroom-dynamics-student-adjustment-att/</link>
+      <link>https://tormod.netlify.com/tags/3560classroom-dynamics-student-adjustment-att/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/3560classroom-dynamics-student-adjustment-att/</guid>
+      <guid>https://tormod.netlify.com/tags/3560classroom-dynamics-student-adjustment-att/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adolescence (13-17 yrs)</title>
-      <link>/tags/adolescence-13-17-yrs/</link>
+      <link>https://tormod.netlify.com/tags/adolescence-13-17-yrs/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/adolescence-13-17-yrs/</guid>
+      <guid>https://tormod.netlify.com/tags/adolescence-13-17-yrs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>adulthood (18 yrs &amp; older)</title>
-      <link>/tags/adulthood-18-yrs-older/</link>
+      <link>https://tormod.netlify.com/tags/adulthood-18-yrs-older/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/adulthood-18-yrs-older/</guid>
+      <guid>https://tormod.netlify.com/tags/adulthood-18-yrs-older/</guid>
       <description></description>
     </item>
     
     <item>
       <title>article</title>
-      <link>/tags/article/</link>
+      <link>https://tormod.netlify.com/tags/article/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/article/</guid>
+      <guid>https://tormod.netlify.com/tags/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>difficulties initiating and maintaining sleep scal</title>
-      <link>/tags/difficulties-initiating-and-maintaining-sleep-scal/</link>
+      <link>https://tormod.netlify.com/tags/difficulties-initiating-and-maintaining-sleep-scal/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/difficulties-initiating-and-maintaining-sleep-scal/</guid>
+      <guid>https://tormod.netlify.com/tags/difficulties-initiating-and-maintaining-sleep-scal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>empirical study</title>
-      <link>/tags/empirical-study/</link>
+      <link>https://tormod.netlify.com/tags/empirical-study/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/empirical-study/</guid>
+      <guid>https://tormod.netlify.com/tags/empirical-study/</guid>
       <description></description>
     </item>
     
     <item>
       <title>epidemiology</title>
-      <link>/tags/epidemiology/</link>
+      <link>https://tormod.netlify.com/tags/epidemiology/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/epidemiology/</guid>
+      <guid>https://tormod.netlify.com/tags/epidemiology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>female</title>
-      <link>/tags/female/</link>
+      <link>https://tormod.netlify.com/tags/female/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/female/</guid>
+      <guid>https://tormod.netlify.com/tags/female/</guid>
       <description></description>
     </item>
     
     <item>
       <title>human</title>
-      <link>/tags/human/</link>
+      <link>https://tormod.netlify.com/tags/human/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/human/</guid>
+      <guid>https://tormod.netlify.com/tags/human/</guid>
       <description></description>
     </item>
     
     <item>
       <title>insomnia</title>
-      <link>/tags/insomnia/</link>
+      <link>https://tormod.netlify.com/tags/insomnia/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/insomnia/</guid>
+      <guid>https://tormod.netlify.com/tags/insomnia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>male</title>
-      <link>/tags/male/</link>
+      <link>https://tormod.netlify.com/tags/male/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/male/</guid>
+      <guid>https://tormod.netlify.com/tags/male/</guid>
       <description></description>
     </item>
     
     <item>
       <title>non attendance</title>
-      <link>/tags/non-attendance/</link>
+      <link>https://tormod.netlify.com/tags/non-attendance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/non-attendance/</guid>
+      <guid>https://tormod.netlify.com/tags/non-attendance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>norway</title>
-      <link>/tags/norway/</link>
+      <link>https://tormod.netlify.com/tags/norway/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/norway/</guid>
+      <guid>https://tormod.netlify.com/tags/norway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>quantitative study</title>
-      <link>/tags/quantitative-study/</link>
+      <link>https://tormod.netlify.com/tags/quantitative-study/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/quantitative-study/</guid>
+      <guid>https://tormod.netlify.com/tags/quantitative-study/</guid>
       <description></description>
     </item>
     
     <item>
       <title>school</title>
-      <link>/tags/school/</link>
+      <link>https://tormod.netlify.com/tags/school/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/school/</guid>
+      <guid>https://tormod.netlify.com/tags/school/</guid>
       <description></description>
     </item>
     
     <item>
       <title>school absence</title>
-      <link>/tags/school-absence/</link>
+      <link>https://tormod.netlify.com/tags/school-absence/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/school-absence/</guid>
+      <guid>https://tormod.netlify.com/tags/school-absence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>school attendance</title>
-      <link>/tags/school-attendance/</link>
+      <link>https://tormod.netlify.com/tags/school-attendance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/school-attendance/</guid>
+      <guid>https://tormod.netlify.com/tags/school-attendance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>school attendance measure</title>
-      <link>/tags/school-attendance-measure/</link>
+      <link>https://tormod.netlify.com/tags/school-attendance-measure/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/school-attendance-measure/</guid>
+      <guid>https://tormod.netlify.com/tags/school-attendance-measure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>school refusal</title>
-      <link>/tags/school-refusal/</link>
+      <link>https://tormod.netlify.com/tags/school-refusal/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/school-refusal/</guid>
+      <guid>https://tormod.netlify.com/tags/school-refusal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>schools</title>
-      <link>/tags/schools/</link>
+      <link>https://tormod.netlify.com/tags/schools/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/schools/</guid>
+      <guid>https://tormod.netlify.com/tags/schools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service use</title>
-      <link>/tags/service-use/</link>
+      <link>https://tormod.netlify.com/tags/service-use/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/service-use/</guid>
+      <guid>https://tormod.netlify.com/tags/service-use/</guid>
       <description></description>
     </item>
     
     <item>
       <title>short mood and feelings questionnaire</title>
-      <link>/tags/short-mood-and-feelings-questionnaire/</link>
+      <link>https://tormod.netlify.com/tags/short-mood-and-feelings-questionnaire/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/short-mood-and-feelings-questionnaire/</guid>
+      <guid>https://tormod.netlify.com/tags/short-mood-and-feelings-questionnaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>truancy</title>
-      <link>/tags/truancy/</link>
+      <link>https://tormod.netlify.com/tags/truancy/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/truancy/</guid>
+      <guid>https://tormod.netlify.com/tags/truancy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>young adulthood (18-29 yrs)</title>
-      <link>/tags/young-adulthood-18-29-yrs/</link>
+      <link>https://tormod.netlify.com/tags/young-adulthood-18-29-yrs/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/young-adulthood-18-29-yrs/</guid>
+      <guid>https://tormod.netlify.com/tags/young-adulthood-18-29-yrs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>youth@hordaland background</title>
-      <link>/tags/youthhordaland-background/</link>
+      <link>https://tormod.netlify.com/tags/youthhordaland-background/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/tags/youthhordaland-background/</guid>
+      <guid>https://tormod.netlify.com/tags/youthhordaland-background/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bergen child study</title>
-      <link>/tags/bergen-child-study/</link>
+      <link>https://tormod.netlify.com/tags/bergen-child-study/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/bergen-child-study/</guid>
+      <guid>https://tormod.netlify.com/tags/bergen-child-study/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bergen child study socioeconomic status internalizing and externalizing problems family process</title>
-      <link>/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</link>
+      <link>https://tormod.netlify.com/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</guid>
+      <guid>https://tormod.netlify.com/tags/bergen-child-study-socioeconomic-status-internalizing-and-externalizing-problems-family-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>family process</title>
-      <link>/tags/family-process/</link>
+      <link>https://tormod.netlify.com/tags/family-process/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/family-process/</guid>
+      <guid>https://tormod.netlify.com/tags/family-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>internalizing and externalizing problems</title>
-      <link>/tags/internalizing-and-externalizing-problems/</link>
+      <link>https://tormod.netlify.com/tags/internalizing-and-externalizing-problems/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/internalizing-and-externalizing-problems/</guid>
+      <guid>https://tormod.netlify.com/tags/internalizing-and-externalizing-problems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>socioeconomic status</title>
-      <link>/tags/socioeconomic-status/</link>
+      <link>https://tormod.netlify.com/tags/socioeconomic-status/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/tags/socioeconomic-status/</guid>
+      <guid>https://tormod.netlify.com/tags/socioeconomic-status/</guid>
       <description></description>
     </item>
     
     <item>
       <title>alcohol problems</title>
-      <link>/tags/alcohol-problems/</link>
+      <link>https://tormod.netlify.com/tags/alcohol-problems/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/alcohol-problems/</guid>
+      <guid>https://tormod.netlify.com/tags/alcohol-problems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>alcohol problems drug use adolescence validation crafft screening</title>
-      <link>/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</link>
+      <link>https://tormod.netlify.com/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</guid>
+      <guid>https://tormod.netlify.com/tags/alcohol-problems-drug-use-adolescence-validation-crafft-screening/</guid>
       <description></description>
     </item>
     
     <item>
       <title>biostatistics</title>
-      <link>/tags/biostatistics/</link>
+      <link>https://tormod.netlify.com/tags/biostatistics/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/biostatistics/</guid>
+      <guid>https://tormod.netlify.com/tags/biostatistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>crafft</title>
-      <link>/tags/crafft/</link>
+      <link>https://tormod.netlify.com/tags/crafft/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/crafft/</guid>
+      <guid>https://tormod.netlify.com/tags/crafft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>drug use</title>
-      <link>/tags/drug-use/</link>
+      <link>https://tormod.netlify.com/tags/drug-use/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/drug-use/</guid>
+      <guid>https://tormod.netlify.com/tags/drug-use/</guid>
       <description></description>
     </item>
     
     <item>
       <title>environmental health</title>
-      <link>/tags/environmental-health/</link>
+      <link>https://tormod.netlify.com/tags/environmental-health/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/environmental-health/</guid>
+      <guid>https://tormod.netlify.com/tags/environmental-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>general</title>
-      <link>/tags/general/</link>
+      <link>https://tormod.netlify.com/tags/general/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/general/</guid>
+      <guid>https://tormod.netlify.com/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>medicine/public health</title>
-      <link>/tags/medicine/public-health/</link>
+      <link>https://tormod.netlify.com/tags/medicine/public-health/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/medicine/public-health/</guid>
+      <guid>https://tormod.netlify.com/tags/medicine/public-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>public health</title>
-      <link>/tags/public-health/</link>
+      <link>https://tormod.netlify.com/tags/public-health/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/public-health/</guid>
+      <guid>https://tormod.netlify.com/tags/public-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>screening</title>
-      <link>/tags/screening/</link>
+      <link>https://tormod.netlify.com/tags/screening/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/screening/</guid>
+      <guid>https://tormod.netlify.com/tags/screening/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vaccine</title>
-      <link>/tags/vaccine/</link>
+      <link>https://tormod.netlify.com/tags/vaccine/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/vaccine/</guid>
+      <guid>https://tormod.netlify.com/tags/vaccine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>validation</title>
-      <link>/tags/validation/</link>
+      <link>https://tormod.netlify.com/tags/validation/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/tags/validation/</guid>
+      <guid>https://tormod.netlify.com/tags/validation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bcs</title>
-      <link>/tags/bcs/</link>
+      <link>https://tormod.netlify.com/tags/bcs/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/tags/bcs/</guid>
+      <guid>https://tormod.netlify.com/tags/bcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sdq</title>
-      <link>/tags/sdq/</link>
+      <link>https://tormod.netlify.com/tags/sdq/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/tags/sdq/</guid>
+      <guid>https://tormod.netlify.com/tags/sdq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ses</title>
-      <link>/tags/ses/</link>
+      <link>https://tormod.netlify.com/tags/ses/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/tags/ses/</guid>
+      <guid>https://tormod.netlify.com/tags/ses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sleep ses sdq bergen child study bcs</title>
-      <link>/tags/sleep-ses-sdq-bergen-child-study-bcs/</link>
+      <link>https://tormod.netlify.com/tags/sleep-ses-sdq-bergen-child-study-bcs/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/tags/sleep-ses-sdq-bergen-child-study-bcs/</guid>
+      <guid>https://tormod.netlify.com/tags/sleep-ses-sdq-bergen-child-study-bcs/</guid>
       <description></description>
     </item>
     
