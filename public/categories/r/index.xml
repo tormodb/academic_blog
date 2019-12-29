@@ -5,7 +5,7 @@
     <link>https://tormod.netlify.com/categories/r/</link>
       <atom:link href="https://tormod.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Sat, 13 May 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>R</title>
@@ -13,13 +13,31 @@
     </image>
     
     <item>
-      <title>Building a blogdown publication list from bibtex file</title>
+      <title>css, bibtex, blogdown</title>
+      <link>https://tormod.netlify.com/post/css-bibtex-blogdown/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/post/css-bibtex-blogdown/</guid>
+      <description>
+
+
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
+css: aux/APAStyle.css
+keep_md: yes
+bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a blogdown publication list from bibtex file (updated)</title>
       <link>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
-      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
 
 
+&lt;p&gt;The best way to do this now is to follow the guide on the following &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-publication&#34;&gt;page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there.&lt;/p&gt;
 &lt;p&gt;The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.&lt;/p&gt;
 &lt;p&gt;The goal was to get pretty close to this yaml result, as I am using the setup from Rob Hyndman’s excellent site, which he has shared on github.&lt;/p&gt;
@@ -77,23 +95,6 @@ for (i in 1:nrow(bib)) {
       paste0(&amp;quot;\n&amp;quot;, yamllist2[[i]]$abst, sep = &amp;quot;\n&amp;quot;), file = paste0(&amp;quot;content/publications/&amp;quot;, yamllist2[[i]]$date, &amp;quot;-01-01-&amp;quot;, names(yamllist)[i], &amp;quot;.md&amp;quot;))
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Unfortunately, I was not able to get rid of the spacing before the final “—” in the YAML output, nor the spacings before the yaml fields title, author etc. I had to reopen the files in atom - for ease - and did a manual removal there. For files that did not work directly, I also used the “Update Metadata” adding from &lt;code&gt;bookdown&lt;/code&gt;. Took a while, but still a lot less than manually copying and pasting this information from the web or reference manager would have done.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>css, bibtex, blogdown</title>
-      <link>https://tormod.netlify.com/post/css-bibtex-blogdown/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/css-bibtex-blogdown/</guid>
-      <description>
-
-
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
-css: aux/APAStyle.css
-keep_md: yes
-bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;rmarkdown will then use this to produce html file in &lt;code&gt;public/post&lt;/code&gt; folder. At least bibtex file, not so sure about css though…&lt;/p&gt;
 </description>
     </item>
     

@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>https://tormod.netlify.com/categories/project/</loc>
+    <loc>https://tormod.netlify.com/tags/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormod.netlify.com/tags/project/</loc>
+    <loc>https://tormod.netlify.com/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -378,21 +378,6 @@
   </url>
   
   <url>
-    <loc>https://tormod.netlify.com/categories/bibtex/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/categories/r/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tormod.netlify.com/authors/eric-dearing/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -473,6 +458,11 @@
   </url>
   
   <url>
+    <loc>https://tormod.netlify.com/categories/bibtex/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tormod.netlify.com/categories/css/</loc>
     <lastmod>2017-05-13T00:00:00+00:00</lastmod>
   </url>
@@ -484,6 +474,11 @@
   
   <url>
     <loc>https://tormod.netlify.com/post/papers-using-rmarkdown/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/categories/r/</loc>
     <lastmod>2017-05-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -1110,6 +1105,10 @@
   <url>
     <loc>https://tormod.netlify.com/authors/t.-torsheim/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</loc>
   </url>
   
   <url>
