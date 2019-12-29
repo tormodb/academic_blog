@@ -1,7 +1,7 @@
 ---
 title: Building a blogdown publication list from bibtex file (updated)
 author: Tormod Bøe
-date: '2019-30-12'
+date: '2019-12-30'
 slug: building-a-blogdown-publication-list-from-bibtex-file
 categories:
   - blogdown
@@ -14,7 +14,9 @@ draft: no
 
 
 
+<blockquote>
 <p>The best way to do this now is to follow the guide on the following <a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-publication">page</a>.</p>
+</blockquote>
 <p>I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there.</p>
 <p>The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.</p>
 <p>The goal was to get pretty close to this yaml result, as I am using the setup from Rob Hyndman’s excellent site, which he has shared on github.</p>
