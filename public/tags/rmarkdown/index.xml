@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rmarkdown | Tormod Bøe</title>
-    <link>/tags/rmarkdown/</link>
-      <atom:link href="/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormod.netlify.com/tags/rmarkdown/</link>
+      <atom:link href="https://tormod.netlify.com/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <description>rmarkdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>rmarkdown</title>
-      <link>/tags/rmarkdown/</link>
+      <link>https://tormod.netlify.com/tags/rmarkdown/</link>
     </image>
     
     <item>
       <title>Ulysses, R, markdown</title>
-      <link>/post/ulysses-r-markdown/</link>
+      <link>https://tormod.netlify.com/post/ulysses-r-markdown/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>/post/ulysses-r-markdown/</guid>
+      <guid>https://tormod.netlify.com/post/ulysses-r-markdown/</guid>
       <description>
 
 
@@ -48,9 +48,9 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
     
     <item>
       <title>Papers using rmarkdown</title>
-      <link>/post/papers-using-rmarkdown/</link>
+      <link>https://tormod.netlify.com/post/papers-using-rmarkdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>/post/papers-using-rmarkdown/</guid>
+      <guid>https://tormod.netlify.com/post/papers-using-rmarkdown/</guid>
       <description>
 
 

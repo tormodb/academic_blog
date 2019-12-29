@@ -45,6 +45,30 @@
     </item>
     
     <item>
+      <title>r</title>
+      <link>https://tormod.netlify.com/tags/r/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducible</title>
+      <link>https://tormod.netlify.com/tags/reproducible/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/tags/reproducible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://tormod.netlify.com/tags/rmarkdown/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>alcohol use</title>
       <link>https://tormod.netlify.com/tags/alcohol-use/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -89,6 +113,14 @@
       <link>https://tormod.netlify.com/tags/no-doi-found/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/tags/no-doi-found/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APA</title>
+      <link>https://tormod.netlify.com/tags/apa/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/tags/apa/</guid>
       <description></description>
     </item>
     
@@ -209,30 +241,6 @@
       <link>https://tormod.netlify.com/tags/source-themes/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/tags/source-themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>https://tormod.netlify.com/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://tormod.netlify.com/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://tormod.netlify.com/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://tormod.netlify.com/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://tormod.netlify.com/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://tormod.netlify.com/tags/regression/</guid>
       <description></description>
     </item>
     

@@ -9,6 +9,7 @@ categories:
   - rmarkdown
   - bibtex
 tags: []
+draft: no
 ---
 
 I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there. 

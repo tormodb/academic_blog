@@ -223,6 +223,41 @@
   </url>
   
   <url>
+    <loc>https://tormod.netlify.com/tags/r/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/tags/reproducible/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/categories/reproducible-workflow/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/tags/rmarkdown/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/categories/ulysses/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/post/ulysses-r-markdown/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/categories/writing/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tormod.netlify.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -430,6 +465,26 @@
   <url>
     <loc>https://tormod.netlify.com/authors/%C3%B8ystein-hetlevik/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/tags/apa/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/categories/css/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/post/css-bibtex-blogdown/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/post/papers-using-rmarkdown/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -670,26 +725,6 @@
   <url>
     <loc>https://tormod.netlify.com/tags/source-themes/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
