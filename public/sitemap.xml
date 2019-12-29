@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>https://tormod.netlify.com/tags/project/</loc>
+    <loc>https://tormod.netlify.com/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormod.netlify.com/categories/project/</loc>
+    <loc>https://tormod.netlify.com/tags/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -548,6 +548,11 @@
   </url>
   
   <url>
+    <loc>https://tormod.netlify.com/publication_types/6/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tormod.netlify.com/tags/adolescents/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -574,6 +579,16 @@
   
   <url>
     <loc>https://tormod.netlify.com/tags/emotions/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/authors/h-d-zachrisson/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/www.helsestasjonstjenesten.no/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -675,11 +690,6 @@
   <url>
     <loc>https://tormod.netlify.com/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormod.netlify.com/publication_types/0/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -880,6 +890,11 @@
   <url>
     <loc>https://tormod.netlify.com/publication/boe-socioeconomicstatuschild-2014/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormod.netlify.com/publication_types/7/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -422,6 +422,14 @@ for (i in 1:nrow(bib)) {
     </item>
     
     <item>
+      <title>Hva betyr det for barn å vokse opp i en fattig familie? [What does it mean to grow up in a poor family?]</title>
+      <link>https://tormod.netlify.com/www.helsestasjonstjenesten.no/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/www.helsestasjonstjenesten.no/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Low Family Income and Behavior Problems in Norwegian Preschoolers</title>
       <link>https://tormod.netlify.com/publication/boe-lowfamilyincome-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -539,7 +547,7 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>Sosioøkonomisk Status Og Barn Og Unges Psykologiske Utvikling: Familiestressmodellen Og Familieinvesteringsperspektivet</title>
+      <title>Sosioøkonomisk status og barn og unges psykologiske utvikling: Familiestressmodellen og Familieinvesteringsperspektivet</title>
       <link>https://tormod.netlify.com/publication/boe-sosiookonomiskstatusog-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/publication/boe-sosiookonomiskstatusog-2015/</guid>
