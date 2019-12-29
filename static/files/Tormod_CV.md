@@ -184,7 +184,7 @@ header_includes:
 <!-- 7.	Invited presentations to peer-reviewed national or international conferences and/or international advanced schools (if applicable). -->
 <!-- 8.	Experiences from major research communication, dissemination or outreach activities and/or invited presentations in public conferences (if applicable). -->
 
-- I have written a total of 45 publications. My articles have been cited 693 times, my _h_-index is 10 and my _i10_-index is 13 according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 29.12.2019)_. 
+- I have authored or co-authored a total of 45 publications. My articles have been cited 693 times, my _h_-index is 10 and my _i10_-index is 13 according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 29.12.2019)_. 
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
 - I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
@@ -197,10 +197,10 @@ header_includes:
 # Publications 
 
 ## PhD thesis
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4916375}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4916375}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3771500}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3771500}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4916375,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3771500,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
@@ -208,12 +208,12 @@ header_includes:
 <!-- ## Refereed research papers (last five years) -->
 
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5028858}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5028858}{SkogenSociodemographiccharacteristicsassociated2019,
-Arntzen29recommendationscombat2019,
-SkogenEconomicCircumstancesChildhood2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3875576}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3875576}{SkogenSociodemographiccharacteristicsassociated2019,
+skogeneconomiccircumstances2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
+boe2019higher,
 HeradstveitProspectiveassociationschildhood2018,
 BoeSubjectiveEconomicStatus2018,
 NilsenDivorceFamilyStructure2018,
@@ -221,27 +221,20 @@ SandtorvSymptomsAssociatedAttention2018,
 HetlevikGPdiagnosedinternalizingexternalizing2018,
 MyrtveitSaetherHealthcomplaintslate2018,
 SmidMeasurementEquivalenceConvergent2018,
-BoeEconomicvolatilitychildhood2017,
 BoeCumulativeeffectsnegative2017,
 BoeFinancialdifficultieschildhood2017,
-SivertsenMovingpovertychildhood2017,
 Lehmaninternalstructurefosterparent2017,
 LundervoldInattentionprimaryschool2017a,
 Boestrengthsdifficultiesquestionnaire2016,
 BoeLowfamilyincome2016,
 EilertsenParentalsocioeconomicstatus2016,
-Hysingsocialgradientsleep2016,
 SkogenUsealcoholtobacco2016,
 BoeFeelingpoorbeing2016,
-HysingSleepschoolattendance2015,
 AskelandAdolescentSchoolAbsenteeism2015,
-BoeSocioeconomicstatuschild2014,
 SolbergHoldningertilbruk2014a,
-SivertsenDelayedsleepphase2013,
 SkogenPsychometricpropertiesconcurrent2013,
 HysingMaleegenskapervednorske2013,
 BoeSocioeconomicstatuschildren2012a,
-BoeSleepproblemsmediator2012,
 BoeSocioeconomicstatuschildren2012,
 HysingMaleegenskapervednorske2012,
 kornormeasurementproperties2011,
@@ -249,13 +242,13 @@ KornorMaleegenskapervednorske2011a,
 KornorMaleegenskapervednorske2011,
 BoeMaleegenskapervednorske2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5028858,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3875576,heading=none]\setcounter{papers}{0}
 
 \nocite{SkogenSociodemographiccharacteristicsassociated2019,
-Arntzen29recommendationscombat2019,
-SkogenEconomicCircumstancesChildhood2019,
+skogeneconomiccircumstances2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
+boe2019higher,
 HeradstveitProspectiveassociationschildhood2018,
 BoeSubjectiveEconomicStatus2018,
 NilsenDivorceFamilyStructure2018,
@@ -263,27 +256,20 @@ SandtorvSymptomsAssociatedAttention2018,
 HetlevikGPdiagnosedinternalizingexternalizing2018,
 MyrtveitSaetherHealthcomplaintslate2018,
 SmidMeasurementEquivalenceConvergent2018,
-BoeEconomicvolatilitychildhood2017,
 BoeCumulativeeffectsnegative2017,
 BoeFinancialdifficultieschildhood2017,
-SivertsenMovingpovertychildhood2017,
 Lehmaninternalstructurefosterparent2017,
 LundervoldInattentionprimaryschool2017a,
 Boestrengthsdifficultiesquestionnaire2016,
 BoeLowfamilyincome2016,
 EilertsenParentalsocioeconomicstatus2016,
-Hysingsocialgradientsleep2016,
 SkogenUsealcoholtobacco2016,
 BoeFeelingpoorbeing2016,
-HysingSleepschoolattendance2015,
 AskelandAdolescentSchoolAbsenteeism2015,
-BoeSocioeconomicstatuschild2014,
 SolbergHoldningertilbruk2014a,
-SivertsenDelayedsleepphase2013,
 SkogenPsychometricpropertiesconcurrent2013,
 HysingMaleegenskapervednorske2013,
 BoeSocioeconomicstatuschildren2012a,
-BoeSleepproblemsmediator2012,
 BoeSocioeconomicstatuschildren2012,
 HysingMaleegenskapervednorske2012,
 kornormeasurementproperties2011,
@@ -294,28 +280,20 @@ BoeMaleegenskapervednorske2011}
 \vskip .1 in
 
 ## Books and book chapters
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5055618}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5055618}{BoeT.Hvabetyrdet2016}
-\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5055618,heading=none]\setcounter{papers}{0}
 
-\nocite{BoeT.Hvabetyrdet2016}
 
 ## Conference proceedings
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5081173}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5081173}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3915014}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3915014}{BoeRoadIndependenceMental2019a,
 NilsenDivorceAdolescentMental2018,
 BoeSubjectiveeconomicstatus2016,
 BoeEconomicvolatilityadolescent2016,
 BoeFeelingpoorbeing2016a,
 BoePerceivedPoorFamily2015,
-BoeParentalemotionalwellbeing2013,
-BoeChildhoodsleepproblems2012,
 boesocioeconomicstatus2010,
-boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5081173,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3915014,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 NilsenDivorceAdolescentMental2018,
@@ -323,20 +301,17 @@ BoeSubjectiveeconomicstatus2016,
 BoeEconomicvolatilityadolescent2016,
 BoeFeelingpoorbeing2016a,
 BoePerceivedPoorFamily2015,
-BoeParentalemotionalwellbeing2013,
-BoeChildhoodsleepproblems2012,
 boesocioeconomicstatus2010,
-boestabilitymental2010,
 boesocioeconomicstatus2009}
 
 ## Reports
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5107359}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5107359}{BoeSosiookonomiskstatusog2015,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3933424}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3933424}{BoeSosiookonomiskstatusog2015,
 BoeLevekarsundersokelseAskoyFjell2017,
 kvestadveientil2019}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5107359,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3933424,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeSosiookonomiskstatusog2015,
 BoeLevekarsundersokelseAskoyFjell2017,
