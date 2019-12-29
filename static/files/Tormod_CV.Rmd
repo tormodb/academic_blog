@@ -1,0 +1,351 @@
+---
+# title: Curriculum vitae Tormod Bøe
+# name: Curriculum vitae with track record 
+# surname: Bøe
+# position: "Associate Professor"
+# qualifications: BPsych(Hons), Cand. Psychol, PhD
+# address: "Institute of psychosocial science, \\tabularnewline Faculty of Psychology, \\tabularnewline University of Bergen, Norway"
+# phone: +47 55 58 91 85 / +47 988 64 792
+# www: "tormod.netlify.com \\ tormodteaching.netlify.com"
+# www: tormodteaching.netlify.com 
+# email: "Tormod.Boe@uib.no"
+dob: test
+# docname: "Tormod Bøe"
+headcolor: "000000"
+# twitter: mariecurie
+# github: mariecurie
+# linkedin: mariecurie
+# aboutme: "trst"
+# date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::hyndman:
+    # template: hyndmantemplate.tex
+    keep_tex: yes
+    keep_md: yes
+    # latex_engine: xelatex
+mainfont: Calibri
+sansfont: Calibri
+csl: /Users/st06810/Dropbox/References/csl/jama.csl
+fontsize: 11pt
+linestretch: 1.15
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+classoption: a4paper
+header_includes:
+  - \ExecuteBibliographyOptions{useprefix=true}
+  - renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\sffamily}
+  - \newcommand{\blarge}{\begin{LARGE}}
+  - \newcommand{\elarge}{\end{LARGE}}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{lastpage}
+  # - \usepackage[page]{totalcount}
+  # - \usepackage{fontspec}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(vitae)
+source("/Users/st06810/Dropbox/AkademiskCV/baretable.R")
+
+id <- 'TMC38ZgAAAAJ'
+tb <- scholar::get_profile(id)
+p <- scholar::get_publications(id)
+```
+
+\blarge
+
+\textbf{Curriculum vitae with track record}
+
+\elarge
+
+\vspace*{1\baselineskip}
+
+\({\large\textbf{Role in project:}}\) \(\quad\)Project manager \(\quad\) Work package leader \(\quad\) Project partner [ ]
+
+
+# Personal information 
+<!-- make all # headers caps!  -->
+
+```{r pinf, results = 'asis'}
+tribble(
+  ~Text, ~Year, ~Degree, ~Gender,
+  "Family name, First name:", "Bøe, Tormod", "", "",
+  "Date of birth: ", "07.09.1978", "Sex:", "Male",
+  "Nationality:",  "Norwegian", "", "",
+  "Researcher unique identifier(s):", "0000-0002-0968-7537", "", "",
+  "URL for personal website:", "\\url{tormod.netlify.com} and \\url{tormodteaching.netlify.com}", "", "",
+) %>%
+  baretable()
+  # detailed_entries(Degree, Year, Institution)
+```
+
+
+# Education
+
+```{r employment, results = 'asis'}
+tribble(
+  ~Year, ~Institution,
+  "2010--2013", "\\textbf{Ph.D.}, University of Bergen, Bergen, Norway",
+  "2005--2010", "\\textbf{Cand. Psychol}, University of Bergen, Bergen, Norway",
+  "2001--2005", "\\textbf{B.Psych. (Hons)}, University of Newcastle, Newcastle, Australia",
+) %>%
+  baretable()
+  # detailed_entries(Degree, Year, Institution)
+```
+\vskip -.1 in
+
+# Positions
+
+## Current positions
+
+```{r work, results='asis'}
+library(tibble)
+tribble(
+  ~ Year, ~ Institution,
+  "2018--present", "\\textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway",
+  "2018--present", "\\textbf{Senior Researcher} (20\\% position), Uni Research Health, Bergen Norway"
+  # "2014--2018",    "\\textbf{Senior Researcher}, Uni Research Health, Bergen, Norway",
+  # "2014--2017",    "\\textbf{Post doctor} (funded by Norwegian research council), Uni Research Health, Bergen, Norway",
+  # "2016--2016",    "\\textbf{Associate Professor}  (20\\% position), Faculty of Psychology, University of Bergen, Bergen, Norway",
+  # "2010--2014",    "\\textbf{PhD student}, Uni Research Health, Bergen, Norway",
+  # "2011--2012",    "\\textbf{Lecturer} (20\\% position), BI Norwegian, Business School, Bergen, Norway",
+  # "2010--2010",    "\\textbf{Clinical psychologist}, Biskopshavn Family Councelling, Bergen, Norway"
+  # # "2014--2018", "Senior Researcher", "Uni Research Health, Bergen, Norway",
+  # "2016--2016", "Associate Professor  (20% position)", "Faculty of Psychology, University of Bergen, Bergen, Norway",
+  # "2010--2014", "PhD student", "Uni Research Health, Bergen, Norway",
+  # "2011-2012", "Lecturer", "BI Norwegian, Business School, Bergen, Norway", 
+  # "2010", "Clinical psychologist", "Biskopshavn Family Councelling, Bergen, Norway",
+  # "2006--2010", "Research assistant", "Uni Research Health, Bergen, Norway",
+  ) %>% 
+   baretable()
+  
+```
+
+## Previous positions held
+
+```{r prev_work, results='asis'}
+tribble(
+  ~ Year, ~ Institution,
+  # "2018--present", "\\textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway",
+  # "2018--present", "\\textbf{Senior Researcher} (20\\% position), Uni Research Health, Bergen Norway",
+  "2014--2018",    "\\textbf{Senior Researcher}, Uni Research Health, Bergen, Norway",
+  "2014--2017",    "\\textbf{Post doctor} (funded by Norwegian research council), Uni Research Health, Bergen, Norway",
+  "2016--2016",    "\\textbf{Associate Professor}  (20\\% position), Faculty of Psychology, University of Bergen, Bergen, Norway",
+  "2010--2014",    "\\textbf{PhD student}, Uni Research Health, Bergen, Norway",
+  "2011--2012",    "\\textbf{Lecturer} (20\\% position), BI Norwegian, Business School, Bergen, Norway",
+  "2010--2010",    "\\textbf{Clinical psychologist}, Biskopshavn Family Councelling, Bergen, Norway"
+  # "2014--2018", "Senior Researcher", "Uni Research Health, Bergen, Norway",
+  # "2016--2016", "Associate Professor  (20% position)", "Faculty of Psychology, University of Bergen, Bergen, Norway",
+  # "2010--2014", "PhD student", "Uni Research Health, Bergen, Norway",
+  # "2011-2012", "Lecturer", "BI Norwegian, Business School, Bergen, Norway", 
+  # "2010", "Clinical psychologist", "Biskopshavn Family Councelling, Bergen, Norway",
+  # "2006--2010", "Research assistant", "Uni Research Health, Bergen, Norway",
+  ) %>% 
+   baretable()
+  
+```
+
+# Fellowships, awards and prizes
+
+```{r awards, results='asis'}
+tribble(
+  ~ Year, ~ Institution,
+# "2017--2020", "Project scholarship, (Main supervisor for Ph.D.)", "Extra foundation",  
+# "2017--2017", "Travel grant", "L. Meltzer foundation" , 
+# "2017--2017", "STEP-application grant", "Uni Research" , 
+# "2013--2017", "Project scholarship (Post doctor)", "Norwegian Research Council" , 
+# "2011--2013", "Project scholarship", "L. Meltzers foundation", 
+# "2006--2009", "Summer scholarship", "Regional centre for child and youth mental health and child welfare, Uni health" , 
+# "2007     ",  "Scholarship", "University of Bergen" , 
+"2006",       "Faculty medal, The University of Newcastle, Australia" , 
+"2005",       "Basic Science in Psychology Prize, The University of Newcastle, Australia" , 
+"2003--2004", "Faculty Commendation List, The University of Newcastle, Australia" , 
+"2002", 	    "Wilhelm Wundt Prize in First Year Psychology, The University of Newcastle, Australia",
+) %>% 
+     baretable()
+
+```
+
+<!-- # Mobility -->
+
+# Project management experience
+
+```{r project, results='asis'}
+tribble(
+  ~ Year, ~ Institution, 
+  # "2019--ongoing" , paste0("[",proj,"]", "(",url,")"), "",
+  "2019--ongoing", "New patterns - safe upringing, Researcher, Norwegian research council (NRC)",
+  "2014--ongoing", "Linkage of youth@hordaland to national registries for education, NRC",
+  "2014--ongoing", "Linkage of youth@hordaland to national registries for service use, NRC",
+  "2018--ongoing", "The road to independence, Researcher, Wøyen foundation",
+  "2006--ongoing", "Bergen Child Study/youth@hordaland studien, Researcher, NRC and others",
+  "2014--ongoing", "EBU project, Researcher, Norwegian research council",
+  "2016--ongoing", "Project Perfect, Researcher, Extra foundation",
+  "2014--2017",    "Social inequalities, educational attainment and mental health (UNGSES), Leader, NRC",
+  "2016--2017",    "Survey of living conditions in Askøy and Sotra, Leader, Municpality funded",
+) %>% 
+    baretable()
+```
+
+
+# Supervision of graduate students and research fellows
+
+```{r supervision, results='asis'}
+tribble(~ Year, ~ Institution,
+"2019--ongoing", "PhD, Cand. psychol. A. Skandsen",
+"2018--ongoing", "PhD, Cand. psychol. Y. Moussavi",
+"2017--ongoing", "PhD, Cand. psychol. S. Nilsen",
+"2020--ongoing",  "Masters thesis, Stud. psychols H.A. Ostojic, H.A.S. Sørdal \\& V.J.S Lie",
+"2020--ongoing",  "Masters thesis, Stud. psychols I.A. Nordbøe, \\& K. Gjone",
+"2018", "Masters thesis, G.R. Skjønberg, \\& T. Digervold",
+"2016" , "Masters thesis, Stud. psychols K. Bush, M. Hugaas \\& I.B. Grødem",
+"2016" , "Masters thesis, Stud. psychol S. Nilsen",
+"2015" , "Masters thesis, Stud. psychols S., Øie  \\& L.M., Aarsheim"
+) %>%
+    baretable()
+```
+
+# Teaching activities
+
+```{r, echo = F, message=F, warning=F}
+library(readxl)
+library(dplyr)
+formidling <- read_excel("/Users/st06810/Dropbox/AkademiskCV/Formidling_Tormod.xlsx", sheet = "Ark2")
+saveRDS(formidling, "formidling.rds")
+n_delt <- formidling %>% select("Antall deltagere") %>% colSums(.)
+startår <- formidling %>% select(År) %>% min()
+slutttår <- formidling %>% select(År) %>% max()
+
+# formidling <- formidling %>% filter(År>2017)
+# formidling %>% dplyr::select(Arrangement, Arrangør, Mnd) %>% knitr::kable()
+```
+
+```{r confpres, results='asis'}
+tribble(
+  ~ Year, ~ Institution,
+"2018",           "Community Psychology, Faculty of Psychology, University of Bergen", 
+"2019",           "National Congress in Psychology, The Norwegian Psychology association" ,
+"2019",           "National conference on growing up, The Norwegian Directorate for Children, Youth and Family Affairs" ,
+"2018",           "National conference for community psychologists, National Competence Center for Mental Health" , 
+"2018",           "SLT conference, Ministry of Justice and Public Security" , 
+"2017",           "The Schizoprenia Days, Stavanger University Hospital" , 
+"2017", 	        "12. Nordic Public Health conference, Danish Health Authority",
+"2015", 	        "Seminar on Social inequalities, Norwegian Directorate of Health", 
+) %>% 
+     baretable()
+```
+
+<!-- # Organisation of meetings -->
+
+# Institutional responsibilities
+
+```{r institu, results='asis'}
+tribble(
+  ~ Year, ~Institution,
+"2019-ongoing",  "Revision of psychology education (Rethos), Faculty of Psychology" ,
+# "2019",  "The Norwegian Directorate for Children, Youth and Family Affairs ", "National conference on growing up" ,
+# "2018",  "National competencecenter for mental health", "National conference for community psychologists" , 
+# "2018",  "Ministry of Justice and Public Security", "SLT conference" , 
+# "2017",  "Stavanger University Hospital", "The Schizoprenia Days" , 
+# "2017", 	"Danish Health Authority", "12. Nordic Public Health conference",
+# "2015", 	"Norwegian Directorate of Health", "Seminar on Social inequalities", 
+) %>% 
+   baretable()
+
+```
+
+# Commisions of trust
+
+```{r trust, results='asis'}
+tribble(
+  ~ Year, ~ Institution,
+"2015--2019",  "Expert panel on social inequalities of health, The Norwegian Directorate of Health" ,
+"2017",  "Review panel member, The Netherlands Organisation for Heath Research and Develeopment" ,
+# "2019",  "The Norwegian Directorate for Children, Youth and Family Affairs ", "National conference on growing up" ,
+# "2018",  "National competencecenter for mental health", "National conference for community psychologists" , 
+# "2018",  "Ministry of Justice and Public Security", "SLT conference" , 
+# "2017",  "Stavanger University Hospital", "The Schizoprenia Days" , 
+# "2017", 	"Danish Health Authority", "12. Nordic Public Health conference",
+# "2015", 	"Norwegian Directorate of Health", "Seminar on Social inequalities", 
+) %>% 
+   baretable()
+
+```
+
+<!-- # Membership of academies/scientific societies -->
+<!-- \vskip -.15 in -->
+
+<!-- # Major collaborations -->
+<!-- \vskip -.15 in -->
+
+# Track record
+
+<!-- 1.	The total number of publications during the career. -->
+<!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
+<!-- 3.	Research monographs and any translations thereof (if applicable).  -->
+<!-- 4.	Granted patent(s) (if applicable). -->
+<!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
+<!-- 6.	Leadership of field work or research expeditions (if applicable).	 -->
+<!-- 7.	Invited presentations to peer-reviewed national or international conferences and/or international advanced schools (if applicable). -->
+<!-- 8.	Experiences from major research communication, dissemination or outreach activities and/or invited presentations in public conferences (if applicable). -->
+
+- I have written a total of `r length(unique(p$pubid))` publications. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_. 
+<!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
+- I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
+<!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
+-	I have given more than `r length(formidling$Lopenr)` invited talks for more than `r format(round(n_delt,-2), big.mark = " ")` particpants in the period from `r startår` to `r slutttår`. Among those are several keynote presentations at national and nordic conferences. Further details available on [my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.com/appenda.html). 
+- Additional supervison experience include 6 Masters theses, 12 student papers (one of which has been published), and 3 summer scholarship papers. Further details available upon request. 
+
+
+\newpage
+
+# Publications 
+
+## PhD thesis
+```{r thesis}
+library(RefManageR)
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "Thesis")
+```
+
+## Refereed research papers 
+<!-- ## Refereed research papers (last five years) -->
+```{r}
+id <- 'TMC38ZgAAAAJ'
+tb <- scholar::get_profile(id)
+```
+
+```{r articles}
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "Article") %>%
+  # filter(date>2013) %>%
+  arrange(desc(date))
+```
+
+\vskip .1 in
+
+## Books and book chapters
+```{r books}
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "InCollection") 
+```
+
+## Conference proceedings
+```{r conference}
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "InProceedings") %>%
+  arrange(desc(date), surnames)
+
+```
+
+## Reports
+
+```{r}
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "Report")
+```
+
+
+
