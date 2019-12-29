@@ -295,7 +295,7 @@ tribble(
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
 - I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
--	I have given more than `r length(formidling$Lopenr)` invited talks for more than `r format(round(n_delt,-2), big.mark = " ")` particpants in the period from `r startår` to `r slutttår`. Among those are several keynote presentations at national and nordic conferences. Further details available on [my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.com/appenda.html). 
+-	I have given more than `r length(formidling$Lopenr)` invited talks for more than `r format(round(n_delt,-2), big.mark = " ")` particpants in the period from `r startår` to `r slutttår`. Among those are several keynote presentations at national and nordic conferences. Further details available on [my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.com/appendd.html). 
 - Additional supervison experience include 6 Masters theses, 12 student papers (one of which has been published), and 3 summer scholarship papers. Further details available upon request. 
 
 
