@@ -31,7 +31,7 @@
   <meta name="description" content="Associate Professor of Community Psychology">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tags/blogdown/">
+  <link rel="alternate" hreflang="en-us" href="https://tormod.netlify.com/tags/blogdown/">
 
   
 
@@ -210,7 +210,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/tags/blogdown/">
+  <link rel="canonical" href="https://tormod.netlify.com/tags/blogdown/">
 
   
   
@@ -226,12 +226,12 @@
   <meta property="twitter:creator" content="@tormodboe">
   
   <meta property="og:site_name" content="Tormod Bøe">
-  <meta property="og:url" content="/tags/blogdown/">
+  <meta property="og:url" content="https://tormod.netlify.com/tags/blogdown/">
   <meta property="og:title" content="blogdown | Tormod Bøe">
-  <meta property="og:description" content="Associate Professor of Community Psychology"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Associate Professor of Community Psychology"><meta property="og:image" content="https://tormod.netlify.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://tormod.netlify.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2017-05-13T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-12-30T00:00:00&#43;00:00">
   
 
   
@@ -543,11 +543,12 @@
   
   
   <div>
-    <h2><a href="/post/learning-blogdown/">Learning blogdown</a></h2>
+    <h2><a href="/post/building-a-blogdown-publication-list-from-bibtex-file/">Building a blogdown publication list from bibtex file (updated)</a></h2>
     <div class="article-style">
       
-      Some code:
-knitr::kable(head(mtcars))    mpg cyl disp hp drat wt qsec vs am gear carb    Mazda RX4 21.0 6 160 110 3.90 2.620 16.46 0 1 4 4  Mazda RX4 Wag 21.0 6 160 110 3.90 2.875 17.02 0 1 4 4  Datsun 710 22.8 4 108 93 3.85 2.320 18.61 1 1 4 1  Hornet 4 Drive 21.4 6 258 110 3.
+      The best way to do this now is to follow the guide on the following page.
+ I tried to build markdown files to use for publication section of my blog programmatically using r. I came close, but not all the way there.
+The following code takes a bibtex file, reads it into r, formats the output and splits each citation out to a separate markdown file. Unfortunately, there were som spaces and formatting errors that I was not able to get rid of, so I had to go through some manual cleaning up afterwards.
       
     </div>
   </div>
@@ -665,19 +666,9 @@ knitr::kable(head(mtcars))    mpg cyl disp hp drat wt qsec vs am gear carb    Ma
   <div class="container">
     <footer class="site-footer">
   
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
-  
 
   <p class="powered-by">
-    © Tormod Bøe 2019 &middot; 
+    © Tormod Bøe 2020 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

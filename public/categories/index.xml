@@ -5,7 +5,7 @@
     <link>https://tormod.netlify.com/categories/</link>
       <atom:link href="https://tormod.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2019</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormod.netlify.com/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>bibtex</title>
+      <link>https://tormod.netlify.com/categories/bibtex/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/categories/bibtex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blogdown</title>
       <link>https://tormod.netlify.com/categories/blogdown/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/categories/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://tormod.netlify.com/categories/r/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://tormod.netlify.com/categories/rmarkdown/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormod.netlify.com/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -33,14 +57,6 @@
       <link>https://tormod.netlify.com/categories/rmark/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/categories/rmark/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>https://tormod.netlify.com/categories/rmarkdown/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -69,26 +85,10 @@
     </item>
     
     <item>
-      <title>bibtex</title>
-      <link>https://tormod.netlify.com/categories/bibtex/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/bibtex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>css</title>
       <link>https://tormod.netlify.com/categories/css/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
       <guid>https://tormod.netlify.com/categories/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://tormod.netlify.com/categories/r/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/r/</guid>
       <description></description>
     </item>
     
