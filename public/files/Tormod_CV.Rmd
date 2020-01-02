@@ -291,7 +291,29 @@ tribble(
 <!-- 7.	Invited presentations to peer-reviewed national or international conferences and/or international advanced schools (if applicable). -->
 <!-- 8.	Experiences from major research communication, dissemination or outreach activities and/or invited presentations in public conferences (if applicable). -->
 
-- I have authored or co-authored a total of `r length(unique(p$pubid))` publications. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_. 
+```{r, echo=FALSE}
+library(RefManageR)
+first_lastauthor <- bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(bibtype == "Article") %>% 
+  select(author) %>% 
+  as.data.frame(.)
+
+auth_split <- separate(first_lastauthor, col = "author", into=c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), sep = "and", remove = FALSE, fill = "right")
+auth_split2 <- auth_split[2:11]
+
+lastValue <- function(x)   tail(x[!is.na(x)], 1)
+firstValue <- function(x)   head(x[!is.na(x)], 1)
+
+firstauthor <- as.data.frame(apply(auth_split2, 1, firstValue))
+colnames(firstauthor) <- "first"
+lastauthor <- as.data.frame(apply(auth_split, 1, lastValue))
+colnames(lastauthor) <- "last"
+
+n_firstauthor <- firstauthor %>% dplyr::filter(stringr::str_detect(first, "Bøe")) %>% count()
+n_lastauthor <- lastauthor %>% dplyr::filter(stringr::str_detect(last, "Bøe")) %>% count()
+```
+
+- I have authored or co-authored a total of `r length(unique(p$pubid))` publications (journal articles, book chapters and reports). I am the first author of `r n_firstauthor` peer reviewed journal articles and the senior author on `r n_lastauthor`. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_. 
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
 - I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
