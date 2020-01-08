@@ -75,7 +75,7 @@ tribble(
   "Date of birth: ", "07.09.1978", "Sex:", "Male",
   "Nationality:",  "Norwegian", "", "",
   "Researcher unique identifier(s):", "0000-0002-0968-7537", "", "",
-  "URL for personal website:", "\\url{https://tormodboe.netlify.com} and \\url{https://tormodteaching.netlify.com}", "", "",
+  "URL for personal website:", "\\url{https://tormodboe.netlify.com}", "", "",
 ) %>%
   baretable()
   # detailed_entries(Degree, Year, Institution)
