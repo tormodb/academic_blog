@@ -54,7 +54,7 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
       <description>
 
 
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
 css: aux/APAStyle.css
 keep_md: yes
