@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>css | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/categories/css/</link>
-      <atom:link href="https://tormod.netlify.com/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormodboe.netlify.com/categories/css/</link>
+      <atom:link href="https://tormodboe.netlify.com/categories/css/index.xml" rel="self" type="application/rss+xml" />
     <description>css</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sat, 13 May 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>css</title>
-      <link>https://tormod.netlify.com/categories/css/</link>
+      <link>https://tormodboe.netlify.com/categories/css/</link>
     </image>
     
     <item>
       <title>css, bibtex, blogdown</title>
-      <link>https://tormod.netlify.com/post/css-bibtex-blogdown/</link>
+      <link>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/css-bibtex-blogdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</guid>
       <description>
 
 
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
 css: aux/APAStyle.css
 keep_md: yes

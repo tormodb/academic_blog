@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>r | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/tags/r/</link>
-      <atom:link href="https://tormod.netlify.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    <description>r</description>
+    <title>R | Tormod Bøe</title>
+    <link>https://tormodboe.netlify.com/tags/r/</link>
+      <atom:link href="https://tormodboe.netlify.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
-      <title>r</title>
-      <link>https://tormod.netlify.com/tags/r/</link>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <title>R</title>
+      <link>https://tormodboe.netlify.com/tags/r/</link>
     </image>
     
     <item>
       <title>Building a blogdown publication list from bibtex file (updated)</title>
-      <link>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <link>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <guid>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
 
 
@@ -85,9 +85,9 @@ for (i in 1:nrow(bib)) {
     
     <item>
       <title>Ulysses, R, markdown</title>
-      <link>https://tormod.netlify.com/post/ulysses-r-markdown/</link>
+      <link>https://tormodboe.netlify.com/post/ulysses-r-markdown/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/ulysses-r-markdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/ulysses-r-markdown/</guid>
       <description>
 
 
@@ -119,9 +119,9 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
     
     <item>
       <title>Papers using rmarkdown</title>
-      <link>https://tormod.netlify.com/post/papers-using-rmarkdown/</link>
+      <link>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/papers-using-rmarkdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</guid>
       <description>
 
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reproducible workflow | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/categories/reproducible-workflow/</link>
-      <atom:link href="https://tormod.netlify.com/categories/reproducible-workflow/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormodboe.netlify.com/categories/reproducible-workflow/</link>
+      <atom:link href="https://tormodboe.netlify.com/categories/reproducible-workflow/index.xml" rel="self" type="application/rss+xml" />
     <description>reproducible workflow</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>reproducible workflow</title>
-      <link>https://tormod.netlify.com/categories/reproducible-workflow/</link>
+      <link>https://tormodboe.netlify.com/categories/reproducible-workflow/</link>
     </image>
     
     <item>
       <title>Ulysses, R, markdown</title>
-      <link>https://tormod.netlify.com/post/ulysses-r-markdown/</link>
+      <link>https://tormodboe.netlify.com/post/ulysses-r-markdown/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/ulysses-r-markdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/ulysses-r-markdown/</guid>
       <description>
 
 
@@ -48,13 +48,13 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
     
     <item>
       <title>css, bibtex, blogdown</title>
-      <link>https://tormod.netlify.com/post/css-bibtex-blogdown/</link>
+      <link>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/css-bibtex-blogdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</guid>
       <description>
 
 
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
 css: aux/APAStyle.css
 keep_md: yes
@@ -65,9 +65,9 @@ bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Papers using rmarkdown</title>
-      <link>https://tormod.netlify.com/post/papers-using-rmarkdown/</link>
+      <link>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/post/papers-using-rmarkdown/</guid>
+      <guid>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</guid>
       <description>
 
 

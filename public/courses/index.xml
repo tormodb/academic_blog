@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/courses/</link>
-      <atom:link href="https://tormod.netlify.com/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormodboe.netlify.com/courses/</link>
+      <atom:link href="https://tormodboe.netlify.com/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Courses</title>
-      <link>https://tormod.netlify.com/courses/</link>
+      <link>https://tormodboe.netlify.com/courses/</link>
     </image>
     
   </channel>

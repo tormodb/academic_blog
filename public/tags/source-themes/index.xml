@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Source Themes | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/tags/source-themes/</link>
-      <atom:link href="https://tormod.netlify.com/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormodboe.netlify.com/tags/source-themes/</link>
+      <atom:link href="https://tormodboe.netlify.com/tags/source-themes/index.xml" rel="self" type="application/rss+xml" />
     <description>Source Themes</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Source Themes</title>
-      <link>https://tormod.netlify.com/tags/source-themes/</link>
+      <link>https://tormodboe.netlify.com/tags/source-themes/</link>
     </image>
     
     <item>
       <title>An example journal article</title>
-      <link>https://tormod.netlify.com/publication/journal-article/</link>
+      <link>https://tormodboe.netlify.com/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/publication/journal-article/</guid>
+      <guid>https://tormodboe.netlify.com/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -33,9 +33,9 @@
     
     <item>
       <title>Socioeconomic Status and Mental Health in Children and Adolescents</title>
-      <link>https://tormod.netlify.com/publication/tormodboesocioeconomicstatus-2013/</link>
+      <link>https://tormodboe.netlify.com/publication/tormodboesocioeconomicstatus-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/publication/tormodboesocioeconomicstatus-2013/</guid>
+      <guid>https://tormodboe.netlify.com/publication/tormodboesocioeconomicstatus-2013/</guid>
       <description></description>
     </item>
     

@@ -9,7 +9,7 @@ title = "Tormod Bøe"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://tormod.netlify.com/"
+baseurl = "https://tormodboe.netlify.com/"
 
 googleAnalytics = "UA-155280058-1"
 

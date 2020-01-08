@@ -1,12 +1,12 @@
 ---
 # title: Curriculum vitae Tormod Bøe
 # name: Curriculum vitae with track record 
-# surname: Bøe
+# surname: Bøe  
 # position: "Associate Professor"
 # qualifications: BPsych(Hons), Cand. Psychol, PhD
 # address: "Institute of psychosocial science, \\tabularnewline Faculty of Psychology, \\tabularnewline University of Bergen, Norway"
 # phone: +47 55 58 91 85 / +47 988 64 792
-# www: "tormod.netlify.com \\ tormodteaching.netlify.com"
+# www: "tormodboe.netlify.com \\ tormodteaching.netlify.com"
 # www: tormodteaching.netlify.com 
 # email: "Tormod.Boe@uib.no"
 dob: test
@@ -75,7 +75,7 @@ tribble(
   "Date of birth: ", "07.09.1978", "Sex:", "Male",
   "Nationality:",  "Norwegian", "", "",
   "Researcher unique identifier(s):", "0000-0002-0968-7537", "", "",
-  "URL for personal website:", "\\url{tormod.netlify.com} and \\url{tormodteaching.netlify.com}", "", "",
+  "URL for personal website:", "\\url{tormodboe.netlify.com} and \\url{tormodteaching.netlify.com}", "", "",
 ) %>%
   baretable()
   # detailed_entries(Degree, Year, Institution)

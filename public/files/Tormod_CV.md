@@ -1,12 +1,12 @@
 ---
 # title: Curriculum vitae Tormod Bøe
 # name: Curriculum vitae with track record 
-# surname: Bøe
+# surname: Bøe  
 # position: "Associate Professor"
 # qualifications: BPsych(Hons), Cand. Psychol, PhD
 # address: "Institute of psychosocial science, \\tabularnewline Faculty of Psychology, \\tabularnewline University of Bergen, Norway"
 # phone: +47 55 58 91 85 / +47 988 64 792
-# www: "tormod.netlify.com \\ tormodteaching.netlify.com"
+# www: "tormodboe.netlify.com \\ tormodteaching.netlify.com"
 # www: tormodteaching.netlify.com 
 # email: "Tormod.Boe@uib.no"
 dob: test
@@ -64,7 +64,7 @@ header_includes:
   Date of birth:  & 07.09.1978 & Sex: & Male \\ 
   Nationality: & Norwegian &  &  \\ 
   Researcher unique identifier(s): & 0000-0002-0968-7537 &  &  \\ 
-  URL for personal website: & \url{tormod.netlify.com} and \url{tormodteaching.netlify.com} &  &  \\ 
+  URL for personal website: & \url{tormodboe.netlify.com} and \url{tormodteaching.netlify.com} &  &  \\ 
   \end{tabular}
 
 
@@ -186,7 +186,7 @@ header_includes:
 
 
 
-- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 14 peer reviewed journal articles and the senior author on 9. My articles have been cited 696 times, my _h_-index is 11 and my _i10_-index is 13 according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 07.01.2020)_. 
+- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 14 peer reviewed journal articles and the senior author on 9. My articles have been cited 696 times, my _h_-index is 11 and my _i10_-index is 13 according to information gathered by [Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 08.01.2020)_. 
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
 - I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
@@ -199,10 +199,10 @@ header_includes:
 # Publications 
 
 ## PhD thesis
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5857650}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5857650}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5356793}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5356793}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5857650,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5356793,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
@@ -210,8 +210,8 @@ header_includes:
 <!-- ## Refereed research papers (last five years) -->
 
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5987231}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5987231}{SkogenSociodemographiccharacteristicsassociated2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5486725}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5486725}{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
 skogeneconomiccircumstances2019,
 BoeInterplaySubjectiveObjective2019a,
@@ -252,7 +252,7 @@ KornorMaleegenskapervednorske2011a,
 KornorMaleegenskapervednorske2011,
 BoeMaleegenskapervednorske2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5987231,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5486725,heading=none]\setcounter{papers}{0}
 
 \nocite{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
@@ -298,16 +298,16 @@ BoeMaleegenskapervednorske2011}
 \vskip .1 in
 
 ## Books and book chapters
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-18694.81}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-18694.81}{BoeT.Hvabetyrdet2016}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5511540}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5511540}{BoeT.Hvabetyrdet2016}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-18694.81,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5511540,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeT.Hvabetyrdet2016}
 
 ## Conference proceedings
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-47523.81}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-47523.81}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5536784}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5536784}{BoeRoadIndependenceMental2019a,
 NilsenDivorceAdolescentMental2018,
 BoeSubjectiveeconomicstatus2016,
 BoeEconomicvolatilityadolescent2016,
@@ -319,7 +319,7 @@ boesocioeconomicstatus2010,
 boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-47523.81,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5536784,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 NilsenDivorceAdolescentMental2018,
@@ -335,12 +335,12 @@ boesocioeconomicstatus2009}
 
 ## Reports
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-78006.01}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-78006.01}{BoeSosiookonomiskstatusog2015,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5559941}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5559941}{BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019,
 BoeLevekarsundersokelseAskoyFjell2017}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-78006.01,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5559941,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019,

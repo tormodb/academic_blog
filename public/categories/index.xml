@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Tormod Bøe</title>
-    <link>https://tormod.netlify.com/categories/</link>
-      <atom:link href="https://tormod.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tormodboe.netlify.com/categories/</link>
+      <atom:link href="https://tormodboe.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormod.netlify.com/img/icon-192.png</url>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Categories</title>
-      <link>https://tormod.netlify.com/categories/</link>
+      <link>https://tormodboe.netlify.com/categories/</link>
     </image>
     
     <item>
       <title>bibtex</title>
-      <link>https://tormod.netlify.com/categories/bibtex/</link>
+      <link>https://tormodboe.netlify.com/categories/bibtex/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/bibtex/</guid>
+      <guid>https://tormodboe.netlify.com/categories/bibtex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>https://tormod.netlify.com/categories/blogdown/</link>
+      <link>https://tormodboe.netlify.com/categories/blogdown/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/blogdown/</guid>
+      <guid>https://tormodboe.netlify.com/categories/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://tormod.netlify.com/categories/r/</link>
+      <link>https://tormodboe.netlify.com/categories/r/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/r/</guid>
+      <guid>https://tormodboe.netlify.com/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmarkdown</title>
-      <link>https://tormod.netlify.com/categories/rmarkdown/</link>
+      <link>https://tormodboe.netlify.com/categories/rmarkdown/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/rmarkdown/</guid>
+      <guid>https://tormodboe.netlify.com/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>project</title>
-      <link>https://tormod.netlify.com/categories/project/</link>
+      <link>https://tormodboe.netlify.com/categories/project/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/project/</guid>
+      <guid>https://tormodboe.netlify.com/categories/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmark</title>
-      <link>https://tormod.netlify.com/categories/rmark/</link>
+      <link>https://tormodboe.netlify.com/categories/rmark/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/rmark/</guid>
+      <guid>https://tormodboe.netlify.com/categories/rmark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reproducible workflow</title>
-      <link>https://tormod.netlify.com/categories/reproducible-workflow/</link>
+      <link>https://tormodboe.netlify.com/categories/reproducible-workflow/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/reproducible-workflow/</guid>
+      <guid>https://tormodboe.netlify.com/categories/reproducible-workflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ulysses</title>
-      <link>https://tormod.netlify.com/categories/ulysses/</link>
+      <link>https://tormodboe.netlify.com/categories/ulysses/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/ulysses/</guid>
+      <guid>https://tormodboe.netlify.com/categories/ulysses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writing</title>
-      <link>https://tormod.netlify.com/categories/writing/</link>
+      <link>https://tormodboe.netlify.com/categories/writing/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/writing/</guid>
+      <guid>https://tormodboe.netlify.com/categories/writing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://tormod.netlify.com/categories/css/</link>
+      <link>https://tormodboe.netlify.com/categories/css/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormod.netlify.com/categories/css/</guid>
+      <guid>https://tormodboe.netlify.com/categories/css/</guid>
       <description></description>
     </item>
     
