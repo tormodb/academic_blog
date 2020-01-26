@@ -57,6 +57,8 @@ p <- scholar::get_publications(id)
 # to be used for track record below
 # p
 
+p %>% select(title, author, cites) %>% arrange(-cites) %>% knitr::kable()
+
 #### must also fix page number of total pages  - this is not working, unsure where to fix, probably in latex document (hyndman)
 # maybe also look at cv for nfr grant - add something from there?
 
@@ -159,22 +161,22 @@ tribble(
 ```{r awards, results='asis'}
 tribble(
   ~ Year, ~ Institution,
-# "2020--", "Project funding, Norwegian Research Council" ,
-# "2019--", "Project funding, Norwegian Research Council" ,
-"2019", "Scholarship for students, Department of psychosocial science, Faculty of Psychology" ,
-"2019", "Travel grant, L. Meltzer foundation" ,
-"2018", "Travel grant, L. Meltzer foundation" ,
-"2017--", "Project scholarship, (Main supervisor for Ph.D.), Extra foundation",
-"2017", "Travel grant, L. Meltzer foundation" ,
-"2017", "STEP-application grant, Uni Research" ,
-"2013--2017", "Project scholarship (Post doctor), Norwegian Research Council" ,
-"2011--2013", "Travel grant, L. Meltzers foundation",
-"2006--2009", "Summer scholarship, Regional centre for child and youth mental health and child welfare, Uni health" ,
-"2007     ",  "Scholarship, University of Bergen" ,
-"2006",       "Faculty medal, The University of Newcastle, Australia" , 
-"2005",       "Basic Science in Psychology Prize, The University of Newcastle, Australia" , 
-"2003--2004", "Faculty Commendation List, The University of Newcastle, Australia" , 
-"2002", 	    "Wilhelm Wundt Prize in First Year Psychology, The University of Newcastle, Australia",
+"2020--",     "Norwegian Research Council, project funding (Work package leader)" ,
+"2019--",     "Norwegian Research Council, project funding (Collaborator)" ,
+"2019",       "Department of psychosocial science, Faculty of Psychology (Scholarship for students)" ,
+"2019",       "L. Meltzer foundation (Travel grant)" ,
+"2018",       "L. Meltzer foundation (Travel grant)" ,
+"2017--",     "Extra foundation, project funding (Funding for Ph.D.) ",
+"2017",       "L. Meltzer foundation (Travel grant)" ,
+"2017",       "Uni Research (STEP-application grant for internal collaboration projects)" ,
+"2013--2017", "Norwegian Research Council, project scholarship (Post doctor), " ,
+"2011--2013", "L. Meltzer foundation (Travel grant)" ,
+"2006--2009", "Regional centre for child and youth mental health and child welfare, Uni health (Summer scholarship)" ,
+"2007",       "University of Bergen (Scholarship)" ,
+"2006",       "The University of Newcastle, Australia (Faculty medal)" , 
+"2005",       "The University of Newcastle, Australia (Basic Science in Psychology Prize)" , 
+"2003--2004", "The University of Newcastle, Australia (Faculty Commendation List)" , 
+"2002", 	    "The University of Newcastle, Australia (Wilhelm Wundt Prize in First Year Psychology)",
 ) %>% 
      baretable()
 
@@ -356,7 +358,15 @@ n_lastauthor <- lastauthor %>% dplyr::filter(stringr::str_detect(last, "Bøe")) 
 ```
 
 - I have authored or co-authored a total of `r length(unique(p$pubid))` publications (journal articles, book chapters and reports). I am the first author of `r n_firstauthor` peer reviewed journal articles and the senior author on `r n_lastauthor`. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_. 
+- Selected publications: 
+```{r trackrefs}
+bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
+  filter(!is.na(ids)) %>% 
+  mutate(ids = as.numeric(ids)) %>% 
+           arrange(ids) 
+```
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
+
 - I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
 - My research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/). It was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019.  
@@ -366,7 +376,7 @@ n_lastauthor <- lastauthor %>% dplyr::filter(stringr::str_detect(last, "Bøe")) 
 
 \newpage
 
-# PUBLICATIONS
+# LIST OF PUBLICATIONS
 
 ## PhD thesis
 ```{r thesis}

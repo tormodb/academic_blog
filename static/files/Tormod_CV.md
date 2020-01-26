@@ -99,20 +99,22 @@ header_includes:
 # FELLOWSHIPS, AWARDS AND PRIZES
 
 \begin{tabular}{ll}
-  2019 & Scholarship for students, Department of psychosocial science, Faculty of Psychology \\ 
-  2019 & Travel grant, L. Meltzer foundation \\ 
-  2018 & Travel grant, L. Meltzer foundation \\ 
-  2017-- & Project scholarship, (Main supervisor for Ph.D.), Extra foundation \\ 
-  2017 & Travel grant, L. Meltzer foundation \\ 
-  2017 & STEP-application grant, Uni Research \\ 
-  2013--2017 & Project scholarship (Post doctor), Norwegian Research Council \\ 
-  2011--2013 & Travel grant, L. Meltzers foundation \\ 
-  2006--2009 & Summer scholarship, Regional centre for child and youth mental health and child welfare, Uni health \\ 
-  2007      & Scholarship, University of Bergen \\ 
-  2006 & Faculty medal, The University of Newcastle, Australia \\ 
-  2005 & Basic Science in Psychology Prize, The University of Newcastle, Australia \\ 
-  2003--2004 & Faculty Commendation List, The University of Newcastle, Australia \\ 
-  2002 & Wilhelm Wundt Prize in First Year Psychology, The University of Newcastle, Australia \\ 
+  2020-- & Norwegian Research Council, project funding (Work package leader) \\ 
+  2019-- & Norwegian Research Council, project funding (Collaborator) \\ 
+  2019 & Department of psychosocial science, Faculty of Psychology (Scholarship for students) \\ 
+  2019 & L. Meltzer foundation (Travel grant) \\ 
+  2018 & L. Meltzer foundation (Travel grant) \\ 
+  2017-- & Extra foundation, project funding (Funding for Ph.D.)  \\ 
+  2017 & L. Meltzer foundation (Travel grant) \\ 
+  2017 & Uni Research (STEP-application grant for internal collaboration projects) \\ 
+  2013--2017 & Norwegian Research Council, project scholarship (Post doctor),  \\ 
+  2011--2013 & L. Meltzer foundation (Travel grant) \\ 
+  2006--2009 & Regional centre for child and youth mental health and child welfare, Uni health (Summer scholarship) \\ 
+  2007 & University of Bergen (Scholarship) \\ 
+  2006 & The University of Newcastle, Australia (Faculty medal) \\ 
+  2005 & The University of Newcastle, Australia (Basic Science in Psychology Prize) \\ 
+  2003--2004 & The University of Newcastle, Australia (Faculty Commendation List) \\ 
+  2002 & The University of Newcastle, Australia (Wilhelm Wundt Prize in First Year Psychology) \\ 
   \end{tabular}
 
 # MOBILITY
@@ -210,7 +212,33 @@ header_includes:
 
 
 - I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 705 times, my _h_-index is 11 and my _i10_-index is 14 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 26.01.2020)_. 
+- Selected publications: 
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1632235}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1632235}{BoeSocioeconomicstatuschildren2012,
+BoeSocioeconomicstatuschild2014,
+BoeInterplaySubjectiveObjective2019a,
+BoeCumulativeeffectsnegative2017,
+BoeEconomicvolatilitychildhood2017,
+Arntzen29recommendationscombat2019,
+BoeFinancialdifficultieschildhood2017,
+Boestrengthsdifficultiesquestionnaire2016,
+SmidMeasurementEquivalenceConvergent2018,
+BoeSosiookonomiskstatusog2015}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1632235,heading=none]\setcounter{papers}{0}
+
+\nocite{BoeSocioeconomicstatuschildren2012,
+BoeSocioeconomicstatuschild2014,
+BoeInterplaySubjectiveObjective2019a,
+BoeCumulativeeffectsnegative2017,
+BoeEconomicvolatilitychildhood2017,
+Arntzen29recommendationscombat2019,
+BoeFinancialdifficultieschildhood2017,
+Boestrengthsdifficultiesquestionnaire2016,
+SmidMeasurementEquivalenceConvergent2018,
+BoeSosiookonomiskstatusog2015}
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
+
 - I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
 - My research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/). It was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019.  
@@ -220,13 +248,13 @@ header_includes:
 
 \newpage
 
-# PUBLICATIONS
+# LIST OF PUBLICATIONS
 
 ## PhD thesis
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1656314}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1656314}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1656314,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
@@ -234,8 +262,8 @@ header_includes:
 <!-- ## Refereed research papers (last five years) -->
 
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556}{SkogenSociodemographiccharacteristicsassociated2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1771607}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1771607}{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
@@ -275,7 +303,7 @@ KornorMaleegenskapervednorske2011,
 KornorMaleegenskapervednorske2011a,
 kornormeasurementproperties2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1771607,heading=none]\setcounter{papers}{0}
 
 \nocite{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
@@ -320,16 +348,16 @@ kornormeasurementproperties2011}
 \vskip .1 in
 
 ## Books and book chapters
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164}{BoeT.Hvabetyrdet2016}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1795597}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1795597}{BoeT.Hvabetyrdet2016}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1795597,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeT.Hvabetyrdet2016}
 
 ## Conference proceedings
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1820670}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1820670}{BoeRoadIndependenceMental2019a,
 boe2019higher,
 NilsenDivorceAdolescentMental2018,
 BoeEconomicvolatilityadolescent2016,
@@ -342,7 +370,7 @@ boesocioeconomicstatus2010,
 boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1820670,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 boe2019higher,
@@ -359,12 +387,12 @@ boesocioeconomicstatus2009}
 
 ## Reports
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874}{BoeLevekarsundersokelseAskoyFjell2017,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1846237}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1846237}{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-1846237,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
