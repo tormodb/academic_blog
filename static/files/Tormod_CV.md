@@ -55,7 +55,7 @@ header_includes:
 
 <!-- \({\large\textbf{Role in project:}}\) \(\quad\)Project manager \(\quad\) Work package leader \(\quad\) Project partner [ ]  FOR NFR FORMÅL--> 
 
-# Personal information 
+# PERSONAL INFORMATION
 <!-- make all # headers caps!  -->
 
 \begin{tabular}{llll}
@@ -67,7 +67,7 @@ header_includes:
   \end{tabular}
 
 
-# Education
+# EDUCATION
 
 \begin{tabular}{ll}
   2010--2013 & \textbf{Ph.D.}, University of Bergen, Bergen, Norway \\ 
@@ -76,13 +76,13 @@ header_includes:
   \end{tabular}
 \vskip -.1 in
 
-# Positions
+# POSITIONS
 
-## Current positions
+## Current Position
 
 \begin{tabular}{ll}
-  2018--present & \textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
-  2018--present & \textbf{Senior Researcher} (20\% position), Uni Research Health, Bergen Norway \\ 
+  2018-- & \textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
+  2018-- & \textbf{Senior Researcher} (20\% position), Uni Research Health, Bergen Norway \\ 
   \end{tabular}
 
 ## Previous positions held
@@ -92,41 +92,56 @@ header_includes:
   2014--2017 & \textbf{Post doctor} (funded by Norwegian research council), Uni Research Health, Bergen, Norway \\ 
   2016--2016 & \textbf{Associate Professor}  (20\% position), Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
   2010--2014 & \textbf{PhD student}, Uni Research Health, Bergen, Norway \\ 
-  2011--2012 & \textbf{Lecturer} (20\% position), BI Norwegian, Business School, Bergen, Norway \\ 
+  2011--2012 & \textbf{Assistant Professor} (20\% position), BI Norwegian, Business School, Bergen, Norway \\ 
   2010--2010 & \textbf{Clinical psychologist}, Biskopshavn Family Councelling, Bergen, Norway \\ 
   \end{tabular}
 
-# Fellowships, awards and prizes
+# FELLOWSHIPS, AWARDS AND PRIZES
 
 \begin{tabular}{ll}
+  2019 & Scholarship for students, Department of psychosocial science, Faculty of Psychology \\ 
+  2019 & Travel grant, L. Meltzer foundation \\ 
+  2018 & Travel grant, L. Meltzer foundation \\ 
+  2017-- & Project scholarship, (Main supervisor for Ph.D.), Extra foundation \\ 
+  2017 & Travel grant, L. Meltzer foundation \\ 
+  2017 & STEP-application grant, Uni Research \\ 
+  2013--2017 & Project scholarship (Post doctor), Norwegian Research Council \\ 
+  2011--2013 & Travel grant, L. Meltzers foundation \\ 
+  2006--2009 & Summer scholarship, Regional centre for child and youth mental health and child welfare, Uni health \\ 
+  2007      & Scholarship, University of Bergen \\ 
   2006 & Faculty medal, The University of Newcastle, Australia \\ 
   2005 & Basic Science in Psychology Prize, The University of Newcastle, Australia \\ 
   2003--2004 & Faculty Commendation List, The University of Newcastle, Australia \\ 
   2002 & Wilhelm Wundt Prize in First Year Psychology, The University of Newcastle, Australia \\ 
   \end{tabular}
 
-<!-- # Mobility -->
-
-# Project management experience
+# MOBILITY
 
 \begin{tabular}{ll}
-  2019--ongoing & New patterns - safe upringing, Researcher, Norwegian research council (NRC) \\ 
-  2014--ongoing & Linkage of youth@hordaland to national registries for education, NRC \\ 
-  2014--ongoing & Linkage of youth@hordaland to national registries for service use, NRC \\ 
-  2018--ongoing & The road to independence, Researcher, Wøyen foundation \\ 
-  2006--ongoing & Bergen Child Study/youth@hordaland studien, Researcher, NRC and others \\ 
-  2014--ongoing & EBU project, Researcher, Norwegian research council \\ 
-  2016--ongoing & Project Perfect, Researcher, Extra foundation \\ 
-  2014--2017 & Social inequalities, educational attainment and mental health (UNGSES), Leader, NRC \\ 
-  2016--2017 & Survey of living conditions in Askøy and Sotra, Leader, Municpality funded \\ 
+  2005 & Honours Thesis, University of New South Wales, Australia \\ 
+  \end{tabular}
+
+# PROJECT MANAGEMENT EXPERIENCE
+
+\begin{tabular}{ll}
+  2020-- & Longtrends, Work package leader, Funder: Norwegian research council (NRC) \\ 
+  2019-- & New patterns - safe upringing, Researcher, Funder: NRC \\ 
+  2014-- & Linkage of youth@hordaland to national registries for education, Leader, Funder: NRC \\ 
+  2014-- & Linkage of youth@hordaland to national registries for service use, Researcher, Funder: NRC \\ 
+  2018-- & The road to independence, Researcher, Funder: Wøyen foundation \\ 
+  2006-- & Bergen Child Study/youth@hordaland studien, Researcher, Funder: NRC and others \\ 
+  2014-- & EBU project, Researcher, Funder: NRC \\ 
+  2016-- & Project Perfect, Researcher, Funder: Extra foundation \\ 
+  2014--2017 & Social inequalities, educational attainment and mental health (UNGSES), Leader, Funder: NRC \\ 
+  2016--2017 & Survey of living conditions in Askøy and Sotra, Leader, Funder: Municpalities \\ 
   \end{tabular}
 
 
-# Supervision of graduate students and research fellows
+# SUPERVISION OF GRADUATE STUDENTS AND RESEARCH FELLOWS
 
 \begin{tabular}{ll}
-  2019--ongoing & PhD, Cand. psychol. A. Skandsen \\ 
-  2018--ongoing & PhD, Cand. psychol. Y. Moussavi \\ 
+  2019-- & PhD, Cand. psychol. A. Skandsen \\ 
+  2018-- & PhD, Cand. psychol. Y. Moussavi \\ 
   2017--submitted & PhD, Cand. psychol. S. Nilsen \\ 
   2020 & Masters thesis, Stud. psychol C. Lysenstøen \\ 
   2020 & Masters thesis, Stud. psychols H.A. Ostojic, H.A.S. Sørdal \& V.J.S Lie \\ 
@@ -137,12 +152,12 @@ header_includes:
   2015 & Masters thesis, Stud. psychols S., Øie  \& L.M., Aarsheim \\ 
   \end{tabular}
 
-# Teaching activities
+# TEACHING ACTIVITIES
 
 
 
 \begin{tabular}{ll}
-  Regularly & Community Psychology, Faculty of Psychology, University of Bergen \\ 
+  2018-- & Community Psychology, Faculty of Psychology, University of Bergen \\ 
   2019 & National Congress in Psychology, The Norwegian Psychology association \\ 
   2019 & National conference on growing up, The Norwegian Directorate for Children, Youth and Family Affairs \\ 
   2018 & National conference for community psychologists, National Competence Center for Mental Health \\ 
@@ -152,15 +167,23 @@ header_includes:
   2015 & Seminar on Social inequalities, Norwegian Directorate of Health \\ 
   \end{tabular}
 
-<!-- # Organisation of meetings -->
-
-# Institutional responsibilities
+# ORGANISATION OF MEETINGS
 
 \begin{tabular}{ll}
-  2019-ongoing & Revision of psychology education (Rethos), Faculty of Psychology \\ 
+  2020 & Professionally responsible, Norwegian conference on Social and Community Psychology, Norway \\ 
+  2017 & Professionally responsible, RKBU Conference, 400 participants, Norway \\ 
   \end{tabular}
 
-# Commisions of trust
+
+# INSTITUTIONAL RESPONSIBILITIES
+
+\begin{tabular}{ll}
+  2019-- & Revision of psychology education (Rethos), Faculty of Psychology \\ 
+  2017-- & PhD theses advisor \\ 
+  2015-- & Masters theses advisor \\ 
+  \end{tabular}
+
+# COMISSIONS OF TRUST
 
 \begin{tabular}{ll}
   2015--2019 & Expert panel on social inequalities of health, The Norwegian Directorate of Health \\ 
@@ -186,7 +209,7 @@ header_includes:
 
 
 
-- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 703 times, my _h_-index is 11 and my _i10_-index is 14 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 23.01.2020)_. 
+- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 705 times, my _h_-index is 11 and my _i10_-index is 14 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 26.01.2020)_. 
 <!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
 - I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health. 
 <!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
@@ -195,16 +218,15 @@ header_includes:
 - I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 6th. 2020 had been read more than 1.2 million times. 
 - Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request. 
 
-
 \newpage
 
-# Publications 
+# PUBLICATIONS
 
 ## PhD thesis
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3523451}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3523451}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3523451,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4446353,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
@@ -212,8 +234,8 @@ header_includes:
 <!-- ## Refereed research papers (last five years) -->
 
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3832354}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3832354}{SkogenSociodemographiccharacteristicsassociated2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556}{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
@@ -253,7 +275,7 @@ KornorMaleegenskapervednorske2011,
 KornorMaleegenskapervednorske2011a,
 kornormeasurementproperties2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3832354,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4566556,heading=none]\setcounter{papers}{0}
 
 \nocite{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
@@ -298,16 +320,16 @@ kornormeasurementproperties2011}
 \vskip .1 in
 
 ## Books and book chapters
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3860243}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3860243}{BoeT.Hvabetyrdet2016}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164}{BoeT.Hvabetyrdet2016}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3860243,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4600164,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeT.Hvabetyrdet2016}
 
 ## Conference proceedings
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3898748}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3898748}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538}{BoeRoadIndependenceMental2019a,
 boe2019higher,
 NilsenDivorceAdolescentMental2018,
 BoeEconomicvolatilityadolescent2016,
@@ -320,7 +342,7 @@ boesocioeconomicstatus2010,
 boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3898748,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4633538,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 boe2019higher,
@@ -337,12 +359,12 @@ boesocioeconomicstatus2009}
 
 ## Reports
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3925668}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3925668}{BoeLevekarsundersokelseAskoyFjell2017,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874}{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-3925668,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4669874,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
