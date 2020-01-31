@@ -211,10 +211,10 @@ header_includes:
 
 
 
-- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 706 times, my _h_-index is 11 and my _i10_-index is 14 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 30.01.2020)_. 
+- I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 706 times, my _h_-index is 11 and my _i10_-index is 14 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 31.01.2020)_. 
 - Selected publications: 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4137897}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4137897}{BoeSocioeconomicstatuschildren2012,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5206435}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5206435}{BoeSocioeconomicstatuschildren2012,
 BoeSocioeconomicstatuschild2014,
 BoeInterplaySubjectiveObjective2019a,
 BoeCumulativeeffectsnegative2017,
@@ -225,7 +225,7 @@ Boestrengthsdifficultiesquestionnaire2016,
 SmidMeasurementEquivalenceConvergent2018,
 BoeSosiookonomiskstatusog2015}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4137897,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5206435,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeSocioeconomicstatuschildren2012,
 BoeSocioeconomicstatuschild2014,
@@ -251,10 +251,10 @@ BoeSosiookonomiskstatusog2015}
 # LIST OF PUBLICATIONS
 
 ## PhD thesis
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4170079}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4170079}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5245030}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5245030}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4170079,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5245030,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
@@ -262,8 +262,8 @@ BoeSosiookonomiskstatusog2015}
 <!-- ## Refereed research papers (last five years) -->
 
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4312432}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4312432}{SkogenSociodemographiccharacteristicsassociated2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5487432}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5487432}{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
@@ -303,7 +303,7 @@ KornorMaleegenskapervednorske2011,
 KornorMaleegenskapervednorske2011a,
 kornormeasurementproperties2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4312432,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5487432,heading=none]\setcounter{papers}{0}
 
 \nocite{SkogenSociodemographiccharacteristicsassociated2019,
 Arntzen29recommendationscombat2019,
@@ -348,16 +348,16 @@ kornormeasurementproperties2011}
 \vskip .1 in
 
 ## Books and book chapters
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4355297}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4355297}{BoeT.Hvabetyrdet2016}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5517753}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5517753}{BoeT.Hvabetyrdet2016}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4355297,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5517753,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeT.Hvabetyrdet2016}
 
 ## Conference proceedings
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4423265}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4423265}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5548530}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5548530}{BoeRoadIndependenceMental2019a,
 boe2019higher,
 NilsenDivorceAdolescentMental2018,
 BoeEconomicvolatilityadolescent2016,
@@ -370,7 +370,7 @@ boesocioeconomicstatus2010,
 boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4423265,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5548530,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 boe2019higher,
@@ -387,12 +387,12 @@ boesocioeconomicstatus2009}
 
 ## Reports
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4459266}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4459266}{BoeLevekarsundersokelseAskoyFjell2017,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5576329}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5576329}{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4459266,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5576329,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
