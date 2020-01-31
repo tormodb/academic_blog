@@ -140,7 +140,7 @@ tribble(
   # "2018--", "\\textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway",
   # "2018--", "\\textbf{Senior Researcher} (20\\% position), Uni Research Health, Bergen Norway",
   "2014--2018",    "\\textbf{Senior Researcher}, Uni Research Health, Bergen, Norway",
-  "2014--2017",    "\\textbf{Post doctor} (funded by Norwegian research council), Uni Research Health, Bergen, Norway",
+  "2014--2017",    "\\textbf{Post doctor} (funded by Norwegian Research Council), Uni Research Health, Bergen, Norway",
   "2016--2016",    "\\textbf{Associate Professor}  (20\\% position), Faculty of Psychology, University of Bergen, Bergen, Norway",
   "2010--2014",    "\\textbf{PhD student}, Uni Research Health, Bergen, Norway",
   "2011--2012",    "\\textbf{Assistant Professor} (20\\% position), BI Norwegian, Business School, Bergen, Norway",
