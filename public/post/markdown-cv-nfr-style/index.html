@@ -684,18 +684,22 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="lag-din-cv-tilpasset-norges-forskningsrds-maler---i-r">Lag din CV tilpasset Norges Forskningsråds maler - i R!</h1>
-<p>I denne posten vil jeg vise hvordan jeg laget min CV i R, tilpasset <a href="https://www.forskningsradet.no/siteassets/utlysninger/vedlegg-utlysninger/cv-template-researchers.docx">malen til Norges Forskningsråd</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Ved å bruke R kan deler av CV-oppdateringen automatiseres, og følgende funksjoner er tilgjengelig i denne malen:</p>
+      
+
+
+<div id="lag-din-cv-tilpasset-norges-forskningsråds-maler---i-r" class="section level1">
+<h1>Lag din CV tilpasset Norges Forskningsråds maler - i R!</h1>
+<p>I denne posten vil jeg vise hvordan jeg laget min CV i R, tilpasset <a href="https://www.forskningsradet.no/siteassets/utlysninger/vedlegg-utlysninger/cv-template-researchers.docx">malen til Norges Forskningsråd</a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Ved å bruke R kan deler av CV-oppdateringen automatiseres, og følgende funksjoner er tilgjengelig i denne malen:</p>
 <ul>
 <li>Antall publikasjoner, antall første- og sisteforfatterskap, antall siteringer, <em>h</em>-indeks og <em>i10</em>-indeks hentes automatisk fra Google Scholar (dersom du har profil).</li>
 <li>Antall inviterte foredrag og antall deltagere for en gitt periode kan fylles ut automatisk ved kobling til oversikt i en ekstern Excel fil.</li>
 <li>Oversikt over publikasjoner, fordelt på kategori vil kunne hentes fra referanseverktøy (som støtter BibTeX formatet)</li>
 <li>Publikasjoner som skal inkluderes i <em>Track record</em> vil kunne markeres i referanseverktøyet, og settes inn automatisk.</li>
 </ul>
-<h2 id="du-vil-trenge-flgende-programvare-installert-p-din-maskin">Du vil trenge følgende programvare installert på din maskin:</h2>
+<div id="du-vil-trenge-følgende-programvare-installert-på-din-maskin" class="section level2">
+<h2>Du vil trenge følgende programvare installert på din maskin:</h2>
 <ul>
-<li>
-<p><a href="https://www.r-project.org/">R</a>, med følgende bibliotek<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:</p>
+<li><p><a href="https://www.r-project.org/">R</a>, med følgende bibliotek<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
 <ul>
 <li><code>library(tidyverse)</code></li>
 <li><code>library(vitae)</code></li>
@@ -703,16 +707,11 @@
 <li><code>library(readxl)</code></li>
 <li><code>library(dplyr)</code></li>
 <li><code>library(RefManageR)</code></li>
-</ul>
-</li>
+</ul></li>
 </ul>
 <ul>
-<li>
-<p><a href="https://rstudio.com/">RStudio</a> (anbefales på det sterkeste)</p>
-</li>
-<li>
-<p>Referanseverktøy som søtter BibTeX eksport, jeg anbefaler <a href="https://www.zotero.org/">Zotero</a>, og for automatisk oppdatert bibtex export trenger du også <a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX</a></p>
-</li>
+<li><p><a href="https://rstudio.com/">RStudio</a> (anbefales på det sterkeste)</p></li>
+<li><p>Referanseverktøy som søtter BibTeX eksport, jeg anbefaler <a href="https://www.zotero.org/">Zotero</a>, og for automatisk oppdatert bibtex export trenger du også <a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX</a></p></li>
 </ul>
 <p>I tillegg trenger du følgende filer:</p>
 <ul>
@@ -722,76 +721,80 @@
 <li><code>et Excel-ark</code> (som inneholder undervisnings- og formidlingserfaring)</li>
 </ul>
 <p>Alle disse filene kan du laste ned fra <a href="https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr">mitt github repositorie</a>, men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under.</p>
-<h2 id="frste-steg---test-programmene">Første steg - Test programmene</h2>
+</div>
+<div id="første-steg---test-programmene" class="section level2">
+<h2>Første steg - Test programmene</h2>
 <p>Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen <code>cv-word.Rmd</code> i RStudio og trykker <code>Knit -&gt; Knit to Word</code> skal du få et Word dokument som ser ut som filen <a href="https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr/cv-word_static.docx"><code>cv-word_static.docx</code></a>, som illustrert under.</p>
 <table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td align="center"><img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img.png" width="250" /></td>
 <td align="center"><img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img2.png" width="250" /></td>
 <td align="center"><img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img3.png" width="250" /></td>
 </tr>
 </tbody>
 </table>
-<h2 id="andre-steg---koble-til-din-egen-google-scholar-profil">Andre steg - Koble til din egen Google Scholar profil</h2>
-<p>Du vil trenge din profil-id fra Google Scholar. Denne finner du innebygget i  lenken til din Google Scholar profil. Lenken til <a href="https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&amp;hl=en">min profilside</a> er <code>https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&amp;hl=en</code>, og min profil-id er da strengen  <code>TMC38ZgAAAAJ&amp;hl</code> som du finner mot slutten av lenken mellom <code>user=</code> og <code>=en</code>. Tilkoblingen til Google Scholar brukes for å hente ut totalt antall siteringer, <em>h</em>-indeks og <em>i10</em>-indeks<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+</div>
+<div id="andre-steg---koble-til-din-egen-google-scholar-profil" class="section level2">
+<h2>Andre steg - Koble til din egen Google Scholar profil</h2>
+<p>Du vil trenge din profil-id fra Google Scholar. Denne finner du innebygget i lenken til din Google Scholar profil. Lenken til <a href="https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&amp;hl=en">min profilside</a> er <code>https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&amp;hl=en</code>, og min profil-id er da strengen <code>TMC38ZgAAAAJ&amp;hl</code> som du finner mot slutten av lenken mellom <code>user=</code> og <code>=en</code>. Tilkoblingen til Google Scholar brukes for å hente ut totalt antall siteringer, <em>h</em>-indeks og <em>i10</em>-indeks<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
 <p>Informasjon om profil legges inn i linje 20 i <code>cv-word.Rmd</code>-filen:</p>
 <pre><code># Personalization for Google Scholar
-id &lt;- 'TMC38ZgAAAAJ' # Google Scholar ID.
-</code></pre>
-<h2 id="tredje-steg---legg-til-formidling">Tredje steg - Legg til formidling</h2>
+id &lt;- &#39;TMC38ZgAAAAJ&#39; # Google Scholar ID.</code></pre>
+</div>
+<div id="tredje-steg---legg-til-formidling" class="section level2">
+<h2>Tredje steg - Legg til formidling</h2>
 <p>Jeg dokumenter min formidlings- og foredragsvirksomhet i et regneark. I arket fører jeg opp år, måned, tittel, arrangement, arrangør og antall deltagere. Hvis du følger samme malen som i regnearket du lastet ned vil formidlingsaktiviteten med periode (fra første til siste årstall), antall arrangement og antall deltagere inkluderes i CVen. Excelarket kan også være utgangspunkt for en full oversikt over formidlingsaktiviteter, se for eksempel <a href="https://tormodteaching.netlify.com/vedlegg.html#appendd">min pedagogiske portefølje</a>.</p>
-<h2 id="fjerde-steg---publikasjonsliste">Fjerde steg - Publikasjonsliste</h2>
+</div>
+<div id="fjerde-steg---publikasjonsliste" class="section level2">
+<h2>Fjerde steg - Publikasjonsliste</h2>
 <p>Jeg anbefaler jeg deg å ha dine egne akademiske publikasjoner i et referansehåndteringsverktøy, som for andre referanser du bruker i ditt arbeid. Jeg bruker <a href="https://www.zotero.org/">Zotero</a>. Det finnes valg for å legge inn de <a href="https://www.zotero.org/support/kb/item_types_and_fields">fleste typer akademiske referanser</a>, artikler, bøker og kapitler, konferansebidrag, intervjuer osv.</p>
-<h3 id="for-deg-som-bruker-zotero-eller-vurderer--gjre-det">For deg som bruker Zotero (eller vurderer å gjøre det)</h3>
+<div id="for-deg-som-bruker-zotero-eller-vurderer-å-gjøre-det" class="section level3">
+<h3>For deg som bruker Zotero (eller vurderer å gjøre det)</h3>
 <p>Du kan enkelt hente ut en <a href="https://www.ndsu.edu/fileadmin/digitalmeasures/DM_Training_Materials/BibTex_Exports_from_Google_Scholar.pdf">BibTeX-fil med dine publikasjoner fra Google Scholar</a>. Scholar har fokus på artikler i tidsskrift, så det er veldig mange andre former for akademiske publikasjoner som ikke blir indeksert her. De som ikke finnes i Google Scholar må du legge til manuelt, men om du gjør det i et referansehåndteringsverktøy slipper du å gjøre denne jobben mange ganger, kun oppdatere og legge til nye publikasjoner, konferansepresentasjoner, etc.</p>
-<ol>
+<ol style="list-style-type: decimal">
 <li>Eksporter en <code>.bib</code> fil med dine referanser fra Google Scholar</li>
 <li>Importer denne til Zotero</li>
 <li>Lag en undersamling i Zotero med dine egne referanser</li>
 <li>Bruk Better BibTeX for å eksportere denne til en fil i BibTeX-format, velg et filnavn som er forståelig, og velg å eksportere til mappen hvor du planlegger å ha de andre filene til din CV.</li>
 </ol>
-<h4 id="better-bibtex">Better BibTeX</h4>
-<p><a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX</a> er en plug-in til Zotero som automatisk eksporterer (og holder oppdatert) et bibliotek fra Zotero til BibTeX formatet. Du kan da lage en undersamling i Zotero som inneholder dine egne publikasjoner, og når du legger til nye referanser i denne samlingen vil de da også eksporteres til en oppdatert BibTeX fil, og med systemet som beskrives her vil den da også legges til i din CV<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. Fordelen fremfor f.eks. Endnote og Mendeley (som også kan eksportere til BibTeX) er at med Zotero og Better BibTeX vil filen holdes oppdatert autmatisk, og, ikke minst, BibTeX koden er korrekt (Mendeley gjør en dårlig jobb med å eksportere til BibTeX).</p>
-<h2 id="femte-steg---utvalgte-publikasjoner-i--track-record-">Femte steg - Utvalgte publikasjoner i <em>Track Record</em></h2>
+<div id="better-bibtex" class="section level4">
+<h4>Better BibTeX</h4>
+<p><a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX</a> er en plug-in til Zotero som automatisk eksporterer (og holder oppdatert) et bibliotek fra Zotero til BibTeX formatet. Du kan da lage en undersamling i Zotero som inneholder dine egne publikasjoner, og når du legger til nye referanser i denne samlingen vil de da også eksporteres til en oppdatert BibTeX fil, og med systemet som beskrives her vil den da også legges til i din CV<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Fordelen fremfor f.eks. Endnote og Mendeley (som også kan eksportere til BibTeX) er at med Zotero og Better BibTeX vil filen holdes oppdatert autmatisk, og, ikke minst, BibTeX koden er korrekt (Mendeley gjør en dårlig jobb med å eksportere til BibTeX).</p>
+</div>
+</div>
+</div>
+<div id="femte-steg---utvalgte-publikasjoner-i-track-record" class="section level2">
+<h2>Femte steg - Utvalgte publikasjoner i <em>Track Record</em></h2>
 <p>Målet ditt her er å legge til informasjon i referansebiblioteket ditt som gjør det mulig å filtrere ut de (inntil) 10 publikasjonene som du ønsker å fremheve i din <em>Track Record</em>. Jeg synes det er enklest å bruke BibTeX/feltet <code>ids</code> til dette. Her gir du publikasjonene dine nummer fra 1-10, og det enkleste er om du gir verdi etter rekkefølgen du ønsker at publikasjonene skal vises på CVen; 1 til den du vil vise først i listen, 2 til den neste, osv. til 10 som blir den siste.</p>
-<h3 id="for-deg-som-bruker-zotero-eller-vurderer--gjre-det-1">For deg som bruker Zotero eller vurderer å gjøre det</h3>
-<p>Feltet <code>ids</code> er ikke skrivbart fra Zotero. Metoden jeg bruker er å benytte &ldquo;Ekstra&rdquo; feltet som er nederst i informasjon om referansen i Info vinduet i Zotero. Der kan du sette inn følgende tekst <code>Citation Key Alias: 1...10</code> for eksempel <code>Citation Key Alias: 3</code> for referansen du ønsker skal være nummer tre av ti i din <em>Track Record</em>. Når du eksporterer med Better BibTeX blir dette nummeret lagt til i feltet <code>ids</code>.</p>
-<h3 id="manuell-metode-for-deg-som-ikke-bruker-zotero">Manuell metode for deg som ikke bruker Zotero</h3>
+<div id="for-deg-som-bruker-zotero-eller-vurderer-å-gjøre-det-1" class="section level3">
+<h3>For deg som bruker Zotero eller vurderer å gjøre det</h3>
+<p>Feltet <code>ids</code> er ikke skrivbart fra Zotero. Metoden jeg bruker er å benytte “Ekstra” feltet som er nederst i informasjon om referansen i Info vinduet i Zotero. Der kan du sette inn følgende tekst <code>Citation Key Alias: 1...10</code> for eksempel <code>Citation Key Alias: 3</code> for referansen du ønsker skal være nummer tre av ti i din <em>Track Record</em>. Når du eksporterer med Better BibTeX blir dette nummeret lagt til i feltet <code>ids</code>.</p>
+</div>
+<div id="manuell-metode-for-deg-som-ikke-bruker-zotero" class="section level3">
+<h3>Manuell metode for deg som ikke bruker Zotero</h3>
 <p>En enkelt referanse i .bib-filen din ser f.eks. slik ut:</p>
-<p><code>@article{BoeInterplaySubjectiveObjective2019a,</code><br>
-<code>ids = {3},</code>  &lt;- Dette feltet må legges til.<br>
-<code>title = {Interplay of {{Subjective}} and {{Objective Economic Well}}-{{Being}} on the</code>   <code>{{Mental Health}} of {{Norwegian Adolescents}}},</code><br>
-<code>author = {Bøe, Tormod and Petrie, Keith J and Sivertsen, Børge and Hysing, Mari},</code><br>
-<code>date = {2019},</code><br>
-<code>journaltitle = {SSM - Popul. Health},</code><br>
-<code>doi = {10.1016/j.ssmph.2019.100471}</code><br>
+<p><code>@article{BoeInterplaySubjectiveObjective2019a,</code><br />
+<code>ids = {3},</code> &lt;- Dette feltet må legges til.<br />
+<code>title = {Interplay of {{Subjective}} and {{Objective Economic Well}}-{{Being}} on the</code> <code>{{Mental Health}} of {{Norwegian Adolescents}}},</code><br />
+<code>author = {Bøe, Tormod and Petrie, Keith J and Sivertsen, Børge and Hysing, Mari},</code><br />
+<code>date = {2019},</code><br />
+<code>journaltitle = {SSM - Popul. Health},</code><br />
+<code>doi = {10.1016/j.ssmph.2019.100471}</code><br />
 <code>}</code></p>
 <p>Legg merke til feltet <code>ids={3}</code> på andre linje over. Dette betyr at denne referansen vil komme som tredje artikkel på listen i din <em>Track Record</em>. I .bib-filen din må du altså sette inn <code>ids={1...10},</code> for de referansene du ønsker å inkludere. Husk også kommaet etter siste krøllparentes!</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>Du er selv ansvarlig for at CV som skal leveres ved søknader følger malen til Norges Forskningsråd. Oppsettet jeg viser her lager en CV som er basert på &ldquo;CV-mal for forskere/CV template researchers (docx)&rdquo; datert 25.06.2019. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2" role="doc-endnote">
-<p>Dette kan gjøres med R-kommandoen: <code>install.packages(c(&quot;tidyverse&quot;, &quot;vitae&quot;, &quot;flextable&quot;, &quot;readxl&quot;, &quot;dplyr&quot;, &quot;RefManageR&quot;), dep = T)</code>. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3" role="doc-endnote">
-<p>Det fantes før en funksjon som lot deg ta bort selv-siteringen, men dette er ikke lenger like enkelt. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4" role="doc-endnote">
-<p>Se &ldquo;Femte steg&rdquo; hvis du ønsker at nye publikasjoner skal inngå i din <em>Track Record</em>. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<li id="fn1"><p>Du er selv ansvarlig for at CV som skal leveres ved søknader følger malen til Norges Forskningsråd. Oppsettet jeg viser her lager en CV som er basert på “CV-mal for forskere/CV template researchers (docx)” datert 25.06.2019.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Dette kan gjøres med R-kommandoen: <code>install.packages(c("tidyverse", "vitae", "flextable", "readxl", "dplyr", "RefManageR"), dep = T)</code>.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Det fantes før en funksjon som lot deg ta bort selv-siteringen, men dette er ikke lenger like enkelt.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Se “Femte steg” hvis du ønsker at nye publikasjoner skal inngå i din <em>Track Record</em>.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
-</section>
+</div>
 
     </div>
 
