@@ -10,17 +10,8 @@ categories:
 tags:
   - CV
   - NFR
-subtitle: ''
-summary: ''
-authors: []
-lastmod: '2020-01-01T19:50:10+01:00'
 featured: no
 draft: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
 ---
 
 # Lag din CV tilpasset Norges Forskningsråds maler - i R!
