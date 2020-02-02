@@ -336,7 +336,7 @@ tribble(
 <!-- 8.	Experiences from major research communication, dissemination or outreach activities and/or invited presentations in public conferences (if applicable). -->
 
 ```{r, echo=FALSE}
-library(RefManageR)
+# library(RefManageR)
 first_lastauthor <- bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
   filter(bibtype == "Article") %>% 
   select(author) %>% 
@@ -380,7 +380,7 @@ bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
 
 ## PhD thesis
 ```{r thesis}
-library(RefManageR)
+# library(RefManageR)
 bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib") %>%
   filter(bibtype == "Thesis")
 ```

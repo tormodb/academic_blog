@@ -53,11 +53,11 @@
 &lt;li&gt;&lt;code&gt;en BibTeX-fil&lt;/code&gt; (med dine egne referanser)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;et Excel-ark&lt;/code&gt; (som inneholder undervisnings- og formidlingserfaring)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Alle disse filene kan du laste ned fra &lt;a href=&#34;https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr&#34;&gt;mitt github repositorie&lt;/a&gt;, men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under.&lt;/p&gt;
+&lt;p&gt;Alle disse filene kan du laste ned fra &lt;a href=&#34;https://github.com/tormodb/academic_blog/tree/master/static/&#34;&gt;mitt github repositorie&lt;/a&gt;, men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;første-steg---test-programmene&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Første steg - Test programmene&lt;/h2&gt;
-&lt;p&gt;Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen &lt;code&gt;cv-word.Rmd&lt;/code&gt; i RStudio og trykker &lt;code&gt;Knit -&amp;gt; Knit to Word&lt;/code&gt; skal du få et Word dokument som ser ut som filen &lt;a href=&#34;https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr/cv-word_static.docx&#34;&gt;&lt;code&gt;cv-word_static.docx&lt;/code&gt;&lt;/a&gt;, som illustrert under.&lt;/p&gt;
+&lt;p&gt;Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen &lt;code&gt;cv-word.Rmd&lt;/code&gt; i RStudio og trykker &lt;code&gt;Knit -&amp;gt; Knit to Word&lt;/code&gt; skal du få et Word dokument som ser ut som filen &lt;a href=&#34;https://github.com/tormodb/academic_blog/tree/master/static/cv-word_static.docx&#34;&gt;&lt;code&gt;cv-word_static.docx&lt;/code&gt;&lt;/a&gt;, som illustrert under.&lt;/p&gt;
 &lt;table&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;

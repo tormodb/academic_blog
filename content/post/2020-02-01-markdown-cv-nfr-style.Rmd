@@ -49,11 +49,11 @@ I tillegg trenger du følgende filer:
 - `en BibTeX-fil` (med dine egne referanser)
 - `et Excel-ark` (som inneholder undervisnings- og formidlingserfaring)
 
-Alle disse filene kan du laste ned fra [mitt github repositorie](https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr), men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under. 
+Alle disse filene kan du laste ned fra [mitt github repositorie](https://github.com/tormodb/academic_blog/tree/master/static/), men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under. 
 
 ## Første steg - Test programmene
 
-Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen `cv-word.Rmd` i RStudio og trykker `Knit -> Knit to Word` skal du få et Word dokument som ser ut som filen [`cv-word_static.docx`](https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr/cv-word_static.docx), som illustrert under. 
+Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen `cv-word.Rmd` i RStudio og trykker `Knit -> Knit to Word` skal du få et Word dokument som ser ut som filen [`cv-word_static.docx`](https://github.com/tormodb/academic_blog/tree/master/static/cv-word_static.docx), som illustrert under. 
 
 |   |   |  |
 |:--:|:--:|:--:|

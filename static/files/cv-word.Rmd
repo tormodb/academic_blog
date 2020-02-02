@@ -1,8 +1,9 @@
 ---
-title: Curriculum vitae with track record
+title: "Curriculum vitae with track record"
 output:
   word_document:
-    reference_docx: "cv-nfr_style.docx"
+    reference_docx: cv-nfr_style.docx
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
