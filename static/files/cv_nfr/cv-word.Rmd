@@ -1,0 +1,503 @@
+---
+title: Curriculum vitae with track record
+output:
+  word_document:
+    reference_docx: "cv-nfr_style.docx"
+---
+
+```{r setup, include=FALSE}
+# Packages and options
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(vitae)
+library(flextable)
+library(readxl)
+library(dplyr)
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric", cite.style = 'alphabetic', sorting = "none", no.print.fields = c("issn", "pages"))
+
+# Personalization for Google Scholar
+id <- 'TMC38ZgAAAAJ' # Google Scholar ID.
+tb <- scholar::get_profile(id)
+p <- scholar::get_publications(id)
+```
+
+<!-- FOR NFR FORMÅL -->
+[* ROLE IN THE PROJECT]{custom-style="BigFont"}   Project manager  []    Work package leader  []    Project partner  []
+
+# * PERSONAL INFORMATION
+
+```{r ft.align="left"}
+pinf <- tribble(
+  ~Col1, ~Col2, ~Col3, ~Col4,
+  "*Family name, First name:", "Bøe, Tormod", "", "", 
+  "*Date of birth:",           "07.09.1978", "*Sex:", "Male",
+  "*Nationality:",             "Norwegian", "", "",
+  "Researcher unique identifier(s)\n(ORCID, ResearcherID, etc.):", "0000-0002-0968-7537", "", "",
+  "URL for personal website:", "https://tormodboe.netlify.com", "", "") 
+
+pinf <- flextable(pinf)
+pinf <- theme_box(pinf)
+
+pinf %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  merge_at(i = 1, j = 2:4) %>%
+  merge_at(i = 3, j = 2:4) %>% 
+  merge_at(i = 4, j = 2:4) %>% 
+  merge_at(i = 5, j = 2:4) %>% 
+  width(j = 1, width = 2.2) %>% 
+  width(j = 2, width = 3.2) %>% 
+  height(i = 4, height = .5) 
+
+```
+
+# * EDUCATION
+
+```{r employment, results = 'asis'}
+edu <- tribble(
+  ~Year, ~Institution,
+  "", "Name of faculty/department, name of university/institution, country",
+  "2010-2013", "Ph.D., University of Bergen, Bergen, Norway",
+  "2005-2010", "Cand. Psychol, University of Bergen, Bergen, Norway",
+  "2001-2005", "B.Psych. (Hons), University of Newcastle, Newcastle, Australia")
+
+edu <- flextable(edu)
+edu <- theme_box(edu)
+
+edu %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+# * POSITIONS
+
+## Current Position
+
+```{r work, results='asis'}
+library(tibble)
+curpos <- tribble(
+  ~ Year, ~ Institution,
+  "", "Job title/name of employer/country",
+  "2018-", "Associate Professor, Faculty of Psychology, University of Bergen, Norway",
+  "2018-", "Senior Researcher (20% position), Uni Research Health, Bergen, Norway"
+  )
+
+curpos <- flextable(curpos)
+curpos <- theme_box(curpos)
+
+curpos %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+  
+```
+
+## Previous positions held
+
+```{r prev_work, results='asis'}
+prevpos <- tribble(
+  ~ Year, ~ Institution,
+  "",             "Job title/name of employer/country",
+  "2014-2018",    "Senior Researcher, Uni Research Health, Bergen, Norway",
+  "2014-2017",    "Post doctor (funded by Norwegian Research Council), Uni Research Health, Bergen, Norway",
+  "2016-2016",    "Associate Professor (20% position), Faculty of Psychology, University of Bergen, Norway",
+  "2010-2014",    "PhD student, Uni Research Health, Bergen, Norway",
+  "2011-2012",    "Assistant Professor (20% position), BI Norwegian, Business School, Bergen, Norway",
+  "2010-2010",    "Clinical psychologist, Biskopshavn Family Councelling, Bergen, Norway"
+  )
+
+prevpos <- flextable(prevpos)
+prevpos <- theme_box(prevpos)
+
+prevpos %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+  
+```
+
+# FELLOWSHIPS, AWARDS AND PRIZES
+
+```{r awards, results='asis'}
+fap <- tribble(
+  ~ Year, ~ Institution,
+  "",        "Name of institution/country",
+"2020-2026", "Norwegian Research Council, project funding (Work package leader)" ,
+"2019-2021", "Norwegian Research Council, project funding (Collaborator)" ,
+"2019",      "Department of psychosocial science, Faculty of Psychology (Scholarship for students)" ,
+"2017-2020", "Extra foundation, project funding (Funding for Ph.D.) ",
+"2017",      "Uni Research (STEP-application grant for internal collaboration projects)" ,
+"2013-2017", "Norwegian Research Council, project scholarship (Post doctor), " ,
+"2011-2019", "L. Meltzer foundation (Travel grant)" ,
+"2006-2009", "Uni Research Health, Bergen, Norway (Scholarship)" ,
+"2007",      "University of Bergen (Scholarship)" ,
+"2006",      "The University of Newcastle, Australia (Faculty medal)" , 
+"2005",      "The University of Newcastle, Australia (Basic Science in Psychology Prize)" , 
+"2003-2004", "The University of Newcastle, Australia (Faculty Commendation List)" , 
+"2002", 	   "The University of Newcastle, Australia (Wilhelm Wundt Prize in First Year Psychology)"
+) 
+
+fap <- flextable(fap)
+fap <- theme_box(fap)
+
+fap %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+
+```
+
+# MOBILITY
+
+<!-- ## Research stays abroad lasting more than three months  -->
+```{r mobility, results='asis'}
+mob <- tribble(
+  ~ Year, ~ Institution, 
+  "",      "Name of faculty/department/centre, name of university/institution/country",
+   "2005", "Honours Thesis, University of New South Wales, Australia"
+ ) 
+
+mob <- flextable(mob)
+mob <- theme_box(mob)
+
+mob %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+# PROJECT MANAGEMENT EXPERIENCE
+
+<!-- ## Projects funded by Research Council of Norway, international research programmes, private or public organisations -->
+```{r project, results='asis'}
+proj <- tribble(
+  ~ Year, ~ Institution, 
+  "",          "Project and role, funding from",
+  "2020-",     "Longtrends, Work package leader, Funder: Norwegian research council (NRC)",
+  "2019-",     "New patterns - safe upringing, Researcher, Funder: NRC",
+  "2014-",     "Linkage of youth@hordaland to national registries for education, Leader, Funder: NRC",
+  "2014-",     "Linkage of youth@hordaland to national patient registry, Researcher, Funder: NRC",
+  "2018-",     "The road to independence, Researcher, Funder: Wøyen foundation",
+  "2006-",     "Bergen Child Study/youth@hordaland studien, Researcher, Funder: NRC and others",
+  "2014-",     "EBU project, Researcher, Funder: NRC",
+  "2016-",     "Project Perfect, Researcher, Funder: Extra foundation",
+  "2014-2017", "Social inequalities, educational attainment and mental health (UNGSES), Leader, Funder: NRC",
+  "2016-2017", "Survey of living conditions in Askøy and Sotra, Leader, Funder: Municpalities",
+) 
+
+proj <- flextable(proj)
+proj <- theme_box(proj)
+
+proj %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+# SUPERVISION OF GRADUATE STUDENTS AND RESEARCH FELLOWS
+
+```{r supervision, results='asis'}
+####### FOR ALTERNATIVE/OLD TEMPLATE ######
+# sup <- tribble(~ Year, ~ Institution,
+#                "", "", 
+# "2019-",   "PhD, Cand. psychol. A. Skandsen",
+# "2018-",   "PhD, Cand. psychol. Y. Moussavi",
+# "2017-submitted", "PhD, Cand. psychol. S. Nilsen",
+# "2020",            "Masters thesis, Stud. psychol C. Lysenstøen",
+# "2020",            "Masters thesis, Stud. psychols H.A. Ostojic, H.A.S. Sørdal & V.J.S Lie",
+# "2020",            "Masters thesis, Stud. psychols I.A. Nordbøe, & K. Gjone",
+# "2018",            "Masters thesis, G.R. Skjønberg, & T. Digervold",
+# "2016" ,           "Masters thesis, Stud. psychols K. Bush, M. Hugaas & I.B. Grødem",
+# "2016" ,           "Masters thesis, Stud. psychol S. Nilsen",
+# "2015" ,           "Masters thesis, Stud. psychols S., Øie  & L.M., Aarsheim"
+# )
+
+sup <- tribble(~ Year, ~number, ~level, ~ Institution,
+"", "No. of", "Master’s students/ Ph.D./Postdocs", "Name of faculty/department/centre, name of university/institution/country",
+"2017-",   "3", "PhD", "Faculty of Psychology, University of Bergen, Norway",
+"2015-",   "14", "Master", "Faculty of Psychology, University of Bergen, Norway",
+)
+
+sup <- flextable(sup)
+sup <- theme_box(sup)
+
+sup %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = .8) %>% 
+  width(j = 3, width = 1.1) %>% 
+  width(j = 4, width = 3.9) %>% 
+  height(i = 1, height = .7) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+# TEACHING ACTIVITIES
+
+```{r confpres, results='asis'}
+teach <- tribble(
+  ~ Year, ~ Institution,
+  "",       "",
+  "2018-",  "Community Psychology, Faculty of Psychology, University of Bergen", 
+  "2019",   "National Congress in Psychology, The Norwegian Psychology association" ,
+  "2019",   "National conference on growing up, The Norwegian Directorate for Children, Youth and Family Affairs" ,
+  "2018",   "National conference for community psychologists, National Competence Center for Mental Health" , 
+  "2018",   "SLT conference, Ministry of Justice and Public Security" , 
+  "2017",   "The Schizoprenia Days, Stavanger University Hospital" , 
+  "2017", 	"12. Nordic Public Health conference, Danish Health Authority",
+  "2015", 	"Seminar on Social inequalities, Norwegian Directorate of Health", 
+) 
+
+teach <- flextable(teach)
+teach <- theme_box(teach)
+
+teach %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+# ORGANISATION OF MEETINGS
+
+```{r scimeetings, results='asis'}
+meet <- tribble(
+  ~ Year, ~Institution,
+  "",     "Role and name of event/number of participants/country",
+  "2020", "Professionally responsible, Norwegian conference on Social and Community Psychology", 
+  "2017", "Professionally responsible, RKBU Conference, 400 participants, Norway"
+) 
+
+meet <- flextable(meet)
+meet <- theme_box(meet)
+
+meet %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+
+# INSTITUTIONAL RESPONSIBILITIES
+
+<!-- ## Member of a committee/graduate student advisor etc.  -->
+
+```{r institu, results='asis'}
+instres <- tribble(
+  ~ Year, ~Institution,
+"2019-", "Revision of psychology education (Rethos), Faculty of Psychology" ,
+"2017-", "PhD theses advisor",
+"2015-", "Masters theses advisor" 
+) 
+
+instres <- flextable(instres)
+instres <- theme_box(instres)
+
+instres %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+
+```
+
+# COMISSIONS OF TRUST
+
+<!-- ## Scientific advisory board/review board/review panel member/editorial board/scientific advisory board/reviewer/scientific evaluation/etc.  -->
+
+```{r trust, results='asis'}
+trust <- tribble(
+  ~ Year, ~ Institution,
+  "",           "Name of university/institution/country – and role",
+  "2015-2019",  "Expert panel on social inequalities of health, The Norwegian Directorate of Health" ,
+  "2017",       "Review panel member, The Netherlands Organisation for Heath Research and Develeopment" 
+) 
+
+trust <- flextable(trust)
+trust <- theme_box(trust)
+
+trust %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 1.2) %>% 
+  width(j = 2, width = 5.8) %>% 
+  bg(i = 1, j = 1, "#f2f2f2")
+```
+
+<!-- # Membership of academies/scientific societies -->
+<!-- \vskip -.15 in -->
+
+# Major collaborations
+
+```{r}
+collab <- tribble(
+  ~ Where, ~ Institution,
+  "Name of university/ institution/ faculty/ department/ centre, company/ governmental or non-governmental organisation", "Topic",
+  "NORCE Norwegian research centre",  "Bergen Child study, Social inequalities" ,
+  "Norwegian Institute of Public Health", "Social inequalities, psychometrics",
+  "University of Auckland", "Health psychology, economic inequalities",
+  "University of Oslo", "Social inequalities in mental health",
+  "University of Aberdeen", "Poverty, mental health, interventions",
+)
+
+collab <- flextable(collab)
+collab <- theme_box(collab)
+
+collab %>% align(align="left", part="all") %>% 
+  align(align="left", part="all")  %>% 
+  align_text_col(align = "left") %>% 
+  font(fontname = "Calibri") %>% 
+  delete_part(part = "header") %>% 
+  width(j = 1, width = 4) %>% 
+  width(j = 2, width = 3) %>% 
+  height(i = 1, height = .7)
+```
+
+
+### Track record
+
+<!-- 1.	The total number of publications during the career. -->
+<!-- 2.	A list of up to ten publications in major national or international peer-reviewed multidisciplinary scientific journals and/or in the leading national or international peer-reviewed journals, peer-reviewed conferences proceedings and/or monographs of their respective research fields. Indicate, if possible, the number of citations (excluding self- citations). -->
+<!-- 3.	Research monographs and any translations thereof (if applicable).  -->
+<!-- 4.	Granted patent(s) (if applicable). -->
+<!-- 5.	Examples of leadership/participation in industrial or public innovation or design and/or highlights from research or innovation with societal impact (if applicable). -->
+<!-- 6.	Leadership of field work or research expeditions (if applicable).	 -->
+<!-- 7.	Invited presentations to peer-reviewed national or international conferences and/or international advanced schools (if applicable). -->
+<!-- 8.	Experiences from major research communication, dissemination or outreach activities and/or invited presentations in public conferences (if applicable). -->
+
+```{r, echo=FALSE, message=F, warning=F}
+# For automatically updating the track record
+## Authorships
+first_lastauthor <- bibliography_entries("pubs_zot.bib") %>% # Change to file containing your own references!
+  filter(bibtype == "Article") %>% 
+  select(author) %>% 
+  as.data.frame(.)
+
+auth_split <- separate(first_lastauthor, col = "author", into=c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), sep = "and", remove = FALSE, fill = "right")
+auth_split2 <- auth_split[2:11]
+
+lastValue <- function(x)   tail(x[!is.na(x)], 1)
+firstValue <- function(x)   head(x[!is.na(x)], 1)
+
+firstauthor <- as.data.frame(apply(auth_split2, 1, firstValue))
+colnames(firstauthor) <- "first"
+lastauthor <- as.data.frame(apply(auth_split, 1, lastValue))
+colnames(lastauthor) <- "last"
+
+n_firstauthor <- firstauthor %>% dplyr::filter(stringr::str_detect(first, "Bøe")) %>% count() # Replace Bøe with own surname.
+n_lastauthor <- lastauthor %>% dplyr::filter(stringr::str_detect(last, "Bøe")) %>% count()    # Replace Bøe with own surname.
+
+## Dissemination
+formidling <- read_excel("Formidling.xlsx", sheet = "Ark2") # Change to file with own dissemination activities.
+saveRDS(formidling, "formidling.rds")
+n_delt <- formidling %>% select("Antall deltagere") %>% colSums(.)
+startår <- formidling %>% select(År) %>% min()
+slutttår <- formidling %>% select(År) %>% max()
+```
+
+I have authored or co-authored a total of `r length(unique(p$pubid))` publications (journal articles, book chapters and reports). I am the first author of `r n_firstauthor` peer reviewed journal articles and the senior author on `r n_lastauthor`. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/) and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give `r length(formidling$Lopenr)` talks for more than `r format(round(n_delt,-2), big.mark = " ")` participants in the period from `r startår` to `r format(Sys.time(),"%Y")`. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.com/appendd.html). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+
+<br><br><br><br><br>
+
+Selected publications:  
+
+<br><br><br><br><br>
+
+```{r trackrefs, results='asis'}
+bib<- ReadBib("pubs_zot.bib",check= FALSE)
+bib %>% as_tibble() %>% filter(!is.na(ids)) %>% 
+  mutate(ids = as.numeric(ids)) %>% 
+           arrange(ids) %>% 
+  as.BibEntry() 
+```
+
+\newpage
+
+# LIST OF PUBLICATIONS
+
+## PhD Thesis
+
+```{r, results='asis'}
+bib %>% as_tibble() %>% filter(bibtype == "Thesis") %>% 
+  arrange(desc(date)) %>% 
+  as.BibEntry(.)
+```
+
+## Refereed research papers 
+
+```{r articles, results='asis'}
+bib %>% as_tibble() %>%
+  filter(bibtype == "Article") %>%
+  # filter(date>2013) %>%
+  arrange(desc(date)) %>% 
+  as.BibEntry(.)
+```
+
+## Books and book chapters
+```{r books, results='asis'}
+bib %>% as_tibble() %>%
+  filter(bibtype == "InCollection")  %>% 
+  as.BibEntry(.)
+```
+
+## Conference proceedings
+```{r conference, results='asis'}
+bib %>% as_tibble() %>%
+  filter(bibtype == "InProceedings") %>%
+  arrange(desc(date))  %>% 
+  as.BibEntry(.)
+
+```
+
+## Reports
+
+```{r, results='asis'}
+bib %>% as_tibble() %>%
+  filter(bibtype == "Report") %>% 
+  as.BibEntry(.)
+```
+
+
+

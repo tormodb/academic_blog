@@ -5,12 +5,28 @@
     <link>https://tormodboe.netlify.com/tags/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://tormodboe.netlify.com/tags/</link>
     </image>
+    
+    <item>
+      <title>CV</title>
+      <link>https://tormodboe.netlify.com/tags/cv/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NFR</title>
+      <link>https://tormodboe.netlify.com/tags/nfr/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/nfr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bibtex</title>
@@ -29,7 +45,7 @@
     </item>
     
     <item>
-      <title>r</title>
+      <title>R</title>
       <link>https://tormodboe.netlify.com/tags/r/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/r/</guid>

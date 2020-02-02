@@ -1,0 +1,128 @@
+---
+title: Markdown CV NFR style
+author: Tormod Bøe
+date: '2020-02-01'
+slug: markdown-cv-nfr-style
+categories:
+  - R
+  - rmarkdown
+  - CV
+tags:
+  - CV
+  - NFR
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-01T19:50:10+01:00'
+featured: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Lag din CV tilpasset Norges Forskningsråds maler - i R!
+
+I denne posten vil jeg vise hvordan jeg laget min CV i R, tilpasset [malen til Norges Forskningsråd](https://www.forskningsradet.no/siteassets/utlysninger/vedlegg-utlysninger/cv-template-researchers.docx)[^1]. Ved å bruke R kan deler av CV-oppdateringen automatiseres, og følgende funksjoner er tilgjengelig i denne malen:
+
+[^1]: Du er selv ansvarlig for at CV som skal leveres ved søknader følger malen til Norges Forskningsråd. Oppsettet jeg viser her lager en CV som er basert på "CV-mal for forskere/CV template researchers (docx)" datert 25.06.2019.
+
+- Antall publikasjoner, antall første- og sisteforfatterskap, antall siteringer, _h_-indeks og _i10_-indeks hentes automatisk fra Google Scholar (dersom du har profil).
+- Antall inviterte foredrag og antall deltagere for en gitt periode kan fylles ut automatisk ved kobling til oversikt i en ekstern Excel fil.
+- Oversikt over publikasjoner, fordelt på kategori vil kunne hentes fra referanseverktøy (som støtter BibTeX formatet)
+- Publikasjoner som skal inkluderes i _Track record_ vil kunne markeres i referanseverktøyet, og settes inn automatisk.
+
+## Du vil trenge følgende programvare installert på din maskin:
+
+- [R](https://www.r-project.org/), med følgende bibliotek[^3]:
+
+  - `library(tidyverse)`
+  - `library(vitae)`
+  - `library(flextable)`
+  - `library(readxl)`
+  - `library(dplyr)`
+  - `library(RefManageR)`   
+  
+[^3]:Dette kan gjøres med R-kommandoen: `install.packages(c("tidyverse", "vitae", "flextable", "readxl", "dplyr", "RefManageR"), dep = T)`. 
+
+- [RStudio](https://rstudio.com/) (anbefales på det sterkeste)
+
+- Referanseverktøy som søtter BibTeX eksport, jeg anbefaler [Zotero](https://www.zotero.org/), og for automatisk oppdatert bibtex export trenger du også [Better BibTeX](https://retorque.re/zotero-better-bibtex/installation/)
+
+I tillegg trenger du følgende filer:
+
+- `cv-word.Rmd` (dokumenter som lager selve CVen)
+- `cv-nfr_style.docx` (stildokumentet som gir ferdig formatering)
+- `en BibTeX-fil` (med dine egne referanser)
+- `et Excel-ark` (som inneholder undervisnings- og formidlingserfaring)
+
+Alle disse filene kan du laste ned fra [mitt github repositorie](https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr), men du må tilpasse og gjøre endringer i innholdet for å tilpasse dette til din egen CV, se instruksjoner under. 
+
+## Første steg - Test programmene
+
+Etter å ha installert R, RStudio og bibliotekene over, kan du last ned filene fra mitt github repositorie til en egen mappe på din maskin. Dersom du åpner filen `cv-word.Rmd` i RStudio og trykker `Knit -> Knit to Word` skal du få et Word dokument som ser ut som filen [`cv-word_static.docx`](https://github.com/tormodb/academic_blog/tree/master/static/cv_nfr/cv-word_static.docx), som illustrert under. 
+
+|   |   |  |
+|:--:|:--:|:--:|
+|  <img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img.png" width="250" /> |  <img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img2.png" width="250" /> |  <img src="/post/2020-02-01-markdown-cv-nfr-style_files/cv_img3.png" width="250" /> |
+
+## Andre steg - Koble til din egen Google Scholar profil 
+
+Du vil trenge din profil-id fra Google Scholar. Denne finner du innebygget i  lenken til din Google Scholar profil. Lenken til [min profilside](https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&hl=en) er `https://scholar-google-com.pva.uib.no/citations?user=TMC38ZgAAAAJ&hl=en`, og min profil-id er da strengen  `TMC38ZgAAAAJ&hl` som du finner mot slutten av lenken mellom `user=` og `=en`. Tilkoblingen til Google Scholar brukes for å hente ut totalt antall siteringer, _h_-indeks og _i10_-indeks[^2].
+
+Informasjon om profil legges inn i linje 20 i `cv-word.Rmd`-filen:
+
+```
+# Personalization for Google Scholar
+id <- 'TMC38ZgAAAAJ' # Google Scholar ID.
+```
+
+[^2]: Det fantes før en funksjon som lot deg ta bort selv-siteringen, men dette er ikke lenger like enkelt. 
+
+## Tredje steg - Legg til formidling
+
+Jeg dokumenter min formidlings- og foredragsvirksomhet i et regneark. I arket fører jeg opp år, måned, tittel, arrangement, arrangør og antall deltagere. Hvis du følger samme malen som i regnearket du lastet ned vil formidlingsaktiviteten med periode (fra første til siste årstall), antall arrangement og antall deltagere inkluderes i CVen. Excelarket kan også være utgangspunkt for en full oversikt over formidlingsaktiviteter, se for eksempel [min pedagogiske portefølje](https://tormodteaching.netlify.com/vedlegg.html#appendd).
+
+## Fjerde steg - Publikasjonsliste
+
+Jeg anbefaler jeg deg å ha dine egne akademiske publikasjoner i et referansehåndteringsverktøy, som for andre referanser du bruker i ditt arbeid. Jeg bruker [Zotero](https://www.zotero.org/). Det finnes valg for å legge inn de [fleste typer akademiske referanser](https://www.zotero.org/support/kb/item_types_and_fields), artikler, bøker og kapitler, konferansebidrag, intervjuer osv.  
+
+### For deg som bruker Zotero (eller vurderer å gjøre det)
+
+Du kan enkelt hente ut en [BibTeX-fil med dine publikasjoner fra Google Scholar](https://www.ndsu.edu/fileadmin/digitalmeasures/DM_Training_Materials/BibTex_Exports_from_Google_Scholar.pdf). Scholar har fokus på artikler i tidsskrift, så det er veldig mange andre former for akademiske publikasjoner som ikke blir indeksert her. De som ikke finnes i Google Scholar må du legge til manuelt, men om du gjør det i et referansehåndteringsverktøy slipper du å gjøre denne jobben mange ganger, kun oppdatere og legge til nye publikasjoner, konferansepresentasjoner, etc. 
+
+1. Eksporter en `.bib` fil med dine referanser fra Google Scholar
+2. Importer denne til Zotero
+3. Lag en undersamling i Zotero med dine egne referanser
+4. Bruk Better BibTeX for å eksportere denne til en fil i BibTeX-format, velg et filnavn som er forståelig, og velg å eksportere til mappen hvor du planlegger å ha de andre filene til din CV.  
+
+#### Better BibTeX
+
+[Better BibTeX](https://retorque.re/zotero-better-bibtex/installation/) er en plug-in til Zotero som automatisk eksporterer (og holder oppdatert) et bibliotek fra Zotero til BibTeX formatet. Du kan da lage en undersamling i Zotero som inneholder dine egne publikasjoner, og når du legger til nye referanser i denne samlingen vil de da også eksporteres til en oppdatert BibTeX fil, og med systemet som beskrives her vil den da også legges til i din CV[^4]. Fordelen fremfor f.eks. Endnote og Mendeley (som også kan eksportere til BibTeX) er at med Zotero og Better BibTeX vil filen holdes oppdatert autmatisk, og, ikke minst, BibTeX koden er korrekt (Mendeley gjør en dårlig jobb med å eksportere til BibTeX). 
+
+[^4]: Se "Femte steg" hvis du ønsker at nye publikasjoner skal inngå i din _Track Record_.
+
+## Femte steg - Utvalgte publikasjoner i _Track Record_
+
+Målet ditt her er å legge til informasjon i referansebiblioteket ditt som gjør det mulig å filtrere ut de (inntil) 10 publikasjonene som du ønsker å fremheve i din _Track Record_. Jeg synes det er enklest å bruke BibTeX/feltet `ids` til dette. Her gir du publikasjonene dine nummer fra 1-10, og det enkleste er om du gir verdi etter rekkefølgen du ønsker at publikasjonene skal vises på CVen; 1 til den du vil vise først i listen, 2 til den neste, osv. til 10 som blir den siste.
+
+### For deg som bruker Zotero eller vurderer å gjøre det
+
+Feltet `ids` er ikke skrivbart fra Zotero. Metoden jeg bruker er å benytte "Ekstra" feltet som er nederst i informasjon om referansen i Info vinduet i Zotero. Der kan du sette inn følgende tekst `Citation Key Alias: 1...10` for eksempel `Citation Key Alias: 3` for referansen du ønsker skal være nummer tre av ti i din _Track Record_. Når du eksporterer med Better BibTeX blir dette nummeret lagt til i feltet `ids`. 
+
+### Manuell metode for deg som ikke bruker Zotero
+
+En enkelt referanse i .bib-filen din ser f.eks. slik ut:
+
+`@article{BoeInterplaySubjectiveObjective2019a,`  
+`ids = {3},`  <- Dette feltet må legges til.  
+`title = {Interplay of {{Subjective}} and {{Objective Economic Well}}-{{Being}} on the`   `{{Mental Health}} of {{Norwegian Adolescents}}},`  
+`author = {Bøe, Tormod and Petrie, Keith J and Sivertsen, Børge and Hysing, Mari},`  
+`date = {2019},`  
+`journaltitle = {SSM - Popul. Health},`  
+`doi = {10.1016/j.ssmph.2019.100471}`  
+`}`  
+ 
+Legg merke til feltet `ids={3}` på andre linje over. Dette betyr at denne referansen vil komme som tredje artikkel på listen i din _Track Record_. I .bib-filen din må du altså sette inn `ids={1...10},` for de referansene du ønsker å inkludere. Husk også kommaet etter siste krøllparentes! 
+
