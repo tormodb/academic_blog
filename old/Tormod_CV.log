@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.30)  2 FEB 2020 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.3)  3 FEB 2020 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -21,8 +21,6 @@ File: size11.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/dejavu/DejaVuSansMono.st
 y
 Package: DejaVuSansMono 2011/06/01 Style file for DejaVuSansMono.
@@ -262,7 +260,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.st
@@ -286,12 +284,8 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 y
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
-(/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hycolor/xcolor-patch.sty
-Package: xcolor-patch 2019/12/15 xcolor patch
-(/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hopatch.sty
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-)))
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.st
 y
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
@@ -304,7 +298,7 @@ Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -313,28 +307,26 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count91
-(/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `unicode' set `true' on input line 4409.
+\pdfmajorversion=\count92
+Package hyperref Info: Option `unicode' set `true' on input line 4421.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2019/11/10 v7.00c Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count92
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count93
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5147.
+LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen104
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -344,34 +336,34 @@ y
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count93
+\Fld@menulength=\count94
 \Field@Width=\dimen105
 \Fld@charsize=\dimen106
-Package hyperref Info: Hyper figures OFF on input line 6418.
-Package hyperref Info: Link nesting OFF on input line 6423.
-Package hyperref Info: Hyper index ON on input line 6426.
-Package hyperref Info: backreferencing OFF on input line 6433.
-Package hyperref Info: Link coloring OFF on input line 6438.
-Package hyperref Info: Link coloring with OCG OFF on input line 6443.
-Package hyperref Info: PDF/A mode OFF on input line 6448.
-LaTeX Info: Redefining \ref on input line 6488.
-LaTeX Info: Redefining \pageref on input line 6492.
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count94
-\c@Item=\count95
-\c@Hfootnote=\count96
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count97
-\c@bookmark@seq@number=\count98
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
 
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilech
 eck.sty
@@ -390,9 +382,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
 \Gm@bindingoffset=\dimen107
 \Gm@wd@mp=\dimen108
 \Gm@odd@mp=\dimen109
@@ -408,19 +400,19 @@ Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \LTright=\skip45
 \LTpre=\skip46
 \LTpost=\skip47
-\LTchunksize=\count102
+\LTchunksize=\count103
 \LTcapwidth=\dimen115
 \LT@head=\box27
 \LT@firsthead=\box28
 \LT@foot=\box29
 \LT@lastfoot=\box30
-\LT@cols=\count103
-\LT@rows=\count104
-\c@LT@tables=\count105
-\c@LT@chunks=\count106
+\LT@cols=\count104
+\LT@rows=\count105
+\c@LT@tables=\count106
+\c@LT@chunks=\count107
 \LT@p@ftn=\toks20
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen116
 \lightrulewidth=\dimen117
 \cmidrulewidth=\dimen118
@@ -431,67 +423,67 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \cmidrulesep=\dimen123
 \cmidrulekern=\dimen124
 \defaultaddspace=\dimen125
-\@cmidla=\count107
-\@cmidlb=\count108
+\@cmidla=\count108
+\@cmidlb=\count109
 \@aboverulesep=\dimen126
 \@belowrulesep=\dimen127
-\@thisruleclass=\count109
-\@lastruleclass=\count110
+\@thisruleclass=\count110
+\@lastruleclass=\count111
 \@thisrulewidth=\dimen128
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count111
+\etb@tempcnta=\count112
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count112
+\lrq@indent=\count113
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count113
-\c@listtotal=\count114
-\c@listcount=\count115
-\c@liststart=\count116
-\c@liststop=\count117
-\c@citecount=\count118
-\c@citetotal=\count119
-\c@multicitecount=\count120
-\c@multicitetotal=\count121
-\c@instcount=\count122
-\c@maxnames=\count123
-\c@minnames=\count124
-\c@maxitems=\count125
-\c@minitems=\count126
-\c@citecounter=\count127
-\c@maxcitecounter=\count128
-\c@savedcitecounter=\count129
-\c@uniquelist=\count130
-\c@uniquename=\count131
-\c@refsection=\count132
-\c@refsegment=\count133
-\c@maxextratitle=\count134
-\c@maxextratitleyear=\count135
-\c@maxextraname=\count136
-\c@maxextradate=\count137
-\c@maxextraalpha=\count138
-\c@abbrvpenalty=\count139
-\c@highnamepenalty=\count140
-\c@lownamepenalty=\count141
-\c@maxparens=\count142
-\c@parenlevel=\count143
-\blx@tempcnta=\count144
-\blx@tempcntb=\count145
-\blx@tempcntc=\count146
-\blx@maxsection=\count147
-\blx@maxsegment@0=\count148
-\blx@notetype=\count149
-\blx@parenlevel@text=\count150
-\blx@parenlevel@foot=\count151
-\blx@sectionciteorder@0=\count152
-\blx@entrysetcounter=\count153
+\c@tabx@nest=\count114
+\c@listtotal=\count115
+\c@listcount=\count116
+\c@liststart=\count117
+\c@liststop=\count118
+\c@citecount=\count119
+\c@citetotal=\count120
+\c@multicitecount=\count121
+\c@multicitetotal=\count122
+\c@instcount=\count123
+\c@maxnames=\count124
+\c@minnames=\count125
+\c@maxitems=\count126
+\c@minitems=\count127
+\c@citecounter=\count128
+\c@maxcitecounter=\count129
+\c@savedcitecounter=\count130
+\c@uniquelist=\count131
+\c@uniquename=\count132
+\c@refsection=\count133
+\c@refsegment=\count134
+\c@maxextratitle=\count135
+\c@maxextratitleyear=\count136
+\c@maxextraname=\count137
+\c@maxextradate=\count138
+\c@maxextraalpha=\count139
+\c@abbrvpenalty=\count140
+\c@highnamepenalty=\count141
+\c@lownamepenalty=\count142
+\c@maxparens=\count143
+\c@parenlevel=\count144
+\blx@tempcnta=\count145
+\blx@tempcntb=\count146
+\blx@tempcntc=\count147
+\blx@maxsection=\count148
+\blx@maxsegment@0=\count149
+\blx@notetype=\count150
+\blx@parenlevel@text=\count151
+\blx@parenlevel@foot=\count152
+\blx@sectionciteorder@0=\count153
+\blx@entrysetcounter=\count154
 \labelnumberwidth=\skip48
 \labelalphawidth=\skip49
 \biblabelsep=\skip50
@@ -503,9 +495,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read1
 \blx@bcfout=\write3
 \blx@langwohyphens=\language5
-\c@mincomprange=\count154
-\c@maxcomprange=\count155
-\c@mincompwidth=\count156
+\c@mincomprange=\count155
+\c@maxcomprange=\count156
+\c@mincompwidth=\count157
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -517,74 +509,74 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count157
-\c@savedafterword=\count158
-\c@annotator=\count159
-\c@savedannotator=\count160
-\c@author=\count161
-\c@savedauthor=\count162
-\c@bookauthor=\count163
-\c@savedbookauthor=\count164
-\c@commentator=\count165
-\c@savedcommentator=\count166
-\c@editor=\count167
-\c@savededitor=\count168
-\c@editora=\count169
-\c@savededitora=\count170
-\c@editorb=\count171
-\c@savededitorb=\count172
-\c@editorc=\count173
-\c@savededitorc=\count174
-\c@foreword=\count175
-\c@savedforeword=\count176
-\c@holder=\count177
-\c@savedholder=\count178
-\c@introduction=\count179
-\c@savedintroduction=\count180
-\c@namea=\count181
-\c@savednamea=\count182
-\c@nameb=\count183
-\c@savednameb=\count184
-\c@namec=\count185
-\c@savednamec=\count186
-\c@translator=\count187
-\c@savedtranslator=\count188
-\c@shortauthor=\count189
-\c@savedshortauthor=\count190
-\c@shorteditor=\count191
-\c@savedshorteditor=\count192
-\c@labelname=\count193
-\c@savedlabelname=\count194
-\c@institution=\count195
-\c@savedinstitution=\count196
-\c@lista=\count197
-\c@savedlista=\count198
-\c@listb=\count199
-\c@savedlistb=\count266
-\c@listc=\count267
-\c@savedlistc=\count268
-\c@listd=\count269
-\c@savedlistd=\count270
-\c@liste=\count271
-\c@savedliste=\count272
-\c@listf=\count273
-\c@savedlistf=\count274
-\c@location=\count275
-\c@savedlocation=\count276
-\c@organization=\count277
-\c@savedorganization=\count278
-\c@origlocation=\count279
-\c@savedoriglocation=\count280
-\c@origpublisher=\count281
-\c@savedorigpublisher=\count282
-\c@publisher=\count283
-\c@savedpublisher=\count284
-\c@language=\count285
-\c@savedlanguage=\count286
-\c@origlanguage=\count287
-\c@savedoriglanguage=\count288
-\c@pageref=\count289
-\c@savedpageref=\count290
+\c@afterword=\count158
+\c@savedafterword=\count159
+\c@annotator=\count160
+\c@savedannotator=\count161
+\c@author=\count162
+\c@savedauthor=\count163
+\c@bookauthor=\count164
+\c@savedbookauthor=\count165
+\c@commentator=\count166
+\c@savedcommentator=\count167
+\c@editor=\count168
+\c@savededitor=\count169
+\c@editora=\count170
+\c@savededitora=\count171
+\c@editorb=\count172
+\c@savededitorb=\count173
+\c@editorc=\count174
+\c@savededitorc=\count175
+\c@foreword=\count176
+\c@savedforeword=\count177
+\c@holder=\count178
+\c@savedholder=\count179
+\c@introduction=\count180
+\c@savedintroduction=\count181
+\c@namea=\count182
+\c@savednamea=\count183
+\c@nameb=\count184
+\c@savednameb=\count185
+\c@namec=\count186
+\c@savednamec=\count187
+\c@translator=\count188
+\c@savedtranslator=\count189
+\c@shortauthor=\count190
+\c@savedshortauthor=\count191
+\c@shorteditor=\count192
+\c@savedshorteditor=\count193
+\c@labelname=\count194
+\c@savedlabelname=\count195
+\c@institution=\count196
+\c@savedinstitution=\count197
+\c@lista=\count198
+\c@savedlista=\count199
+\c@listb=\count266
+\c@savedlistb=\count267
+\c@listc=\count268
+\c@savedlistc=\count269
+\c@listd=\count270
+\c@savedlistd=\count271
+\c@liste=\count272
+\c@savedliste=\count273
+\c@listf=\count274
+\c@savedlistf=\count275
+\c@location=\count276
+\c@savedlocation=\count277
+\c@organization=\count278
+\c@savedorganization=\count279
+\c@origlocation=\count280
+\c@savedoriglocation=\count281
+\c@origpublisher=\count282
+\c@savedorigpublisher=\count283
+\c@publisher=\count284
+\c@savedpublisher=\count285
+\c@language=\count286
+\c@savedlanguage=\count287
+\c@origlanguage=\count288
+\c@savedoriglanguage=\count289
+\c@pageref=\count290
+\c@savedpageref=\count291
 \shorthandwidth=\skip56
 \shortjournalwidth=\skip57
 \shortserieswidth=\skip58
@@ -608,19 +600,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count291
-\c@textcitetotal=\count292
-\c@textcitemaxnames=\count293
-\c@biburlbigbreakpenalty=\count294
-\c@biburlbreakpenalty=\count295
-\c@biburlnumpenalty=\count296
-\c@biburlucpenalty=\count297
-\c@biburllcpenalty=\count298
+\c@textcitecount=\count292
+\c@textcitetotal=\count293
+\c@textcitemaxnames=\count294
+\c@biburlbigbreakpenalty=\count295
+\c@biburlbreakpenalty=\count296
+\c@biburlnumpenalty=\count297
+\c@biburlucpenalty=\count298
+\c@biburllcpenalty=\count299
 \biburlbigskip=\muskip11
 \biburlnumskip=\muskip12
 \biburlucskip=\muskip13
 \biburllcskip=\muskip14
-\c@smartand=\count299
+\c@smartand=\count300
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -645,8 +637,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count300
-\c@bbx:relatedtotal=\count301
+\c@bbx:relatedcount=\count301
+\c@bbx:relatedtotal=\count302
 )))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -668,23 +660,23 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty (/Use
 rs/st06810/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-11-07 L3 programming layer (loader) 
+Package: expl3 2020-01-31 L3 programming layer (loader) 
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count302
-\l_tmpa_int=\count303
-\l_tmpb_int=\count304
-\g_tmpa_int=\count305
-\g_tmpb_int=\count306
-\l__seq_internal_a_int=\count307
-\l__seq_internal_b_int=\count308
-\g__kernel_prg_map_int=\count309
-\c__ior_term_noprompt_ior=\count310
-\c_log_iow=\count311
-\l_iow_line_count_int=\count312
-\l__iow_line_target_int=\count313
-\l__iow_one_indent_int=\count314
-\l__iow_indent_int=\count315
+Package: expl3 2020-01-31 L3 programming layer (code)
+\c_max_int=\count303
+\l_tmpa_int=\count304
+\l_tmpb_int=\count305
+\g_tmpa_int=\count306
+\g_tmpb_int=\count307
+\l__seq_internal_a_int=\count308
+\l__seq_internal_b_int=\count309
+\g__kernel_prg_map_int=\count310
+\c__ior_term_noprompt_ior=\count311
+\c_log_iow=\count312
+\l_iow_line_count_int=\count313
+\l__iow_line_target_int=\count314
+\l__iow_one_indent_int=\count315
+\l__iow_indent_int=\count316
 \c_zero_dim=\dimen129
 \c_max_dim=\dimen130
 \l_tmpa_dim=\dimen131
@@ -703,80 +695,80 @@ Package: expl3 2019-11-07 L3 programming layer (code)
 \l_tmpb_muskip=\muskip18
 \g_tmpa_muskip=\muskip19
 \g_tmpb_muskip=\muskip20
-\l_keys_choice_int=\count316
-\l__intarray_loop_int=\count317
+\l_keys_choice_int=\count317
+\l__intarray_loop_int=\count318
 \c__intarray_sp_dim=\dimen135
-\g__intarray_font_int=\count318
-\c__fp_leading_shift_int=\count319
-\c__fp_middle_shift_int=\count320
-\c__fp_trailing_shift_int=\count321
-\c__fp_big_leading_shift_int=\count322
-\c__fp_big_middle_shift_int=\count323
-\c__fp_big_trailing_shift_int=\count324
-\c__fp_Bigg_leading_shift_int=\count325
-\c__fp_Bigg_middle_shift_int=\count326
-\c__fp_Bigg_trailing_shift_int=\count327
-\c__kernel_randint_max_int=\count328
-\g__fp_array_int=\count329
-\l__fp_array_loop_int=\count330
-\l__sort_length_int=\count331
-\l__sort_min_int=\count332
-\l__sort_top_int=\count333
-\l__sort_max_int=\count334
-\l__sort_true_max_int=\count335
-\l__sort_block_int=\count336
-\l__sort_begin_int=\count337
-\l__sort_end_int=\count338
-\l__sort_A_int=\count339
-\l__sort_B_int=\count340
-\l__sort_C_int=\count341
-\l__str_internal_int=\count342
-\c__str_replacement_char_int=\count343
-\l__tl_analysis_normal_int=\count344
-\l__tl_analysis_index_int=\count345
-\l__tl_analysis_nesting_int=\count346
-\l__tl_analysis_type_int=\count347
-\l__regex_internal_a_int=\count348
-\l__regex_internal_b_int=\count349
-\l__regex_internal_c_int=\count350
-\l__regex_balance_int=\count351
-\l__regex_group_level_int=\count352
-\l__regex_mode_int=\count353
-\c__regex_cs_in_class_mode_int=\count354
-\c__regex_cs_mode_int=\count355
-\l__regex_catcodes_int=\count356
-\l__regex_default_catcodes_int=\count357
-\c__regex_catcode_D_int=\count358
-\c__regex_catcode_S_int=\count359
-\c__regex_catcode_L_int=\count360
-\c__regex_catcode_O_int=\count361
-\c__regex_catcode_A_int=\count362
-\c__regex_all_catcodes_int=\count363
-\l__regex_show_lines_int=\count364
-\l__regex_min_state_int=\count365
-\l__regex_max_state_int=\count366
-\l__regex_left_state_int=\count367
-\l__regex_right_state_int=\count368
-\l__regex_capturing_group_int=\count369
-\l__regex_min_pos_int=\count370
-\l__regex_max_pos_int=\count371
-\l__regex_curr_pos_int=\count372
-\l__regex_start_pos_int=\count373
-\l__regex_success_pos_int=\count374
-\l__regex_curr_char_int=\count375
-\l__regex_curr_catcode_int=\count376
-\l__regex_last_char_int=\count377
-\l__regex_case_changed_char_int=\count378
-\l__regex_curr_state_int=\count379
-\l__regex_step_int=\count380
-\l__regex_min_active_int=\count381
-\l__regex_max_active_int=\count382
-\l__regex_replacement_csnames_int=\count383
-\l__regex_match_count_int=\count384
-\l__regex_min_submatch_int=\count385
-\l__regex_submatch_int=\count386
-\l__regex_zeroth_submatch_int=\count387
-\g__regex_trace_regex_int=\count388
+\g__intarray_font_int=\count319
+\c__fp_leading_shift_int=\count320
+\c__fp_middle_shift_int=\count321
+\c__fp_trailing_shift_int=\count322
+\c__fp_big_leading_shift_int=\count323
+\c__fp_big_middle_shift_int=\count324
+\c__fp_big_trailing_shift_int=\count325
+\c__fp_Bigg_leading_shift_int=\count326
+\c__fp_Bigg_middle_shift_int=\count327
+\c__fp_Bigg_trailing_shift_int=\count328
+\c__kernel_randint_max_int=\count329
+\g__fp_array_int=\count330
+\l__fp_array_loop_int=\count331
+\l__sort_length_int=\count332
+\l__sort_min_int=\count333
+\l__sort_top_int=\count334
+\l__sort_max_int=\count335
+\l__sort_true_max_int=\count336
+\l__sort_block_int=\count337
+\l__sort_begin_int=\count338
+\l__sort_end_int=\count339
+\l__sort_A_int=\count340
+\l__sort_B_int=\count341
+\l__sort_C_int=\count342
+\l__str_internal_int=\count343
+\c__str_replacement_char_int=\count344
+\l__tl_analysis_normal_int=\count345
+\l__tl_analysis_index_int=\count346
+\l__tl_analysis_nesting_int=\count347
+\l__tl_analysis_type_int=\count348
+\l__regex_internal_a_int=\count349
+\l__regex_internal_b_int=\count350
+\l__regex_internal_c_int=\count351
+\l__regex_balance_int=\count352
+\l__regex_group_level_int=\count353
+\l__regex_mode_int=\count354
+\c__regex_cs_in_class_mode_int=\count355
+\c__regex_cs_mode_int=\count356
+\l__regex_catcodes_int=\count357
+\l__regex_default_catcodes_int=\count358
+\c__regex_catcode_D_int=\count359
+\c__regex_catcode_S_int=\count360
+\c__regex_catcode_L_int=\count361
+\c__regex_catcode_O_int=\count362
+\c__regex_catcode_A_int=\count363
+\c__regex_all_catcodes_int=\count364
+\l__regex_show_lines_int=\count365
+\l__regex_min_state_int=\count366
+\l__regex_max_state_int=\count367
+\l__regex_left_state_int=\count368
+\l__regex_right_state_int=\count369
+\l__regex_capturing_group_int=\count370
+\l__regex_min_pos_int=\count371
+\l__regex_max_pos_int=\count372
+\l__regex_curr_pos_int=\count373
+\l__regex_start_pos_int=\count374
+\l__regex_success_pos_int=\count375
+\l__regex_curr_char_int=\count376
+\l__regex_curr_catcode_int=\count377
+\l__regex_last_char_int=\count378
+\l__regex_case_changed_char_int=\count379
+\l__regex_curr_state_int=\count380
+\l__regex_step_int=\count381
+\l__regex_min_active_int=\count382
+\l__regex_max_active_int=\count383
+\l__regex_replacement_csnames_int=\count384
+\l__regex_match_count_int=\count385
+\l__regex_min_submatch_int=\count386
+\l__regex_submatch_int=\count387
+\l__regex_zeroth_submatch_int=\count388
+\g__regex_trace_regex_int=\count389
 \c_empty_box=\box31
 \l_tmpa_box=\box32
 \l_tmpb_box=\box33
@@ -828,20 +820,20 @@ File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdfmod
 e.def
 File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count389
+\l__kernel_color_stack_int=\count390
 \l__pdf_internal_box=\box49
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.s
 ty
-Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count390
-\g__xparse_grabber_int=\count391
-\l__xparse_m_args_int=\count392
-\l__xparse_v_nesting_int=\count393
+Package: xparse 2020-01-12 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count391
+\g__xparse_grabber_int=\count392
+\l__xparse_m_args_int=\count393
+\l__xparse_v_nesting_int=\count394
 ))
-\c@papers=\count394
+\c@papers=\count395
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip76
@@ -871,48 +863,48 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2017/12/24 v3.05
+Package: fmtcount 2020/01/30 v3.06
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count395
+\fc@digit@counter=\count396
 )) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen161
 )
-\c@padzeroesN=\count396
-\fc@tmpcatcode=\count397
-\@DT@modctr=\count398
-\@ordinalctr=\count399
-\@orgargctr=\count400
-\@strctr=\count401
-\@tmpstrctr=\count402
-\@DT@loopN=\count403
-\@DT@X=\count404
+\c@padzeroesN=\count397
+\fc@tmpcatcode=\count398
+\@DT@modctr=\count399
+\@ordinalctr=\count400
+\@orgargctr=\count401
+\@strctr=\count402
+\@tmpstrctr=\count403
+\@DT@loopN=\count404
+\@DT@X=\count405
 )
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/datetime/datetime-defaults
 .sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count405
-\@month=\count406
-\@year=\count407
-\c@HOUR=\count408
-\c@HOURXII=\count409
-\c@MINUTE=\count410
-\c@TOHOUR=\count411
-\c@TOMINUTE=\count412
-\c@SECOND=\count413
-\currenthour=\count414
-\currentminute=\count415
-\currentsecond=\count416
+\@day=\count406
+\@month=\count407
+\@year=\count408
+\c@HOUR=\count409
+\c@HOURXII=\count410
+\c@MINUTE=\count411
+\c@TOHOUR=\count412
+\c@TOMINUTE=\count413
+\c@SECOND=\count414
+\currenthour=\count415
+\currentminute=\count416
+\currentsecond=\count417
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count417
-\dayofyear=\count418
-\dayofweek=\count419
+\@dtctr=\count418
+\dayofyear=\count419
+\dayofweek=\count420
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks23
 \dt@b=\toks24
@@ -934,8 +926,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen162
 \enit@toks=\toks25
 \enit@inbox=\box50
-\enit@count@id=\count420
-\enitdp@description=\count421
+\enit@count@id=\count421
+\enitdp@description=\count422
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -975,19 +967,19 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@old@col=\dimen172
 \TX@target=\dimen173
 \TX@delta=\dimen174
-\TX@cols=\count422
+\TX@cols=\count423
 \TX@ftn=\toks28
 ) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count423
-\calc@Bcount=\count424
+\calc@Acount=\count424
+\calc@Bcount=\count425
 \calc@Adimen=\dimen175
 \calc@Bdimen=\dimen176
 \calc@Askip=\skip108
 \calc@Bskip=\skip109
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count425
+\calc@Ccount=\count426
 \calc@Cskip=\skip110
 )
 \headerboxwidth=\skip111
@@ -1003,49 +995,46 @@ bols-pdftex.tex)) (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/setspace
 /setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-\@quotelevel=\count426
-\@quotereset=\count427
+\@quotelevel=\count427
+\@quotereset=\count428
 (./Tormod_CV.aux)
 \openout1 = `Tormod_CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 255.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 251.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-55.
+51.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 251.
+LaTeX Font Info:    ... okay on input line 251.
 LaTeX Font Info:    Trying to load font information for T1+Carlito-TLF on input
- line 255.
+ line 251.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/carlito/T1Carlito-TLF.fd
 File: T1Carlito-TLF.fd 2014/08/20 (autoinst) Font definitions for T1/Carlito-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 255.
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 255.
-\c@mv@tabular=\count428
-\c@mv@boldtabular=\count429
+(Font)              scaled to size 10.95pt on input line 251.
+\c@mv@tabular=\count429
+\c@mv@boldtabular=\count430
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 255.
+Package hyperref Info: Link coloring OFF on input line 251.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1055,11 +1044,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count430
+\c@section@level=\count431
 )
-LaTeX Info: Redefining \ref on input line 255.
-LaTeX Info: Redefining \pageref on input line 255.
-LaTeX Info: Redefining \nameref on input line 255.
+LaTeX Info: Redefining \ref on input line 251.
+LaTeX Info: Redefining \pageref on input line 251.
+LaTeX Info: Redefining \nameref on input line 251.
 (./Tormod_CV.out) (./Tormod_CV.out)
 \@outlinefile=\write4
 \openout4 = `Tormod_CV.out'.
@@ -1113,904 +1102,903 @@ Package biblatex Info: ... file 'Tormod_CV.bbl' found.
 (./Tormod_CV.bbl
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSocioeconomicstatuschildren2012':
-(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field
- 'date' - ignoring.
+(biblatex)                with 'tormodboesocioeconomicstatus2013':
+(biblatex)                - Entry 'tormodboesocioeconomicstatus2013' (/Users/st
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field 
+'date' - ignoring.
 
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 77.
+(Font)              scaled to size 10.0pt on input line 54.
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSocioeconomicstatuschild2014':
-(biblatex)                - Entry 'BoeSocioeconomicstatuschild2014' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2014' of date field 'd
-ate' - ignoring.
+(biblatex)                with 'Arntzen29recommendationscombat2019':
+(biblatex)                - Entry 'Arntzen29recommendationscombat2019' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date fiel
+d 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeInterplaySubjectiveObjective2019a':
 (biblatex)                - Entry 'BoeInterplaySubjectiveObjective2019a' (/User
-s/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date fie
-ld 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeCumulativeeffectsnegative2017':
-(biblatex)                - Entry 'BoeCumulativeeffectsnegative2017' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date field '
-date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeEconomicvolatilitychildhood2017':
-(biblatex)                - Entry 'BoeEconomicvolatilitychildhood2017' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date field
- 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Arntzen29recommendationscombat2019':
-(biblatex)                - Entry 'Arntzen29recommendationscombat2019' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field
- 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeFinancialdifficultieschildhood2017':
-(biblatex)                - Entry 'BoeFinancialdifficultieschildhood2017' (/Use
-rs/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fi
+s/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date fi
 eld 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Boestrengthsdifficultiesquestionnaire2016':
-(biblatex)                - Entry 'Boestrengthsdifficultiesquestionnaire2016' (
-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of dat
-e field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SmidMeasurementEquivalenceConvergent2018':
-(biblatex)                - Entry 'SmidMeasurementEquivalenceConvergent2018' (/
-Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date
- field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSosiookonomiskstatusog2015':
-(biblatex)                - Entry 'BoeSosiookonomiskstatusog2015' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'dat
-e' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'tormodboesocioeconomicstatus2013':
-(biblatex)                - Entry 'tormodboesocioeconomicstatus2013' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field '
-date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'nilsen2019complex':
 (biblatex)                - Entry 'nilsen2019complex' (/Users/st06810/Dropbox/A
-kademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'date' - ignorin
-g.
+kademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'date' - ignori
+ng.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'skogeneconomiccircumstances2019':
 (biblatex)                - Entry 'skogeneconomiccircumstances2019' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'd
-ate' - ignoring.
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SkogenSociodemographiccharacteristicsassociated
 2019':
 (biblatex)                - Entry 'SkogenSociodemographiccharacteristicsassocia
-ted2019' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '20
-19' of date field 'date' - ignoring.
+ted2019' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2
+019' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeSubjectiveEconomicStatus2018':
 (biblatex)                - Entry 'BoeSubjectiveEconomicStatus2018' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field 'd
-ate' - ignoring.
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HeradstveitProspectiveassociationschildhood2018
 ':
 (biblatex)                - Entry 'HeradstveitProspectiveassociationschildhood2
-018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' 
-of date field 'date' - ignoring.
+018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018'
+ of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HetlevikGPdiagnosedinternalizingexternalizing20
 18':
 (biblatex)                - Entry 'HetlevikGPdiagnosedinternalizingexternalizin
-g2018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018
-' of date field 'date' - ignoring.
+g2018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '201
+8' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'MyrtveitSaetherHealthcomplaintslate2018':
 (biblatex)                - Entry 'MyrtveitSaetherHealthcomplaintslate2018' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date 
-field 'date' - ignoring.
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date
+ field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'NilsenDivorceFamilyStructure2018':
 (biblatex)                - Entry 'NilsenDivorceFamilyStructure2018' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field '
-date' - ignoring.
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field 
+'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SandtorvSymptomsAssociatedAttention2018':
 (biblatex)                - Entry 'SandtorvSymptomsAssociatedAttention2018' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date 
-field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Lehmaninternalstructurefosterparent2017':
-(biblatex)                - Entry 'Lehmaninternalstructurefosterparent2017' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date 
-field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'LundervoldInattentionprimaryschool2017a':
-(biblatex)                - Entry 'LundervoldInattentionprimaryschool2017a' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date 
-field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SivertsenMovingpovertychildhood2017':
-(biblatex)                - Entry 'SivertsenMovingpovertychildhood2017' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fiel
-d 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeFeelingpoorbeing2016':
-(biblatex)                - Entry 'BoeFeelingpoorbeing2016' (/Users/st06810/Dro
-pbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - i
-gnoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeLowfamilyincome2016':
-(biblatex)                - Entry 'BoeLowfamilyincome2016' (/Users/st06810/Drop
-box/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - ig
-noring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'EilertsenParentalsocioeconomicstatus2016':
-(biblatex)                - Entry 'EilertsenParentalsocioeconomicstatus2016' (/
-Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date
  field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Hysingsocialgradientsleep2016':
-(biblatex)                - Entry 'Hysingsocialgradientsleep2016' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'dat
-e' - ignoring.
+(biblatex)                with 'SmidMeasurementEquivalenceConvergent2018':
+(biblatex)                - Entry 'SmidMeasurementEquivalenceConvergent2018' (/
+Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of dat
+e field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SkogenUsealcoholtobacco2016':
-(biblatex)                - Entry 'SkogenUsealcoholtobacco2016' (/Users/st06810
-/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date'
- - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'AskelandAdolescentSchoolAbsenteeism2015':
-(biblatex)                - Entry 'AskelandAdolescentSchoolAbsenteeism2015' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date 
-field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'HysingSleepschoolattendance2015':
-(biblatex)                - Entry 'HysingSleepschoolattendance2015' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'd
-ate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SolbergHoldningertilbruk2014a':
-(biblatex)                - Entry 'SolbergHoldningertilbruk2014a' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2014' of date field 'dat
-e' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'HysingMaleegenskapervednorske2013':
-(biblatex)                - Entry 'HysingMaleegenskapervednorske2013' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 
+(biblatex)                with 'BoeCumulativeeffectsnegative2017':
+(biblatex)                - Entry 'BoeCumulativeeffectsnegative2017' (/Users/st
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date field 
 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SivertsenDelayedsleepphase2013':
-(biblatex)                - Entry 'SivertsenDelayedsleepphase2013' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 'da
-te' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'SkogenPsychometricpropertiesconcurrent2013':
-(biblatex)                - Entry 'SkogenPsychometricpropertiesconcurrent2013' 
-(/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of da
-te field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSleepproblemsmediator2012':
-(biblatex)                - Entry 'BoeSleepproblemsmediator2012' (/Users/st0681
-0/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 'date
-' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSocioeconomicstatuschildren2012a':
-(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012a' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date fiel
+(biblatex)                with 'BoeEconomicvolatilitychildhood2017':
+(biblatex)                - Entry 'BoeEconomicvolatilitychildhood2017' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date fiel
 d 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'HysingMaleegenskapervednorske2012':
-(biblatex)                - Entry 'HysingMaleegenskapervednorske2012' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeMaleegenskapervednorske2011':
-(biblatex)                - Entry 'BoeMaleegenskapervednorske2011' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 'da
-te' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'KornorMaleegenskapervednorske2011':
-(biblatex)                - Entry 'KornorMaleegenskapervednorske2011' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'KornorMaleegenskapervednorske2011a':
-(biblatex)                - Entry 'KornorMaleegenskapervednorske2011a' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field
- 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'kornormeasurementproperties2011':
-(biblatex)                - Entry 'kornormeasurementproperties2011' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 'd
-ate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeT.Hvabetyrdet2016':
-(biblatex)                - Entry 'BoeT.Hvabetyrdet2016' (/Users/st06810/Dropbo
-x/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - igno
-ring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeRoadIndependenceMental2019a':
-(biblatex)                - Entry 'BoeRoadIndependenceMental2019a' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'da
-te' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boe2019higher':
-(biblatex)                - Entry 'boe2019higher' (/Users/st06810/Dropbox/Akade
-miskCV/tpubs_zot.bib): Invalid format '2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'NilsenDivorceAdolescentMental2018':
-(biblatex)                - Entry 'NilsenDivorceAdolescentMental2018' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeEconomicvolatilityadolescent2016':
-(biblatex)                - Entry 'BoeEconomicvolatilityadolescent2016' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date fiel
-d 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSubjectiveeconomicstatus2016':
-(biblatex)                - Entry 'BoeSubjectiveeconomicstatus2016' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'd
-ate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeFeelingpoorbeing2016a':
-(biblatex)                - Entry 'BoeFeelingpoorbeing2016a' (/Users/st06810/Dr
-opbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - 
-ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoePerceivedPoorFamily2015':
-(biblatex)                - Entry 'BoePerceivedPoorFamily2015' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeParentalemotionalwellbeing2013':
-(biblatex)                - Entry 'BoeParentalemotionalwellbeing2013' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeChildhoodsleepproblems2012':
-(biblatex)                - Entry 'BoeChildhoodsleepproblems2012' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 'dat
-e' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boesocioeconomicstatus2010':
-(biblatex)                - Entry 'boesocioeconomicstatus2010' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2010' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boestabilitymental2010':
-(biblatex)                - Entry 'boestabilitymental2010' (/Users/st06810/Drop
-box/AkademiskCV/tpubs_zot.bib): Invalid format '2010' of date field 'date' - ig
-noring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boesocioeconomicstatus2009':
-(biblatex)                - Entry 'boesocioeconomicstatus2009' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2009' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeLevekarsundersokelseAskoyFjell2017':
-(biblatex)                - Entry 'BoeLevekarsundersokelseAskoyFjell2017' (/Use
-rs/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fi
-eld 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'KvestadVeientilselvstendighet2019':
-(biblatex)                - Entry 'KvestadVeientilselvstendighet2019' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Arntzen29recommendationscombat2019':
-(biblatex)                - Entry 'Arntzen29recommendationscombat2019' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field
- 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'AskelandAdolescentSchoolAbsenteeism2015':
-(biblatex)                - Entry 'AskelandAdolescentSchoolAbsenteeism2015' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date 
-field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boe2019higher':
-(biblatex)                - Entry 'boe2019higher' (/Users/st06810/Dropbox/Akade
-miskCV/tpubs_zot.bib): Invalid format '2019' of date field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boesocioeconomicstatus2010':
-(biblatex)                - Entry 'boesocioeconomicstatus2010' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2010' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boesocioeconomicstatus2009':
-(biblatex)                - Entry 'boesocioeconomicstatus2009' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2009' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSocioeconomicstatuschildren2012a':
-(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012a' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date fiel
-d 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeEconomicvolatilityadolescent2016':
-(biblatex)                - Entry 'BoeEconomicvolatilityadolescent2016' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date fiel
-d 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeLevekarsundersokelseAskoyFjell2017':
-(biblatex)                - Entry 'BoeLevekarsundersokelseAskoyFjell2017' (/Use
-rs/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fi
-eld 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoePerceivedPoorFamily2015':
-(biblatex)                - Entry 'BoePerceivedPoorFamily2015' (/Users/st06810/
-Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'date' 
-- ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeRoadIndependenceMental2019a':
-(biblatex)                - Entry 'BoeRoadIndependenceMental2019a' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'da
-te' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'tormodboesocioeconomicstatus2013':
-(biblatex)                - Entry 'tormodboesocioeconomicstatus2013' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field '
-date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSosiookonomiskstatusog2015':
-(biblatex)                - Entry 'BoeSosiookonomiskstatusog2015' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'dat
-e' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSubjectiveeconomicstatus2016':
-(biblatex)                - Entry 'BoeSubjectiveeconomicstatus2016' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'd
-ate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeFinancialdifficultieschildhood2017':
 (biblatex)                - Entry 'BoeFinancialdifficultieschildhood2017' (/Use
-rs/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fi
-eld 'date' - ignoring.
+rs/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date f
+ield 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeFeelingpoorbeing2016a':
-(biblatex)                - Entry 'BoeFeelingpoorbeing2016a' (/Users/st06810/Dr
-opbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - 
-ignoring.
+(biblatex)                with 'Lehmaninternalstructurefosterparent2017':
+(biblatex)                - Entry 'Lehmaninternalstructurefosterparent2017' (/U
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date
+ field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'LundervoldInattentionprimaryschool2017a':
+(biblatex)                - Entry 'LundervoldInattentionprimaryschool2017a' (/U
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date
+ field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SivertsenMovingpovertychildhood2017':
+(biblatex)                - Entry 'SivertsenMovingpovertychildhood2017' (/Users
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date fie
+ld 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeFeelingpoorbeing2016':
 (biblatex)                - Entry 'BoeFeelingpoorbeing2016' (/Users/st06810/Dro
-pbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - i
-gnoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSubjectiveEconomicStatus2018':
-(biblatex)                - Entry 'BoeSubjectiveEconomicStatus2018' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field 'd
-ate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeChildhoodsleepproblems2012':
-(biblatex)                - Entry 'BoeChildhoodsleepproblems2012' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 'dat
-e' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeMaleegenskapervednorske2011':
-(biblatex)                - Entry 'BoeMaleegenskapervednorske2011' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 'da
-te' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Boestrengthsdifficultiesquestionnaire2016':
-(biblatex)                - Entry 'Boestrengthsdifficultiesquestionnaire2016' (
-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of dat
-e field 'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSleepproblemsmediator2012':
-(biblatex)                - Entry 'BoeSleepproblemsmediator2012' (/Users/st0681
-0/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 'date
-' - ignoring.
+pbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - 
+ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeLowfamilyincome2016':
 (biblatex)                - Entry 'BoeLowfamilyincome2016' (/Users/st06810/Drop
-box/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - ig
-noring.
+box/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - i
+gnoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'boestabilitymental2010':
-(biblatex)                - Entry 'boestabilitymental2010' (/Users/st06810/Drop
-box/AkademiskCV/tpubs_zot.bib): Invalid format '2010' of date field 'date' - ig
-noring.
+(biblatex)                with 'Boestrengthsdifficultiesquestionnaire2016':
+(biblatex)                - Entry 'Boestrengthsdifficultiesquestionnaire2016' (
+/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of da
+te field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'EilertsenParentalsocioeconomicstatus2016':
+(biblatex)                - Entry 'EilertsenParentalsocioeconomicstatus2016' (/
+Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of dat
+e field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Hysingsocialgradientsleep2016':
+(biblatex)                - Entry 'Hysingsocialgradientsleep2016' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SkogenUsealcoholtobacco2016':
+(biblatex)                - Entry 'SkogenUsealcoholtobacco2016' (/Users/st06810
+/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date
+' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'AskelandAdolescentSchoolAbsenteeism2015':
+(biblatex)                - Entry 'AskelandAdolescentSchoolAbsenteeism2015' (/U
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date
+ field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'HysingSleepschoolattendance2015':
+(biblatex)                - Entry 'HysingSleepschoolattendance2015' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSocioeconomicstatuschild2014':
+(biblatex)                - Entry 'BoeSocioeconomicstatuschild2014' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2014' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SolbergHoldningertilbruk2014a':
+(biblatex)                - Entry 'SolbergHoldningertilbruk2014a' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2014' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'HysingMaleegenskapervednorske2013':
+(biblatex)                - Entry 'HysingMaleegenskapervednorske2013' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field
+ 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SivertsenDelayedsleepphase2013':
+(biblatex)                - Entry 'SivertsenDelayedsleepphase2013' (/Users/st06
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field 'd
+ate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'SkogenPsychometricpropertiesconcurrent2013':
+(biblatex)                - Entry 'SkogenPsychometricpropertiesconcurrent2013' 
+(/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of d
+ate field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSleepproblemsmediator2012':
+(biblatex)                - Entry 'BoeSleepproblemsmediator2012' (/Users/st0681
+0/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field 'dat
+e' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeSocioeconomicstatuschildren2012':
 (biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field
- 'date' - ignoring.
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date fiel
+d 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeInterplaySubjectiveObjective2019a':
-(biblatex)                - Entry 'BoeInterplaySubjectiveObjective2019a' (/User
-s/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date fie
+(biblatex)                with 'BoeSocioeconomicstatuschildren2012a':
+(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012a' (/Users
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date fie
 ld 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeCumulativeeffectsnegative2017':
-(biblatex)                - Entry 'BoeCumulativeeffectsnegative2017' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date field '
-date' - ignoring.
+(biblatex)                with 'HysingMaleegenskapervednorske2012':
+(biblatex)                - Entry 'HysingMaleegenskapervednorske2012' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeParentalemotionalwellbeing2013':
-(biblatex)                - Entry 'BoeParentalemotionalwellbeing2013' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 
-'date' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeSocioeconomicstatuschild2014':
-(biblatex)                - Entry 'BoeSocioeconomicstatuschild2014' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2014' of date field 'd
+(biblatex)                with 'BoeMaleegenskapervednorske2011':
+(biblatex)                - Entry 'BoeMaleegenskapervednorske2011' (/Users/st06
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field 'd
 ate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'BoeEconomicvolatilitychildhood2017':
-(biblatex)                - Entry 'BoeEconomicvolatilitychildhood2017' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date field
+(biblatex)                with 'KornorMaleegenskapervednorske2011':
+(biblatex)                - Entry 'KornorMaleegenskapervednorske2011' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field
  'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'KornorMaleegenskapervednorske2011a':
+(biblatex)                - Entry 'KornorMaleegenskapervednorske2011a' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date fiel
+d 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'kornormeasurementproperties2011':
+(biblatex)                - Entry 'kornormeasurementproperties2011' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'BoeT.Hvabetyrdet2016':
 (biblatex)                - Entry 'BoeT.Hvabetyrdet2016' (/Users/st06810/Dropbo
-x/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date' - igno
-ring.
+x/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - ign
+oring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeRoadIndependenceMental2019a':
+(biblatex)                - Entry 'BoeRoadIndependenceMental2019a' (/Users/st06
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'd
+ate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boe2019higher':
+(biblatex)                - Entry 'boe2019higher' (/Users/st06810/Dropbox/Akade
+miskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'NilsenDivorceAdolescentMental2018':
+(biblatex)                - Entry 'NilsenDivorceAdolescentMental2018' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field
+ 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeEconomicvolatilityadolescent2016':
+(biblatex)                - Entry 'BoeEconomicvolatilityadolescent2016' (/Users
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date fie
+ld 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSubjectiveeconomicstatus2016':
+(biblatex)                - Entry 'BoeSubjectiveeconomicstatus2016' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeFeelingpoorbeing2016a':
+(biblatex)                - Entry 'BoeFeelingpoorbeing2016a' (/Users/st06810/Dr
+opbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' -
+ ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoePerceivedPoorFamily2015':
+(biblatex)                - Entry 'BoePerceivedPoorFamily2015' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeParentalemotionalwellbeing2013':
+(biblatex)                - Entry 'BoeParentalemotionalwellbeing2013' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field
+ 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeChildhoodsleepproblems2012':
+(biblatex)                - Entry 'BoeChildhoodsleepproblems2012' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boesocioeconomicstatus2010':
+(biblatex)                - Entry 'boesocioeconomicstatus2010' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2010' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boestabilitymental2010':
+(biblatex)                - Entry 'boestabilitymental2010' (/Users/st06810/Drop
+box/AkademiskCV/tpubs_zot2.bib): Invalid format '2010' of date field 'date' - i
+gnoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boesocioeconomicstatus2009':
+(biblatex)                - Entry 'boesocioeconomicstatus2009' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2009' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeLevekarsundersokelseAskoyFjell2017':
+(biblatex)                - Entry 'BoeLevekarsundersokelseAskoyFjell2017' (/Use
+rs/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date f
+ield 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSosiookonomiskstatusog2015':
+(biblatex)                - Entry 'BoeSosiookonomiskstatusog2015' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'KvestadVeientilselvstendighet2019':
+(biblatex)                - Entry 'KvestadVeientilselvstendighet2019' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field
+ 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Arntzen29recommendationscombat2019':
+(biblatex)                - Entry 'Arntzen29recommendationscombat2019' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date fiel
+d 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'AskelandAdolescentSchoolAbsenteeism2015':
+(biblatex)                - Entry 'AskelandAdolescentSchoolAbsenteeism2015' (/U
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date
+ field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boe2019higher':
+(biblatex)                - Entry 'boe2019higher' (/Users/st06810/Dropbox/Akade
+miskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boesocioeconomicstatus2010':
+(biblatex)                - Entry 'boesocioeconomicstatus2010' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2010' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boesocioeconomicstatus2009':
+(biblatex)                - Entry 'boesocioeconomicstatus2009' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2009' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSocioeconomicstatuschildren2012a':
+(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012a' (/Users
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date fie
+ld 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeEconomicvolatilityadolescent2016':
+(biblatex)                - Entry 'BoeEconomicvolatilityadolescent2016' (/Users
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date fie
+ld 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeLevekarsundersokelseAskoyFjell2017':
+(biblatex)                - Entry 'BoeLevekarsundersokelseAskoyFjell2017' (/Use
+rs/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date f
+ield 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoePerceivedPoorFamily2015':
+(biblatex)                - Entry 'BoePerceivedPoorFamily2015' (/Users/st06810/
+Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field 'date'
+ - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeRoadIndependenceMental2019a':
+(biblatex)                - Entry 'BoeRoadIndependenceMental2019a' (/Users/st06
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'd
+ate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'tormodboesocioeconomicstatus2013':
+(biblatex)                - Entry 'tormodboesocioeconomicstatus2013' (/Users/st
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field 
+'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSosiookonomiskstatusog2015':
+(biblatex)                - Entry 'BoeSosiookonomiskstatusog2015' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSubjectiveeconomicstatus2016':
+(biblatex)                - Entry 'BoeSubjectiveeconomicstatus2016' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeFinancialdifficultieschildhood2017':
+(biblatex)                - Entry 'BoeFinancialdifficultieschildhood2017' (/Use
+rs/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date f
+ield 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeFeelingpoorbeing2016a':
+(biblatex)                - Entry 'BoeFeelingpoorbeing2016a' (/Users/st06810/Dr
+opbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' -
+ ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeFeelingpoorbeing2016':
+(biblatex)                - Entry 'BoeFeelingpoorbeing2016' (/Users/st06810/Dro
+pbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - 
+ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSubjectiveEconomicStatus2018':
+(biblatex)                - Entry 'BoeSubjectiveEconomicStatus2018' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeChildhoodsleepproblems2012':
+(biblatex)                - Entry 'BoeChildhoodsleepproblems2012' (/Users/st068
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field 'da
+te' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeMaleegenskapervednorske2011':
+(biblatex)                - Entry 'BoeMaleegenskapervednorske2011' (/Users/st06
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field 'd
+ate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Boestrengthsdifficultiesquestionnaire2016':
+(biblatex)                - Entry 'Boestrengthsdifficultiesquestionnaire2016' (
+/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of da
+te field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSleepproblemsmediator2012':
+(biblatex)                - Entry 'BoeSleepproblemsmediator2012' (/Users/st0681
+0/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field 'dat
+e' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeLowfamilyincome2016':
+(biblatex)                - Entry 'BoeLowfamilyincome2016' (/Users/st06810/Drop
+box/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - i
+gnoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'boestabilitymental2010':
+(biblatex)                - Entry 'boestabilitymental2010' (/Users/st06810/Drop
+box/AkademiskCV/tpubs_zot2.bib): Invalid format '2010' of date field 'date' - i
+gnoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSocioeconomicstatuschildren2012':
+(biblatex)                - Entry 'BoeSocioeconomicstatuschildren2012' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date fiel
+d 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeInterplaySubjectiveObjective2019a':
+(biblatex)                - Entry 'BoeInterplaySubjectiveObjective2019a' (/User
+s/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date fi
+eld 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeCumulativeeffectsnegative2017':
+(biblatex)                - Entry 'BoeCumulativeeffectsnegative2017' (/Users/st
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date field 
+'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeParentalemotionalwellbeing2013':
+(biblatex)                - Entry 'BoeParentalemotionalwellbeing2013' (/Users/s
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field
+ 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeSocioeconomicstatuschild2014':
+(biblatex)                - Entry 'BoeSocioeconomicstatuschild2014' (/Users/st0
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2014' of date field '
+date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeEconomicvolatilitychildhood2017':
+(biblatex)                - Entry 'BoeEconomicvolatilitychildhood2017' (/Users/
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date fiel
+d 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'BoeT.Hvabetyrdet2016':
+(biblatex)                - Entry 'BoeT.Hvabetyrdet2016' (/Users/st06810/Dropbo
+x/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date' - ign
+oring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'EilertsenParentalsocioeconomicstatus2016':
 (biblatex)                - Entry 'EilertsenParentalsocioeconomicstatus2016' (/
-Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date
- field 'date' - ignoring.
+Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of dat
+e field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HeradstveitProspectiveassociationschildhood2018
 ':
 (biblatex)                - Entry 'HeradstveitProspectiveassociationschildhood2
-018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' 
-of date field 'date' - ignoring.
+018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018'
+ of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HetlevikGPdiagnosedinternalizingexternalizing20
 18':
 (biblatex)                - Entry 'HetlevikGPdiagnosedinternalizingexternalizin
-g2018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018
-' of date field 'date' - ignoring.
+g2018' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '201
+8' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HysingMaleegenskapervednorske2012':
 (biblatex)                - Entry 'HysingMaleegenskapervednorske2012' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2012' of date field 
-'date' - ignoring.
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2012' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HysingMaleegenskapervednorske2013':
 (biblatex)                - Entry 'HysingMaleegenskapervednorske2013' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 
-'date' - ignoring.
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'HysingSleepschoolattendance2015':
 (biblatex)                - Entry 'HysingSleepschoolattendance2015' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2015' of date field 'd
-ate' - ignoring.
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2015' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Hysingsocialgradientsleep2016':
 (biblatex)                - Entry 'Hysingsocialgradientsleep2016' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'dat
-e' - ignoring.
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'da
+te' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'KornorMaleegenskapervednorske2011a':
 (biblatex)                - Entry 'KornorMaleegenskapervednorske2011a' (/Users/
-st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field
- 'date' - ignoring.
+st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date fiel
+d 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'KornorMaleegenskapervednorske2011':
 (biblatex)                - Entry 'KornorMaleegenskapervednorske2011' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 
-'date' - ignoring.
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'kornormeasurementproperties2011':
 (biblatex)                - Entry 'kornormeasurementproperties2011' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2011' of date field 'd
-ate' - ignoring.
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2011' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'KvestadVeientilselvstendighet2019':
 (biblatex)                - Entry 'KvestadVeientilselvstendighet2019' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 
-'date' - ignoring.
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Lehmaninternalstructurefosterparent2017':
 (biblatex)                - Entry 'Lehmaninternalstructurefosterparent2017' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date 
-field 'date' - ignoring.
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date
+ field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'LundervoldInattentionprimaryschool2017a':
 (biblatex)                - Entry 'LundervoldInattentionprimaryschool2017a' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date 
-field 'date' - ignoring.
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date
+ field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'MyrtveitSaetherHealthcomplaintslate2018':
 (biblatex)                - Entry 'MyrtveitSaetherHealthcomplaintslate2018' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date 
-field 'date' - ignoring.
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date
+ field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'NilsenDivorceAdolescentMental2018':
 (biblatex)                - Entry 'NilsenDivorceAdolescentMental2018' (/Users/s
-t06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field 
-'date' - ignoring.
+t06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field
+ 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'NilsenDivorceFamilyStructure2018':
 (biblatex)                - Entry 'NilsenDivorceFamilyStructure2018' (/Users/st
-06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date field '
-date' - ignoring.
+06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date field 
+'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'nilsen2019complex':
 (biblatex)                - Entry 'nilsen2019complex' (/Users/st06810/Dropbox/A
-kademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'date' - ignorin
-g.
+kademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field 'date' - ignori
+ng.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SandtorvSymptomsAssociatedAttention2018':
 (biblatex)                - Entry 'SandtorvSymptomsAssociatedAttention2018' (/U
-sers/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date 
-field 'date' - ignoring.
+sers/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of date
+ field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SivertsenMovingpovertychildhood2017':
 (biblatex)                - Entry 'SivertsenMovingpovertychildhood2017' (/Users
-/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2017' of date fiel
-d 'date' - ignoring.
+/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2017' of date fie
+ld 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SivertsenDelayedsleepphase2013':
 (biblatex)                - Entry 'SivertsenDelayedsleepphase2013' (/Users/st06
-810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of date field 'da
-te' - ignoring.
+810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of date field 'd
+ate' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SkogenPsychometricpropertiesconcurrent2013':
 (biblatex)                - Entry 'SkogenPsychometricpropertiesconcurrent2013' 
-(/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2013' of da
-te field 'date' - ignoring.
+(/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2013' of d
+ate field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SkogenSociodemographiccharacteristicsassociated
 2019':
 (biblatex)                - Entry 'SkogenSociodemographiccharacteristicsassocia
-ted2019' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '20
-19' of date field 'date' - ignoring.
+ted2019' (/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2
+019' of date field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SkogenUsealcoholtobacco2016':
 (biblatex)                - Entry 'SkogenUsealcoholtobacco2016' (/Users/st06810
-/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2016' of date field 'date'
- - ignoring.
+/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2016' of date field 'date
+' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'skogeneconomiccircumstances2019':
 (biblatex)                - Entry 'skogeneconomiccircumstances2019' (/Users/st0
-6810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2019' of date field 'd
-ate' - ignoring.
+6810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2019' of date field '
+date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SmidMeasurementEquivalenceConvergent2018':
 (biblatex)                - Entry 'SmidMeasurementEquivalenceConvergent2018' (/
-Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2018' of date
- field 'date' - ignoring.
+Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2018' of dat
+e field 'date' - ignoring.
 
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'SolbergHoldningertilbruk2014a':
 (biblatex)                - Entry 'SolbergHoldningertilbruk2014a' (/Users/st068
-10/Dropbox/AkademiskCV/tpubs_zot.bib): Invalid format '2014' of date field 'dat
-e' - ignoring.
+10/Dropbox/AkademiskCV/tpubs_zot2.bib): Invalid format '2014' of date field 'da
+te' - ignoring.
 
 )
-Package biblatex Info: Reference section=0 on input line 255.
-Package biblatex Info: Reference segment=0 on input line 255.
+Package biblatex Info: Reference section=0 on input line 251.
+Package biblatex Info: Reference segment=0 on input line 251.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 255.
+LaTeX Info: Redefining \selectfont on input line 251.
 (/Users/st06810/Library/TinyTeX/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 256.
+(Font)              <10.95> on input line 252.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 256.
+(Font)              <8> on input line 252.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 256.
+(Font)              <6> on input line 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 256.
+(Font)              scaled to size 17.28pt on input line 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 256.
+ 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 256.
+(Font)              scaled to size 17.28pt on input line 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10.95> not availa
 ble
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 256.
+ 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 256.
+(Font)              scaled to size 10.95pt on input line 252.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 256.
+(Font)              scaled to size 8.0pt on input line 252.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 252.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 256.
+(Font)              <9> on input line 252.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 256.
+(Font)              <5> on input line 252.
 
-Overfull \hbox (13.27597pt too wide) in paragraph at lines 256--259
-[][][][]$[]$ 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 252--254
+[][][][] 
  []
 
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 264.
+
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 270.
+(Font)              scaled to size 12.0pt on input line 264.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <12> not available
 
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 270.
+ 264.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 270.
+(Font)              scaled to size 12.0pt on input line 264.
 
-Overfull \hbox (8.38182pt too wide) in paragraph at lines 305--313
-[][]  
- []
-
-
-Overfull \hbox (32.29349pt too wide) in paragraph at lines 317--335
+Overfull \hbox (8.38182pt too wide) in paragraph at lines 302--310
 [][]  
  []
 
 [1
 
 {/Users/st06810/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.8648pt too wide) in paragraph at lines 378--388
+Overfull \hbox (3.41171pt too wide) in paragraph at lines 354--364
 [][]  
  []
 
-[2]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 420.
+(Font)              scaled to size 10.95pt on input line 386.
+[2] [3]
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 434.
+(Font)              scaled to size 10.0pt on input line 454.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10> not available
 
 (Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
- 434.
+ 454.
 LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 434.
+(Font)              scaled to size 10.0pt on input line 454.
+[4] [5] [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 434.
-[3] [4] [5] [6] [7] 
-AED: lastpage setting LastPage
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
+(Font)              <7> on input line 548.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
 (./Tormod_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
 Package rerunfilecheck Info: File `Tormod_CV.out' has not changed.
-(rerunfilecheck)             Checksum: FFEB8FE9E8D7961FACC6864FE82BDDDD;3111.
+(rerunfilecheck)             Checksum: 586C93FA975CEE2027C19C43A6219B4B;2814.
 Package logreq Info: Writing requests to 'Tormod_CV.run.xml'.
 \openout1 = `Tormod_CV.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
  ) 
 Here is how much of TeX's memory you used:
- 31096 strings out of 493857
- 557549 string characters out of 6168895
- 1056925 words of memory out of 5000000
- 34795 multiletter control sequences out of 15000+600000
- 617936 words of font info for 58 fonts, out of 8000000 for 9000
+ 31163 strings out of 493856
+ 559371 string characters out of 6168882
+ 1059867 words of memory out of 5000000
+ 34880 multiletter control sequences out of 15000+600000
+ 625420 words of font info for 60 fonts, out of 8000000 for 9000
  230 hyphenation exceptions out of 8191
- 45i,11n,67p,2351b,1480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,14n,67p,2349b,1372s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/st06810/Library/TinyTeX/texmf-dist/fonts/enc/dvips/carlito/crlt_z7vml
 3.enc}</Users/st06810/Library/TinyTeX/texmf-dist/fonts/type1/typoland/carlito/C
 arlito-Bold.pfb></Users/st06810/Library/TinyTeX/texmf-dist/fonts/type1/typoland
 /carlito/Carlito-Italic.pfb></Users/st06810/Library/TinyTeX/texmf-dist/fonts/ty
 pe1/typoland/carlito/Carlito.pfb></Users/st06810/Library/TinyTeX/texmf-dist/fon
 ts/type1/urw/zapfding/uzdr.pfb>
-Output written on Tormod_CV.pdf (8 pages, 105026 bytes).
+Output written on Tormod_CV.pdf (7 pages, 97037 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 105 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

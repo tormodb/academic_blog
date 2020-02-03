@@ -2,7 +2,6 @@
 %% Author: Rob J Hyndman
 
 \documentclass[11pt,a4paper,a4paper]{article}
-\usepackage{lastpage}
 \usepackage[scaled=0.86]{DejaVuSansMono}
 \usepackage[sfdefault,lf,t]{carlito}
 
@@ -67,7 +66,7 @@
 %%%% BIBLIOGRAPHY
 % Bibliography formatting
 
-\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=true,isbn=false,natbib=true,backend=biber]{biblatex}
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
 
 \DeclareFieldFormat{url}{\url{#1}}
 \DeclareFieldFormat[article]{pages}{#1}
@@ -119,13 +118,12 @@
     \field{year}
   }
 }
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4904309}
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4928526}
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5033846}
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5067135}
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5091340}
-\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5117388}
-\bibliography{/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib}
+\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2389300}
+\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2512155}
+\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2548864}
+\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2587637}
+\DeclareBibliographyCategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2624299}
+\bibliography{/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib}
 
 \usepackage{paralist,ragged2e,datetime}
 \usepackage[hyphens]{url}
@@ -138,10 +136,8 @@
 % Header and footer
 \pagestyle{fancy}
 \makeatletter
-\lhead{\sf\textcolor[gray]{0.4}{ }}
-\rhead{\sf\textcolor[gray]{0.4}{ }}
-\lfoot{\sf\textcolor[gray]{0.4}{Tormod Bøe}}
-\rfoot{\sf\textcolor[gray]{0.4}{\thepage~of~\pageref{LastPage}}}
+\lhead{\sf\textcolor[gray]{0.4}{Curriculum Vitae: \@name}}
+\rhead{\sf\textcolor[gray]{0.4}{\thepage}}
 \cfoot{}
 \def\headrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
 \makeatother
@@ -153,30 +149,30 @@
 \def\name#1{\def\@name{#1}}
 \def\info#1{\def\@info{#1}}
 \makeatother
-\newcommand{\shadebox}[3][.9]{\fcolorbox{white}{white}{ }{\parbox{#2}{#3}}}
+\newcommand{\shadebox}[3][.9]{\fcolorbox[gray]{0}{#1}{\parbox{#2}{#3}}}
 
 \usepackage{calc}
 \newlength{\headerboxwidth}
 \setlength{\headerboxwidth}{\textwidth}
-\addtolength{\headerboxwidth}{0.1cm}
+%\addtolength{\headerboxwidth}{0.2cm}
 \makeatletter
 \def\maketitle{
 \thispagestyle{plain}
-%\vspace*{-1cm}
-\shadebox[1]{\headerboxwidth}{\sf\color{headcolor}\hfil
-\hbox to 1\textwidth{\begin{tabular}{l}
-\\[-0.1cm]
+\vspace*{-1.4cm}
+\shadebox[0.9]{\headerboxwidth}{\sf\color{headcolor}\hfil
+\hbox to 0.98\textwidth{\begin{tabular}{l}
+\\[-0.3cm]
 \LARGE\textbf{\@name}
-\\[0cm]
-\normalsize\textbf{ }\\
-\normalsize  
+\\[0.7cm]
+\normalsize\textbf{Curriculum Vitae}\\
+\normalsize \today
 \end{tabular}
 \hfill\hbox{\fontsize{9}{12}\sf
 \begin{tabular}{@{}rl@{}}
 \@info
 \end{tabular}}}\hfil
 }
-\vspace*{0cm}}
+\vspace*{0.2cm}}
 \makeatother
 
 % Section headings
@@ -194,7 +190,7 @@
 \clubpenalty = 10000
 \widowpenalty = 10000
 \setlist{itemsep=1pt}
-\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.1cm,font=\rm}
+\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.5cm,font=\rm}
 
 % Make nicer bullets
 \renewcommand{\labelitemi}{\ding{228}}
@@ -254,7 +250,6 @@
 
 \begin{document}
 \maketitle
-\vspace*{-1cm}
 \setstretch{1.15}
 
 
@@ -266,19 +261,21 @@
 
 \vspace*{1\baselineskip}
 
+\({\large\textbf{Role in project:}}\) \(\quad\)Project manager \(\quad\) Work package leader \(\quad\) Project partner {[} {]}
+
 \hypertarget{personal-information}{%
-\section{PERSONAL INFORMATION}\label{personal-information}}
+\section{Personal information}\label{personal-information}}
 
 \begin{tabular}{llll}
   Family name, First name: & Bøe, Tormod &  &  \\ 
   Date of birth:  & 07.09.1978 & Sex: & Male \\ 
   Nationality: & Norwegian &  &  \\ 
   Researcher unique identifier(s): & 0000-0002-0968-7537 &  &  \\ 
-  URL for personal website: & \url{https://tormodboe.netlify.com} &  &  \\ 
+  URL for personal website: & \url{tormod.netlify.com} and \url{tormodteaching.netlify.com} &  &  \\ 
   \end{tabular}
 
 \hypertarget{education}{%
-\section{EDUCATION}\label{education}}
+\section{Education}\label{education}}
 
 \begin{tabular}{ll}
   2010--2013 & \textbf{Ph.D.}, University of Bergen, Bergen, Norway \\ 
@@ -289,14 +286,14 @@
 \vskip -.1 in
 
 \hypertarget{positions}{%
-\section{POSITIONS}\label{positions}}
+\section{Positions}\label{positions}}
 
-\hypertarget{current-position}{%
-\subsection{Current Position}\label{current-position}}
+\hypertarget{current-positions}{%
+\subsection{Current positions}\label{current-positions}}
 
 \begin{tabular}{ll}
-  2018-- & \textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
-  2018-- & \textbf{Senior Researcher} (20\% position), Uni Research Health, Bergen Norway \\ 
+  2018--present & \textbf{Associate Professor}, Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
+  2018--present & \textbf{Senior Researcher} (20\% position), Uni Research Health, Bergen Norway \\ 
   \end{tabular}
 
 \hypertarget{previous-positions-held}{%
@@ -304,68 +301,47 @@
 
 \begin{tabular}{ll}
   2014--2018 & \textbf{Senior Researcher}, Uni Research Health, Bergen, Norway \\ 
-  2014--2017 & \textbf{Post doctor} (funded by Norwegian Research Council), Uni Research Health, Bergen, Norway \\ 
+  2014--2017 & \textbf{Post doctor} (funded by Norwegian research council), Uni Research Health, Bergen, Norway \\ 
   2016--2016 & \textbf{Associate Professor}  (20\% position), Faculty of Psychology, University of Bergen, Bergen, Norway \\ 
   2010--2014 & \textbf{PhD student}, Uni Research Health, Bergen, Norway \\ 
-  2011--2012 & \textbf{Assistant Professor} (20\% position), BI Norwegian, Business School, Bergen, Norway \\ 
+  2011--2012 & \textbf{Lecturer} (20\% position), BI Norwegian, Business School, Bergen, Norway \\ 
   2010--2010 & \textbf{Clinical psychologist}, Biskopshavn Family Councelling, Bergen, Norway \\ 
   \end{tabular}
 
 \hypertarget{fellowships-awards-and-prizes}{%
-\section{FELLOWSHIPS, AWARDS AND PRIZES}\label{fellowships-awards-and-prizes}}
+\section{Fellowships, awards and prizes}\label{fellowships-awards-and-prizes}}
 
 \begin{tabular}{ll}
-  2020-- & Norwegian Research Council, project funding (Work package leader) \\ 
-  2019-- & Norwegian Research Council, project funding (Collaborator) \\ 
-  2019 & Department of psychosocial science, Faculty of Psychology (Scholarship for students) \\ 
-  2019 & L. Meltzer foundation (Travel grant) \\ 
-  2018 & L. Meltzer foundation (Travel grant) \\ 
-  2017-- & Extra foundation, project funding (Funding for Ph.D.)  \\ 
-  2017 & L. Meltzer foundation (Travel grant) \\ 
-  2017 & Uni Research (STEP-application grant for internal collaboration projects) \\ 
-  2013--2017 & Norwegian Research Council, project scholarship (Post doctor),  \\ 
-  2011--2013 & L. Meltzer foundation (Travel grant) \\ 
-  2006--2009 & Regional centre for child and youth mental health and child welfare, Uni health (Summer scholarship) \\ 
-  2007 & University of Bergen (Scholarship) \\ 
-  2006 & The University of Newcastle, Australia (Faculty medal) \\ 
-  2005 & The University of Newcastle, Australia (Basic Science in Psychology Prize) \\ 
-  2003--2004 & The University of Newcastle, Australia (Faculty Commendation List) \\ 
-  2002 & The University of Newcastle, Australia (Wilhelm Wundt Prize in First Year Psychology) \\ 
-  \end{tabular}
-
-\hypertarget{mobility}{%
-\section{MOBILITY}\label{mobility}}
-
-\begin{tabular}{ll}
-  2005 & Honours Thesis, University of New South Wales, Australia \\ 
+  2006 & Faculty medal, The University of Newcastle, Australia \\ 
+  2005 & Basic Science in Psychology Prize, The University of Newcastle, Australia \\ 
+  2003--2004 & Faculty Commendation List, The University of Newcastle, Australia \\ 
+  2002 & Wilhelm Wundt Prize in First Year Psychology, The University of Newcastle, Australia \\ 
   \end{tabular}
 
 \hypertarget{project-management-experience}{%
-\section{PROJECT MANAGEMENT EXPERIENCE}\label{project-management-experience}}
+\section{Project management experience}\label{project-management-experience}}
 
 \begin{tabular}{ll}
-  2020-- & Longtrends, Work package leader, Funder: Norwegian research council (NRC) \\ 
-  2019-- & New patterns - safe upringing, Researcher, Funder: NRC \\ 
-  2014-- & Linkage of youth@hordaland to national registries for education, Leader, Funder: NRC \\ 
-  2014-- & Linkage of youth@hordaland to national registries for service use, Researcher, Funder: NRC \\ 
-  2018-- & The road to independence, Researcher, Funder: Wøyen foundation \\ 
-  2006-- & Bergen Child Study/youth@hordaland studien, Researcher, Funder: NRC and others \\ 
-  2014-- & EBU project, Researcher, Funder: NRC \\ 
-  2016-- & Project Perfect, Researcher, Funder: Extra foundation \\ 
-  2014--2017 & Social inequalities, educational attainment and mental health (UNGSES), Leader, Funder: NRC \\ 
-  2016--2017 & Survey of living conditions in Askøy and Sotra, Leader, Funder: Municpalities \\ 
+  2019--ongoing & New patterns - safe upringing, Researcher, Norwegian research council (NRC) \\ 
+  2014--ongoing & Linkage of youth@hordaland to national registries for education, NRC \\ 
+  2014--ongoing & Linkage of youth@hordaland to national registries for service use, NRC \\ 
+  2018--ongoing & The road to independence, Researcher, Wøyen foundation \\ 
+  2006--ongoing & Bergen Child Study/youth@hordaland studien, Researcher, NRC and others \\ 
+  2014--ongoing & EBU project, Researcher, Norwegian research council \\ 
+  2016--ongoing & Project Perfect, Researcher, Extra foundation \\ 
+  2014--2017 & Social inequalities, educational attainment and mental health (UNGSES), Leader, NRC \\ 
+  2016--2017 & Survey of living conditions in Askøy and Sotra, Leader, Municpality funded \\ 
   \end{tabular}
 
 \hypertarget{supervision-of-graduate-students-and-research-fellows}{%
-\section{SUPERVISION OF GRADUATE STUDENTS AND RESEARCH FELLOWS}\label{supervision-of-graduate-students-and-research-fellows}}
+\section{Supervision of graduate students and research fellows}\label{supervision-of-graduate-students-and-research-fellows}}
 
 \begin{tabular}{ll}
-  2019-- & PhD, Cand. psychol. A. Skandsen \\ 
-  2018-- & PhD, Cand. psychol. Y. Moussavi \\ 
-  2017--submitted & PhD, Cand. psychol. S. Nilsen \\ 
-  2020 & Masters thesis, Stud. psychol C. Lysenstøen \\ 
-  2020 & Masters thesis, Stud. psychols H.A. Ostojic, H.A.S. Sørdal \& V.J.S Lie \\ 
-  2020 & Masters thesis, Stud. psychols I.A. Nordbøe, \& K. Gjone \\ 
+  2019--ongoing & PhD, Cand. psychol. A. Skandsen \\ 
+  2018--ongoing & PhD, Cand. psychol. Y. Moussavi \\ 
+  2017--ongoing & PhD, Cand. psychol. S. Nilsen \\ 
+  2020--ongoing & Masters thesis, Stud. psychols H.A. Ostojic, H.A.S. Sørdal \& V.J.S Lie \\ 
+  2020--ongoing & Masters thesis, Stud. psychols I.A. Nordbøe, \& K. Gjone \\ 
   2018 & Masters thesis, G.R. Skjønberg, \& T. Digervold \\ 
   2016 & Masters thesis, Stud. psychols K. Bush, M. Hugaas \& I.B. Grødem \\ 
   2016 & Masters thesis, Stud. psychol S. Nilsen \\ 
@@ -373,10 +349,10 @@
   \end{tabular}
 
 \hypertarget{teaching-activities}{%
-\section{TEACHING ACTIVITIES}\label{teaching-activities}}
+\section{Teaching activities}\label{teaching-activities}}
 
 \begin{tabular}{ll}
-  2018-- & Community Psychology, Faculty of Psychology, University of Bergen \\ 
+  2018 & Community Psychology, Faculty of Psychology, University of Bergen \\ 
   2019 & National Congress in Psychology, The Norwegian Psychology association \\ 
   2019 & National conference on growing up, The Norwegian Directorate for Children, Youth and Family Affairs \\ 
   2018 & National conference for community psychologists, National Competence Center for Mental Health \\ 
@@ -386,25 +362,15 @@
   2015 & Seminar on Social inequalities, Norwegian Directorate of Health \\ 
   \end{tabular}
 
-\hypertarget{organisation-of-meetings}{%
-\section{ORGANISATION OF MEETINGS}\label{organisation-of-meetings}}
-
-\begin{tabular}{ll}
-  2020 & Professionally responsible, Norwegian conference on Social and Community Psychology, Norway \\ 
-  2017 & Professionally responsible, RKBU Conference, 400 participants, Norway \\ 
-  \end{tabular}
-
 \hypertarget{institutional-responsibilities}{%
-\section{INSTITUTIONAL RESPONSIBILITIES}\label{institutional-responsibilities}}
+\section{Institutional responsibilities}\label{institutional-responsibilities}}
 
 \begin{tabular}{ll}
-  2019-- & Revision of psychology education (Rethos), Faculty of Psychology \\ 
-  2017-- & PhD theses advisor \\ 
-  2015-- & Masters theses advisor \\ 
+  2019-ongoing & Revision of psychology education (Rethos), Faculty of Psychology \\ 
   \end{tabular}
 
-\hypertarget{comissions-of-trust}{%
-\section{COMISSIONS OF TRUST}\label{comissions-of-trust}}
+\hypertarget{commisions-of-trust}{%
+\section{Commisions of trust}\label{commisions-of-trust}}
 
 \begin{tabular}{ll}
   2015--2019 & Expert panel on social inequalities of health, The Norwegian Directorate of Health \\ 
@@ -417,68 +383,35 @@
 \begin{itemize}
 \tightlist
 \item
-  I have authored or co-authored a total of 45 publications (journal articles, book chapters and reports). I am the first author of 13 peer reviewed journal articles and the senior author on 9. My articles have been cited 706 times, my \emph{h}-index is 11 and my \emph{i10}-index is 14 \href{https://scholar.google.com/citations?user=TMC38ZgAAAAJ\&hl=en}{according to Google Scholar}. \emph{(Updated 02.02.2020)}.
+  I have written a total of 45 publications. My articles have been cited 706 times, my \emph{h}-index is 11 and my \emph{i10}-index is 14 according to information gathered by \href{https://scholar.google.com/citations?user=TMC38ZgAAAAJ\&hl=en}{Google Scholar}. \emph{(Updated 03.02.2020)}.
 \item
-  Selected publications:
-  \defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4904309}{}
-  \addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4904309}{BoeSocioeconomicstatuschildren2012,
-  BoeSocioeconomicstatuschild2014,
-  BoeInterplaySubjectiveObjective2019a,
-  BoeCumulativeeffectsnegative2017,
-  BoeEconomicvolatilitychildhood2017,
-  Arntzen29recommendationscombat2019,
-  BoeFinancialdifficultieschildhood2017,
-  Boestrengthsdifficultiesquestionnaire2016,
-  SmidMeasurementEquivalenceConvergent2018,
-  BoeSosiookonomiskstatusog2015}
-  \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4904309,heading=none]\setcounter{papers}{0}
-\end{itemize}
-
-\nocite{BoeSocioeconomicstatuschildren2012,
-BoeSocioeconomicstatuschild2014,
-BoeInterplaySubjectiveObjective2019a,
-BoeCumulativeeffectsnegative2017,
-BoeEconomicvolatilitychildhood2017,
-Arntzen29recommendationscombat2019,
-BoeFinancialdifficultieschildhood2017,
-Boestrengthsdifficultiesquestionnaire2016,
-SmidMeasurementEquivalenceConvergent2018,
-BoeSosiookonomiskstatusog2015}
-
-\begin{itemize}
-\tightlist
+  I have written one report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health.
 \item
-  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health.
+  I have given more than 57 invited talks for more than 7 400 particpants in the period from 2015 to 2019. Among those are several keynote presentations at national and nordic conferences. Further details available on \href{https://tormodteaching.netlify.com/appenda.html}{my teaching website: tormodteaching.netlify.com}.
 \item
-  My research has been featured in several national policy documents, such as the \href{https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/}{Government Strategy document for Children living in poverty}. It was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019.\\
-\item
-  I have been invited to give 57 talks for more than 7 400 participants in the period from 2015 to 2020. Among those were several keynote presentations at national and nordic conferences. \href{https://tormodteaching.netlify.com/appendd.html}{Further details are available on my teaching website: tormodteaching.netlify.com}.
-\item
-  I have collaborated with journalists on many dissemination projects, one of the most successful being ``\href{https://www.bt.no/emne/Historier_om_fattigdom}{Historier om fattigdom {[}Stories of Poverty{]}}'', a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 6th. 2020 had been read more than 1.2 million times.
-\item
-  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+  Additional supervison experience include 6 Masters theses, 12 student papers (one of which has been published), and 3 summer scholarship papers. Further details available upon request.
 \end{itemize}
 
 \newpage
 
-\hypertarget{list-of-publications}{%
-\section{LIST OF PUBLICATIONS}\label{list-of-publications}}
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
 
 \hypertarget{phd-thesis}{%
 \subsection{PhD thesis}\label{phd-thesis}}
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4928526}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4928526}{tormodboesocioeconomicstatus2013}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2389300}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2389300}{tormodboesocioeconomicstatus2013}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-4928526,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2389300,heading=none]\setcounter{papers}{0}
 
 \nocite{tormodboesocioeconomicstatus2013}
 
 \hypertarget{refereed-research-papers}{%
 \subsection{Refereed research papers}\label{refereed-research-papers}}
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5033846}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5033846}{Arntzen29recommendationscombat2019,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2512155}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2512155}{Arntzen29recommendationscombat2019,
 BoeInterplaySubjectiveObjective2019a,
 nilsen2019complex,
 skogeneconomiccircumstances2019,
@@ -518,7 +451,7 @@ KornorMaleegenskapervednorske2011,
 KornorMaleegenskapervednorske2011a,
 kornormeasurementproperties2011}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5033846,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2512155,heading=none]\setcounter{papers}{0}
 
 \nocite{Arntzen29recommendationscombat2019,
 BoeInterplaySubjectiveObjective2019a,
@@ -565,18 +498,18 @@ kornormeasurementproperties2011}
 \hypertarget{books-and-book-chapters}{%
 \subsection{Books and book chapters}\label{books-and-book-chapters}}
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5067135}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5067135}{BoeT.Hvabetyrdet2016}
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2548864}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2548864}{BoeT.Hvabetyrdet2016}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5067135,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2548864,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeT.Hvabetyrdet2016}
 
 \hypertarget{conference-proceedings}{%
 \subsection{Conference proceedings}\label{conference-proceedings}}
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5091340}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5091340}{BoeRoadIndependenceMental2019a,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2587637}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2587637}{BoeRoadIndependenceMental2019a,
 boe2019higher,
 NilsenDivorceAdolescentMental2018,
 BoeEconomicvolatilityadolescent2016,
@@ -589,7 +522,7 @@ boesocioeconomicstatus2010,
 boestabilitymental2010,
 boesocioeconomicstatus2009}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5091340,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2587637,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeRoadIndependenceMental2019a,
 boe2019higher,
@@ -607,12 +540,12 @@ boesocioeconomicstatus2009}
 \hypertarget{reports}{%
 \subsection{Reports}\label{reports}}
 
-\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5117388}{}
-\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5117388}{BoeLevekarsundersokelseAskoyFjell2017,
+\defbibheading{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2624299}{}
+\addtocategory{bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2624299}{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
 KvestadVeientilselvstendighet2019}
 \newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot.bib-5117388,heading=none]\setcounter{papers}{0}
+\printbibliography[category=bib-/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib-2624299,heading=none]\setcounter{papers}{0}
 
 \nocite{BoeLevekarsundersokelseAskoyFjell2017,
 BoeSosiookonomiskstatusog2015,
