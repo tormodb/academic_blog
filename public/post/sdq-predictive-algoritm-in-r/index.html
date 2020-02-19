@@ -699,7 +699,7 @@ sconduct = SDQ conduct problems score from self-report SDQ"><meta property="og:i
 
 
 <blockquote>
-<p>Adapted from syntax available at the <a href="http://www.sdqinfo.com/c8.html">SDQ website</a>.</p>
+<p>Adapted from syntax available at the <a href="http://www.sdqinfo.com/c4.html">SDQ website</a>.</p>
 </blockquote>
 <div id="the-predictive-algorithm-is-based-on-up-to-twelve-input-variables" class="section level2">
 <h2>The predictive algorithm is based on up to twelve input variables:</h2>
@@ -849,10 +849,15 @@ sdq &lt;- sdq %&gt;%
 sdq &lt;- sdq %&gt;% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
 
 # ASSIGN LABELS
-sdq$sdqhk   &lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
-sdq$sdqcd   &lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
-sdq$sdqed   &lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
-sdq$anydiag &lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))</code></pre>
+sdq$sdqhk   &lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), 
+                       labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$sdqcd   &lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), 
+                       labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$sdqed   &lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), 
+                       labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$anydiag &lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), 
+                       labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))</code></pre>
+<p><a href="https://tormodboe.netlify.com/files/sdq-algorithm.R">Download <code>R</code> script</a>.</p>
 </div>
 </div>
 <div class="footnotes">

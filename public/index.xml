@@ -42,7 +42,7 @@
 
 
 &lt;blockquote&gt;
-&lt;p&gt;Adapted from syntax available at the &lt;a href=&#34;http://www.sdqinfo.com/c8.html&#34;&gt;SDQ website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Adapted from syntax available at the &lt;a href=&#34;http://www.sdqinfo.com/c4.html&#34;&gt;SDQ website&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div id=&#34;the-predictive-algorithm-is-based-on-up-to-twelve-input-variables&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The predictive algorithm is based on up to twelve input variables:&lt;/h2&gt;
@@ -192,10 +192,15 @@ sdq &amp;lt;- sdq %&amp;gt;%
 sdq &amp;lt;- sdq %&amp;gt;% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
 
 # ASSIGN LABELS
-sdq$sdqhk   &amp;lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
-sdq$sdqcd   &amp;lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
-sdq$sdqed   &amp;lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
-sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+sdq$sdqhk   &amp;lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), 
+                       labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$sdqcd   &amp;lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), 
+                       labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$sdqed   &amp;lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), 
+                       labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), 
+                       labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://tormodboe.netlify.com/files/sdq-algorithm.R&#34;&gt;Download &lt;code&gt;R&lt;/code&gt; script&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;

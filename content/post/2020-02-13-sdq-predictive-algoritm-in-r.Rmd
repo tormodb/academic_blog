@@ -23,7 +23,7 @@ image:
 projects: []
 ---
 
-> Adapted from syntax available at the [SDQ website](http://www.sdqinfo.com/c8.html).   
+> Adapted from syntax available at the [SDQ website](http://www.sdqinfo.com/c4.html).   
 
 ## The predictive algorithm is based on up to twelve input variables:
 
@@ -200,8 +200,14 @@ sdq <- sdq %>%
 sdq <- sdq %>% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
 
 # ASSIGN LABELS
-sdq$sdqhk   <- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
-sdq$sdqcd   <- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
-sdq$sdqed   <- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
-sdq$anydiag <- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
+sdq$sdqhk   <- ordered(sdq$sdqhk,   levels = c(0, 1, 2), 
+                       labels = c("Unlikely", "Possible", "Probable"))
+sdq$sdqcd   <- ordered(sdq$sdqcd,   levels = c(0, 1, 2), 
+                       labels = c("Unlikely", "Possible", "Probable"))
+sdq$sdqed   <- ordered(sdq$sdqed,   levels = c(0, 1, 2), 
+                       labels = c("Unlikely", "Possible", "Probable"))
+sdq$anydiag <- ordered(sdq$anydiag, levels = c(0, 1, 2), 
+                       labels = c("Unlikely", "Possible", "Probable"))
 ```
+
+[Download `R` script](https://tormodboe.netlify.com/files/sdq-algorithm.R).
