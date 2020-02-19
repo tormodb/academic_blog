@@ -5,12 +5,28 @@
     <link>https://tormodboe.netlify.com/tags/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://tormodboe.netlify.com/tags/</link>
     </image>
+    
+    <item>
+      <title>r</title>
+      <link>https://tormodboe.netlify.com/tags/r/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sdq</title>
+      <link>https://tormodboe.netlify.com/tags/sdq/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/sdq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CV</title>
@@ -41,14 +57,6 @@
       <link>https://tormodboe.netlify.com/tags/blogdown/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
-      <link>https://tormodboe.netlify.com/tags/r/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/r/</guid>
       <description></description>
     </item>
     
@@ -617,14 +625,6 @@
       <link>https://tormodboe.netlify.com/tags/bcs/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/bcs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sdq</title>
-      <link>https://tormodboe.netlify.com/tags/sdq/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/sdq/</guid>
       <description></description>
     </item>
     
