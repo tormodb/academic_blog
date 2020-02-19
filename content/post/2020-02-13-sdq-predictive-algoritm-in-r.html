@@ -1,0 +1,192 @@
+---
+title: SDQ Predictive algoritm in R
+author: Tormod Bøe
+date: '2020-02-13'
+slug: sdq-predictive-algoritm-in-r
+categories:
+  - R
+  - SDQ
+  - screening
+tags:
+  - r
+  - sdq
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-13T20:43:30+01:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<blockquote>
+<p>Adapted from syntax available at the <a href="http://www.sdqinfo.com/c8.html">SDQ website</a>.</p>
+</blockquote>
+<div id="the-predictive-algorithm-is-based-on-up-to-twelve-input-variables" class="section level2">
+<h2>The predictive algorithm is based on up to twelve input variables:</h2>
+<p><strong>phyper</strong> = SDQ hyperactivity score from parent SDQ<br />
+<strong>thyper</strong> = SDQ hyperactivity score from teacher SDQ<br />
+<strong>shyper</strong> = SDQ hyperactivity score from self-report SDQ<br />
+<strong>pconduct</strong> = SDQ conduct problems score from parent SDQ<br />
+<strong>tconduct</strong> = SDQ conduct problems score from teacher SDQ<br />
+<strong>sconduct</strong> = SDQ conduct problems score from self-report SDQ<br />
+<strong>pemotion</strong> = SDQ emotional symptoms score from parent SDQ<br />
+<strong>temotion</strong> = SDQ emotional symptoms score from teacher SDQ<br />
+<strong>semotion</strong> = SDQ emotional symptoms score from self-report SDQ<br />
+<strong>pimpact</strong> = SDQ impact score from parent SDQ<br />
+<strong>timpact</strong> = SDQ impact score from teacher SDQ<br />
+<strong>simpact</strong> = SDQ impact score from self-report SDQ</p>
+<p>The algorithm generates four output variables:<br />
+<strong>sdqed</strong> = prediction of an emotional disorder<br />
+(0 = unlikely, 1 = possible, 2 = probable)<br />
+<strong>sdqcd</strong> = prediction of a conduct disorder<br />
+(0 = unlikely, 1 = possible, 2 = probable)<br />
+<strong>sdqhk</strong> = prediction of a hyperactivity disorder<br />
+(0 = unlikely, 1 = possible, 2 = probable)<br />
+<strong>anydiag</strong> = prediction of any psychiatric disorder<br />
+(0 = unlikely, 1 = possible, 2 = probable)</p>
+<hr />
+<div id="load-required-libraries" class="section level3">
+<h3>Load required libraries</h3>
+<p>Note that the current scoring syntax is based on <code>dplyr</code><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> which must be installed. I also recommend installing <code>haven</code><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> to read SPSS files into <code>R</code>. Use the links to read more about <a href="https://dplyr.tidyverse.org/">dplyr</a> and <a href="https://haven.tidyverse.org/">haven</a>.</p>
+<pre class="r"><code>library(dplyr)
+library(haven)</code></pre>
+</div>
+<div id="load-your-data-into-r" class="section level3">
+<h3>Load your data into R</h3>
+<p>The syntax is based on you reading you data into an object named <code>sdq</code>. This could be done with the command:</p>
+<pre class="r"><code>sdq &lt;- read_sav(&quot;sdq.sav&quot;)</code></pre>
+<p>Note that <code>read_sav</code> is from <code>haven</code> and will fail if you have not installed it. Alternatively, you could use the package <a href="https://cran.r-project.org/web/packages/foreign/foreign.pdf"><code>foreign</code></a>, but this code is only tested with <code>haven</code>.</p>
+</div>
+<div id="sdq-hyperactivity-prediction" class="section level3">
+<h3>SDQ HYPERACTIVITY PREDICTION</h3>
+<pre class="r"><code>sdq &lt;- sdq %&gt;%
+  mutate(
+    phk = case_when(
+      phyper&gt;=7 &amp; pimpact&gt;=2 ~ 2,
+      phyper&gt;=9 &amp; pimpact&gt;=1 ~ 2,
+      phyper&gt;=6 &amp; pimpact&gt;=1 ~ 1,
+      phyper&gt;=0 &amp; pimpact&gt;=0 ~ 0)
+    )
+ 
+sdq &lt;- sdq %&gt;% 
+  mutate(
+  shk = case_when(
+    shyper&gt;=7 &amp; simpact&gt;=2 ~ 2,
+    shyper&gt;=6 &amp; simpact&gt;=1 ~ 1,
+    shyper&gt;=0 &amp; simpact&gt;=0 ~ 0)
+  )
+
+sdq &lt;- sdq %&gt;% 
+  mutate(
+    thk = case_when(
+      thyper&gt;=7 &amp; timpact&gt;=2 ~ 2,
+      thyper&gt;=6 &amp; timpact&gt;=1 ~ 1,
+      thyper&gt;=0 &amp; timpact&gt;=0 ~ 0))
+    
+
+sdq$pshk &lt;- sdq$phk
+sdq$pshk &lt;- ifelse(is.na(sdq$phk), sdq$shk, sdq$pshk)
+
+sdq &lt;- sdq %&gt;% 
+  mutate(
+  sdqhk = case_when(
+    pshk==2 &amp; thk&gt;=1 ~ 2,
+    pshk&gt;=1 &amp; thk&gt;=1 ~ 1,
+    is.na(pshk) &amp; thk&gt;=1 ~ 1,
+    pshk&gt;=1 &amp; !is.na(pshk) &amp; is.na(thk) ~ 1,
+    pshk==2 | thk==2 ~ 1,
+    phk&gt;=0 | shk&gt;=0 | thk&gt;=0 ~ 0)
+  )</code></pre>
+</div>
+<div id="sdq-conduct-prediction" class="section level3">
+<h3>SDQ CONDUCT PREDICTION</h3>
+<pre class="r"><code>sdq &lt;- sdq %&gt;% 
+  mutate(
+    sdqcd = case_when(
+      is.na(pimpact) &amp; is.na(timpact) &amp; is.na(simpact) ~ NA_real_,
+      pconduct&gt;=5 &amp; pimpact&gt;=2 ~ 2,
+      tconduct&gt;=4 &amp; timpact&gt;=2 ~ 2,
+      sconduct&gt;=6 &amp; simpact&gt;=2 ~ 2,
+      pconduct&gt;=4 | tconduct&gt;=3 | sconduct&gt;=5 ~ 1,
+      pconduct&gt;=0 | tconduct&gt;=0 | sconduct&gt;=0 ~ 0)
+    )</code></pre>
+</div>
+<div id="sdq-emotion-prediction" class="section level3">
+<h3>SDQ EMOTION PREDICTION</h3>
+<pre class="r"><code>sdq &lt;-  sdq %&gt;% 
+  mutate(
+    sdqed = case_when(
+      semotion&gt;=6 &amp; simpact&gt;=1 ~ 1, 
+      pemotion&gt;=5 &amp; pimpact&gt;=1 ~ 1,
+      temotion&gt;=5 &amp; timpact&gt;=1 ~ 1, 
+      pemotion&gt;=0 | temotion&gt;=0 | semotion&gt;=0 ~ 0)
+    )
+
+sdq &lt;- sdq %&gt;% 
+  mutate(pem = case_when(
+         pemotion&gt;=6 &amp; pimpact&gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &lt;- sdq %&gt;% 
+  mutate(tem = case_when(
+         temotion&gt;=6 &amp; timpact&gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &lt;- sdq %&gt;% 
+  mutate(sem = case_when(
+         semotion&gt;=7 &amp; simpact&gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &lt;- sdq %&gt;% 
+  mutate(allem = pem + tem + sem)
+
+sdq &lt;- sdq %&gt;% 
+  mutate(
+    sdqed_tmp = case_when(
+      is.na(sdqcd) &amp; is.na(sdqhk) ~ NA_real_,
+      allem==1 &amp; (sdqcd==2 | sdqhk==2) ~ 1,
+      allem&gt;=1 ~ 2, 
+      sdqed==1 ~ 1,
+      TRUE ~ 0))
+
+sdq &lt;- sdq %&gt;% 
+  mutate(
+    sdqed = sdqed_tmp)</code></pre>
+</div>
+<div id="sdq-any-disorder-prediction" class="section level3">
+<h3>SDQ ANY DISORDER PREDICTION</h3>
+<pre class="r"><code>sdq &lt;- sdq %&gt;% 
+  mutate(
+    anydiag = case_when(
+      sdqed==2 | sdqcd==2 | sdqhk==2 ~ 2,
+      sdqed&gt;=1 | sdqcd&gt;=1 | sdqhk&gt;=1 ~ 1,
+      sdqed&gt;=0 | sdqcd&gt;=0 | sdqhk&gt;=0 ~ 0)
+  )</code></pre>
+</div>
+<div id="cleaning-up" class="section level3">
+<h3>CLEANING UP</h3>
+<pre class="r"><code># DELETE MIDWAY VARIABLES
+sdq &lt;- sdq %&gt;% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
+
+# ASSIGN LABELS
+sdq$sdqhk   &lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$sdqcd   &lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$sdqed   &lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))
+sdq$anydiag &lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c(&quot;Unlikely&quot;, &quot;Possible&quot;, &quot;Probable&quot;))</code></pre>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><code>install.packages("dplyr")</code><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><code>install.packages("haven")</code><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>screening | Tormod Bøe</title>
+    <link>https://tormodboe.netlify.com/categories/screening/</link>
+      <atom:link href="https://tormodboe.netlify.com/categories/screening/index.xml" rel="self" type="application/rss+xml" />
+    <description>screening</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <title>screening</title>
+      <link>https://tormodboe.netlify.com/categories/screening/</link>
+    </image>
+    
+    <item>
+      <title>SDQ Predictive algoritm in R</title>
+      <link>https://tormodboe.netlify.com/post/sdq-predictive-algoritm-in-r/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/post/sdq-predictive-algoritm-in-r/</guid>
+      <description>
+&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Adapted from syntax available at the &lt;a href=&#34;http://www.sdqinfo.com/c8.html&#34;&gt;SDQ website&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;the-predictive-algorithm-is-based-on-up-to-twelve-input-variables&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The predictive algorithm is based on up to twelve input variables:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;phyper&lt;/strong&gt; = SDQ hyperactivity score from parent SDQ&lt;br /&gt;
+&lt;strong&gt;thyper&lt;/strong&gt; = SDQ hyperactivity score from teacher SDQ&lt;br /&gt;
+&lt;strong&gt;shyper&lt;/strong&gt; = SDQ hyperactivity score from self-report SDQ&lt;br /&gt;
+&lt;strong&gt;pconduct&lt;/strong&gt; = SDQ conduct problems score from parent SDQ&lt;br /&gt;
+&lt;strong&gt;tconduct&lt;/strong&gt; = SDQ conduct problems score from teacher SDQ&lt;br /&gt;
+&lt;strong&gt;sconduct&lt;/strong&gt; = SDQ conduct problems score from self-report SDQ&lt;br /&gt;
+&lt;strong&gt;pemotion&lt;/strong&gt; = SDQ emotional symptoms score from parent SDQ&lt;br /&gt;
+&lt;strong&gt;temotion&lt;/strong&gt; = SDQ emotional symptoms score from teacher SDQ&lt;br /&gt;
+&lt;strong&gt;semotion&lt;/strong&gt; = SDQ emotional symptoms score from self-report SDQ&lt;br /&gt;
+&lt;strong&gt;pimpact&lt;/strong&gt; = SDQ impact score from parent SDQ&lt;br /&gt;
+&lt;strong&gt;timpact&lt;/strong&gt; = SDQ impact score from teacher SDQ&lt;br /&gt;
+&lt;strong&gt;simpact&lt;/strong&gt; = SDQ impact score from self-report SDQ&lt;/p&gt;
+&lt;p&gt;The algorithm generates four output variables:&lt;br /&gt;
+&lt;strong&gt;sdqed&lt;/strong&gt; = prediction of an emotional disorder&lt;br /&gt;
+(0 = unlikely, 1 = possible, 2 = probable)&lt;br /&gt;
+&lt;strong&gt;sdqcd&lt;/strong&gt; = prediction of a conduct disorder&lt;br /&gt;
+(0 = unlikely, 1 = possible, 2 = probable)&lt;br /&gt;
+&lt;strong&gt;sdqhk&lt;/strong&gt; = prediction of a hyperactivity disorder&lt;br /&gt;
+(0 = unlikely, 1 = possible, 2 = probable)&lt;br /&gt;
+&lt;strong&gt;anydiag&lt;/strong&gt; = prediction of any psychiatric disorder&lt;br /&gt;
+(0 = unlikely, 1 = possible, 2 = probable)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;load-required-libraries&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Load required libraries&lt;/h3&gt;
+&lt;p&gt;Note that the current scoring syntax is based on &lt;code&gt;dplyr&lt;/code&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; which must be installed. I also recommend installing &lt;code&gt;haven&lt;/code&gt;&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; to read SPSS files into &lt;code&gt;R&lt;/code&gt;. Use the links to read more about &lt;a href=&#34;https://dplyr.tidyverse.org/&#34;&gt;dplyr&lt;/a&gt; and &lt;a href=&#34;https://haven.tidyverse.org/&#34;&gt;haven&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)
+library(haven)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;load-your-data-into-r&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Load your data into R&lt;/h3&gt;
+&lt;p&gt;The syntax is based on you reading you data into an object named &lt;code&gt;sdq&lt;/code&gt;. This could be done with the command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sdq &amp;lt;- read_sav(&amp;quot;sdq.sav&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that &lt;code&gt;read_sav&lt;/code&gt; is from &lt;code&gt;haven&lt;/code&gt; and will fail if you have not installed it. Alternatively, you could use the package &lt;a href=&#34;https://cran.r-project.org/web/packages/foreign/foreign.pdf&#34;&gt;&lt;code&gt;foreign&lt;/code&gt;&lt;/a&gt;, but this code is only tested with &lt;code&gt;haven&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sdq-hyperactivity-prediction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;SDQ HYPERACTIVITY PREDICTION&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sdq &amp;lt;- sdq %&amp;gt;%
+  mutate(
+    phk = case_when(
+      phyper&amp;gt;=7 &amp;amp; pimpact&amp;gt;=2 ~ 2,
+      phyper&amp;gt;=9 &amp;amp; pimpact&amp;gt;=1 ~ 2,
+      phyper&amp;gt;=6 &amp;amp; pimpact&amp;gt;=1 ~ 1,
+      phyper&amp;gt;=0 &amp;amp; pimpact&amp;gt;=0 ~ 0)
+    )
+ 
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+  shk = case_when(
+    shyper&amp;gt;=7 &amp;amp; simpact&amp;gt;=2 ~ 2,
+    shyper&amp;gt;=6 &amp;amp; simpact&amp;gt;=1 ~ 1,
+    shyper&amp;gt;=0 &amp;amp; simpact&amp;gt;=0 ~ 0)
+  )
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+    thk = case_when(
+      thyper&amp;gt;=7 &amp;amp; timpact&amp;gt;=2 ~ 2,
+      thyper&amp;gt;=6 &amp;amp; timpact&amp;gt;=1 ~ 1,
+      thyper&amp;gt;=0 &amp;amp; timpact&amp;gt;=0 ~ 0))
+    
+
+sdq$pshk &amp;lt;- sdq$phk
+sdq$pshk &amp;lt;- ifelse(is.na(sdq$phk), sdq$shk, sdq$pshk)
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+  sdqhk = case_when(
+    pshk==2 &amp;amp; thk&amp;gt;=1 ~ 2,
+    pshk&amp;gt;=1 &amp;amp; thk&amp;gt;=1 ~ 1,
+    is.na(pshk) &amp;amp; thk&amp;gt;=1 ~ 1,
+    pshk&amp;gt;=1 &amp;amp; !is.na(pshk) &amp;amp; is.na(thk) ~ 1,
+    pshk==2 | thk==2 ~ 1,
+    phk&amp;gt;=0 | shk&amp;gt;=0 | thk&amp;gt;=0 ~ 0)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sdq-conduct-prediction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;SDQ CONDUCT PREDICTION&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+    sdqcd = case_when(
+      is.na(pimpact) &amp;amp; is.na(timpact) &amp;amp; is.na(simpact) ~ NA_real_,
+      pconduct&amp;gt;=5 &amp;amp; pimpact&amp;gt;=2 ~ 2,
+      tconduct&amp;gt;=4 &amp;amp; timpact&amp;gt;=2 ~ 2,
+      sconduct&amp;gt;=6 &amp;amp; simpact&amp;gt;=2 ~ 2,
+      pconduct&amp;gt;=4 | tconduct&amp;gt;=3 | sconduct&amp;gt;=5 ~ 1,
+      pconduct&amp;gt;=0 | tconduct&amp;gt;=0 | sconduct&amp;gt;=0 ~ 0)
+    )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sdq-emotion-prediction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;SDQ EMOTION PREDICTION&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sdq &amp;lt;-  sdq %&amp;gt;% 
+  mutate(
+    sdqed = case_when(
+      semotion&amp;gt;=6 &amp;amp; simpact&amp;gt;=1 ~ 1, 
+      pemotion&amp;gt;=5 &amp;amp; pimpact&amp;gt;=1 ~ 1,
+      temotion&amp;gt;=5 &amp;amp; timpact&amp;gt;=1 ~ 1, 
+      pemotion&amp;gt;=0 | temotion&amp;gt;=0 | semotion&amp;gt;=0 ~ 0)
+    )
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(pem = case_when(
+         pemotion&amp;gt;=6 &amp;amp; pimpact&amp;gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(tem = case_when(
+         temotion&amp;gt;=6 &amp;amp; timpact&amp;gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(sem = case_when(
+         semotion&amp;gt;=7 &amp;amp; simpact&amp;gt;=2 ~ 1,
+         TRUE ~ 0))
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(allem = pem + tem + sem)
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+    sdqed_tmp = case_when(
+      is.na(sdqcd) &amp;amp; is.na(sdqhk) ~ NA_real_,
+      allem==1 &amp;amp; (sdqcd==2 | sdqhk==2) ~ 1,
+      allem&amp;gt;=1 ~ 2, 
+      sdqed==1 ~ 1,
+      TRUE ~ 0))
+
+sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+    sdqed = sdqed_tmp)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sdq-any-disorder-prediction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;SDQ ANY DISORDER PREDICTION&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sdq &amp;lt;- sdq %&amp;gt;% 
+  mutate(
+    anydiag = case_when(
+      sdqed==2 | sdqcd==2 | sdqhk==2 ~ 2,
+      sdqed&amp;gt;=1 | sdqcd&amp;gt;=1 | sdqhk&amp;gt;=1 ~ 1,
+      sdqed&amp;gt;=0 | sdqcd&amp;gt;=0 | sdqhk&amp;gt;=0 ~ 0)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cleaning-up&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;CLEANING UP&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# DELETE MIDWAY VARIABLES
+sdq &amp;lt;- sdq %&amp;gt;% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
+
+# ASSIGN LABELS
+sdq$sdqhk   &amp;lt;- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$sdqcd   &amp;lt;- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$sdqed   &amp;lt;- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))
+sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c(&amp;quot;Unlikely&amp;quot;, &amp;quot;Possible&amp;quot;, &amp;quot;Probable&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&#34;dplyr&#34;)&lt;/code&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&#34;haven&#34;)&lt;/code&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

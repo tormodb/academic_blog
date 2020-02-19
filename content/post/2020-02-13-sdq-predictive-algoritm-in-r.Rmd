@@ -1,0 +1,207 @@
+---
+title: SDQ Predictive algoritm in R
+author: Tormod Bøe
+date: '2020-02-13'
+slug: sdq-predictive-algoritm-in-r
+categories:
+  - R
+  - SDQ
+  - screening
+tags:
+  - r
+  - sdq
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-13T20:43:30+01:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+> Adapted from syntax available at the [SDQ website](http://www.sdqinfo.com/c8.html).   
+
+## The predictive algorithm is based on up to twelve input variables:
+
+__phyper__ 	=	SDQ hyperactivity score from parent SDQ  
+__thyper__ 	=	SDQ hyperactivity score from teacher SDQ  
+__shyper__ 	=	SDQ hyperactivity score from self-report SDQ  
+__pconduct__ 	=	SDQ conduct problems score from parent SDQ  
+__tconduct__ 	=	SDQ conduct problems score from teacher SDQ  
+__sconduct__ 	=	SDQ conduct problems score from self-report SDQ  
+__pemotion__ 	=	SDQ emotional symptoms score from parent SDQ  
+__temotion__ 	=	SDQ emotional symptoms score from teacher SDQ  
+__semotion__ 	=	SDQ emotional symptoms score from self-report SDQ  
+__pimpact__ 	=	SDQ impact score from parent SDQ  
+__timpact__ 	=	SDQ impact score from teacher SDQ  
+__simpact__ 	=	SDQ impact score from self-report SDQ  
+
+The algorithm generates four output variables:  
+__sdqed__ 	=	prediction of an emotional disorder  
+(0 = unlikely, 1 = possible, 2 = probable)  
+__sdqcd__ 	=	prediction of a conduct disorder  
+(0 = unlikely, 1 = possible, 2 = probable)  
+__sdqhk__ 	=	prediction of a hyperactivity disorder  
+(0 = unlikely, 1 = possible, 2 = probable)  
+__anydiag__	=	prediction of any psychiatric disorder  
+(0 = unlikely, 1 = possible, 2 = probable)  
+
+----
+
+```{r setup, include = FALSE}
+# Set-up
+knitr::opts_chunk$set(tidy = FALSE, echo = TRUE, eval = FALSE)
+```
+
+### Load required libraries
+
+Note that the current scoring syntax is based on `dplyr`[^1] which must be installed. I also recommend installing `haven`[^2] to read SPSS files into `R`. Use the links to read more about [dplyr](https://dplyr.tidyverse.org/) and [haven](https://haven.tidyverse.org/).
+
+[^1]: `install.packages("dplyr")`
+[^2]: `install.packages("haven")`
+
+```{r}
+library(dplyr)
+library(haven)
+```
+
+### Load your data into R
+
+The syntax is based on you reading you data into an object named `sdq`. This could be done with the command: 
+
+```{r}
+sdq <- read_sav("sdq.sav")
+```
+
+Note that `read_sav` is from `haven` and will fail if you have not installed it. Alternatively, you could use the package [`foreign`](https://cran.r-project.org/web/packages/foreign/foreign.pdf), but this code is only tested with `haven`. 
+
+### SDQ HYPERACTIVITY PREDICTION
+
+```{r}
+sdq <- sdq %>%
+  mutate(
+    phk = case_when(
+      phyper>=7 & pimpact>=2 ~ 2,
+      phyper>=9 & pimpact>=1 ~ 2,
+      phyper>=6 & pimpact>=1 ~ 1,
+      phyper>=0 & pimpact>=0 ~ 0)
+    )
+ 
+sdq <- sdq %>% 
+  mutate(
+  shk = case_when(
+    shyper>=7 & simpact>=2 ~ 2,
+    shyper>=6 & simpact>=1 ~ 1,
+    shyper>=0 & simpact>=0 ~ 0)
+  )
+
+sdq <- sdq %>% 
+  mutate(
+    thk = case_when(
+      thyper>=7 & timpact>=2 ~ 2,
+      thyper>=6 & timpact>=1 ~ 1,
+      thyper>=0 & timpact>=0 ~ 0))
+    
+
+sdq$pshk <- sdq$phk
+sdq$pshk <- ifelse(is.na(sdq$phk), sdq$shk, sdq$pshk)
+
+sdq <- sdq %>% 
+  mutate(
+  sdqhk = case_when(
+    pshk==2 & thk>=1 ~ 2,
+    pshk>=1 & thk>=1 ~ 1,
+    is.na(pshk) & thk>=1 ~ 1,
+    pshk>=1 & !is.na(pshk) & is.na(thk) ~ 1,
+    pshk==2 | thk==2 ~ 1,
+    phk>=0 | shk>=0 | thk>=0 ~ 0)
+  )
+```
+
+### SDQ CONDUCT PREDICTION
+
+```{r}
+sdq <- sdq %>% 
+  mutate(
+    sdqcd = case_when(
+      is.na(pimpact) & is.na(timpact) & is.na(simpact) ~ NA_real_,
+      pconduct>=5 & pimpact>=2 ~ 2,
+      tconduct>=4 & timpact>=2 ~ 2,
+      sconduct>=6 & simpact>=2 ~ 2,
+      pconduct>=4 | tconduct>=3 | sconduct>=5 ~ 1,
+      pconduct>=0 | tconduct>=0 | sconduct>=0 ~ 0)
+    )
+```
+
+### SDQ EMOTION PREDICTION
+
+```{r}
+sdq <-  sdq %>% 
+  mutate(
+    sdqed = case_when(
+      semotion>=6 & simpact>=1 ~ 1, 
+      pemotion>=5 & pimpact>=1 ~ 1,
+      temotion>=5 & timpact>=1 ~ 1, 
+      pemotion>=0 | temotion>=0 | semotion>=0 ~ 0)
+    )
+
+sdq <- sdq %>% 
+  mutate(pem = case_when(
+         pemotion>=6 & pimpact>=2 ~ 1,
+         TRUE ~ 0))
+
+sdq <- sdq %>% 
+  mutate(tem = case_when(
+         temotion>=6 & timpact>=2 ~ 1,
+         TRUE ~ 0))
+
+sdq <- sdq %>% 
+  mutate(sem = case_when(
+         semotion>=7 & simpact>=2 ~ 1,
+         TRUE ~ 0))
+
+sdq <- sdq %>% 
+  mutate(allem = pem + tem + sem)
+
+sdq <- sdq %>% 
+  mutate(
+    sdqed_tmp = case_when(
+      is.na(sdqcd) & is.na(sdqhk) ~ NA_real_,
+      allem==1 & (sdqcd==2 | sdqhk==2) ~ 1,
+      allem>=1 ~ 2, 
+      sdqed==1 ~ 1,
+      TRUE ~ 0))
+
+sdq <- sdq %>% 
+  mutate(
+    sdqed = sdqed_tmp)
+```
+
+### SDQ ANY DISORDER PREDICTION
+
+```{r}
+sdq <- sdq %>% 
+  mutate(
+    anydiag = case_when(
+      sdqed==2 | sdqcd==2 | sdqhk==2 ~ 2,
+      sdqed>=1 | sdqcd>=1 | sdqhk>=1 ~ 1,
+      sdqed>=0 | sdqcd>=0 | sdqhk>=0 ~ 0)
+  )
+```
+
+### CLEANING UP
+
+```{r}
+# DELETE MIDWAY VARIABLES
+sdq <- sdq %>% select(-phk, -shk, -thk, -pshk, -pem, -tem, -sem, -allem, -sdqed_tmp)
+
+# ASSIGN LABELS
+sdq$sdqhk   <- ordered(sdq$sdqhk,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
+sdq$sdqcd   <- ordered(sdq$sdqcd,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
+sdq$sdqed   <- ordered(sdq$sdqed,   levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
+sdq$anydiag <- ordered(sdq$anydiag, levels = c(0, 1, 2), labels = c("Unlikely", "Possible", "Probable"))
+```
