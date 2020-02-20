@@ -63,7 +63,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: files/Tormod_CV.pdf
+  link: files/cv-word.docx
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "Photo: Andreas Graven"

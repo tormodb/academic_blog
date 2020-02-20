@@ -35,7 +35,7 @@ pinf <- tribble(
   "*Date of birth:",           "07.09.1978", "*Sex:", "Male",
   "*Nationality:",             "Norwegian", "", "",
   "Researcher unique identifier(s)\n(ORCID, ResearcherID, etc.):", "0000-0002-0968-7537", "", "",
-  "URL for personal website:", "https://tormodboe.netlify.com", "", "") 
+  "URL for personal website:", "tboe.no", "", "") 
 
 pinf <- flextable(pinf)
 pinf <- theme_box(pinf)
