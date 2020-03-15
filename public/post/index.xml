@@ -185,8 +185,8 @@ sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2),
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&amp;quot;dplyr&amp;quot;)&lt;/code&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&amp;quot;haven&amp;quot;)&lt;/code&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&#34;dplyr&#34;)&lt;/code&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;code&gt;install.packages(&#34;haven&#34;)&lt;/code&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -302,10 +302,10 @@ id &amp;lt;- &amp;#39;TMC38ZgAAAAJ&amp;#39; # Google Scholar ID.&lt;/code&gt;&lt
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Du er selv ansvarlig for at CV som skal leveres ved søknader følger malen til Norges Forskningsråd. Oppsettet jeg viser her lager en CV som er basert på “CV-mal for forskere/CV template researchers (docx)” datert 25.06.2019.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Dette kan gjøres med R-kommandoen: &lt;code&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;vitae&amp;quot;, &amp;quot;flextable&amp;quot;, &amp;quot;readxl&amp;quot;, &amp;quot;dplyr&amp;quot;, &amp;quot;RefManageR&amp;quot;), dep = T)&lt;/code&gt;.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Det fantes før en funksjon som lot deg ta bort selv-siteringen, men dette er ikke lenger like enkelt.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Se “Femte steg” hvis du ønsker at nye publikasjoner skal inngå i din &lt;em&gt;Track Record&lt;/em&gt;.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Du er selv ansvarlig for at CV som skal leveres ved søknader følger malen til Norges Forskningsråd. Oppsettet jeg viser her lager en CV som er basert på “CV-mal for forskere/CV template researchers (docx)” datert 25.06.2019.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Dette kan gjøres med R-kommandoen: &lt;code&gt;install.packages(c(&#34;tidyverse&#34;, &#34;vitae&#34;, &#34;flextable&#34;, &#34;readxl&#34;, &#34;dplyr&#34;, &#34;RefManageR&#34;), dep = T)&lt;/code&gt;.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Det fantes før en funksjon som lot deg ta bort selv-siteringen, men dette er ikke lenger like enkelt.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Se “Femte steg” hvis du ønsker at nye publikasjoner skal inngå i din &lt;em&gt;Track Record&lt;/em&gt;.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -433,7 +433,7 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
       <description>
 
 
-&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
+&lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;csl: aux/apa.csl
 css: aux/APAStyle.css
 keep_md: yes
