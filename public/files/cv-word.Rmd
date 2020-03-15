@@ -4,6 +4,8 @@ output:
   word_document:
     reference_docx: cv-nfr_style.docx
   pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
