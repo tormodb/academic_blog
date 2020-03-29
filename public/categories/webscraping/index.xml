@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rvest | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/categories/rvest/</link>
-      <atom:link href="https://tormodboe.netlify.com/categories/rvest/index.xml" rel="self" type="application/rss+xml" />
-    <description>rvest</description>
+    <title>webscraping | Tormod Bøe</title>
+    <link>https://tormodboe.netlify.com/categories/webscraping/</link>
+      <atom:link href="https://tormodboe.netlify.com/categories/webscraping/index.xml" rel="self" type="application/rss+xml" />
+    <description>webscraping</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
-      <title>rvest</title>
-      <link>https://tormodboe.netlify.com/categories/rvest/</link>
+      <title>webscraping</title>
+      <link>https://tormodboe.netlify.com/categories/webscraping/</link>
     </image>
     
     <item>

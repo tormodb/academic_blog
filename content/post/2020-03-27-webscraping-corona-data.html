@@ -1,11 +1,12 @@
 ---
-title: Webscraping Corona data from the Norwegian Directorate of Health and the Norwegian Institute of Public health
+title: Scraping Corona data from the Norwegian Directorate of Health and the Norwegian Institute of Public health websites
 author: Tormod Bøe
 date: '2020-03-27'
 slug: webscraping-corona-data
 categories:
   - R
   - rvest
+  - webscraping
 tags: []
 subtitle: ''
 summary: ''
@@ -23,20 +24,34 @@ projects: []
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<p>This project uses daily updates about patients hospitalized and in ICU scraped<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> from the <a href="https://www.helsedirektoratet.no/nyheter">Norwegian Directorate of Health</a> in tandem with the predictions from the report “Covid-19 epidemic: Risk assessment and response in Norway”<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> published by the <a href="https://www.fhi.no/publ/2020/covid-19-epidemien-risikovurdering/">Norwegian Institute of Public Health (NIPH)</a>. I have resorted to web-scraping as I have not been able to find suitable data published online.</p>
-<p>The figure plots the daily number of observed cases (the red dot) on the timeline of predictions from the report from the NPHI (the red, green and blue lines represent trajectories predicted from different REs). This far, the observed numbers are lagging behind the predictions and will only be in sync from March 30th an onwards.</p>
+<blockquote>
+<p><strong>Disclaimer.</strong> This post has simply been a personal exercise in webscraping data that other have made available. I am also personally curious to see the correspondence between the observed numbers of patients being hospitalized and in ICU and the predictions given the different RE-estimates produced.</p>
+</blockquote>
+<p>This project uses daily updates about patients hospitalized and in ICU scraped from the <a href="https://www.helsedirektoratet.no/nyheter">Norwegian Directorate of Health</a> in tandem with the predictions from the report “Covid-19 epidemic: Risk assessment and response in Norway”<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> published by the <a href="https://www.fhi.no/publ/2020/covid-19-epidemien-risikovurdering/">Norwegian Institute of Public Health (NIPH)</a> building on modelling conducted by the <a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/">Imperial College COVID-19 Response Team</a>.</p>
+<p>I have resorted to web-scraping as I have not been able to find suitable data published online. <em>Please advice if you now of any open datasources containing this information!</em></p>
+<p>The figure plots the daily number of observed cases (the red dot) on the timeline of predictions from the report from the NPHI (the red, green and blue lines represent trajectories predicted from different REs). This far, the observed numbers are lagging behind the predictions and will only be in sync from March 30th and onwards.</p>
 <p><strong>Note.</strong> The report from the NIPH provided numeric estimates (with confidence intervals) for the dates March 23rd (observed data), March 30th, April 6th and April 13th. The data in between these dates is based on a linear prediction based on the trends from the estimates between these dates. This was done in Excel as the data was manually entered from the NIPH-report which was published as a pdf.</p>
 <pre class="r"><code>library(readxl)
 library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 
-source(&quot;corona.R&quot;)
+source(&quot;corona.R&quot;) # See scraping script below
 
-hdir_obs &lt;- as.data.frame(read.table(&quot;innl_date.csv&quot;, col.names = c(&quot;row&quot;, &quot;day&quot;, &quot;month&quot;, &quot;year&quot;, &quot;innlagt&quot;, &quot;intensiv&quot;, &quot;date&quot;)))
+hdir_obs &lt;- as.data.frame(
+  read.table(&quot;innl_date.csv&quot;,
+             col.names = c(&quot;row&quot;, &quot;day&quot;, &quot;month&quot;, &quot;year&quot;, &quot;innlagt&quot;, &quot;intensiv&quot;, &quot;date&quot;)
+             )
+  )
+
 hdir_obs$date &lt;- as.POSIXct(hdir_obs$date, format=&quot;%d.%m.%Y&quot;, tz=&quot;UTC&quot;)
 
-fhi_obs &lt;- as.data.frame(read.table(&quot;inf_date.csv&quot;, col.names = c(&quot;row&quot;, &quot;day&quot;, &quot;month&quot;, &quot;year&quot;, &quot;infected&quot;, &quot;date&quot;, &quot;day_tmp&quot;, &quot;mth_tmp&quot;)))
+fhi_obs &lt;- as.data.frame(
+  read.table(&quot;inf_date.csv&quot;,
+             col.names = c(&quot;row&quot;, &quot;day&quot;, &quot;month&quot;, &quot;year&quot;, &quot;infected&quot;, &quot;date&quot;, &quot;day_tmp&quot;, &quot;mth_tmp&quot;)
+             )
+  )
+
 fhi_obs$date &lt;- as.POSIXct(fhi_obs$date, format=&quot;%d.%m.%Y&quot;, tz=&quot;UTC&quot;)
 coronoa_pred &lt;- read_excel(&quot;coronoa_pred.xlsx&quot;)
 corona_pred_obs &lt;- full_join(coronoa_pred, hdir_obs, by = &quot;date&quot;)
@@ -44,30 +59,39 @@ corona_pred_obs &lt;- corona_pred_obs %&gt;% select(-row, -day, -month, -year)
 
 corona_pred_obs &lt;- corona_pred_obs %&gt;% mutate(re = as.factor(re))</code></pre>
 <pre class="r"><code>corona_pred_obs %&gt;%
-  ggplot(aes(x=date, y=intensiv_pred, ymax= intensiv_upr, ymin = intensiv_lw, group = re, fill = re)) + geom_ribbon() + geom_line(lty=&quot;dashed&quot;)+
+  ggplot(aes(x=date, y=intensiv_pred, ymax= intensiv_upr, ymin = intensiv_lw, group = re, fill = re)) + 
+  geom_ribbon() + 
+  geom_line(lty=&quot;dashed&quot;) +
   geom_point(data = corona_pred_obs, aes(x=date, y = intensiv), color = &quot;red&quot;) +
   theme_ipsum_rc() +
   labs(main = &quot;Intensive care patients&quot;, x = &quot;Date&quot;, y = &quot;Predicted number of \nintensive care patients&quot;,
        caption=&quot;Data from the Norwegian Directorate of Health and the Norwegian Institute of Public Health&quot;)</code></pre>
 <p><img src="/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <pre class="r"><code>corona_pred_obs %&gt;%
-  ggplot(aes(x=date, y=innlagte_pred, group = re, ymin = innlagte_lw, ymax = innlagte_upr, fill = re)) + geom_ribbon() + geom_line(lty=&quot;dashed&quot;) + 
+  ggplot(aes(x=date, y=innlagte_pred, group = re, ymin = innlagte_lw, ymax = innlagte_upr, fill = re)) + 
+  geom_ribbon() + 
+  geom_line(lty=&quot;dashed&quot;) + 
   geom_point(data = corona_pred_obs, aes(x=date, y = innlagt), color = &quot;red&quot;) +
   theme_ipsum_rc() +
   labs(main = &quot;Hospitalized patients&quot;, x = &quot;Date&quot;, y = &quot;Predicted number of \nhospitalized patients&quot;, 
        caption=&quot;Data from the Norwegian Directorate of Health and the Norwegian Institute of Public Health&quot;)</code></pre>
-<p><img src="/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>The script to scrape the websites is documented below. It does the scraping and stores results to two csv-files. The script is sourced by this post, to keep it updated and the resulting csv files are read into this script and used to produce the graphs. For now, this requires a manual update of the script to keep it current, and I have not investigated options to make the script self-updated, which could probably be achieved with shiny or other options.</p>
-<pre class="r"><code>library(rvest)
+<p><img src="/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+The script to scrape the websites is documented below. It does the scraping and stores results to two csv-files. The script is sourced by this post, to keep it updated and the resulting csv files are read into this script and used to produce the graphs. For now, this requires a manual update of the script to keep it current, and I have not investigated options to make the script self-updated, which could probably be achieved with shiny or other options. The script to do this is very fragile; It depends on the Norwegian Directorate of Health keeping the address to their site <em>and</em> even the wording on their site exactly similar from day to day, I have already had to update it due to the Norwegian Directorate of Health adding an extra space (" ") in front of the number of ICU patients on March 29th thus breaking the method of using <code>strsplit</code> and retrieving the object from a specific position (which shifted the number is wanted from position <code>[14]</code> to position <code>[15]</code>. The data is usually publised on the Norwegian Directorate of Health website around 13:00 (1 pm.).</p>
+<pre class="r"><code>library(dplyr)
+library(rvest)
 library(xml2)
+
 
 url2 &lt;- paste0(&quot;https://www.helsedirektoratet.no/nyheter/oversikt-over-innlagte-pasienter-med-covid-19-per-&quot;, format(Sys.Date(), &quot;%d&quot;),&quot;.mars&quot;)
 url_res2 &lt;- xml2::read_html(url2)
+
+url_res2 %&gt;% html_text()
 
 hdir &lt;- url_res2 %&gt;% 
   html_nodes(&quot;.b-article-intro__intro&quot;) %&gt;% html_text()
 
 day_hdir &lt;- unlist(strsplit(hdir, &quot; &quot;))[3]
+
 day_hdir &lt;- gsub(&#39;[[:punct:] ]+&#39;,&#39;&#39;, day_hdir)
 
 mth_hdir &lt;- unlist(strsplit(hdir, &quot; &quot;))[4]
@@ -77,16 +101,37 @@ mth_hdir &lt;- ifelse(mth_hdir==&quot;mars&quot;, &quot;03&quot;,
                             ifels(mth_hdir==&quot;juni&quot;, &quot;06&quot;, NA))))
 
 n_innl_hdir &lt;- unlist(strsplit(hdir, &quot; &quot;))[6]
+n_int_hdir &lt;- unlist(strsplit(hdir, &quot; &quot;))[15]
 
-n_int_hdir &lt;- unlist(strsplit(hdir, &quot; &quot;))[14]
+# This function is supposed to replace NULL values with missing values in case the script is used
+# before the website is updated. Not working properly yet... 
+
+if (is.null(day_hdir) &amp;&amp; is.null(day_hdir &amp;&amp; is.null(mth_hdir) &amp;&amp; is.null(n_innl_hdir) &amp;&amp; is.null(n_int_hdir))){
+  day_hdir &lt;- NA
+  mth_hdir &lt;- NA
+  n_innl_hdir &lt;- NA
+  n_int_hdir &lt;- NA
+  return(day_hdir)
+  return(mth_hdir)
+  return(n_innl_hdir)
+  return(n_int_hdir)
+}
+
+# day_hdir
+# mth_hdir
+# n_innl_hdir
+# n_int_hdir
 
 year_hdir &lt;- 2020
+
 
 date &lt;- (paste(day_hdir, mth_hdir, year_hdir, sep = &quot;.&quot;))
 
 innl_date &lt;- as.data.frame(cbind(day_hdir, mth_hdir, year_hdir, n_innl_hdir, n_int_hdir, date))
 
-write.table(innl_date, &quot;/Users/st06810/Dropbox/UiB/blog/content/post/innl_date.csv&quot;, dec=&quot;.&quot;, quote=FALSE, append=T, sep=&quot;\t&quot;, col.names=FALSE)
+
+write.table(innl_date, &quot;/Users/st06810/Dropbox/UiB/blog/content/post/innl_date.csv&quot;, 
+            dec=&quot;.&quot;, quote=FALSE, append=T, sep=&quot;\t&quot;, col.names=FALSE)
 
 
 url &lt;- &quot;https://www.fhi.no/sv/smittsomme-sykdommer/corona/&quot;
@@ -116,11 +161,11 @@ date &lt;- (paste(day, mth, year, sep = &quot;.&quot;))
 mth &lt;- as.numeric(mth)
 inf_date &lt;- as.data.frame(cbind(day, mth, year, n_inf, date, day_tmp, mth_tmp))
 
-write.table(inf_date, &quot;/Users/st06810/Dropbox/UiB/blog/content/post/inf_date.csv&quot;, dec=&quot;.&quot;, quote=FALSE, append=T, sep=&quot;\t&quot;, col.names=FALSE)</code></pre>
+write.table(inf_date, &quot;/Users/st06810/Dropbox/UiB/blog/content/post/inf_date.csv&quot;, 
+            dec=&quot;.&quot;, quote=FALSE, append=T, sep=&quot;\t&quot;, col.names=FALSE)</code></pre>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Se below for the very fragile script to do this - fragile as it depends on the Norwegian Directorate of Health keeping the address to their site <em>and</em> the wording on their site exactly similar from day to day.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>Covid-19-epidemien: Risiko, progonose og respons i Norge etter uke 12. Med vedlegg. 24.3.2020<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>Covid-19-epidemien: Risiko, progonose og respons i Norge etter uke 12. Med vedlegg. 24.3.2020<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
