@@ -1,9 +1,64 @@
-library(dplyr)
+library(tidyverse)
 library(rvest)
 library(xml2)
 
 
+today <- format(Sys.time(), "%a %b %d %X %Y")
+
+
+day <- unlist(strsplit(today, " "))[1]
+
+day <-  recode(day, 
+       Mon = "mandag",
+       Tue = "tirsday", 
+       Wed = "onsdag", 
+       Thur = "torsdag",
+       Fri = "fredag", 
+       Sat = "lordag", 
+       Sun = "sondag")
+
+mth <- unlist(strsplit(today, " "))[2]
+
+mth <- recode(mth, 
+       Mar = "mars", 
+       Apr = "april")
+
+date <- unlist(strsplit(today, " "))[3]
+year <- unlist(strsplit(today, " "))[5]
+
+
+url3 <- paste0("https://www.fhi.no/nyheter/2020/status-koronasmitte-", day, "-", date, ".-", mth, "-", year)
+url_res3 <- xml2::read_html(url3)
+
+frafhi <- url_res3 %>% html_nodes(".textual-block") %>% 
+  map_df(~{
+  tibble(
+    # postal = html_node(.x, "span") %>% html_text(trim=TRUE),
+    fhi = html_nodes(.x, "ul > li") %>% html_text(trim=TRUE)
+  )
+}) 
+
+
+
+innlagt_fhi <- frafhi$fhi[1] %>% str_match_all("[0-9]+") %>% unlist %>% as.numeric
+intensiv_fhi <- frafhi$fhi[4] %>% str_match_all("[0-9]+") %>% unlist %>% as.numeric
+
+innl_num <- word(innlagt_fhi)[1:2]
+innl_num <- as.numeric(paste0(innl_num[1], innl_num[2]))
+intens_num <- as.numeric(word(intensiv_fhi)[3])
+
+# month <- 
+  
+fulldate <- format(Sys.time(), "%d.%m.%Y")
+fullmonth <- format(Sys.time(), "%m")
+fullyear <- format(Sys.time(), "%Y")
+
+infint_fhi <- as.data.frame(cbind(date,  fullmonth, fullyear, innl_num, intens_num, fulldate))
+
+write.table(infint_fhi, "/Users/st06810/Dropbox/UiB/blog/content/post/infint_fhi.csv", dec=".", quote=FALSE, append=T, sep="\t", col.names=FALSE)
+
 url2 <- paste0("https://www.helsedirektoratet.no/nyheter/oversikt-over-innlagte-pasienter-med-covid-19-per-", format(Sys.Date(), "%d"),".mars")
+
 url_res2 <- xml2::read_html(url2)
 
 url_res2 %>% html_text()
