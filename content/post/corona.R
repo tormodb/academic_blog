@@ -10,7 +10,7 @@ day <- unlist(strsplit(today, " "))[1]
 
 day <-  recode(day, 
        Mon = "mandag",
-       Tue = "tirsday", 
+       Tue = "tirsdag", 
        Wed = "onsdag", 
        Thur = "torsdag",
        Fri = "fredag", 
@@ -43,8 +43,8 @@ frafhi <- url_res3 %>% html_nodes(".textual-block") %>%
 innlagt_fhi <- frafhi$fhi[1] %>% str_match_all("[0-9]+") %>% unlist %>% as.numeric
 intensiv_fhi <- frafhi$fhi[4] %>% str_match_all("[0-9]+") %>% unlist %>% as.numeric
 
-innl_num <- word(innlagt_fhi)[1:2]
-innl_num <- as.numeric(paste0(innl_num[1], innl_num[2]))
+innl_num <- word(innlagt_fhi)[1]
+# innl_num <- as.numeric(paste0(innl_num[1], innl_num[2]))
 intens_num <- as.numeric(word(intensiv_fhi)[3])
 
 # month <- 
