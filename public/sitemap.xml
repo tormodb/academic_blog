@@ -83,12 +83,12 @@
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/tags/cv/</loc>
+    <loc>https://tormodboe.netlify.com/categories/cv/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/categories/cv/</loc>
+    <loc>https://tormodboe.netlify.com/tags/cv/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,22 +108,22 @@
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/categories/bibtex/</loc>
-    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tormodboe.netlify.com/tags/bibtex/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/tags/blogdown/</loc>
+    <loc>https://tormodboe.netlify.com/categories/bibtex/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tormodboe.netlify.com/categories/blogdown/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/tags/blogdown/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,12 +168,12 @@
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/categories/project/</loc>
+    <loc>https://tormodboe.netlify.com/tags/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/tags/project/</loc>
+    <loc>https://tormodboe.netlify.com/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
