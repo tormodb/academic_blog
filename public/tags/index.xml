@@ -5,12 +5,76 @@
     <link>https://tormodboe.netlify.com/tags/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://tormodboe.netlify.com/tags/</link>
     </image>
+    
+    <item>
+      <title>Adolescents</title>
+      <link>https://tormodboe.netlify.com/tags/adolescents/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/adolescents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depression</title>
+      <link>https://tormodboe.netlify.com/tags/depression/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/depression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emotions</title>
+      <link>https://tormodboe.netlify.com/tags/emotions/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/emotions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medical risk factors</title>
+      <link>https://tormodboe.netlify.com/tags/medical-risk-factors/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/medical-risk-factors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preventive medicine</title>
+      <link>https://tormodboe.netlify.com/tags/preventive-medicine/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/preventive-medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychometrics</title>
+      <link>https://tormodboe.netlify.com/tags/psychometrics/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/psychometrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public and occupational health</title>
+      <link>https://tormodboe.netlify.com/tags/public-and-occupational-health/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/public-and-occupational-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schools</title>
+      <link>https://tormodboe.netlify.com/tags/schools/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/schools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>r</title>
@@ -45,6 +109,38 @@
     </item>
     
     <item>
+      <title>adolescence</title>
+      <link>https://tormodboe.netlify.com/tags/adolescence/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/adolescence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mental Health Problems</title>
+      <link>https://tormodboe.netlify.com/tags/mental-health-problems/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/mental-health-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>school absence</title>
+      <link>https://tormodboe.netlify.com/tags/school-absence/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/school-absence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sleep duration</title>
+      <link>https://tormodboe.netlify.com/tags/sleep-duration/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/sleep-duration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bibtex</title>
       <link>https://tormodboe.netlify.com/tags/bibtex/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
@@ -65,14 +161,6 @@
       <link>https://tormodboe.netlify.com/tags/rmarkdown/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/rmarkdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adolescence</title>
-      <link>https://tormodboe.netlify.com/tags/adolescence/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/adolescence/</guid>
       <description></description>
     </item>
     
@@ -213,14 +301,6 @@
     </item>
     
     <item>
-      <title>adolescents</title>
-      <link>https://tormodboe.netlify.com/tags/adolescents/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/adolescents/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>age groups</title>
       <link>https://tormodboe.netlify.com/tags/age-groups/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -233,14 +313,6 @@
       <link>https://tormodboe.netlify.com/tags/behavior/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/behavior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emotions</title>
-      <link>https://tormodboe.netlify.com/tags/emotions/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/emotions/</guid>
       <description></description>
     </item>
     
@@ -405,14 +477,6 @@
     </item>
     
     <item>
-      <title>school absence</title>
-      <link>https://tormodboe.netlify.com/tags/school-absence/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/school-absence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>school attendance</title>
       <link>https://tormodboe.netlify.com/tags/school-attendance/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
@@ -433,14 +497,6 @@
       <link>https://tormodboe.netlify.com/tags/school-refusal/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/school-refusal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>schools</title>
-      <link>https://tormodboe.netlify.com/tags/schools/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/schools/</guid>
       <description></description>
     </item>
     

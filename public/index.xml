@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Life Events and Adolescent Depressive Symptoms: Protective Factors Associated with Resilience</title>
+      <link>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scraping Corona data from the Norwegian Directorate of Health and the Norwegian Institute of Public health websites</title>
       <link>https://tormodboe.netlify.com/post/old/webscraping-corona-data/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
@@ -253,6 +261,22 @@ write.table(inf_date, &amp;quot;/Users/st06810/Dropbox/UiB/blog/content/post/inf
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Divorce and Adolescent Academic Achievement: Heterogeneity in the Associations by Parental Education</title>
+      <link>https://tormodboe.netlify.com/publication/nilsen-divorceadolescentacademic-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/nilsen-divorceadolescentacademic-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Only the Lonely: A Study of Loneliness Among University Students in Norway</title>
+      <link>https://tormodboe.netlify.com/publication/hysing-only-lonely-study-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/hysing-only-lonely-study-2020/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -554,6 +578,14 @@ id &amp;lt;- &amp;#39;TMC38ZgAAAAJ&amp;#39; # Google Scholar ID.&lt;/code&gt;&lt
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The Association Between Symptoms of Depression and School Absence in a Population-Based Study of Late Adolescents</title>
+      <link>https://tormodboe.netlify.com/publication/askelandassociationsymptoms-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/askelandassociationsymptoms-2020/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -873,10 +905,26 @@ Three
     </item>
     
     <item>
+      <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The Youth@hordaland Study</title>
+      <link>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The youth@hordaland Study</title>
       <link>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Higher Education Students&#39; Mental Health Problems: Results from the Norwegian SHOT Study: Tormod Bø e</title>
+      <link>https://tormodboe.netlify.com/publication/boe-2019-higher/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/boe-2019-higher/</guid>
       <description></description>
     </item>
     
@@ -901,6 +949,14 @@ Three
       <link>https://tormodboe.netlify.com/publication/kvestadveientil-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/publication/kvestadveientil-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Veien Til Selvstendighet: Et Prosjekt i Barneverntjenesten for Enslige Mindreå rige   Flyktninger i Bergen Kommune</title>
+      <link>https://tormodboe.netlify.com/publication/kvestad-veientilselvstendighet-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/kvestad-veientilselvstendighet-2019/</guid>
       <description></description>
     </item>
     

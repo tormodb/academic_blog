@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>schools | Tormod Bøe</title>
+    <title>Schools | Tormod Bøe</title>
     <link>https://tormodboe.netlify.com/tags/schools/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/schools/index.xml" rel="self" type="application/rss+xml" />
-    <description>schools</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <description>Schools</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
-      <title>schools</title>
+      <title>Schools</title>
       <link>https://tormodboe.netlify.com/tags/schools/</link>
     </image>
+    
+    <item>
+      <title>Life Events and Adolescent Depressive Symptoms: Protective Factors Associated with Resilience</title>
+      <link>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sleep and School Attendance in Adolescence: Results from a Large Population-Based Study.</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Hysing | Tormod Bøe</title>
+    <link>https://tormodboe.netlify.com/authors/m-hysing/</link>
+      <atom:link href="https://tormodboe.netlify.com/authors/m-hysing/index.xml" rel="self" type="application/rss+xml" />
+    <description>M Hysing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <title>M Hysing</title>
+      <link>https://tormodboe.netlify.com/authors/m-hysing/</link>
+    </image>
+    
+    <item>
+      <title>Higher Education Students&#39; Mental Health Problems: Results from the Norwegian SHOT Study: Tormod Bø e</title>
+      <link>https://tormodboe.netlify.com/publication/boe-2019-higher/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/boe-2019-higher/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

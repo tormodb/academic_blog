@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kari Jussie Lønning | Tormod Bøe</title>
+    <link>https://tormodboe.netlify.com/authors/kari-jussie-l%C3%B8nning/</link>
+      <atom:link href="https://tormodboe.netlify.com/authors/kari-jussie-l%C3%B8nning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kari Jussie Lønning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <title>Kari Jussie Lønning</title>
+      <link>https://tormodboe.netlify.com/authors/kari-jussie-l%C3%B8nning/</link>
+    </image>
+    
+    <item>
+      <title>Only the Lonely: A Study of Loneliness Among University Students in Norway</title>
+      <link>https://tormodboe.netlify.com/publication/hysing-only-lonely-study-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/publication/hysing-only-lonely-study-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
