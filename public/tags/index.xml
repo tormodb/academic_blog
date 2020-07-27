@@ -5,12 +5,28 @@
     <link>https://tormodboe.netlify.com/tags/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://tormodboe.netlify.com/tags/</link>
     </image>
+    
+    <item>
+      <title>canvas</title>
+      <link>https://tormodboe.netlify.com/tags/canvas/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/canvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mitt.uib.no</title>
+      <link>https://tormodboe.netlify.com/tags/mitt.uib.no/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/mitt.uib.no/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adolescents</title>

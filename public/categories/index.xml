@@ -5,7 +5,7 @@
     <link>https://tormodboe.netlify.com/categories/</link>
       <atom:link href="https://tormodboe.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
+      <title>canvas</title>
+      <link>https://tormodboe.netlify.com/categories/canvas/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/categories/canvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lms</title>
+      <link>https://tormodboe.netlify.com/categories/lms/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/categories/lms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>https://tormodboe.netlify.com/categories/r/</link>
-      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rcanvas</title>
+      <link>https://tormodboe.netlify.com/categories/rcanvas/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/categories/rcanvas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://tormodboe.netlify.com/categories/rmarkdown/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -57,14 +89,6 @@
       <link>https://tormodboe.netlify.com/categories/cv/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/categories/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>https://tormodboe.netlify.com/categories/rmarkdown/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/categories/rmarkdown/</guid>
       <description></description>
     </item>
     

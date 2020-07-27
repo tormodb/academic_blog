@@ -33,6 +33,55 @@
     </item>
     
     <item>
+      <title>Connecting to canvas lms from R</title>
+      <link>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</link>
+      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</guid>
+      <description>
+&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I often use information from canvas (in my case this is the University of Bergen version &lt;a href=&#34;https:://mitt.uib.no&#34;&gt;mitt.uib.no&lt;/a&gt;) when I prepare assignments and tasks for my students. I use &lt;code&gt;Shiny&lt;/code&gt; and &lt;code&gt;R&lt;/code&gt; as tools to manage my course, so I need data in formats that can readily be processed by R. It can be a pain to export information, like student names and emails etc. from within the web-interface in canvas, so I have been looking for better ways to gain access. Canvas has an &lt;a href=&#34;https://canvas.instructure.com/doc/api/&#34;&gt;API&lt;/a&gt; that we can access, and &lt;a href=&#34;https://github.com/daranzolin&#34;&gt;David Ranzolin&lt;/a&gt; has made an R-package that allows us to access this API from R.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NOTE! The Package is no longer maintained, but still lives here: &lt;a href=&#34;https://github.com/daranzolin/rcanvas&#34;&gt;rcanvas&lt;/a&gt;, waiting for someone to maintain it further.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;setting-up&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setting up&lt;/h2&gt;
+&lt;p&gt;Installing and loading &lt;code&gt;rcanvas&lt;/code&gt;. Also loading &lt;code&gt;tidyverse&lt;/code&gt; to get some useful data management functions. Since the package is hosted in github, you will need the &lt;code&gt;devtools&lt;/code&gt; package to install it.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(devtools)
+devtools::install_github(&amp;quot;daranzolin/rcanvas&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rcanvas)
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;acess-token&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Acess token&lt;/h3&gt;
+&lt;p&gt;You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to &lt;img src=&#34;https://tormodboe.netlify.com/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png&#34; alt=&#34;add the token to mitt.uib.no&#34; /&gt;.&lt;/p&gt;
+&lt;p&gt;Remember to copy the token once generated, as you will not be able to access it later. The token is made available using a helper function from &lt;code&gt;rcanvas&lt;/code&gt;. You will also need to enter the canvas domain. For mitt.uib.no, the canvas domain is &lt;code&gt;https://mitt.uib.no&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set_canvas_token(&amp;quot;YOUR TOKEN HERE&amp;quot;) # Paste your token between the &amp;quot; &amp;quot;. 
+set_canvas_domain(&amp;quot;https:://your.domain.here&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-all-courses&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get all courses:&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;course_list &amp;lt;- get_course_list() # Store all mitt.uib.no courses you have access to into vector&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;narrow-the-list-down-to-find-particular-course-name-with-its-id&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Narrow the list down to find particular course name with it’s id:&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;course_list %&amp;gt;% as_tibble() %&amp;gt;% select(id, name) # Display id and name of course
+course_list %&amp;gt;% as_tibble() %&amp;gt;% select(id, name) %&amp;gt;% knitr::kable() # Show all when there is a long list
+course_list %&amp;gt;% select(id, name) %&amp;gt;% filter(str_detect(name, &amp;#39;search string&amp;#39;)) # Search for specific string in name of course&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-user-details-for-specific-course-id&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Get user details for specific course id&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list_of_users &amp;lt;- get_course_items(course_id = numericid, item = &amp;quot;users&amp;quot;, include = &amp;quot;email&amp;quot;) # Get all users, but teachers are also in here
+list_of_students &amp;lt;- get_course_items(course_id = numericid, item = &amp;quot;students&amp;quot;, include = &amp;quot;email&amp;quot;) # Get all students, but email is not included
+
+teachers_with_email &amp;lt;- dplyr::anti_join(list_of_users, list_of_students, by = &amp;quot;id&amp;quot;) # Filter out teachers only
+students_with_email &amp;lt;- dplyr::inner_join(list_of_students, list_of_users, by = &amp;quot;id&amp;quot;) # Merges email with student list. BONUS: Also drops &amp;quot;Teststudent&amp;quot; due to NA in &amp;#39;sis_user_id&amp;#39;.  &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Life Events and Adolescent Depressive Symptoms: Protective Factors Associated with Resilience</title>
       <link>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>

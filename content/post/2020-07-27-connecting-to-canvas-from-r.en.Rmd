@@ -1,0 +1,79 @@
+---
+title: Connecting to canvas lms from R
+subtitle: Using mitt.uib.no from R
+author: Tormod
+date: '2020-07-27'
+slug: connecting-to-canvas-from-r
+categories:
+  - R
+  - rmarkdown
+  - canvas
+  - lms
+  - rcanvas
+tags:
+  - canvas
+  - mitt.uib.no
+summary: ''
+authors: []
+lastmod: '2020-07-27T10:20:46+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I often use information from canvas (in my case this is the University of Bergen version [mitt.uib.no](https:://mitt.uib.no)) when I prepare assignments and tasks for my students. I use `Shiny` and `R` as tools to manage my course, so I need data in formats that can readily be processed by R. It can be a pain to export information, like student names and emails etc. from within the web-interface in canvas, so I have been looking for better ways to gain access. Canvas has an [API](https://canvas.instructure.com/doc/api/) that we can access, and [David Ranzolin](https://github.com/daranzolin) has made an R-package that allows us to access this API from R. 
+
+> NOTE! The Package is no longer maintained, but still lives here: [rcanvas](https://github.com/daranzolin/rcanvas), waiting for someone to maintain it further. 
+
+## Setting up
+
+Installing and loading `rcanvas`. Also loading `tidyverse` to get some useful data management functions. Since the package is hosted in github, you will need the `devtools` package to install it. 
+
+```{r, warnings = FALSE, message = FALSE, eval=FALSE}
+library(devtools)
+devtools::install_github("daranzolin/rcanvas")
+```
+
+```{r, warnings = FALSE, message = FALSE}
+library(rcanvas)
+library(tidyverse)
+```
+ 
+### Acess token
+
+You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to ![add the token to mitt.uib.no](/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png). 
+
+Remember to copy the token once generated, as you will not be able to access it later. The token is made available using a helper function from `rcanvas`. You will also need to enter the canvas domain. For mitt.uib.no, the canvas domain is `https://mitt.uib.no`. 
+
+```{r, eval = FALSE}
+set_canvas_token("YOUR TOKEN HERE") # Paste your token between the " ". 
+set_canvas_domain("https:://your.domain.here") 
+```
+
+## Get all courses:
+
+```{r, eval = FALSE}
+course_list <- get_course_list() # Store all mitt.uib.no courses you have access to into vector
+```
+
+### Narrow the list down to find particular course name with it's id: 
+
+```{r, results='hide', eval = FALSE}
+course_list %>% as_tibble() %>% select(id, name) # Display id and name of course
+course_list %>% as_tibble() %>% select(id, name) %>% knitr::kable() # Show all when there is a long list
+course_list %>% select(id, name) %>% filter(str_detect(name, 'search string')) # Search for specific string in name of course
+```
+
+### Get user details for specific course id
+
+```{r, results='hide', eval = FALSE}
+list_of_users <- get_course_items(course_id = numericid, item = "users", include = "email") # Get all users, but teachers are also in here
+list_of_students <- get_course_items(course_id = numericid, item = "students", include = "email") # Get all students, but email is not included
+
+teachers_with_email <- dplyr::anti_join(list_of_users, list_of_students, by = "id") # Filter out teachers only
+students_with_email <- dplyr::inner_join(list_of_students, list_of_users, by = "id") # Merges email with student list. BONUS: Also drops "Teststudent" due to NA in 'sis_user_id'.  
+```
+

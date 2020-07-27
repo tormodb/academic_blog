@@ -1,0 +1,66 @@
+---
+title: Connecting to canvas lms from R
+subtitle: Using mitt.uib.no from R
+author: Tormod
+date: '2020-07-27'
+slug: connecting-to-canvas-from-r
+categories:
+  - R
+  - rmarkdown
+  - canvas
+  - lms
+  - rcanvas
+tags:
+  - canvas
+  - mitt.uib.no
+summary: ''
+authors: []
+lastmod: '2020-07-27T10:20:46+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>I often use information from canvas (in my case this is the University of Bergen version <a href="https:://mitt.uib.no">mitt.uib.no</a>) when I prepare assignments and tasks for my students. I use <code>Shiny</code> and <code>R</code> as tools to manage my course, so I need data in formats that can readily be processed by R. It can be a pain to export information, like student names and emails etc. from within the web-interface in canvas, so I have been looking for better ways to gain access. Canvas has an <a href="https://canvas.instructure.com/doc/api/">API</a> that we can access, and <a href="https://github.com/daranzolin">David Ranzolin</a> has made an R-package that allows us to access this API from R.</p>
+<blockquote>
+<p>NOTE! The Package is no longer maintained, but still lives here: <a href="https://github.com/daranzolin/rcanvas">rcanvas</a>, waiting for someone to maintain it further.</p>
+</blockquote>
+<div id="setting-up" class="section level2">
+<h2>Setting up</h2>
+<p>Installing and loading <code>rcanvas</code>. Also loading <code>tidyverse</code> to get some useful data management functions. Since the package is hosted in github, you will need the <code>devtools</code> package to install it.</p>
+<pre class="r"><code>library(devtools)
+devtools::install_github(&quot;daranzolin/rcanvas&quot;)</code></pre>
+<pre class="r"><code>library(rcanvas)
+library(tidyverse)</code></pre>
+<div id="acess-token" class="section level3">
+<h3>Acess token</h3>
+<p>You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to <img src="/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png" alt="add the token to mitt.uib.no" />.</p>
+<p>Remember to copy the token once generated, as you will not be able to access it later. The token is made available using a helper function from <code>rcanvas</code>. You will also need to enter the canvas domain. For mitt.uib.no, the canvas domain is <code>https://mitt.uib.no</code>.</p>
+<pre class="r"><code>set_canvas_token(&quot;YOUR TOKEN HERE&quot;) # Paste your token between the &quot; &quot;. 
+set_canvas_domain(&quot;https:://your.domain.here&quot;) </code></pre>
+</div>
+</div>
+<div id="get-all-courses" class="section level2">
+<h2>Get all courses:</h2>
+<pre class="r"><code>course_list &lt;- get_course_list() # Store all mitt.uib.no courses you have access to into vector</code></pre>
+<div id="narrow-the-list-down-to-find-particular-course-name-with-its-id" class="section level3">
+<h3>Narrow the list down to find particular course name with it’s id:</h3>
+<pre class="r"><code>course_list %&gt;% as_tibble() %&gt;% select(id, name) # Display id and name of course
+course_list %&gt;% as_tibble() %&gt;% select(id, name) %&gt;% knitr::kable() # Show all when there is a long list
+course_list %&gt;% select(id, name) %&gt;% filter(str_detect(name, &#39;search string&#39;)) # Search for specific string in name of course</code></pre>
+</div>
+<div id="get-user-details-for-specific-course-id" class="section level3">
+<h3>Get user details for specific course id</h3>
+<pre class="r"><code>list_of_users &lt;- get_course_items(course_id = numericid, item = &quot;users&quot;, include = &quot;email&quot;) # Get all users, but teachers are also in here
+list_of_students &lt;- get_course_items(course_id = numericid, item = &quot;students&quot;, include = &quot;email&quot;) # Get all students, but email is not included
+
+teachers_with_email &lt;- dplyr::anti_join(list_of_users, list_of_students, by = &quot;id&quot;) # Filter out teachers only
+students_with_email &lt;- dplyr::inner_join(list_of_students, list_of_users, by = &quot;id&quot;) # Merges email with student list. BONUS: Also drops &quot;Teststudent&quot; due to NA in &#39;sis_user_id&#39;.  </code></pre>
+</div>
+</div>

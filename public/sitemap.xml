@@ -23,6 +23,61 @@
   </url>
   
   <url>
+    <loc>https://tormodboe.netlify.com/tags/canvas/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/canvas/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/lms/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/tags/mitt.uib.no/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/post/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/r/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/rcanvas/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/categories/rmarkdown/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tormodboe.netlify.com/tags/</loc>
+    <lastmod>2020-07-27T10:20:46+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tormodboe.netlify.com/publication_types/2/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -113,28 +168,8 @@
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tormodboe.netlify.com/authors/tormod-b%C3%B8e/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormodboe.netlify.com/categories/</loc>
-    <lastmod>2020-03-27T21:28:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormodboe.netlify.com/post/</loc>
-    <lastmod>2020-03-27T21:28:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormodboe.netlify.com/categories/r/</loc>
-    <lastmod>2020-03-27T21:28:11+01:00</lastmod>
   </url>
   
   <url>
@@ -224,11 +259,6 @@
   
   <url>
     <loc>https://tormodboe.netlify.com/tags/nfr/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tormodboe.netlify.com/categories/rmarkdown/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -328,12 +358,12 @@
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/categories/project/</loc>
+    <loc>https://tormodboe.netlify.com/tags/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tormodboe.netlify.com/tags/project/</loc>
+    <loc>https://tormodboe.netlify.com/categories/project/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
   </url>
   
