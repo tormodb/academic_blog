@@ -5,12 +5,36 @@
     <link>https://tormodboe.netlify.com/tags/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://tormodboe.netlify.com/tags/</link>
     </image>
+    
+    <item>
+      <title>mitt.uib.no</title>
+      <link>https://tormodboe.netlify.com/tags/mitt.uib.no/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/mitt.uib.no/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>https://tormodboe.netlify.com/tags/r/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rcanvas</title>
+      <link>https://tormodboe.netlify.com/tags/rcanvas/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/tags/rcanvas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>canvas</title>
@@ -21,15 +45,7 @@
     </item>
     
     <item>
-      <title>mitt.uib.no</title>
-      <link>https://tormodboe.netlify.com/tags/mitt.uib.no/</link>
-      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/mitt.uib.no/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adolescents</title>
+      <title>adolescents</title>
       <link>https://tormodboe.netlify.com/tags/adolescents/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/adolescents/</guid>
@@ -45,7 +61,7 @@
     </item>
     
     <item>
-      <title>Emotions</title>
+      <title>emotions</title>
       <link>https://tormodboe.netlify.com/tags/emotions/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/emotions/</guid>
@@ -89,14 +105,6 @@
       <link>https://tormodboe.netlify.com/tags/schools/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://tormodboe.netlify.com/tags/schools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r</title>
-      <link>https://tormodboe.netlify.com/tags/r/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/tags/r/</guid>
       <description></description>
     </item>
     

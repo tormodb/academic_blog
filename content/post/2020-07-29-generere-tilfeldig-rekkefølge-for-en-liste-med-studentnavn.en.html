@@ -1,0 +1,87 @@
+---
+title: Generating a random order for students to select their internships (or anything really)
+subtitle: 'By automatically retrieving the list of students from Canvas'
+author: Tormod
+date: '2020-07-29'
+slug: generating-random-numbers-for-a-list-of-students-from-canvas
+categories:
+  - R
+  - rcanvas
+  - canvas
+tags:
+  - r
+  - rcanvas
+  - mitt.uib.no
+summary: ''
+authors: []
+lastmod: '2020-07-29T22:08:16+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="2020-07-29-generere-tilfeldig-rekkefølge-for-en-liste-med-studentnavn.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="r-script-to-generate-random-numbers-merged-with-a-list-of-student-names-retrieved-from-canvas" class="section level1">
+<h1>R script to generate random numbers merged with a list of student names retrieved from Canvas</h1>
+<p>My students have to choose where they want to have their internship in societal psychology. Since some internships seems to be more popular, I make a random list of numbers from <code>1:number of students</code> which I then merge with the list of student names retrieved from Canvas. This then becomes the order in which the students select their internships.</p>
+<p>Since I do this twice per semester every year, I made this (highly overengineered) solution using R.</p>
+<pre class="r"><code># Load libraries
+require(tidyverse) # For data management
+require(rcanvas)   # To connect to Canvas
+require(openxlsx)  # To output to MS Excel
+require(readr)     # To output to csv</code></pre>
+<div id="get-userinfo-for-specific-course" class="section level2">
+<h2>Get userinfo for specific course</h2>
+<p>You will need to input the id for the specific course you want to retrieve student info from. I have added a <code>YOURID</code> placeholder to indicate where this has to be entered. See my previous post for how to retrieve all your Canvas courses, and for how to search that list for a specific course. You will also have to add your Canvas access token and the correct server before you can continue. This was described in my previous post.</p>
+<p>The <code>rcanvas::get_course_items()</code> functions has options to get only the students, but in my case this does not retrieve their email addresses. I therefore retrive all users in the course, then the students, and then merge the email address with the students names using <code>dplyr::inner_join()</code>.</p>
+<p>If you require it, you also have a simple way of making a list with the same information for teachers using a <code>dplyr::anti_join()</code>.</p>
+<pre class="r"><code># Get info for all users Canvas
+list_of_users &lt;- get_course_items(
+  course_id = YOURID, item = &quot;users&quot;, include = &quot;email&quot;
+  )      
+
+# Get only students, but no email so we must merge 
+list_of_students &lt;- get_course_items(
+  course_id = YOURID, item = &quot;students&quot;, include = &quot;email&quot;
+  ) 
+
+# Merge in the email adress
+students_with_email &lt;- dplyr::inner_join(list_of_students, 
+                                         select(list_of_users, login_id, email), 
+                                         by = &quot;login_id&quot;, copy = F
+                                         )  
+# Need a list of teachers as well?
+# teachers_with_email &lt;- dplyr::anti_join(
+#   list_of_users, list_of_students, by = &quot;id&quot;
+#   )</code></pre>
+</div>
+<div id="generate-the-random-numbers" class="section level2">
+<h2>Generate the random numbers</h2>
+<pre class="r"><code># Generate a random number from 1:the number of students
+draw_order &lt;- sample(1: length(students_with_email$name), length(students_with_email$name)) 
+
+# Merge the random string of numbers with the dataframe containing student info
+students_with_email_number &lt;- cbind(students_with_email, draw_order) 
+
+# Order the lsit of students by their placement in the draw
+students_with_email_number &lt;- students_with_email_number %&gt;% arrange(draw_order)  </code></pre>
+</div>
+<div id="save-the-resulting-data-frame-to-excel-and-csv." class="section level2">
+<h2>Save the resulting data frame to Excel and csv.</h2>
+<p>Since I will publish this list back to Canvas, I only retain the name of the students and their placement in the draw in the files that I store. I use <code>dplyr::select()</code> to keep only these two variables.</p>
+<pre class="r"><code># as xls
+students_with_email_number %&gt;% 
+  select(name, draw_order) %&gt;%    
+  openxlsx::write.xlsx(., &quot;yourfile.xlsx&quot;)                                             
+
+# as csv
+students_with_email_number %&gt;% 
+  select(name, draw_order) %&gt;%    
+  readr::write_csv(., &quot;yourfile.csv&quot;)</code></pre>
+</div>
+</div>

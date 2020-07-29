@@ -5,12 +5,83 @@
     <link>https://tormodboe.netlify.com/tags/r/</link>
       <atom:link href="https://tormodboe.netlify.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>r</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://tormodboe.netlify.com/img/icon-192.png</url>
       <title>r</title>
       <link>https://tormodboe.netlify.com/tags/r/</link>
     </image>
+    
+    <item>
+      <title>Generating a random order for students to select their internships (or anything really)</title>
+      <link>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</guid>
+      <description>
+&lt;script src=&#34;2020-07-29-generere-tilfeldig-rekkefølge-for-en-liste-med-studentnavn.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;r-script-to-generate-random-numbers-merged-with-a-list-of-student-names-retrieved-from-canvas&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R script to generate random numbers merged with a list of student names retrieved from Canvas&lt;/h1&gt;
+&lt;p&gt;My students have to choose where they want to have their internship in societal psychology. Since some internships seems to be more popular, I make a random list of numbers from &lt;code&gt;1:number of students&lt;/code&gt; which I then merge with the list of student names retrieved from Canvas. This then becomes the order in which the students select their internships.&lt;/p&gt;
+&lt;p&gt;Since I do this twice per semester every year, I made this (highly overengineered) solution using R.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Load libraries
+require(tidyverse) # For data management
+require(rcanvas)   # To connect to Canvas
+require(openxlsx)  # To output to MS Excel
+require(readr)     # To output to csv&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;get-userinfo-for-specific-course&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get userinfo for specific course&lt;/h2&gt;
+&lt;p&gt;You will need to input the id for the specific course you want to retrieve student info from. I have added a &lt;code&gt;YOURID&lt;/code&gt; placeholder to indicate where this has to be entered. See my previous post for how to retrieve all your Canvas courses, and for how to search that list for a specific course. You will also have to add your Canvas access token and the correct server before you can continue. This was described in my previous post.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;rcanvas::get_course_items()&lt;/code&gt; functions has options to get only the students, but in my case this does not retrieve their email addresses. I therefore retrive all users in the course, then the students, and then merge the email address with the students names using &lt;code&gt;dplyr::inner_join()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you require it, you also have a simple way of making a list with the same information for teachers using a &lt;code&gt;dplyr::anti_join()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Get info for all users Canvas
+list_of_users &amp;lt;- get_course_items(
+  course_id = YOURID, item = &amp;quot;users&amp;quot;, include = &amp;quot;email&amp;quot;
+  )      
+
+# Get only students, but no email so we must merge 
+list_of_students &amp;lt;- get_course_items(
+  course_id = YOURID, item = &amp;quot;students&amp;quot;, include = &amp;quot;email&amp;quot;
+  ) 
+
+# Merge in the email adress
+students_with_email &amp;lt;- dplyr::inner_join(list_of_students, 
+                                         select(list_of_users, login_id, email), 
+                                         by = &amp;quot;login_id&amp;quot;, copy = F
+                                         )  
+# Need a list of teachers as well?
+# teachers_with_email &amp;lt;- dplyr::anti_join(
+#   list_of_users, list_of_students, by = &amp;quot;id&amp;quot;
+#   )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;generate-the-random-numbers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Generate the random numbers&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Generate a random number from 1:the number of students
+draw_order &amp;lt;- sample(1: length(students_with_email$name), length(students_with_email$name)) 
+
+# Merge the random string of numbers with the dataframe containing student info
+students_with_email_number &amp;lt;- cbind(students_with_email, draw_order) 
+
+# Order the lsit of students by their placement in the draw
+students_with_email_number &amp;lt;- students_with_email_number %&amp;gt;% arrange(draw_order)  &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;save-the-resulting-data-frame-to-excel-and-csv.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Save the resulting data frame to Excel and csv.&lt;/h2&gt;
+&lt;p&gt;Since I will publish this list back to Canvas, I only retain the name of the students and their placement in the draw in the files that I store. I use &lt;code&gt;dplyr::select()&lt;/code&gt; to keep only these two variables.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# as xls
+students_with_email_number %&amp;gt;% 
+  select(name, draw_order) %&amp;gt;%    
+  openxlsx::write.xlsx(., &amp;quot;yourfile.xlsx&amp;quot;)                                             
+
+# as csv
+students_with_email_number %&amp;gt;% 
+  select(name, draw_order) %&amp;gt;%    
+  readr::write_csv(., &amp;quot;yourfile.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>SDQ Predictive algoritm in R</title>
