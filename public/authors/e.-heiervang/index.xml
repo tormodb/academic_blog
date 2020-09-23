@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E. Heiervang | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/e.-heiervang/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/e.-heiervang/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/e.-heiervang/</link>
+      <atom:link href="/authors/e.-heiervang/index.xml" rel="self" type="application/rss+xml" />
     <description>E. Heiervang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>E. Heiervang</title>
-      <link>https://tormodboe.netlify.com/authors/e.-heiervang/</link>
+      <link>/authors/e.-heiervang/</link>
     </image>
     
     <item>
       <title>Parental Emotional Well-Being and Parenting Practices Mediate the Association between Ses and Mental Health Problems in Children</title>
-      <link>https://tormodboe.netlify.com/publication/boe-parentalemotionalwellbeing-2013/</link>
+      <link>/publication/boe-parentalemotionalwellbeing-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-parentalemotionalwellbeing-2013/</guid>
+      <guid>/publication/boe-parentalemotionalwellbeing-2013/</guid>
       <description></description>
     </item>
     

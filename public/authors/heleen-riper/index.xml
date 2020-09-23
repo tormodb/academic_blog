@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heleen Riper | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/heleen-riper/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/heleen-riper/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/heleen-riper/</link>
+      <atom:link href="/authors/heleen-riper/index.xml" rel="self" type="application/rss+xml" />
     <description>Heleen Riper</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Heleen Riper</title>
-      <link>https://tormodboe.netlify.com/authors/heleen-riper/</link>
+      <link>/authors/heleen-riper/</link>
     </image>
     
     <item>
       <title>Sociodemographic characteristics associated with alcohol consumption and alcohol-related consequences, a latent class analysis of The Norwegian WIRUS screening study</title>
-      <link>https://tormodboe.netlify.com/publication/skogen-sociodemographiccharacteristicsassociated-2019/</link>
+      <link>/publication/skogen-sociodemographiccharacteristicsassociated-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/skogen-sociodemographiccharacteristicsassociated-2019/</guid>
+      <guid>/publication/skogen-sociodemographiccharacteristicsassociated-2019/</guid>
       <description></description>
     </item>
     

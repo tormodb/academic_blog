@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/publication_types/1/</link>
-      <atom:link href="https://tormodboe.netlify.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/1/</link>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>1</title>
-      <link>https://tormodboe.netlify.com/publication_types/1/</link>
+      <link>/publication_types/1/</link>
     </image>
     
     <item>
       <title>Higher Education Students&#39; Mental Health Problems: Results from the Norwegian SHOT Study: Tormod Bø e</title>
-      <link>https://tormodboe.netlify.com/publication/boe-2019-higher/</link>
+      <link>/publication/boe-2019-higher/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-2019-higher/</guid>
+      <guid>/publication/boe-2019-higher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Road to Independence: Mental health  problems in unaccompanied refugee  minors</title>
-      <link>https://tormodboe.netlify.com/publication/boe-road-independence-mental-2019-a/</link>
+      <link>/publication/boe-road-independence-mental-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-road-independence-mental-2019-a/</guid>
+      <guid>/publication/boe-road-independence-mental-2019-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental Emotional Well-Being and Parenting Practices Mediate the Association between Ses and Mental Health Problems in Children</title>
-      <link>https://tormodboe.netlify.com/publication/boe-parentalemotionalwellbeing-2013/</link>
+      <link>/publication/boe-parentalemotionalwellbeing-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-parentalemotionalwellbeing-2013/</guid>
+      <guid>/publication/boe-parentalemotionalwellbeing-2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Childhood Sleep Problems and Familial Socioeconomic Status</title>
-      <link>https://tormodboe.netlify.com/publication/boe-childhoodsleepproblems-2012/</link>
+      <link>/publication/boe-childhoodsleepproblems-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-childhoodsleepproblems-2012/</guid>
+      <guid>/publication/boe-childhoodsleepproblems-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stability of Mental Health Problems across Middle Childhood — Results from the Bergen Child Study</title>
-      <link>https://tormodboe.netlify.com/publication/boestabilitymental-2010/</link>
+      <link>/publication/boestabilitymental-2010/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boestabilitymental-2010/</guid>
+      <guid>/publication/boestabilitymental-2010/</guid>
       <description></description>
     </item>
     

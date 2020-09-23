@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rvest | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/categories/rvest/</link>
-      <atom:link href="https://tormodboe.netlify.com/categories/rvest/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/rvest/</link>
+      <atom:link href="/categories/rvest/index.xml" rel="self" type="application/rss+xml" />
     <description>rvest</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>rvest</title>
-      <link>https://tormodboe.netlify.com/categories/rvest/</link>
+      <link>/categories/rvest/</link>
     </image>
     
     <item>
       <title>Scraping Corona data from the Norwegian Directorate of Health and the Norwegian Institute of Public health websites</title>
-      <link>https://tormodboe.netlify.com/post/old/webscraping-corona-data/</link>
+      <link>/post/old/webscraping-corona-data/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/old/webscraping-corona-data/</guid>
+      <guid>/post/old/webscraping-corona-data/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -76,7 +76,7 @@ corona_pred_obs &amp;lt;- corona_pred_obs %&amp;gt;% mutate(re = as.factor(re))&
   theme_ipsum_rc() +
   labs(main = &amp;quot;Intensive care patients&amp;quot;, x = &amp;quot;Date&amp;quot;, y = &amp;quot;Predicted number of \nintensive care patients&amp;quot;,
        caption=&amp;quot;Data from the Norwegian Institute of Public Health&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;corona_pred_obs %&amp;gt;%
   ggplot(aes(x=date, y=innlagte_pred, group = re, ymin = innlagte_lw, ymax = innlagte_upr, fill = re)) + 
   geom_ribbon() + 
@@ -85,7 +85,7 @@ corona_pred_obs &amp;lt;- corona_pred_obs %&amp;gt;% mutate(re = as.factor(re))&
   theme_ipsum_rc() +
   labs(main = &amp;quot;Hospitalized patients&amp;quot;, x = &amp;quot;Date&amp;quot;, y = &amp;quot;Predicted number of \nhospitalized patients&amp;quot;, 
        caption=&amp;quot;Data from the Norwegian Directorate of Health and the Norwegian Institute of Public Health&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 The script to scrape the websites is documented below. It does the scraping and stores results to two csv-files. The script is sourced by this post, to keep it updated and the resulting csv files are read into this script and used to produce the graphs. For now, this requires a manual update of the script to keep it current, and I have not investigated options to make the script self-updated, which could probably be achieved with shiny or other options. The script to do this is very fragile; It depends on the Norwegian Directorate of Health keeping the address to their site &lt;em&gt;and&lt;/em&gt; even the wording on their site exactly similar from day to day. I have already had to update it due to the Norwegian Directorate of Health adding an extra space (&#34; &#34;) in front of the number of ICU patients on March 29th thus breaking the method of using &lt;code&gt;strsplit&lt;/code&gt; and retrieving the object from a specific position (which shifted the number is wanted from position &lt;code&gt;[14]&lt;/code&gt; to position &lt;code&gt;[15]&lt;/code&gt;. The data is usually publised on the Norwegian Directorate of Health website around 13:00 (1 pm.).&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
 library(rvest)

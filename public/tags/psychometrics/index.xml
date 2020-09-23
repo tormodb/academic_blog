@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Psychometrics | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/psychometrics/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/psychometrics/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/psychometrics/</link>
+      <atom:link href="/tags/psychometrics/index.xml" rel="self" type="application/rss+xml" />
     <description>Psychometrics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Psychometrics</title>
-      <link>https://tormodboe.netlify.com/tags/psychometrics/</link>
+      <link>/tags/psychometrics/</link>
     </image>
     
     <item>
       <title>Life Events and Adolescent Depressive Symptoms: Protective Factors Associated with Resilience</title>
-      <link>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</link>
+      <link>/publication/askelandlifeevents-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/askelandlifeevents-2020/</guid>
+      <guid>/publication/askelandlifeevents-2020/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erling F. Solheim | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/erling-f.-solheim/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/erling-f.-solheim/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/erling-f.-solheim/</link>
+      <atom:link href="/authors/erling-f.-solheim/index.xml" rel="self" type="application/rss+xml" />
     <description>Erling F. Solheim</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Erling F. Solheim</title>
-      <link>https://tormodboe.netlify.com/authors/erling-f.-solheim/</link>
+      <link>/authors/erling-f.-solheim/</link>
     </image>
     
     <item>
       <title>Financial difficulties in childhood and adult depression in Europe</title>
-      <link>https://tormodboe.netlify.com/publication/boe-financialdifficultieschildhood-2017/</link>
+      <link>/publication/boe-financialdifficultieschildhood-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-financialdifficultieschildhood-2017/</guid>
+      <guid>/publication/boe-financialdifficultieschildhood-2017/</guid>
       <description></description>
     </item>
     

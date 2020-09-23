@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minimal | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/minimal/</link>
-      <atom:link href="https://tormodboe.netlify.com/minimal/index.xml" rel="self" type="application/rss+xml" />
+    <link>/minimal/</link>
+      <atom:link href="/minimal/index.xml" rel="self" type="application/rss+xml" />
     <description>Minimal</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Minimal</title>
-      <link>https://tormodboe.netlify.com/minimal/</link>
+      <link>/minimal/</link>
     </image>
     
   </channel>

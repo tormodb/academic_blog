@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lin Sørensen | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/lin-s%C3%B8rensen/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/lin-s%C3%B8rensen/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/lin-s%C3%B8rensen/</link>
+      <atom:link href="/authors/lin-s%C3%B8rensen/index.xml" rel="self" type="application/rss+xml" />
     <description>Lin Sørensen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Lin Sørensen</title>
-      <link>https://tormodboe.netlify.com/authors/lin-s%C3%B8rensen/</link>
+      <link>/authors/lin-s%C3%B8rensen/</link>
     </image>
     
     <item>
       <title>Parental Socioeconomic Status and Child Intellectual Functioning in a Norwegian Sample</title>
-      <link>https://tormodboe.netlify.com/publication/eilertsen-parentalsocioeconomicstatus-2016/</link>
+      <link>/publication/eilertsen-parentalsocioeconomicstatus-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/eilertsen-parentalsocioeconomicstatus-2016/</guid>
+      <guid>/publication/eilertsen-parentalsocioeconomicstatus-2016/</guid>
       <description></description>
     </item>
     

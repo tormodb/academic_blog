@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>canvas | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/categories/canvas/</link>
-      <atom:link href="https://tormodboe.netlify.com/categories/canvas/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/canvas/</link>
+      <atom:link href="/categories/canvas/index.xml" rel="self" type="application/rss+xml" />
     <description>canvas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>canvas</title>
-      <link>https://tormodboe.netlify.com/categories/canvas/</link>
+      <link>/categories/canvas/</link>
     </image>
     
     <item>
       <title>Generating a random order for students to select their internships (or anything really)</title>
-      <link>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</link>
+      <link>/post/generating-random-numbers-for-a-list-of-students-from-canvas/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</guid>
+      <guid>/post/generating-random-numbers-for-a-list-of-students-from-canvas/</guid>
       <description>
 &lt;script src=&#34;2020-07-29-generere-tilfeldig-rekkefølge-for-en-liste-med-studentnavn.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
@@ -85,11 +85,11 @@ students_with_email_number %&amp;gt;%
     
     <item>
       <title>Connecting to canvas lms from R</title>
-      <link>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</link>
+      <link>/post/connecting-to-canvas-from-r/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</guid>
+      <guid>/post/connecting-to-canvas-from-r/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I often use information from canvas (in my case this is the University of Bergen version &lt;a href=&#34;https:://mitt.uib.no&#34;&gt;mitt.uib.no&lt;/a&gt;) when I prepare assignments and tasks for my students. I use &lt;code&gt;Shiny&lt;/code&gt; and &lt;code&gt;R&lt;/code&gt; as tools to manage my course, so I need data in formats that can readily be processed by R. It can be a pain to export information, like student names and emails etc. from within the web-interface in canvas, so I have been looking for better ways to gain access. Canvas has an &lt;a href=&#34;https://canvas.instructure.com/doc/api/&#34;&gt;API&lt;/a&gt; that we can access, and &lt;a href=&#34;https://github.com/daranzolin&#34;&gt;David Ranzolin&lt;/a&gt; has made an R-package that allows us to access this API from R.&lt;/p&gt;
@@ -105,7 +105,7 @@ devtools::install_github(&amp;quot;daranzolin/rcanvas&amp;quot;)&lt;/code&gt;&lt
 library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;acess-token&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Acess token&lt;/h3&gt;
-&lt;p&gt;You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to &lt;img src=&#34;https://tormodboe.netlify.com/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png&#34; alt=&#34;add the token to mitt.uib.no&#34; /&gt;.&lt;/p&gt;
+&lt;p&gt;You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to &lt;img src=&#34;/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png&#34; alt=&#34;add the token to mitt.uib.no&#34; /&gt;.&lt;/p&gt;
 &lt;p&gt;Remember to copy the token once generated, as you will not be able to access it later. The token is made available using a helper function from &lt;code&gt;rcanvas&lt;/code&gt;. You will also need to enter the canvas domain. For mitt.uib.no, the canvas domain is &lt;code&gt;https://mitt.uib.no&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set_canvas_token(&amp;quot;YOUR TOKEN HERE&amp;quot;) # Paste your token between the &amp;quot; &amp;quot;. 
 set_canvas_domain(&amp;quot;https:://your.domain.here&amp;quot;) &lt;/code&gt;&lt;/pre&gt;

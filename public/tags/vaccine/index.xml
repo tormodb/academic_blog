@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vaccine | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/vaccine/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/vaccine/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/vaccine/</link>
+      <atom:link href="/tags/vaccine/index.xml" rel="self" type="application/rss+xml" />
     <description>vaccine</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>vaccine</title>
-      <link>https://tormodboe.netlify.com/tags/vaccine/</link>
+      <link>/tags/vaccine/</link>
     </image>
     
     <item>
       <title>Delayed Sleep Phase Syndrome in Adolescents: Prevalence and Correlates in a Large Population Based Study</title>
-      <link>https://tormodboe.netlify.com/publication/sivertsen-delayedsleepphase-2013/</link>
+      <link>/publication/sivertsen-delayedsleepphase-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/sivertsen-delayedsleepphase-2013/</guid>
+      <guid>/publication/sivertsen-delayedsleepphase-2013/</guid>
       <description></description>
     </item>
     

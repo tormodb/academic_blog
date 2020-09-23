@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rmark | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/categories/rmark/</link>
-      <atom:link href="https://tormodboe.netlify.com/categories/rmark/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/rmark/</link>
+      <atom:link href="/categories/rmark/index.xml" rel="self" type="application/rss+xml" />
     <description>rmark</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>rmark</title>
-      <link>https://tormodboe.netlify.com/categories/rmark/</link>
+      <link>/categories/rmark/</link>
     </image>
     
     <item>
       <title>Testing academic framework</title>
-      <link>https://tormodboe.netlify.com/post/testing-academic-framework/</link>
+      <link>/post/testing-academic-framework/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/testing-academic-framework/</guid>
+      <guid>/post/testing-academic-framework/</guid>
       <description>&lt;p&gt;Just testing whether the switch to Academic allows me to post.&lt;/p&gt;
 </description>
     </item>

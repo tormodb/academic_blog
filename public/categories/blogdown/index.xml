@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/categories/blogdown/</link>
-      <atom:link href="https://tormodboe.netlify.com/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/blogdown/</link>
+      <atom:link href="/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <description>blogdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>blogdown</title>
-      <link>https://tormodboe.netlify.com/categories/blogdown/</link>
+      <link>/categories/blogdown/</link>
     </image>
     
     <item>
       <title>Building a blogdown publication list from bibtex file (updated)</title>
-      <link>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -86,20 +86,20 @@ for (i in 1:nrow(bib)) {
     
     <item>
       <title>Testing academic framework</title>
-      <link>https://tormodboe.netlify.com/post/testing-academic-framework/</link>
+      <link>/post/testing-academic-framework/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/testing-academic-framework/</guid>
+      <guid>/post/testing-academic-framework/</guid>
       <description>&lt;p&gt;Just testing whether the switch to Academic allows me to post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>css, bibtex, blogdown</title>
-      <link>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</link>
+      <link>/post/css-bibtex-blogdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</guid>
+      <guid>/post/css-bibtex-blogdown/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;

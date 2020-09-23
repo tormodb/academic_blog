@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keith J Petrie | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/keith-j-petrie/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/keith-j-petrie/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/keith-j-petrie/</link>
+      <atom:link href="/authors/keith-j-petrie/index.xml" rel="self" type="application/rss+xml" />
     <description>Keith J Petrie</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Keith J Petrie</title>
-      <link>https://tormodboe.netlify.com/authors/keith-j-petrie/</link>
+      <link>/authors/keith-j-petrie/</link>
     </image>
     
     <item>
       <title>Interplay of Subjective and Objective Economic Well-Being on the Mental Health of Norwegian Adolescents</title>
-      <link>https://tormodboe.netlify.com/publication/boe-interplay-subjective-objective-2019-a/</link>
+      <link>/publication/boe-interplay-subjective-objective-2019-a/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-interplay-subjective-objective-2019-a/</guid>
+      <guid>/publication/boe-interplay-subjective-objective-2019-a/</guid>
       <description></description>
     </item>
     

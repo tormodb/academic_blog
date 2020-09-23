@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bcs | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/bcs/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/bcs/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/bcs/</link>
+      <atom:link href="/tags/bcs/index.xml" rel="self" type="application/rss+xml" />
     <description>bcs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>bcs</title>
-      <link>https://tormodboe.netlify.com/tags/bcs/</link>
+      <link>/tags/bcs/</link>
     </image>
     
     <item>
       <title>Sleep Problems as a Mediator of the Association between Parental Education Levels, Perceived Family Economy and Poor Mental Health in Children</title>
-      <link>https://tormodboe.netlify.com/publication/boe-sleepproblemsmediator-2012/</link>
+      <link>/publication/boe-sleepproblemsmediator-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-sleepproblemsmediator-2012/</guid>
+      <guid>/publication/boe-sleepproblemsmediator-2012/</guid>
       <description></description>
     </item>
     

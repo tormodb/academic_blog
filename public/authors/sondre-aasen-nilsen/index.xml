@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sondre Aasen Nilsen | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/sondre-aasen-nilsen/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/sondre-aasen-nilsen/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/sondre-aasen-nilsen/</link>
+      <atom:link href="/authors/sondre-aasen-nilsen/index.xml" rel="self" type="application/rss+xml" />
     <description>Sondre Aasen Nilsen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Sondre Aasen Nilsen</title>
-      <link>https://tormodboe.netlify.com/authors/sondre-aasen-nilsen/</link>
+      <link>/authors/sondre-aasen-nilsen/</link>
     </image>
     
     <item>
       <title>Divorce and Adolescent Academic Achievement: Heterogeneity in the Associations by Parental Education</title>
-      <link>https://tormodboe.netlify.com/publication/nilsen-divorceadolescentacademic-2020/</link>
+      <link>/publication/nilsen-divorceadolescentacademic-2020/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/nilsen-divorceadolescentacademic-2020/</guid>
+      <guid>/publication/nilsen-divorceadolescentacademic-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Complex families and health complaints among adolescents: A population-based cross-sectional study</title>
-      <link>https://tormodboe.netlify.com/publication/nilsen-2019-complex/</link>
+      <link>/publication/nilsen-2019-complex/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/nilsen-2019-complex/</guid>
+      <guid>/publication/nilsen-2019-complex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symptoms Associated With Attention Deficit/Hyperactivity Disorder and Autism Spectrum Disorders in School-Aged Children Prenatally Exposed to Substances</title>
-      <link>https://tormodboe.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</link>
+      <link>/publication/sandtorv-symptoms-associated-attention-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/sandtorv-symptoms-associated-attention-2018/</guid>
+      <guid>/publication/sandtorv-symptoms-associated-attention-2018/</guid>
       <description></description>
     </item>
     

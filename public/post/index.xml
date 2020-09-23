@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/post/</link>
-      <atom:link href="https://tormodboe.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://tormodboe.netlify.com/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Generating a random order for students to select their internships (or anything really)</title>
-      <link>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</link>
+      <link>/post/generating-random-numbers-for-a-list-of-students-from-canvas/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/generating-random-numbers-for-a-list-of-students-from-canvas/</guid>
+      <guid>/post/generating-random-numbers-for-a-list-of-students-from-canvas/</guid>
       <description>
 &lt;script src=&#34;2020-07-29-generere-tilfeldig-rekkefølge-for-en-liste-med-studentnavn.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
@@ -85,11 +85,11 @@ students_with_email_number %&amp;gt;%
     
     <item>
       <title>Connecting to canvas lms from R</title>
-      <link>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</link>
+      <link>/post/connecting-to-canvas-from-r/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/connecting-to-canvas-from-r/</guid>
+      <guid>/post/connecting-to-canvas-from-r/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I often use information from canvas (in my case this is the University of Bergen version &lt;a href=&#34;https:://mitt.uib.no&#34;&gt;mitt.uib.no&lt;/a&gt;) when I prepare assignments and tasks for my students. I use &lt;code&gt;Shiny&lt;/code&gt; and &lt;code&gt;R&lt;/code&gt; as tools to manage my course, so I need data in formats that can readily be processed by R. It can be a pain to export information, like student names and emails etc. from within the web-interface in canvas, so I have been looking for better ways to gain access. Canvas has an &lt;a href=&#34;https://canvas.instructure.com/doc/api/&#34;&gt;API&lt;/a&gt; that we can access, and &lt;a href=&#34;https://github.com/daranzolin&#34;&gt;David Ranzolin&lt;/a&gt; has made an R-package that allows us to access this API from R.&lt;/p&gt;
@@ -105,7 +105,7 @@ devtools::install_github(&amp;quot;daranzolin/rcanvas&amp;quot;)&lt;/code&gt;&lt
 library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;acess-token&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Acess token&lt;/h3&gt;
-&lt;p&gt;You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to &lt;img src=&#34;https://tormodboe.netlify.com/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png&#34; alt=&#34;add the token to mitt.uib.no&#34; /&gt;.&lt;/p&gt;
+&lt;p&gt;You will have to include you access token and canvas domain to use this script. The canvas token can be generated from within mitt.uib.no, see the screenshot below for how to &lt;img src=&#34;/post/2020-07-27-connecting-to-canvas-from-r.en_files/canvas_token.png&#34; alt=&#34;add the token to mitt.uib.no&#34; /&gt;.&lt;/p&gt;
 &lt;p&gt;Remember to copy the token once generated, as you will not be able to access it later. The token is made available using a helper function from &lt;code&gt;rcanvas&lt;/code&gt;. You will also need to enter the canvas domain. For mitt.uib.no, the canvas domain is &lt;code&gt;https://mitt.uib.no&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set_canvas_token(&amp;quot;YOUR TOKEN HERE&amp;quot;) # Paste your token between the &amp;quot; &amp;quot;. 
 set_canvas_domain(&amp;quot;https:://your.domain.here&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
@@ -134,11 +134,11 @@ students_with_email &amp;lt;- dplyr::inner_join(list_of_students, list_of_users,
     
     <item>
       <title>Scraping Corona data from the Norwegian Directorate of Health and the Norwegian Institute of Public health websites</title>
-      <link>https://tormodboe.netlify.com/post/old/webscraping-corona-data/</link>
+      <link>/post/old/webscraping-corona-data/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/old/webscraping-corona-data/</guid>
+      <guid>/post/old/webscraping-corona-data/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -196,7 +196,7 @@ corona_pred_obs &amp;lt;- corona_pred_obs %&amp;gt;% mutate(re = as.factor(re))&
   theme_ipsum_rc() +
   labs(main = &amp;quot;Intensive care patients&amp;quot;, x = &amp;quot;Date&amp;quot;, y = &amp;quot;Predicted number of \nintensive care patients&amp;quot;,
        caption=&amp;quot;Data from the Norwegian Institute of Public Health&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;corona_pred_obs %&amp;gt;%
   ggplot(aes(x=date, y=innlagte_pred, group = re, ymin = innlagte_lw, ymax = innlagte_upr, fill = re)) + 
   geom_ribbon() + 
@@ -205,7 +205,7 @@ corona_pred_obs &amp;lt;- corona_pred_obs %&amp;gt;% mutate(re = as.factor(re))&
   theme_ipsum_rc() +
   labs(main = &amp;quot;Hospitalized patients&amp;quot;, x = &amp;quot;Date&amp;quot;, y = &amp;quot;Predicted number of \nhospitalized patients&amp;quot;, 
        caption=&amp;quot;Data from the Norwegian Directorate of Health and the Norwegian Institute of Public Health&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-03-27-webscraping-corona-data_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 The script to scrape the websites is documented below. It does the scraping and stores results to two csv-files. The script is sourced by this post, to keep it updated and the resulting csv files are read into this script and used to produce the graphs. For now, this requires a manual update of the script to keep it current, and I have not investigated options to make the script self-updated, which could probably be achieved with shiny or other options. The script to do this is very fragile; It depends on the Norwegian Directorate of Health keeping the address to their site &lt;em&gt;and&lt;/em&gt; even the wording on their site exactly similar from day to day. I have already had to update it due to the Norwegian Directorate of Health adding an extra space (&#34; &#34;) in front of the number of ICU patients on March 29th thus breaking the method of using &lt;code&gt;strsplit&lt;/code&gt; and retrieving the object from a specific position (which shifted the number is wanted from position &lt;code&gt;[14]&lt;/code&gt; to position &lt;code&gt;[15]&lt;/code&gt;. The data is usually publised on the Norwegian Directorate of Health website around 13:00 (1 pm.).&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
 library(rvest)
@@ -357,11 +357,11 @@ write.table(inf_date, &amp;quot;/Users/st06810/Dropbox/UiB/blog/content/post/inf
     
     <item>
       <title>SDQ Predictive algoritm in R</title>
-      <link>https://tormodboe.netlify.com/post/sdq-predictive-algoritm-in-r/</link>
+      <link>/post/sdq-predictive-algoritm-in-r/</link>
       <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/sdq-predictive-algoritm-in-r/</guid>
+      <guid>/post/sdq-predictive-algoritm-in-r/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -538,11 +538,11 @@ sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2),
     
     <item>
       <title>Markdown CV NFR style</title>
-      <link>https://tormodboe.netlify.com/post/markdown-cv-nfr-style/</link>
+      <link>/post/markdown-cv-nfr-style/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/markdown-cv-nfr-style/</guid>
+      <guid>/post/markdown-cv-nfr-style/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;lag-din-cv-tilpasset-norges-forskningsråds-maler---i-r&#34; class=&#34;section level1&#34;&gt;
@@ -586,9 +586,9 @@ sdq$anydiag &amp;lt;- ordered(sdq$anydiag, levels = c(0, 1, 2),
 &lt;table&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-02-01-markdown-cv-nfr-style_files/cv_img.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-02-01-markdown-cv-nfr-style_files/cv_img2.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://tormodboe.netlify.com/post/2020-02-01-markdown-cv-nfr-style_files/cv_img3.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;/post/2020-02-01-markdown-cv-nfr-style_files/cv_img.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;/post/2020-02-01-markdown-cv-nfr-style_files/cv_img2.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;/post/2020-02-01-markdown-cv-nfr-style_files/cv_img3.png&#34; width=&#34;250&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -658,11 +658,11 @@ id &amp;lt;- &amp;#39;TMC38ZgAAAAJ&amp;#39; # Google Scholar ID.&lt;/code&gt;&lt
     
     <item>
       <title>Building a blogdown publication list from bibtex file (updated)</title>
-      <link>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
+      <link>/post/building-a-blogdown-publication-list-from-bibtex-file/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
+      <guid>/post/building-a-blogdown-publication-list-from-bibtex-file/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -730,20 +730,20 @@ for (i in 1:nrow(bib)) {
     
     <item>
       <title>Testing academic framework</title>
-      <link>https://tormodboe.netlify.com/post/testing-academic-framework/</link>
+      <link>/post/testing-academic-framework/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/testing-academic-framework/</guid>
+      <guid>/post/testing-academic-framework/</guid>
       <description>&lt;p&gt;Just testing whether the switch to Academic allows me to post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ulysses, R, markdown</title>
-      <link>https://tormodboe.netlify.com/post/ulysses-r-markdown/</link>
+      <link>/post/ulysses-r-markdown/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/ulysses-r-markdown/</guid>
+      <guid>/post/ulysses-r-markdown/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;how-to-use-ulysses-rstudio-together-updated&#34; class=&#34;section level1&#34;&gt;
@@ -774,11 +774,11 @@ bibliography: &amp;quot;references&amp;quot;.bib # must be located in same folde
     
     <item>
       <title>css, bibtex, blogdown</title>
-      <link>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</link>
+      <link>/post/css-bibtex-blogdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/css-bibtex-blogdown/</guid>
+      <guid>/post/css-bibtex-blogdown/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Auxillary files can be placed in the &lt;code&gt;content&lt;/code&gt; folder, i.e. &lt;code&gt;aux&lt;/code&gt; and linked to in yaml header:&lt;/p&gt;
@@ -792,11 +792,11 @@ bibliography: aux/lifeevents.bib&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Papers using rmarkdown</title>
-      <link>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</link>
+      <link>/post/papers-using-rmarkdown/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/post/papers-using-rmarkdown/</guid>
+      <guid>/post/papers-using-rmarkdown/</guid>
       <description>
-&lt;script src=&#34;https://tormodboe.netlify.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;

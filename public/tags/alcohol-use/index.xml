@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>alcohol use | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/alcohol-use/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/alcohol-use/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/alcohol-use/</link>
+      <atom:link href="/tags/alcohol-use/index.xml" rel="self" type="application/rss+xml" />
     <description>alcohol use</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>alcohol use</title>
-      <link>https://tormodboe.netlify.com/tags/alcohol-use/</link>
+      <link>/tags/alcohol-use/</link>
     </image>
     
     <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The Youth@hordaland Study</title>
-      <link>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</link>
+      <link>/publication/skogeneconomiccircumstances-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</guid>
+      <guid>/publication/skogeneconomiccircumstances-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The youth@hordaland Study</title>
-      <link>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</link>
+      <link>/publication/skogen-economic-circumstances-childhood-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</guid>
+      <guid>/publication/skogen-economic-circumstances-childhood-2019/</guid>
       <description></description>
     </item>
     

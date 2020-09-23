@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anders Lillevik Thorsen | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/authors/anders-lillevik-thorsen/</link>
-      <atom:link href="https://tormodboe.netlify.com/authors/anders-lillevik-thorsen/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/anders-lillevik-thorsen/</link>
+      <atom:link href="/authors/anders-lillevik-thorsen/index.xml" rel="self" type="application/rss+xml" />
     <description>Anders Lillevik Thorsen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Anders Lillevik Thorsen</title>
-      <link>https://tormodboe.netlify.com/authors/anders-lillevik-thorsen/</link>
+      <link>/authors/anders-lillevik-thorsen/</link>
     </image>
     
     <item>
       <title>Parental Socioeconomic Status and Child Intellectual Functioning in a Norwegian Sample</title>
-      <link>https://tormodboe.netlify.com/publication/eilertsen-parentalsocioeconomicstatus-2016/</link>
+      <link>/publication/eilertsen-parentalsocioeconomicstatus-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/eilertsen-parentalsocioeconomicstatus-2016/</guid>
+      <guid>/publication/eilertsen-parentalsocioeconomicstatus-2016/</guid>
       <description></description>
     </item>
     

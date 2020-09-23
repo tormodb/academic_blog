@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>relative poverty | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/relative-poverty/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/relative-poverty/index.xml" rel="self" type="application/rss+xml" />
-    <description>relative poverty</description>
+    <title>Relative poverty | Tormod Bøe</title>
+    <link>/tags/relative-poverty/</link>
+      <atom:link href="/tags/relative-poverty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Relative poverty</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
-      <title>relative poverty</title>
-      <link>https://tormodboe.netlify.com/tags/relative-poverty/</link>
+      <url>/img/icon-192.png</url>
+      <title>Relative poverty</title>
+      <link>/tags/relative-poverty/</link>
     </image>
     
     <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The Youth@hordaland Study</title>
-      <link>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</link>
+      <link>/publication/skogeneconomiccircumstances-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/skogeneconomiccircumstances-2019/</guid>
+      <guid>/publication/skogeneconomiccircumstances-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Circumstances in Childhood and Subsequent Substance Use in Adolescence – A Latent Class Analysis: The youth@hordaland Study</title>
-      <link>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</link>
+      <link>/publication/skogen-economic-circumstances-childhood-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/skogen-economic-circumstances-childhood-2019/</guid>
+      <guid>/publication/skogen-economic-circumstances-childhood-2019/</guid>
       <description></description>
     </item>
     

@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/project/</link>
-      <atom:link href="https://tormodboe.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Projects</title>
-      <link>https://tormodboe.netlify.com/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>After the Divorce: Academic Achievement, Mental health, and Health Complaints in Adolescence </title>
-      <link>https://tormodboe.netlify.com/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</link>
+      <link>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</guid>
+      <guid>/project/after-the-divorce-academic-achievement-mental-health-and-health-complaints-in-adolescence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Barn i Bergen</title>
-      <link>https://tormodboe.netlify.com/project/barn-i-bergen/</link>
+      <link>/project/barn-i-bergen/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/barn-i-bergen/</guid>
+      <guid>/project/barn-i-bergen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nye mønstre - trygg oppvekst</title>
-      <link>https://tormodboe.netlify.com/project/nye-m%C3%B8nstre-trygg-oppvekst/</link>
+      <link>/project/nye-m%C3%B8nstre-trygg-oppvekst/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/nye-m%C3%B8nstre-trygg-oppvekst/</guid>
+      <guid>/project/nye-m%C3%B8nstre-trygg-oppvekst/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ung@hordaland og bruk av helsetjenester </title>
-      <link>https://tormodboe.netlify.com/project/ung-hordaland-og-bruk-av-helsetjenester/</link>
+      <link>/project/ung-hordaland-og-bruk-av-helsetjenester/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/ung-hordaland-og-bruk-av-helsetjenester/</guid>
+      <guid>/project/ung-hordaland-og-bruk-av-helsetjenester/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ung@hordaland og gjennomstrømning i videregående opplæring </title>
-      <link>https://tormodboe.netlify.com/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</link>
+      <link>/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</guid>
+      <guid>/project/ung-hordaland-og-gjennomstr%C3%B8mning-i-videregaende-oppl%C3%A6ring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Veien til Selvstendighet.</title>
-      <link>https://tormodboe.netlify.com/project/veien-til-selvstendighet/</link>
+      <link>/project/veien-til-selvstendighet/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/project/veien-til-selvstendighet/</guid>
+      <guid>/project/veien-til-selvstendighet/</guid>
       <description></description>
     </item>
     

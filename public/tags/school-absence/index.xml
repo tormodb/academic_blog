@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>school absence | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/school-absence/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/school-absence/index.xml" rel="self" type="application/rss+xml" />
-    <description>school absence</description>
+    <title>School absence | Tormod Bøe</title>
+    <link>/tags/school-absence/</link>
+      <atom:link href="/tags/school-absence/index.xml" rel="self" type="application/rss+xml" />
+    <description>School absence</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
-      <title>school absence</title>
-      <link>https://tormodboe.netlify.com/tags/school-absence/</link>
+      <url>/img/icon-192.png</url>
+      <title>School absence</title>
+      <link>/tags/school-absence/</link>
     </image>
     
     <item>
       <title>The Association Between Symptoms of Depression and School Absence in a Population-Based Study of Late Adolescents</title>
-      <link>https://tormodboe.netlify.com/publication/askelandassociationsymptoms-2020/</link>
+      <link>/publication/askelandassociationsymptoms-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/askelandassociationsymptoms-2020/</guid>
+      <guid>/publication/askelandassociationsymptoms-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adolescent School Absenteeism and Service Use in a Population-Based Study</title>
-      <link>https://tormodboe.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</link>
+      <link>/publication/askeland-adolescent-school-absenteeism-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/askeland-adolescent-school-absenteeism-2015/</guid>
+      <guid>/publication/askeland-adolescent-school-absenteeism-2015/</guid>
       <description></description>
     </item>
     

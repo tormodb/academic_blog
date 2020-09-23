@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>youth@hordaland | Tormod Bøe</title>
-    <link>https://tormodboe.netlify.com/tags/youthhordaland/</link>
-      <atom:link href="https://tormodboe.netlify.com/tags/youthhordaland/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/youthhordaland/</link>
+      <atom:link href="/tags/youthhordaland/index.xml" rel="self" type="application/rss+xml" />
     <description>youth@hordaland</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright> © Tormod Bøe 2020</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://tormodboe.netlify.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>youth@hordaland</title>
-      <link>https://tormodboe.netlify.com/tags/youthhordaland/</link>
+      <link>/tags/youthhordaland/</link>
     </image>
     
     <item>
       <title>Economic volatility in childhood and subsequent adolescent mental health problems: a longitudinal population-based study of adolescents</title>
-      <link>https://tormodboe.netlify.com/publication/boe-economicvolatilitychildhood-2017/</link>
+      <link>/publication/boe-economicvolatilitychildhood-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://tormodboe.netlify.com/publication/boe-economicvolatilitychildhood-2017/</guid>
+      <guid>/publication/boe-economicvolatilitychildhood-2017/</guid>
       <description></description>
     </item>
     
