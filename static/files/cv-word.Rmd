@@ -445,16 +445,16 @@ I have authored or co-authored a total of `r length(unique(p$pubid))` publicatio
 
 <br><br><br><br><br>
 
-Selected publications:  
 
 <br><br><br><br><br>
 
 ```{r trackrefs, results='asis'}
+# Selected publications:  
 bib<- ReadBib("pubs_zot.bib",check= FALSE)
-bib %>% as_tibble() %>% filter(!is.na(ids)) %>% 
-  mutate(ids = as.numeric(ids)) %>% 
-           arrange(ids) %>% 
-  as.BibEntry() 
+# bib %>% as_tibble() %>% filter(!is.na(ids)) %>%
+  # mutate(ids = as.numeric(ids)) %>%
+           # arrange(ids) %>% 
+  # as.BibEntry() 
 ```
 
 \newpage
