@@ -2,7 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
-public
+/public/
 newKey
 newKey.pub
 .DS_Store
+Thumbs.db
+/resources/
+.Rprofile
