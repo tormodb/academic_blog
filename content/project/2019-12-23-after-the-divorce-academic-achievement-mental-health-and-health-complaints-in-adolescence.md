@@ -10,7 +10,6 @@ tags:
   - project
 summary: ''
 authors: []
-external_link: ''
 image:
   caption: ''
   focal_point: ''

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor of Community Psychology
+role: Professor of Community Psychology
 
 # Organizations/Affiliations
 organizations:

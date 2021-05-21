@@ -10,7 +10,6 @@ publication: ""
 
 tags:
 - Source Themes
-featured: true
 
 # links:
 # - name: ""

@@ -12,7 +12,6 @@ tags:
   - mental health
 summary: ''
 authors: []
-external_link: ''
 image:
   caption: ''
   focal_point: ''
