@@ -15,12 +15,12 @@
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "https://app.cristin.no/search.jsf?t=tormod%20bøe&type=project"
   weight = 30
 
 [[main]]
   name = "Publications"
-  url = "#featured"
+  url = "https://scholar.google.com/citations?hl=en&user=TMC38ZgAAAAJ&view_op=list_works&sortby=pubdate"
   weight = 40
 
 [[main]]
