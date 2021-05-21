@@ -18,7 +18,8 @@ library(flextable)
 library(readxl)
 library(dplyr)
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric", cite.style = 'alphabetic', sorting = "none", no.print.fields = c("issn", "pages"))
+BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric", cite.style = 'alphabetic', sorting = "none", 
+           no.print.fields = c("issn", "pages", "auth-address", "alt-title", "number", "pmid"))
 
 # Personalization for Google Scholar
 id <- 'TMC38ZgAAAAJ' # Google Scholar ID.
