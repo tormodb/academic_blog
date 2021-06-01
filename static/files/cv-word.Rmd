@@ -91,7 +91,7 @@ library(tibble)
 curpos <- tribble(
   ~ Year, ~ Institution,
   "", "Job title/name of employer/country",
-  "2018-", "Associate Professor, Faculty of Psychology, University of Bergen, Norway",
+  "2020-", "Professor, Faculty of Psychology, University of Bergen, Norway",
   "2018-", "Senior Researcher (20% position), Uni Research Health, Bergen, Norway"
   )
 
@@ -115,6 +115,7 @@ curpos %>% align(align="left", part="all") %>%
 prevpos <- tribble(
   ~ Year, ~ Institution,
   "",             "Job title/name of employer/country",
+  "2018-2020",    "Associate Professor, Faculty of Psychology, University of Bergen, Norway",
   "2014-2018",    "Senior Researcher, Uni Research Health, Bergen, Norway",
   "2014-2017",    "Post doctor (funded by Norwegian Research Council), Uni Research Health, Bergen, Norway",
   "2016-2016",    "Associate Professor (20% position), Faculty of Psychology, University of Bergen, Norway",
