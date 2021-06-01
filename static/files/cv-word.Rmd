@@ -303,6 +303,7 @@ teach %>% align(align="left", part="all") %>%
 meet <- tribble(
   ~ Year, ~Institution,
   "",     "Role and name of event/number of participants/country",
+  "2021", "Committee member, Teaching day, Faculty of Psychology, University of Bergen", 
   "2020", "Professionally responsible, Norwegian conference on Social and Community Psychology", 
   "2017", "Professionally responsible, RKBU Conference, 400 participants, Norway"
 ) 
