@@ -131,7 +131,7 @@ output:
 
 
 
-I have authored or co-authored a total of 65 publications (journal articles, book chapters and reports). I am the first author of 14 peer reviewed journal articles and the senior author on 14. My articles have been cited 1203 times, my _h_-index is 16 and my _i10_-index is 25 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 01.06.2021)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 56 talks for more than 6 000 participants in the period from 2015 to 2021. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.app/). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored a total of 65 publications (journal articles, book chapters and reports). I am the first author of 14 peer reviewed journal articles and the senior author on 14. My articles have been cited 1236 times, my _h_-index is 17 and my _i10_-index is 26 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 19.06.2021)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 56 talks for more than 6 000 participants in the period from 2015 to 2021. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.app/). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
@@ -438,10 +438,10 @@ _PsykTestBARN_ 1 (2011). URL:
 [http://hdl.handle.net/11250/2385504](http://hdl.handle.net/11250/2385504).
 
 ## Books and book chapters
-[1] T. Bøe and H. D. Zachrisson. "Hva Betyr Det for Barn å Vokse Opp i
-En Fattig Familie? [What Does It Mean for Children to Grow up in a Poor
-Family?]". In: _Helsetasjonstjenesten: Barns Psykiske Helse Og
-Utvikling_. Ed. by H. Holme, E. S. Olavesen, L. Valla and M. B. Hansen.
+[1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn å vokse opp i
+en fattig familie? [What does it mean for children to grow up in a poor
+family?]". In: _Helsetasjonstjenesten: Barns psykiske helse og
+utvikling_. Ed. by H. Holme, E. S. Olavesen, L. Valla and M. B. Hansen.
 Gyldendal Akademisk, 2016.
 
 ## Conference proceedings

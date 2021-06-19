@@ -75,4 +75,4 @@ email: "Photo: Andreas Graven"
 # - Visitors
 ---
 
-Tormod Bøe is an associate professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics. 
+Tormod Bøe is a professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics. 
