@@ -417,24 +417,27 @@ collab %>% align(align="left", part="all") %>%
 ```{r, echo=FALSE, message=F, warning=F}
 # For automatically updating the track record
 ## Authorships
-first_lastauthor <- bibliography_entries("pubs_zot.bib") %>% # Change to file containing your own references!
-  filter(bibtype == "Article") %>% 
-  select(author) %>% 
-  as.data.frame(.)
 
-auth_split <- separate(first_lastauthor, col = "author", into=c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), sep = "and", remove = FALSE, fill = "right")
-auth_split2 <- auth_split[2:11]
+# install.packages("bib2df")
+# test <- bib2df::bib2df("pubs_zot.bib")
+# devtools::install_github("mitchelloharawild/vitae")
+
+first_lastauthor <- bib2df::bib2df("pubs_zot.bib")
+
+first_lastauthor <- first_lastauthor %>% 
+  filter(CATEGORY == "ARTICLE") %>% 
+  select(AUTHOR) %>% flatten()
+
+indx <- sapply(first_lastauthor, length)
+res <- as.data.frame(do.call(rbind,lapply(first_lastauthor, `length<-`,
+                          max(indx))))
 
 lastValue <- function(x)   tail(x[!is.na(x)], 1)
-firstValue <- function(x)   head(x[!is.na(x)], 1)
+tmp.last <- as.data.frame(apply(res, 1, lastValue))
+colnames(tmp.last) <- "V2"
 
-firstauthor <- as.data.frame(apply(auth_split2, 1, firstValue))
-colnames(firstauthor) <- "first"
-lastauthor <- as.data.frame(apply(auth_split, 1, lastValue))
-colnames(lastauthor) <- "last"
-
-n_firstauthor <- firstauthor %>% dplyr::filter(stringr::str_detect(first, "Bøe")) %>% count() # Replace Bøe with own surname.
-n_lastauthor <- lastauthor %>% dplyr::filter(stringr::str_detect(last, "Bøe")) %>% count()    # Replace Bøe with own surname.
+n_firstauthor <- res %>% select(V1) %>% filter(grepl('Bøe', V1)) %>% tally()
+n_lastauthor <- tmp.last %>% filter(grepl('Bøe', V2)) %>% tally()
 
 ## Dissemination
 formidling <- read_excel("Formidling.xlsx", sheet = "Ark2") # Change to file with own dissemination activities.
