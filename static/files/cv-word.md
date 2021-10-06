@@ -131,7 +131,7 @@ output:
 
 
 
-I have authored or co-authored a total of 70 publications (journal articles, book chapters and reports). I am the first author of 0 peer reviewed journal articles and the senior author on 0. My articles have been cited 1354 times, my _h_-index is 18 and my _i10_-index is 30 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 06.10.2021)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 56 talks for more than 6 000 participants in the period from 2015 to 2021. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.app/). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored a total of 70 publications (journal articles, book chapters and reports). I am the first author of 14 peer reviewed journal articles and the senior author on 15. My articles have been cited 1354 times, my _h_-index is 18 and my _i10_-index is 30 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 06.10.2021)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 56 talks for more than 6 000 participants in the period from 2015 to 2021. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my teaching website:  tormodteaching.netlify.com](https://tormodteaching.netlify.app/). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
@@ -164,9 +164,9 @@ Comparison with Youth in Foster Care". In: _Eur. Child Adolesc.
 Psychiatry_ (2021). DOI: [10/gmvhm4](https://doi.org/10%2Fgmvhm4).
 
 [3] I. Kvestad, S. B. Randal, N. Sayyad, et al. "Study Design: Pathways
-to Independence \textendash A Study of Unaccompanied Minor Refugees
-Settled in a Norwegian City Municipality". In: _Scand J Public Health_
-(2021). DOI: [10/gmgk8f](https://doi.org/10%2Fgmgk8f).
+to Independence – A Study of Unaccompanied Minor Refugees Settled in a
+Norwegian City Municipality". In: _Scand J Public Health_ (2021). DOI:
+[10/gmgk8f](https://doi.org/10%2Fgmgk8f).
 
 [4] C. Lysenstøen, T. Bøe, G. J. Hjetland, et al. "A Review of the
 Relationship between Social Media Use and Online Prosocial Behavior
@@ -177,10 +177,10 @@ Symptoms Among Youth in Foster Care: Prevalence and Associations with
 Exposure to Maltreatment". In: _Child Psychiatry Hum Dev_ (2021). DOI:
 [10/gh24r5](https://doi.org/10%2Fgh24r5).
 
-[6] S. Nawar, S. B. Randal, T. Bøe, et al. ""Det var godt \aa si det
-jeg hadde p\aa hjertet". N\aa r stemmen til enslige mindre\aa rige
-flyktninger bidrar til tjenesteutvikling og ny kunnskap". In: _Nor.
-Barnevern_ (2021).
+[6] S. Nawar, S. B. Randal, T. Bøe, et al. ""Det var godt å si det jeg
+hadde på hjertet". Når stemmen til enslige mindreårige flyktninger
+bidrar til tjenesteutvikling og ny kunnskap". In: _Nor. Barnevern_
+(2021).
 
 [7] S. A. Nilsen, K. G. Askeland, D. P. J. Loro, et al. "Mental Health,
 Adverse Life Events and Health Service Use among Norwegian Youth in the
@@ -259,8 +259,8 @@ Social Inequalities in Health. The Norwegian Council on Social
 Inequalities in Health". In: _Scand J Public Health_ 47 (2019). DOI:
 [10/gf74rf](https://doi.org/10%2Fgf74rf).
 
-[22] T. Bøe. "For Barn Er Fattigdom Mer Enn D\aa rlig R\aa d". In:
-_Bergens Tidende_ (2019). URL:
+[22] T. Bøe. "For Barn Er Fattigdom Mer Enn Dårlig Råd". In: _Bergens
+Tidende_ (2019). URL:
 [https://www.bt.no/btmeninger/debatt/i/zGwX91/for-barn-er-fattigdom-mer-enn-daarlig-raad](https://www.bt.no/btmeninger/debatt/i/zGwX91/for-barn-er-fattigdom-mer-enn-daarlig-raad).
 
 [23] T. Bøe, K. J. Petrie, B. Sivertsen, et al. "Interplay of
@@ -275,9 +275,8 @@ Study". In: _Scand. J. Public Health_ (2019). DOI:
 
 [25] J. C. Skogen, B. Sivertsen, M. Hysing, et al. "Economic
 Circumstances in Childhood and Subsequent Substance Use in Adolescence
-\textendash A Latent Class Analysis: The Youth@hordaland Study". In:
-_Front. Psychol._ 10 (2019). DOI:
-[10/gf2pcj](https://doi.org/10%2Fgf2pcj).
+– A Latent Class Analysis: The Youth@hordaland Study". In: _Front.
+Psychol._ 10 (2019). DOI: [10/gf2pcj](https://doi.org/10%2Fgf2pcj).
 
 [26] J. C. Skogen, T. Bøe, M. M. Thørrisen, et al. "Sociodemographic
 Characteristics Associated with Alcohol Consumption and Alcohol-Related
@@ -393,23 +392,23 @@ Parenting Practices". In: _J Abnorm Child Psychol_ 42 (2014). DOI:
 [10/f57qhw](https://doi.org/10%2Ff57qhw).
 
 [49] B. S. Solberg, M. Hysing, T. Bøe, et al. "Holdninger Til Bruk Av
-Medisiner Hos Voksne Med ADHD M\aa lt Ved Hjelp Av Beliefs about
-Medicines Questionnaire (BMQ) [Attitudes to Medication among Adults
-with ADHD Measured with the Beliefs about Medicines Questionnaire
-(BMQ)]". In: _Tidsskr. Nor. Psykologforening_ 51 (2014).
+Medisiner Hos Voksne Med ADHD Målt Ved Hjelp Av Beliefs about Medicines
+Questionnaire (BMQ) [Attitudes to Medication among Adults with ADHD
+Measured with the Beliefs about Medicines Questionnaire (BMQ)]". In:
+_Tidsskr. Nor. Psykologforening_ 51 (2014).
 
 [50] H. M. Bjorgaas, I. Elgen, T. Boe, et al. "Mental Health in
 Children with Cerebral Palsy: Does Screening Capture the Complexity?"
 In: _Sci World J_ 2013 (2013). DOI:
 [10/gb7xjt](https://doi.org/10%2Fgb7xjt). pmid: pmid.
 
-[51] M. Hysing and T. Bøe. "M\aa leegenskaper Ved Den Norske Versjonen
-Av Fem Til Femten (5-15) [Measurement Properties: FTF (Five to Fifteen
-- 5-15)]". In: _PsykTestBARN_ (2013).
+[51] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+Fem Til Femten (5-15) [Measurement Properties: FTF (Five to Fifteen -
+5-15)]". In: _PsykTestBARN_ (2013).
 
-[52] B. Sivertsen, S. le Pallesen, K. M. Stormark, et al. "Delayed
-Sleep Phase Syndrome in Adolescents: Prevalence and Correlates in a
-Large Population Based Study". In: _BMC Public Health_ 13 (2013). DOI:
+[52] B. Sivertsen, S. Pallesen, K. M. Stormark, et al. "Delayed Sleep
+Phase Syndrome in Adolescents: Prevalence and Correlates in a Large
+Population Based Study". In: _BMC Public Health_ 13 (2013). DOI:
 [10/gbfgqx](https://doi.org/10%2Fgbfgqx).
 
 [53] J. C. Skogen, T. Bøe, A. K. Knudsen, et al. "Psychometric
@@ -428,43 +427,43 @@ Status and Children's Mental Health: Results from the Bergen Child
 Study". In: _Soc. Psychiatry Psychiatr. Epidemiol._ 47 (2012). DOI:
 [10.1007/s00127-011-0462-9](https://doi.org/10.1007%2Fs00127-011-0462-9).
 
-[56] M. Hysing and T. Bøe. "M\aa leegenskaper Ved Den Norske Versjonen
-Av Brown Attention-Deficit Disorder Scales for Children and
-Adolescents, 8-12 \AA r (Brown ADD 8-12) [Measurement Properties: Brown
+[56] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+Brown Attention-Deficit Disorder Scales for Children and Adolescents,
+8-12 År (Brown ADD 8-12) [Measurement Properties: Brown
 Attention-Defict Disorder Scales for Children and Adolescents (Norsk
-Versjon, 8-12 \AA r)]". In: _PsykTestBARN_ (2012).
+Versjon, 8-12 År)]". In: _PsykTestBARN_ (2012).
 
-[57] T. Bøe and M. Hysing. "M\aa leegenskaper Ved Den Norske Versjonen
-Av Brown Attention-Deficit Disorder Scales for Children and
-Adolescents, 3-7 \AA r (Brown ADD Scales 3-7) [Measurement Properties:
-Brown Attention-Defict Disorder Scales for Children and Adolescents
+[57] T. Bøe and M. Hysing. "Måleegenskaper Ved Den Norske Versjonen Av
+Brown Attention-Deficit Disorder Scales for Children and Adolescents,
+3-7 År (Brown ADD Scales 3-7) [Measurement Properties: Brown
+Attention-Defict Disorder Scales for Children and Adolescents
 (Norwegian Version, 3-7 Years)]". In: _PsykTestBARN_ (2011).
 
-[58] H. Kornør and T. Bøe. "M\aa leegenskaper Ved Den Norske Versjonen
-Av ADHD Rating Scale\textendashIV Hjemmeversjon (ADHD-RS-IV Hjemme)
-[Measurement Properties: ADHD-RS-IV \textendash ADHD Rating Scale
-\textendash IV (Home Version)]". In: _PsykTestBARN_ (2011).
+[58] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+ADHD Rating Scale–IV Hjemmeversjon (ADHD-RS-IV Hjemme) [Measurement
+Properties: ADHD-RS-IV – ADHD Rating Scale – IV (Home Version)]". In:
+_PsykTestBARN_ (2011).
 
-[59] H. Kornør and T. Bøe. "M\aa leegenskaper Ved Den Norske Versjonen
-Av ADHD Rating Scale IV, Skoleversjon (ADHD-RS-IV Skole) [Measurement
-Properties: ADHD-RS-IV \textendash ADHD Rating Scale \textendash IV
-(School Version)]". In: _PsykTestBARN_ (2011).
+[59] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+ADHD Rating Scale IV, Skoleversjon (ADHD-RS-IV Skole) [Measurement
+Properties: ADHD-RS-IV – ADHD Rating Scale – IV (School Version)]". In:
+_PsykTestBARN_ (2011).
 
-[60] H. Kornør and T. Bøe. "M\aa leegenskaper Ved Den Norske Versjonen
-Av Swanson, Nolan Og Pelham Vurderingsskala for Lærere Og Foreldre -
+[60] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+Swanson, Nolan Og Pelham Vurderingsskala for Lærere Og Foreldre -
 Versjon IV (SNAP-IV) [Measurement Properties: SNAP-IV]". In:
 _PsykTestBARN_ 1 (2011). URL:
 [http://hdl.handle.net/11250/2385504](http://hdl.handle.net/11250/2385504).
 
 ## Books and book chapters
-[1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn \aa vokse opp
-i en fattig familie? [What does it mean for children to grow up in a
-poor family?]". In: _Helsetasjonstjenesten: Barns psykiske helse og
+[1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn å vokse opp i
+en fattig familie? [What does it mean for children to grow up in a poor
+family?]". In: _Helsetasjonstjenesten: Barns psykiske helse og
 utvikling_. Ed. by H. Holme, E. S. Olavesen, L. Valla and M. B. Hansen.
 Gyldendal Akademisk, 2016.
 
 ## Conference proceedings
-[1] T. Bøe, M. Hysing, and B. Sivertsen. "Higher Education Students'
+[1] T. Bøe, M. Hysing, and B. Sivertsen. "Higher Education Students’
 Mental Health Problems: Results from the Norwegian SHOT Study". In:
 _European Journal of Public Health_. Vol. 29. Oxford University Press,
 2019. DOI: [10/ggfzxk](https://doi.org/10%2Fggfzxk).
@@ -482,8 +481,8 @@ Health_. Vol. 28. Oxford University Press, 2018. DOI:
 _The 23rd Norwegian Conference on Epidemiology_. 2016.
 
 [5] T. Bøe, E. Dearing, K. Stormark, et al. "Feeling Poor versus Being
-Poor in Norway\textendashAssociations to Adolescent Mental Health". In:
-_The European Journal of Public Health_. Vol. 26. 2016.
+Poor in Norway–Associations to Adolescent Mental Health". In: _The
+European Journal of Public Health_. Vol. 26. 2016.
 
 [6] T. Bøe. "Subjective Economic Status in Adolescence: Determinants
 and Associations with Mental Health in Norwegian Youth." In:
@@ -496,29 +495,29 @@ In: _SRCD Biennial Meeting_. 2015.
 [8] T. Bøe, B. Sivertsen, R. Goodman, et al. "Parental Emotional
 Well-Being and Parenting Practices Mediate the Association between Ses
 and Mental Health Problems in Children". In: _Soc. Res. Child Dev.
-Bienn. Meet. April 18\textendash20, 2013, Seattle, US._ 2013.
+Bienn. Meet. April 18–20, 2013, Seattle, US._ 2013.
 
 [9] T. Bøe, M. Hysing, A. J. Lundervold, et al. "Childhood Sleep
 Problems and Familial Socioeconomic Status". In: _15th Eur. Conf. Dev.
 Psychol. Bergen, Norway._ 2012.
 
 [10] T. Bøe, M. Hysing, and S. Øverland. "Socioeconomic Status and
-Children's Mental Health Problems — Results From the Bergen Child
+Children’s Mental Health Problems — Results From the Bergen Child
 Study". In: _Nordic Child and Adolescent Psychiatric Research Meeting,
-September, 8\textendash9, 2010, Alborg, Denmark._ 2010.
+September, 8–9, 2010, Alborg, Denmark._ 2010.
 
 [11] T. Bøe, A. J. Lundervold, T. Torsheim, et al. "Stability of Mental
 Health Problems across Middle Childhood — Results from the Bergen Child
-Study". In: _Nord. Child Adolesc. Psychiatr. Res. Meet. Sept.
-8\textendash9, 2010, Alborg, Denmark._ 2010.
+Study". In: _Nord. Child Adolesc. Psychiatr. Res. Meet. Sept. 8–9,
+2010, Alborg, Denmark._ 2010.
 
-[12] T. Bøe and S. Øverland. "Socioeconomic Status and Children's
+[12] T. Bøe and S. Øverland. "Socioeconomic Status and Children’s
 Mental Health: Results from the Bergen Child Study". In: _The 11th
 Conference on Social and Community Psychology, Bergen, Norway_. 2009.
 
 ## Reports
 
-[1] T. Bøe. _Levek\aa rsundersøkelse i Askøy, Fjell, Sund Og Øygarden_.
+[1] T. Bøe. _Levekårsundersøkelse i Askøy, Fjell, Sund Og Øygarden_.
 Bergen: RKBU Vest, NORCE, 2017. DOI:
 [10.13140/RG.2.2.26351.33445](https://doi.org/10.13140%2FRG.2.2.26351.33445).
 
@@ -529,8 +528,8 @@ investment perspective]_. Government. Helsedirektoratet [Norwegian
 directorate of Health], 2015.
 
 [3] I. Kvestad and T. Bøe. _Veien til selvstendighet: Et prosjekt i
-Barneverntjenesten for enslige mindre\aa rige flyktninger i Bergen
-kommune [Road to Independence: A project in child-care services for
+Barneverntjenesten for enslige mindreårige flyktninger i Bergen kommune
+[Road to Independence: A project in child-care services for
 unaccompanied minor refugees in Bergen municipality]_. Bergen: RKBU
 Vest, NORCE, 2019. URL:
 [https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2625986](https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2625986).
