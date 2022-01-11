@@ -1,0 +1,65 @@
+---
+title: Canvas progress PROPSY315 Spring 2020
+author: Tormodd
+date: '2022-01-11'
+slug: []
+categories:
+  - R
+  - canvas
+  - teaching
+tags:
+  - rcanvas
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-01-11T09:47:39+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+---
+title: Canvas progress
+author: Tormod Bøe
+date: '2022-01-11'
+slug: []
+categories:
+  - R
+  - rmarkdown
+  - teaching
+tags:
+  - r
+---
+```{r, include=FALSE}
+library(rcanvas)
+library(tidyverse)
+library(patchwork)
+
+set_canvas_domain("https://mitt.uib.no")
+set_canvas_token("Am00H3uw2WkRZnIw60IRpxi6pcHW4cfdB63TnLhvxYBTBKMwEVJe9CmUNUzxZ7nj")
+```
+
+
+```{r, include=FALSE}
+analytics <- as_tibble(get_course_analytics_data(course_id = 34371, type = "activity"))
+
+analytics %>% mutate(date2 = as.POSIXct(date)) %>% 
+  mutate(year = lubridate::year(date)) %>% 
+  filter(year>2021) %>% 
+  ggplot(., aes(x=date2, y = views)) + geom_line() + theme_minimal()+
+  labs(title="Views by date", x = "Date", y = "Views") -> p1
+
+analytics %>% mutate(date2 = as.POSIXct(date)) %>% 
+  mutate(year = lubridate::year(date)) %>% 
+  filter(year>2021) %>% 
+  ggplot(., aes(x=date2, y = participations)) + geom_line()  + theme_minimal() +
+  labs(title="Participation by date", x = "Date", y = "Participations") -> p2
+```
+
+
+```{r}
+p1 + p2
+```
