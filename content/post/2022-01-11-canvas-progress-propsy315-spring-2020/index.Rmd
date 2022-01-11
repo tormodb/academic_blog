@@ -60,6 +60,6 @@ analytics %>% mutate(date2 = as.POSIXct(date)) %>%
 ```
 
 
-```{r}
+```{r, echo = FALSE}
 p1 + p2
 ```
