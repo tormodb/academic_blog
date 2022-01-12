@@ -56,7 +56,7 @@ analytics %>% mutate(date2 = as.POSIXct(date)) %>%
   mutate(year = lubridate::year(date)) %>% 
   filter(year>2021) %>% 
   ggplot(., aes(x=date2, y = participations)) + geom_line()  + theme_minimal() +
-  labs(title="Participation by date", x = "Date", y = "Participations") -> p2
+  labs(title="Participation by date", x = "Date", y = "Participations") -> p2 
 ```
 
 
