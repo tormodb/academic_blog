@@ -59,6 +59,7 @@ analytics %>% mutate(date2 = as.POSIXct(date)) %>%
   labs(title="Participation by date", x = "Date", y = "Participations") -> p2 
 ```
 
+# Last updated `r as.Date(Sys.time ())`
 
 ```{r, echo = FALSE}
 p1 + p2
