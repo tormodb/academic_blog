@@ -1,7 +1,7 @@
 ---
 title: Canvas progress PROPSY315 Spring 2020
 author: Tormodd
-date: '2022-01-11'
+date: '2022-01-17'
 slug: []
 categories:
   - R
@@ -46,17 +46,25 @@ set_canvas_token("Am00H3uw2WkRZnIw60IRpxi6pcHW4cfdB63TnLhvxYBTBKMwEVJe9CmUNUzxZ7
 ```{r, include=FALSE}
 analytics <- as_tibble(get_course_analytics_data(course_id = 34371, type = "activity"))
 
-analytics %>% mutate(date2 = as.POSIXct(date)) %>% 
+analytics %>% mutate(date2 = as.Date(date, "%Y-%m-%d")) %>% 
   mutate(year = lubridate::year(date)) %>% 
   filter(year>2021) %>% 
-  ggplot(., aes(x=date2, y = views)) + geom_line() + theme_minimal()+
-  labs(title="Views by date", x = "Date", y = "Views") -> p1
+  ggplot(., aes(x=date2, y = views)) + geom_line() + theme_minimal()+ 
+  geom_vline(xintercept = as.Date("2022-01-10"), color = "red") +
+  annotate("rect", xmin = as.Date("2022-01-15"), xmax = as.Date("2022-01-16"), ymin = 0, ymax = 3500, fill = "red", alpha = .20) +
+  annotate("rect", xmin = as.Date("2022-01-22"), xmax = as.Date("2022-01-23"), ymin = 0, ymax = 3500, fill = "red", alpha = .20) +
+  annotate("rect", xmin = as.Date("2022-01-29"), xmax = as.Date("2022-01-30"), ymin = 0, ymax = 3500, fill = "red", alpha = .20) +
+  labs(title="Views by date", x = "Date", y = "Views", caption = expression(paste(bold("Note. "), "Weekends highlighted with red colour.\n Red vertical line indicates semesterstart")))-> p1
 
-analytics %>% mutate(date2 = as.POSIXct(date)) %>% 
+analytics %>% mutate(date2 = as.Date(date, "%Y-%m-%d")) %>% 
   mutate(year = lubridate::year(date)) %>% 
   filter(year>2021) %>% 
-  ggplot(., aes(x=date2, y = participations)) + geom_line()  + theme_minimal() +
-  labs(title="Participation by date", x = "Date", y = "Participations") -> p2 
+  ggplot(., aes(x=date2, y = participations)) + geom_line() + theme_minimal()+ 
+  geom_vline(xintercept = as.Date("2022-01-10"), color = "red") +
+  annotate("rect", xmin = as.Date("2022-01-15"), xmax = as.Date("2022-01-16"), ymin = 0, ymax = 100, fill = "red", alpha = .20) +
+  annotate("rect", xmin = as.Date("2022-01-22"), xmax = as.Date("2022-01-23"), ymin = 0, ymax = 100, fill = "red", alpha = .20) +
+  annotate("rect", xmin = as.Date("2022-01-29"), xmax = as.Date("2022-01-30"), ymin = 0, ymax = 100, fill = "red", alpha = .20) +
+  labs(title="Participation by date", x = "Date", y = "Views", caption = expression(paste(bold("Note. "), "Weekends highlighted with red colour. \n Red vertical line indicates semesterstart"))) -> p2 
 ```
 
 # Last updated `r as.Date(Sys.time ())`
