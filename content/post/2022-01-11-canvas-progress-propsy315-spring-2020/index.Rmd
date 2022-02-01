@@ -1,7 +1,7 @@
 ---
 title: Canvas progress PROPSY315 Spring 2020
 author: Tormodd
-date: '2022-01-17'
+date: '2022-02-01'
 slug: []
 categories:
   - R
