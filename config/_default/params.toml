@@ -113,6 +113,7 @@ contact_links = [
   {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/tormodb"},
 # {icon = "gitlab", icon_pack = "fab", name = "Gitlab", link = "https://keybase.io/"},
   {icon = "google-scholar", icon_pack = "ai", name="Scholar citations", link = "https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en"},
+  {icon = "orcid", icon_pack = "ai", name="orcID", link = "https://orcid.org/0000-0002-0968-7537"},
   #{icon = "researchgate", icon_pack = "ai", name="Researchgate", link = "https://www.researchgate.net/profile/Tormod_Boe"},
 # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
 # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
