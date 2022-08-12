@@ -356,6 +356,7 @@ instres %>% align(align="left", part="all") %>%
 trust <- tribble(
   ~ Year, ~ Institution,
   "",           "Name of university/institution/country – and role",
+  "2022-2023",       "Member government expert group on childhood poverty",
   "2015-2019",  "Expert panel on social inequalities of health, The Norwegian Directorate of Health" ,
   "2017",       "Review panel member, The Netherlands Organisation for Heath Research and Develeopment" 
 ) 
