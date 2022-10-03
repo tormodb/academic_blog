@@ -248,7 +248,7 @@ proj %>% align(align="left", part="all") %>%
 
 sup <- tribble(~ Year, ~number, ~level, ~ Institution,
 "", "No. of", "Master’s students/ Ph.D./Postdocs", "Name of faculty/department/centre, name of university/institution/country",
-"2017-",   "3", "PhD", "Faculty of Psychology, University of Bergen, Norway",
+"2017-",   "5", "PhD", "Faculty of Psychology, University of Bergen, Norway",
 "2015-",   "14", "Master", "Faculty of Psychology, University of Bergen, Norway",
 )
 
