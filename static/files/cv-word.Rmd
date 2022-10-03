@@ -457,11 +457,13 @@ I have authored or co-authored more than `r length(unique(p$pubid))` publication
 
 ```{r trackrefs, results='asis'}
 # Selected publications:  
-bib<- ReadBib("pubs_zot.bib",check= FALSE)
-# bib %>% as_tibble() %>% filter(!is.na(ids)) %>%
-  # mutate(ids = as.numeric(ids)) %>%
-           # arrange(ids) %>% 
-  # as.BibEntry() 
+bib2<- ReadBib("tbup_top_10.bib",check= FALSE)
+bib2 %>% as_tibble() %>% 
+  # filter(!is.na(ids)) %>%
+  arrange((date)) %>% 
+  mutate(ids = as.numeric(ids)) %>%
+           arrange(ids) %>%
+  as.BibEntry()
 ```
 
 \newpage
@@ -471,6 +473,7 @@ bib<- ReadBib("pubs_zot.bib",check= FALSE)
 ## PhD Thesis
 
 ```{r, results='asis'}
+bib<- ReadBib("tpubs_zot.bib",check= FALSE)
 bib %>% as_tibble() %>% filter(bibtype == "Thesis") %>% 
   arrange(desc(date)) %>% 
   as.BibEntry(.)
