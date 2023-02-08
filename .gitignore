@@ -9,3 +9,4 @@ newKey.pub
 Thumbs.db
 /resources/
 .Rprofile
+.hugo_build.lock
