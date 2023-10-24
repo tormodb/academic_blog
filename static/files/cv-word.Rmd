@@ -483,7 +483,7 @@ __List of publications:__
 bib2<- ReadBib("tbup_top_10.bib",check= FALSE)
 bib2 %>% as_tibble() %>% 
   # filter(!is.na(ids)) %>%
-  arrange((date)) %>% 
+  arrange((year)) %>% 
   mutate(ids = as.numeric(ids)) %>%
            arrange(ids) %>%
   as.BibEntry()

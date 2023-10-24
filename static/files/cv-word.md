@@ -106,7 +106,7 @@ output:
 
 
 
-I have authored or co-authored more than 91 publications (journal articles, book chapters and reports). I am the first author of 15 peer reviewed journal articles and the senior author on 18. My articles have been cited 2291 times, my _h_-index is 26 and my _i10_-index is 44 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 04.09.2023)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2023. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored more than 92 publications (journal articles, book chapters and reports). I am the first author of 15 peer reviewed journal articles and the senior author on 18. My articles have been cited 2366 times, my _h_-index is 26 and my _i10_-index is 47 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 24.10.2023)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2023. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
@@ -139,7 +139,9 @@ Childhood and Adult Depression in Europe". In: _Eur. J. Public Health_
 [5] T. Bøe, E. Dearing, K. M. Stormark, et al. "Subjective Economic
 Status in Adolescence: Determinants and Associations with Mental Health
 in the Norwegian Youth@Hordaland Study". In: _J Fam Econ Iss_ 39
-(2018). DOI: [10/gdhdg8](https://doi.org/10%2Fgdhdg8).
+(2018). DOI:
+[10.1007/s10834-017-9553-4](https://doi.org/10.1007%2Fs10834-017-9553-4).
+(Visited on 06/06/2018).
 
 [6] S. C. Smid, J. J. Hox, E. R. Heiervang, et al. "Measurement
 Equivalence and Convergent Validity of a Mental Health Rating Scale".
@@ -148,23 +150,29 @@ In: _Assessment_ (2018). DOI: [10/gfdbww](https://doi.org/10%2Fgfdbww).
 [7] A. Arntzen, T. Bøe, E. Dahl, et al. "29 Recommendations to Combat
 Social Inequalities in Health. The Norwegian Council on Social
 Inequalities in Health". In: _Scand J Public Health_ 47 (2019). DOI:
-[10/gf74rf](https://doi.org/10%2Fgf74rf).
+[10.1177/1403494819851364](https://doi.org/10.1177%2F1403494819851364).
+(Visited on 09/13/2019).
 
 [8] T. Bøe, M. Hysing, K. J. Lønning, et al. "Financial Difficulties
 and Student Health: Results from a National Cross-Sectional Survey of
 Norwegian College and University Students". In: _Mental Health &
-Prevention_ (2020). DOI: [10/ghrkfn](https://doi.org/10%2Fghrkfn).
+Prevention_ (2020). DOI:
+[10.1016/j.mhp.2020.200196](https://doi.org/10.1016%2Fj.mhp.2020.200196).
+(Visited on 01/03/2021).
 
 [9] T. Bøe, M. Hysing, K. G. Askeland, et al. "Do Parental
 Education-Related Inequality Matter in Child and Adolescent Utilization
 of Mental Health Services: Results From a Norwegian Register Linkage
 Study". In: _Health\dbend Serv\dbend Insights_ 14 (2021). DOI:
-[10/gnr9hz](https://doi.org/10%2Fgnr9hz).
+[10.1177/11786329211055302](https://doi.org/10.1177%2F11786329211055302).
+(Visited on 12/15/2021).
 
 [10] T. Bøe, E. R. Heiervang, K. M. Stormark, et al. "Prevalence of
 Psychiatric Disorders in Norwegian 10-14-Year-Olds: Results from a
 Cross-Sectional Study". In: _PLoS ONE_ 16 (2021). Ed. by E. U. Syed.
-DOI: [10/gjh85b](https://doi.org/10%2Fgjh85b).
+DOI:
+[10.1371/journal.pone.0248864](https://doi.org/10.1371%2Fjournal.pone.0248864).
+(Visited on 03/23/2021).
 
 \newpage
 
