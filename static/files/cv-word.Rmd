@@ -260,7 +260,7 @@ proj %>% align(align="left", part="all") %>%
 
 sup <- tribble(~ master, ~ phd, ~ Institution,
 "Master’s students", "Ph.D. students", "University/institution - Country",
-"20", "5", "Faculty of Psychology, University of Bergen, Norway",
+"26", "5", "Faculty of Psychology, University of Bergen, Norway",
 )
 
 sup <- flextable(sup)
@@ -483,7 +483,7 @@ __List of publications:__
 bib2<- ReadBib("tbup_top_10.bib",check= FALSE)
 bib2 %>% as_tibble() %>% 
   # filter(!is.na(ids)) %>%
-  arrange((year)) %>% 
+  arrange((date)) %>% 
   mutate(ids = as.numeric(ids)) %>%
            arrange(ids) %>%
   as.BibEntry()
