@@ -456,8 +456,8 @@ lastValue <- function(x)   tail(x[!is.na(x)], 1)
 tmp.last <- as.data.frame(apply(res, 1, lastValue))
 colnames(tmp.last) <- "V2"
 
-n_firstauthor <- res %>% select(V1) %>% filter(grepl('Bøe', V1)) %>% tally()
-n_lastauthor <- tmp.last %>% filter(grepl('Bøe', V2)) %>% tally()
+n_firstauthor <- res %>% select(V1) %>% filter(grepl('Tormod', V1)) %>% tally()
+n_lastauthor <- tmp.last %>% filter(grepl('Tormod', V2)) %>% tally()
 
 ## Dissemination
 formidling <- read_excel("Formidling.xlsx", sheet = "Ark2") # Change to file with own dissemination activities.
