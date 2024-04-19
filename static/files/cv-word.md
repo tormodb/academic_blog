@@ -106,7 +106,7 @@ output:
 
 
 
-I have authored or co-authored more than 102 publications (journal articles, book chapters and reports). I am the first author of 15 peer reviewed journal articles and the senior author on 18. My articles have been cited 2648 times, my _h_-index is 28 and my _i10_-index is 50 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 19.04.2024)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2024. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored more than 102 publications (journal articles, book chapters and reports). I am the first author of 0 peer reviewed journal articles and the senior author on 0. My articles have been cited 2648 times, my _h_-index is 28 and my _i10_-index is 50 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 19.04.2024)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2024. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
@@ -179,416 +179,460 @@ University of Bergen, 2013.
 
 ## Refereed research papers 
 
-[1] M. Hysing, B. Sivertsen, S. A. Nilsen, et al. "Sleep and Dropout
+[1] L. Girard, T. Bøe, S. A. Nilsen, et al. "Developmental Trajectories
+of Conduct Problems and Time-Varying Peer Problems: The Bergen Child
+Study". In: _Soc Psychiatry Psychiatr Epidemiol_ (Mar. 2024). DOI:
+[10.1007/s00127-024-02644-y](https://doi.org/10.1007%2Fs00127-024-02644-y).
+(Visited on 03/10/2024).
+
+[2] T. Bøe, H. A. Ostojic, K. Haraldstad, et al. "Self-Reported and
+Parent-Reported Mental Health in Children from Low-Income Families in
+Agder, Norway: Results from Baseline Measurements of New Patterns
+Project Participants". In: _BMJ Open_ 13 (Nov. 2023). DOI:
+[10/gs6s97](https://doi.org/10%2Fgs6s97). (Visited on 11/27/2023).
+
+[3] C. J. Gosling, S. Caparos, C. Pinabiaux, et al. "Association
+between Relative Age at School and Persistence of ADHD in Prospective
+Studies: An Individual Participant Data Meta-Analysis". In: _The Lancet
+Psychiatry_ 0 (Oct. 2023). DOI:
+[10/gszdw9](https://doi.org/10%2Fgszdw9). (Visited on 10/26/2023).
+
+[4] E. Hanevik, F. M. G. Røvik, T. Bøe, et al. "Client Predictors of
+Therapy Dropout in a Primary Care Setting: A Prospective Cohort Study".
+In: _BMC Psychiatry_ 23 (May. 2023). DOI:
+[10/gsbg6r](https://doi.org/10%2Fgsbg6r). (Visited on 06/06/2023).
+
+[5] K. Haraldstad, E. Abildsnes, T. Bøe, et al. "Health-Related Quality
+of Life of Children from Low-Income Families, The New Patterns Study".
+(2023). DOI: [10/gs2w64](https://doi.org/10%2Fgs2w64).
+
+[6] O. M. Heimli, K. G. Askeland, I. Kvestad, et al. "Health-Related
+Quality of Life among Unaccompanied Refugee Minors".  (2023).
+
+[7] O. Heradstveit, M. Hysing, T. Bøe, et al. "Prospective Associations
+between Adolescent Risky Substance Use and School Dropout and the Role
+of Externalising and Internalising Problems". In: _Nord. Stud. Alcohol
+Drugs_ (2023). DOI: [10/gs2w62](https://doi.org/10%2Fgs2w62).
+
+[8] M. Hysing, B. Sivertsen, S. A. Nilsen, et al. "Sleep and Dropout
 from Upper Secondary School: A Register-Linked Study". In: _Sleep
-Health_ (Jul. 16, 2023). DOI: [10/gsjjgh](https://doi.org/10%2Fgsjjgh).
+Health_ (Jul. 2023). DOI: [10/gsjjgh](https://doi.org/10%2Fgsjjgh).
 (Visited on 07/31/2023).
 
-[2] E. Hanevik, F. M. G. Røvik, T. Bøe, et al. "Client Predictors of
-Therapy Dropout in a Primary Care Setting: A Prospective Cohort Study".
-In: _BMC Psychiatry_ 23 (May. 24, 2023). DOI:
-[10/gsbg6r](https://doi.org/10%2Fgsbg6r). (Visited on 06/09/2023).
-
-[3] M. Jørgensen, O. R. Smith, B. Wold, et al. "Tracking of Depressed
+[9] M. Jørgensen, O. R. Smith, B. Wold, et al. "Tracking of Depressed
 Mood from Adolescence into Adulthood and the Role of Peer and Parent
 Support: A Partial Test of the Adolescent Pathway Model". In: _SSM -
-Population Health_ (May. 2023). DOI:
+Population Health_ (2023). DOI:
 [10/gr96n9](https://doi.org/10%2Fgr96n9). (Visited on 06/02/2023).
 
-[4] K. Karhina, T. Bøe, M. Hysing, et al. "Parental Separation and
-School Dropout in Adolescence". In: _Scand. J. Public Health_ (Apr. 12,
+[10] K. Karhina, T. Bøe, M. Hysing, et al. "Parental Separation and
+School Dropout in Adolescence". In: _Scand. J. Public Health_ (Apr.
 2023). DOI: [10/gr4vxf](https://doi.org/10%2Fgr4vxf). (Visited on
 04/13/2023).
 
-[5] A. Skandsen, L. Sand, M. H. Teicher, et al. "Exposure to
-Potentially Traumatic Events and PTSD Symptomatology in Norwegian
-11–13-Year-Olds: Results from the Bergen Child Study". In: _Child and
-Adolescent Psychiatry and Mental Health_ 17 (Mar. 04, 2023). DOI:
-[10/grwc7s](https://doi.org/10%2Fgrwc7s). (Visited on 03/07/2023).
-
-[6] B. Sivertsen, R. C. O’Connor, S. A. Nilsen, et al. "Mental Health
-Problems and Suicidal Behavior from Adolescence to Young Adulthood in
-College: Linking Two Population-Based Studies". In: _Eur Child Adolesc
-Psychiatry_ (Feb. 27, 2023). DOI:
-[10/grvcvw](https://doi.org/10%2Fgrvcvw). (Visited on 02/28/2023).
-
-[7] E. Mølland, K. G. Lundberg, K. Haraldstad, et al. "Economic
-Composition and Income Volatility of Norwegian Low-Income Families – a
+[11] E. Mølland, K. G. Lundberg, K. Haraldstad, et al. "Economic
+Composition and Income Volatility of Norwegian Low-Income Families - a
 Mixed Method Study of Its Implications". In: _Nord. J. Soc. Res._ 14
 (2023). DOI: [10/gsb6nd](https://doi.org/10%2Fgsb6nd). eprint:
 https://www.idunn.no/doi/pdf/10.18261/njsr.14.1.2.
 
-[8] O. Heradstveit, K. G. Askeland, T. Bøe, et al. "Substance-Related
-Problems in Adolescents with ADHD-Diagnoses: The Importance of
-Self-Reported Conduct Problems". In: _J Atten Disord_ (Jun. 25, 2022).
-DOI: [10/gqmzzh](https://doi.org/10%2Fgqmzzh). (Visited on 08/10/2022).
+[12] L. Sand, T. Bøe, K. M. Stormark, et al. "The Relationship between
+Perfectionism, Psychiatric Disorders and Use of Mental Health Services
+in Adolescence: Results from a National Patient Register Linkage
+Study".  (2023). DOI: [10/gs2w63](https://doi.org/10%2Fgs2w63).
 
-[9] S. A. Nilsen, I. Kvestad, S. B. Randal, et al. "Mental Health among
-Unaccompanied Refugee Minors after Settling in Norway: A Matched
-Cross-Sectional Study". In: _Scand J Public Health_ (Jun. 09, 2022).
-DOI: [10/gqbvsw](https://doi.org/10%2Fgqbvsw). (Visited on 06/13/2022).
+[13] B. Sivertsen, R. C. O'Connor, S. A. Nilsen, et al. "Mental Health
+Problems and Suicidal Behavior from Adolescence to Young Adulthood in
+College: Linking Two Population-Based Studies". In: _Eur Child Adolesc
+Psychiatry_ (Feb. 2023). DOI: [10/grvcvw](https://doi.org/10%2Fgrvcvw).
+(Visited on 02/28/2023).
 
-[10] K. G. Askeland, T. Bøe, B. Sivertsen, et al. "Association of
+[14] A. Skandsen, L. Sand, M. H. Teicher, et al. "Exposure to
+Potentially Traumatic Events and PTSD Symptomatology in Norwegian
+11-13-Year-Olds: Results from the Bergen Child Study". In: _Child and
+Adolescent Psychiatry and Mental Health_ 17 (Mar. 2023). DOI:
+[10/grwc7s](https://doi.org/10%2Fgrwc7s). (Visited on 03/07/2023).
+
+[15] H. B. Urke, S. M. Kristensen, T. Bøe, et al. "Perceptions of a
+Caring School Climate and Mental Well-Being: A One-Way Street? Results
+from a Random Intercept Cross-Lagged Panel Model". In: _Appl. Dev.
+Sci._ 0 (2023). DOI: [10/gtfvjx](https://doi.org/10%2Fgtfvjx). (Visited
+on 11/02/2023).
+
+[16] N. Wiium, S. M. Kristensen, E. \AArdal, et al. "Civic Engagement
+and Mental Health Trajectories in Norwegian Youth". In: _Front. Public
+Health_ 11 (2023). DOI:
+[10.3389/fpubh.2023.1214141](https://doi.org/10.3389%2Ffpubh.2023.1214141).
+(Visited on 10/23/2023).
+
+[17] K. G. Askeland, T. Bøe, B. Sivertsen, et al. "Association of
 Depressive Symptoms in Late Adolescence and School Dropout". In:
-_School Mental Health_ (May. 06, 2022). DOI:
+_School Mental Health_ (May. 2022). DOI:
 [10/gp5332](https://doi.org/10%2Fgp5332). (Visited on 06/13/2022).
 
-[11] O. M. Amundsen, A. Fauglied, J. C. Nugame, et al. "Predictors of
-Social and Academic Integration in Students Participating in a
-University Mentor Program: A Cross-Sectional Study".  (2022).
+[18] O. Heradstveit, K. G. Askeland, T. Bøe, et al. "Substance-Related
+Problems in Adolescents with ADHD-Diagnoses: The Importance of
+Self-Reported Conduct Problems". In: _J Atten Disord_ (Jun. 2022). DOI:
+[10/gqmzzh](https://doi.org/10%2Fgqmzzh). (Visited on 08/10/2022).
 
-[12] Y. Moussavi, G. J. Wergeland, T. Bøe, et al. "Internalizing
-Symptoms among Youth in Foster Care: Prevalence and Associations with
-Exposure to Maltreatment". In: _Child Psychiatry Hum. Dev._ 53 (2022).
-DOI: [10/gh24r5](https://doi.org/10%2Fgh24r5).
+[19] S. A. Nilsen, I. Kvestad, S. B. Randal, et al. "Mental Health
+among Unaccompanied Refugee Minors after Settling in Norway: A Matched
+Cross-Sectional Study". In: _Scand J Public Health_ (Jun. 2022). DOI:
+[10/gqbvsw](https://doi.org/10%2Fgqbvsw). (Visited on 06/13/2022).
 
-[13] J. C. Skogen, T. Bøe, T. R. Finserås, et al. "Lower Subjective
+[20] J. C. Skogen, T. Bøe, T. R. Finser\aas, et al. "Lower Subjective
 Socioeconomic Status Is Associated With Increased Risk of Reporting
 Negative Experiences on Social Media. Findings From the
-"LifeOnSoMe"-Study". In: _Front Public Health_ 10 (2022). DOI:
-[10/gqbvcs](https://doi.org/10%2Fgqbvcs). pmid: pmid.
+``LifeOnSoMe''-Study". In: _Front. Public Health_ 10 (2022). DOI:
+[10/gqbvcs](https://doi.org/10%2Fgqbvcs). (Visited on 06/13/2022).
 
-[14] O. Heradstveit, B. S. M. Haugland, S. A. Nilsen, et al. "Parental
-Mental Illness as a Risk Factor for Adolescent Psychiatric Disorders: A
-Registry-Based Study of Specialized Child and Adolescent Health
-Services". In: _Child Youth Serv._ 0 (Nov. 08, 2021). DOI:
-[10/gnc7sp](https://doi.org/10%2Fgnc7sp). (Visited on 11/10/2021).
-
-[15] T. Bøe, M. Hysing, K. G. Askeland, et al. "Do Parental
+[21] T. Bøe, M. Hysing, K. G. Askeland, et al. "Do Parental
 Education-Related Inequality Matter in Child and Adolescent Utilization
 of Mental Health Services: Results From a Norwegian Register Linkage
-Study". In: _Health�Serv�Insights_ 14 (2021). DOI:
+Study". In: _Health\dbendServ\dbendInsights_ 14 (2021). DOI:
 [10/gnr9hz](https://doi.org/10%2Fgnr9hz). (Visited on 12/15/2021).
 
-[16] T. Bøe, E. R. Heiervang, K. M. Stormark, et al. "Prevalence of
+[22] T. Bøe, E. R. Heiervang, K. M. Stormark, et al. "Prevalence of
 Psychiatric Disorders in Norwegian 10-14-Year-Olds: Results from a
 Cross-Sectional Study". In: _PLoS ONE_ 16 (2021). Ed. by E. U. Syed.
 DOI: [10/gjh85b](https://doi.org/10%2Fgjh85b). (Visited on 03/23/2021).
 
-[17] I. Kvestad, T. Bøe, N. Sayyad, et al. "Potential Traumatic Events
-and Symptoms of Post-Traumatic Stress in Unaccompanied Refugee Minors—a
+[23] O. Heradstveit, B. S. M. Haugland, S. A. Nilsen, et al. "Parental
+Mental Illness as a Risk Factor for Adolescent Psychiatric Disorders: A
+Registry-Based Study of Specialized Child and Adolescent Health
+Services". In: _Child Youth Serv._ 0 (Nov. 2021). DOI:
+[10/gnc7sp](https://doi.org/10%2Fgnc7sp). (Visited on 11/10/2021).
+
+[24] I. Kvestad, T. Bøe, N. Sayyad, et al. "Potential Traumatic Events
+and Symptoms of Post-Traumatic Stress in Unaccompanied Refugee Minors-a
 Comparison with Youth in Foster Care". In: _Eur. Child Adolesc.
-Psychiatry_ (2021). DOI: [10/gmvhm4](https://doi.org/10%2Fgmvhm4).
+Psychiatry_ (2021). DOI:
+[10.1007/s00787-021-01876-6](https://doi.org/10.1007%2Fs00787-021-01876-6).
 (Visited on 09/20/2021).
 
-[18] I. Kvestad, S. B. Randal, N. Sayyad, et al. "Study Design:
-Pathways to Independence – A Study of Unaccompanied Minor Refugees
+[25] I. Kvestad, S. B. Randal, N. Sayyad, et al. "Study Design:
+Pathways to Independence - A Study of Unaccompanied Minor Refugees
 Settled in a Norwegian City Municipality". In: _Scand J Public Health_
 (2021). DOI: [10/gmgk8f](https://doi.org/10%2Fgmgk8f). (Visited on
 08/12/2021).
 
-[19] C. Lysenstøen, T. Bøe, G. J. Hjetland, et al. "A Review of the
+[26] C. Lysenstøen, T. Bøe, G. J. Hjetland, et al. "A Review of the
 Relationship between Social Media Use and Online Prosocial Behavior
 Among Adolescents". In: _Accept. Front. Psychol._ (2021). DOI:
 [10/gqsmk4](https://doi.org/10%2Fgqsmk4).
 
-[20] Y. Moussavi, G. J. Wergeland, T. Bøe, et al. "Internalizing
+[27] Y. Moussavi, G. J. Wergeland, T. Bøe, et al. "Internalizing
 Symptoms Among Youth in Foster Care: Prevalence and Associations with
 Exposure to Maltreatment". In: _Child Psychiatry Hum Dev_ (2021). DOI:
 [10/gh24r5](https://doi.org/10%2Fgh24r5). (Visited on 02/15/2021).
 
-[21] S. Nawar, S. B. Randal, T. Bøe, et al. "Det var godt å si det jeg
-hadde på hjertet". Når stemmen til enslige mindreårige flyktninger
-bidrar til tjenesteutvikling og ny kunnskap". In: _Nor. Barnevern_
-(2021).
+[28] S. Nawar, S. B. Randal, T. Bøe, et al. ""Det var godt \aa si det
+jeg hadde p\aa hjertet". N\aar stemmen til enslige mindre\aarige
+flyktninger bidrar til tjenesteutvikling og ny kunnskap". In: _Nor.
+Barnevern_ (2021).
 
-[22] S. A. Nilsen, K. G. Askeland, D. P. J. Loro, et al. "Mental
+[29] S. A. Nilsen, K. G. Askeland, D. P. J. Loro, et al. "Mental
 Health, Adverse Life Events and Health Service Use among Norwegian
 Youth in the Child Welfare System: Results from a Population-Based
 Study". In: _Child Fam. Soc. Work_ n/a (2021). DOI:
-[10/gjzw4p](https://doi.org/10%2Fgjzw4p). (Visited on 05/12/2021).
+[10.1111/cfs.12842](https://doi.org/10.1111%2Fcfs.12842). (Visited on
+05/12/2021).
 
-[23] L. Sand, T. Bøe, R. Shafran, et al. "Perfectionism in Adolescence:
+[30] L. Sand, T. Bøe, R. Shafran, et al. "Perfectionism in Adolescence:
 Associations With Gender, Age, and Socioeconomic Status in a Norwegian
 Sample". In: _Front. Public Health_ 9 (2021). DOI:
-[10/gmmc8z](https://doi.org/10%2Fgmmc8z). (Visited on 08/25/2021).
+[10.3389/fpubh.2021.688811](https://doi.org/10.3389%2Ffpubh.2021.688811).
+(Visited on 08/25/2021).
 
-[24] J. C. Skogen, G. J. Hjetland, T. Bøe, et al. "Through the Looking
+[31] J. C. Skogen, G. J. Hjetland, T. Bøe, et al. "Through the Looking
 Glass of Social Media. Focus on Self-Presentation and Association with
 Mental Health and Quality of Life. A Cross-Sectional Survey-Based
-Study". In: _Int. J. Environ. Res. Public. Health_ 18 (6 2021). DOI:
+Study". In: _Int. J. Environ. Res. Public. Health_ 18 (2021). DOI:
 [10/gjtfjg](https://doi.org/10%2Fgjtfjg). (Visited on 03/23/2021).
 
-[25] K. G. Askeland, T. Bøe, A. J. Lundervold, et al. "The Association
+[32] K. G. Askeland, T. Bøe, A. J. Lundervold, et al. "The Association
 Between Symptoms of Depression and School Absence in a Population-Based
 Study of Late Adolescents". In: _Front. Psychol._ 11 (2020). DOI:
 [10/ggzqvj](https://doi.org/10%2Fggzqvj). (Visited on 06/09/2020).
 
-[26] K. G. Askeland, T. Bøe, K. Breivik, et al. "Life Events and
+[33] K. G. Askeland, T. Bøe, K. Breivik, et al. "Life Events and
 Adolescent Depressive Symptoms: Protective Factors Associated with
 Resilience". In: _PLOS ONE_ 15 (2020). DOI:
 [10/ggzt4x](https://doi.org/10%2Fggzt4x). (Visited on 06/10/2020).
 
-[27] T. Bøe, M. Hysing, K. J. Lønning, et al. "Financial Difficulties
+[34] T. Bøe, M. Hysing, K. J. Lønning, et al. "Financial Difficulties
 and Student Health: Results from a National Cross-Sectional Survey of
 Norwegian College and University Students". In: _Mental Health &
 Prevention_ (2020). DOI: [10/ghrkfn](https://doi.org/10%2Fghrkfn).
 (Visited on 01/03/2021).
 
-[28] O. Heradstveit, S. Haugland, M. Hysing, et al. "Physical
+[35] O. Heradstveit, S. Haugland, M. Hysing, et al. "Physical
 Inactivity, Non-Participation in Sports and Socioeconomic Status: A
 Large Population-Based Study among Norwegian Adolescents". In: _BMC
 Public Health_ 20 (2020). DOI:
 [10/gg8h49](https://doi.org/10%2Fgg8h49). (Visited on 08/19/2020).
 
-[29] O. Heradstveit, M. Hysing, S. A. Nilsen, et al. "Symptoms of
+[36] O. Heradstveit, M. Hysing, S. A. Nilsen, et al. "Symptoms of
 Disordered Eating and Participation in Individual- and Team Sports: A
 Population-Based Study of Adolescents". In: _Eating Behaviors_ 39
 (2020). DOI: [10/ghcrt4](https://doi.org/10%2Fghcrt4). (Visited on
 09/25/2020).
 
-[30] M. Hysing, K. J. Petrie, T. Bøe, et al. "Only the Lonely: A Study
-of Loneliness Among University Students in Norway". In: _1_ 2 (1 2020).
+[37] M. Hysing, K. J. Petrie, T. Bøe, et al. "Only the Lonely: A Study
+of Loneliness Among University Students in Norway". In: _1_ 2 (2020).
 DOI: [10/ggqmpd](https://doi.org/10%2Fggqmpd).
 
-[31] M. Hysing, O. Heradstveit, A. G. Harvey, et al. "Sleep Problems
+[38] M. Hysing, O. Heradstveit, A. G. Harvey, et al. "Sleep Problems
 among Adolescents within Child and Adolescent Mental Health Services.
 An Epidemiological Study with Registry Linkage". In: _Eur Child Adolesc
 Psychiatry_ (2020). DOI: [10/ghjk33](https://doi.org/10%2Fghjk33).
 (Visited on 11/10/2020).
 
-[32] M. Hysing, A. G. Harvey, T. Bøe, et al. "Trajectories of Sleep
+[39] M. Hysing, A. G. Harvey, T. Bøe, et al. "Trajectories of Sleep
 Problems from Adolescence to Adulthood. Linking Two Population-Based
 Studies from Norway". In: _Sleep Med_ 75 (2020). DOI:
-[10/ghcrt2](https://doi.org/10%2Fghcrt2). pmid: pmid.
+[10/ghcrt2](https://doi.org/10%2Fghcrt2).
 
-[33] M. Jensen, S. C. Smid, and T. Bøe. "Characteristics of Adolescent
+[40] M. Jensen, S. C. Smid, and T. Bøe. "Characteristics of Adolescent
 Boys Who Have Displayed Harmful Sexual Behaviour (HSB) against Children
 of Younger or Equal Age". In: _BMC Psychol._ 8 (2020). DOI:
 [10/ghmdp8](https://doi.org/10%2Fghmdp8). (Visited on 11/26/2020).
 
-[34] E. Mølland, K. L. Vigsnes, T. Bøe, et al. "The New Patterns Study:
+[41] E. Mølland, K. L. Vigsnes, T. Bøe, et al. "The New Patterns Study:
 Coordinated Measures to Combat Child Poverty". In: _Scand J Public
-Health_ (2020). DOI: [10/ghbm4k](https://doi.org/10%2Fghbm4k). pmid:
-pmid.
+Health_ (2020). DOI:
+[10.1177/1403494820956452](https://doi.org/10.1177%2F1403494820956452).
 
-[35] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Adolescent
+[42] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Adolescent
 Academic Achievement: Heterogeneity in the Associations by Parental
 Education". In: _PLOS ONE_ 15 (2020). DOI:
 [10/ggnqhd](https://doi.org/10%2Fggnqhd). (Visited on 03/11/2020).
 
-[36] A. Arntzen, T. Bøe, E. Dahl, et al. "29 Recommendations to Combat
+[43] A. Arntzen, T. Bøe, E. Dahl, et al. "29 Recommendations to Combat
 Social Inequalities in Health. The Norwegian Council on Social
 Inequalities in Health". In: _Scand J Public Health_ 47 (2019). DOI:
 [10/gf74rf](https://doi.org/10%2Fgf74rf). (Visited on 09/13/2019).
 
-[37] T. Bøe. "For Barn Er Fattigdom Mer Enn Dårlig Råd". In: _Bergens
-Tidende_ (2019). URL:
-[https://www.bt.no/btmeninger/debatt/i/zGwX91/for-barn-er-fattigdom-mer-enn-daarlig-raad](https://www.bt.no/btmeninger/debatt/i/zGwX91/for-barn-er-fattigdom-mer-enn-daarlig-raad).
+[44] T. Bøe. "For Barn Er Fattigdom Mer Enn D\aarlig R\aad". In:
+_Bergens Tidende_ (2019).
 
-[38] T. Bøe, K. J. Petrie, B. Sivertsen, et al. "Interplay of
+[45] T. Bøe, K. J. Petrie, B. Sivertsen, et al. "Interplay of
 Subjective and Objective Economic Well-Being on the Mental Health of
 Norwegian Adolescents". In: _SSM - Popul. Health_ (2019). DOI:
 [10/ggbnbn](https://doi.org/10%2Fggbnbn).
 
-[39] S. A. Nilsen, M. Hysing, K. Breivik, et al. "Complex Families and
+[46] S. A. Nilsen, M. Hysing, K. Breivik, et al. "Complex Families and
 Health Complaints among Adolescents: A Population-Based Cross-Sectional
 Study". In: _Scand. J. Public Health_ (2019). DOI:
 [10/ggfqn8](https://doi.org/10%2Fggfqn8).
 
-[40] J. C. Skogen, B. Sivertsen, M. Hysing, et al. "Economic
+[47] J. C. Skogen, B. Sivertsen, M. Hysing, et al. "Economic
 Circumstances in Childhood and Subsequent Substance Use in Adolescence
-– A Latent Class Analysis: The Youth@hordaland Study". In: _Front.
+- A Latent Class Analysis: The Youth@hordaland Study". In: _Front.
 Psychol._ 10 (2019). DOI: [10/gf2pcj](https://doi.org/10%2Fgf2pcj).
 (Visited on 05/14/2019).
 
-[41] J. C. Skogen, T. Bøe, M. M. Thørrisen, et al. "Sociodemographic
+[48] J. C. Skogen, T. Bøe, M. M. Thørrisen, et al. "Sociodemographic
 Characteristics Associated with Alcohol Consumption and Alcohol-Related
 Consequences, a Latent Class Analysis of The Norwegian WIRUS Screening
 Study". In: _BMC Public Health_ 19 (2019). DOI:
 [10/ggcx4c](https://doi.org/10%2Fggcx4c). (Visited on 11/15/2019).
 
-[42] T. Bøe, E. Dearing, K. M. Stormark, et al. "Subjective Economic
+[49] T. Bøe, E. Dearing, K. M. Stormark, et al. "Subjective Economic
 Status in Adolescence: Determinants and Associations with Mental Health
 in the Norwegian Youth@Hordaland Study". In: _J Fam Econ Iss_ 39
 (2018). DOI: [10/gdhdg8](https://doi.org/10%2Fgdhdg8). (Visited on
 06/06/2018).
 
-[43] O. Heradstveit, J. C. Skogen, T. Bøe, et al. "Prospective
+[50] O. Heradstveit, J. C. Skogen, T. Bøe, et al. "Prospective
 Associations between Childhood Externalising and Internalising Problems
 and Adolescent Alcohol and Drug Use: The Bergen Child Study". In:
 _Nordic Studies on Alcohol and Drugs_ (2018). DOI:
 [10/gdxwxr](https://doi.org/10%2Fgdxwxr). (Visited on 08/09/2018).
 
-[44] Ø. Hetlevik, T. Bøe, and M. Hysing. "GP-diagnosed Internalizing
+[51] Ø. Hetlevik, T. Bøe, and M. Hysing. "GP-diagnosed Internalizing
 and Externalizing Problems and Dropout from Secondary School: A
 Cross-Sectional Study". In: _Eur J Public Health_ (2018). DOI:
 [10/gddxk4](https://doi.org/10%2Fgddxk4). (Visited on 05/09/2018).
 
-[45] S. M. M. Sæther, B. Sivertsen, S. Haugland, et al. "Health
+[52] S. M. M. Sæther, B. Sivertsen, S. Haugland, et al. "Health
 Complaints in Late Adolescence; Frequency, Factor Structure and the
 Association with Socio-Economic Status". In: _Scand. J. Public Health_
 46 (2018). DOI: [10/gdb7kc](https://doi.org/10%2Fgdb7kc).
 
-[46] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Family
+[53] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Family
 Structure in Norway: Associations With Adolescent Mental Health". In:
 _J. Divorce Remarriage_ 59 (2018). DOI:
 [10/gdk2zz](https://doi.org/10%2Fgdk2zz). (Visited on 06/06/2018).
 
-[47] L. B. Sandtorv, S. K. E. Fevang, S. A. Nilsen, et al. "Symptoms
+[54] L. B. Sandtorv, S. K. E. Fevang, S. A. Nilsen, et al. "Symptoms
 Associated With Attention Deficit/Hyperactivity Disorder and Autism
 Spectrum Disorders in School-Aged Children Prenatally Exposed to
 Substances". In: _J. Subst. Abuse Treat._ 12 (2018). DOI:
 [10/gd59px](https://doi.org/10%2Fgd59px). (Visited on 04/03/2018).
 
-[48] S. C. Smid, J. J. Hox, E. R. Heiervang, et al. "Measurement
+[55] S. C. Smid, J. J. Hox, E. R. Heiervang, et al. "Measurement
 Equivalence and Convergent Validity of a Mental Health Rating Scale".
 In: _Assessment_ (2018). DOI: [10/gfdbww](https://doi.org/10%2Fgfdbww).
 
-[49] T. Bøe, A. S. Serlachius, B. Sivertsen, et al. "Cumulative Effects
+[56] T. Bøe, A. S. Serlachius, B. Sivertsen, et al. "Cumulative Effects
 of Negative Life Events and Family Stress on Children's Mental Health:
 The Bergen Child Study". In: _Soc. Psychiatry Psychiatr. Epidemiol._
 (2017). DOI: [10/gcxfvb](https://doi.org/10%2Fgcxfvb).
 
-[50] T. Bøe, J. C. Skogen, B. Sivertsen, et al. "Economic Volatility in
+[57] T. Bøe, J. C. Skogen, B. Sivertsen, et al. "Economic Volatility in
 Childhood and Subsequent Adolescent Mental Health Problems: A
 Longitudinal Population-Based Study of Adolescents". In: _BMJ Open_ 7
 (2017). DOI: [10/gbw676](https://doi.org/10%2Fgbw676).
 
-[51] T. Bøe, M. Balaj, T. A. Eikemo, et al. "Financial Difficulties in
+[58] T. Bøe, M. Balaj, T. A. Eikemo, et al. "Financial Difficulties in
 Childhood and Adult Depression in Europe". In: _Eur. J. Public Health_
 27 (2017). DOI: [10/f9vrfd](https://doi.org/10%2Ff9vrfd).
 
-[52] M. Hysing, K. J. Petrie, T. Bøe, et al. "Parental Work Absenteeism
+[59] M. Hysing, K. J. Petrie, T. Bøe, et al. "Parental Work Absenteeism
 Is Associated with Increased Symptom Complaints and School Absence in
 Adolescent Children". In: _BMC Public Health_ 17 (2017). DOI:
 [10/gbgspw](https://doi.org/10%2Fgbgspw).
 
-[53] S. Lehman, T. Bøe, and K. Brevik. "The Internal Structure of
+[60] S. Lehman, T. Bøe, and K. Brevik. "The Internal Structure of
 Foster-Parent Completed SDQ for School-Aged Children". In: _PlosONE_
 (2017). DOI: [10/gbkhj6](https://doi.org/10%2Fgbkhj6).
 
-[54] A. J. Lundervold, T. Bøe, and A. Lundervold. "Inattention in
-Primary School Is Not Good for Your Future School Achievement—A Pattern
+[61] A. J. Lundervold, T. Bøe, and A. Lundervold. "Inattention in
+Primary School Is Not Good for Your Future School Achievement-A Pattern
 Classification Study". In: _PloS one_ 12 (2017). DOI:
-[10/gcmdmk](https://doi.org/10%2Fgcmdmk).
+[10.1371/journal.pone.0188310](https://doi.org/10.1371%2Fjournal.pone.0188310).
 
-[55] B. Sivertsen, T. Bøe, J. C. Skogen, et al. "Moving into Poverty
+[62] B. Sivertsen, T. Bøe, J. C. Skogen, et al. "Moving into Poverty
 during Childhood Is Associated with Later Sleep Problems". In: _Sleep
 Med._ 37 (2017). DOI: [10/gd59j4](https://doi.org/10%2Fgd59j4).
 
-[56] T. Bøe, M. Hysing, and H. D. Zachrisson. "Low Family Income and
+[63] T. Bøe, M. Hysing, and H. D. Zachrisson. "Low Family Income and
 Behavior Problems in Norwegian Preschoolers". In: _J. Dev. Behav.
 Pediatr._ 37 (2016). DOI: [10/f8h85p](https://doi.org/10%2Ff8h85p).
 
-[57] T. Bøe, M. Hysing, J. C. Skogen, et al. "The Strengths and
+[64] T. Bøe, M. Hysing, J. C. Skogen, et al. "The Strengths and
 Difficulties Questionnaire (SDQ): Factor Structure and Gender
 Equivalence in Norwegian Adolescents". In: _PLoS One_ 11 (2016). DOI:
 [10/f9v8vm](https://doi.org/10%2Ff9v8vm).
 
-[58] T. Eilertsen, A. L. Thorsen, S. E. H. Holm, et al. "Parental
+[65] T. Eilertsen, A. L. Thorsen, S. E. H. Holm, et al. "Parental
 Socioeconomic Status and Child Intellectual Functioning in a Norwegian
 Sample". In: _Scand. J. Psychol._ 57 (2016). DOI:
 [10/gd59kf](https://doi.org/10%2Fgd59kf).
 
-[59] M. Hysing, K. J. Petrie, T. Bøe, et al. "The Social Gradient of
+[66] M. Hysing, K. J. Petrie, T. Bøe, et al. "The Social Gradient of
 Sleep in Adolescence: Results from the Youth@ Hordaland Survey". In:
 _Eur. J. Public Health_ 27 (2016).
 
-[60] J. C. Skogen, T. Bøe, B. Sivertsen, et al. "Use of Alcohol,
+[67] J. C. Skogen, T. Bøe, B. Sivertsen, et al. "Use of Alcohol,
 Tobacco and Illicit Drugs among Ethnic Norwegian and Ethnic Minority
 Adolescents in Hordaland County, Norway. The Youth@hordaland-Survey".
 In: _Ethn Health_ (2016). DOI:
 [10/gd59kd](https://doi.org/10%2Fgd59kd).
 
-[61] K. G. Askeland, S. Haugland, K. M. Stormark, et al. "Adolescent
+[68] K. G. Askeland, S. Haugland, K. M. Stormark, et al. "Adolescent
 School Absenteeism and Service Use in a Population-Based Study". In:
 _BMC Public Health_ 15 (2015). DOI:
 [10/f7h9nn](https://doi.org/10%2Ff7h9nn).
 
-[62] M. Hysing, S. Haugland, K. M. Stormark, et al. "Sleep and School
+[69] M. Hysing, S. Haugland, K. M. Stormark, et al. "Sleep and School
 Attendance in Adolescence: Results from a Large Population-Based
 Study." In: _Scand. J. Public Health_ 43 (2015). DOI:
 [10/f6v3jx](https://doi.org/10%2Ff6v3jx).
 
-[63] T. Bøe, B. Sivertsen, E. Heiervang, et al. "Socioeconomic Status
+[70] T. Bøe, B. Sivertsen, E. Heiervang, et al. "Socioeconomic Status
 and Child Mental Health: The Role of Parental Emotional Well-Being and
 Parenting Practices". In: _J. Abnorm. Child Psychol._ 42 (2014). DOI:
-[10/f57qhw](https://doi.org/10%2Ff57qhw).
+[10.1007/s10802-013-9818-9](https://doi.org/10.1007%2Fs10802-013-9818-9).
 
-[64] B. S. Solberg, M. Hysing, T. Bøe, et al. "Holdninger Til Bruk Av
-Medisiner Hos Voksne Med ADHD Målt Ved Hjelp Av Beliefs about Medicines
-Questionnaire (BMQ) [Attitudes to Medication among Adults with ADHD
-Measured with the Beliefs about Medicines Questionnaire (BMQ)]". In:
-_Tidsskr. Nor. Psykologforening_ 51 (2014).
+[71] B. S. Solberg, M. Hysing, T. Bøe, et al. "Holdninger Til Bruk Av
+Medisiner Hos Voksne Med ADHD M\aalt Ved Hjelp Av Beliefs about
+Medicines Questionnaire (BMQ) [Attitudes to Medication among Adults
+with ADHD Measured with the Beliefs about Medicines Questionnaire
+(BMQ)]". In: _Tidsskr. Nor. Psykologforening_ 51 (2014).
 
-[65] H. M. Bjorgaas, I. Elgen, T. Boe, et al. "Mental Health in
+[72] H. M. Bjorgaas, I. Elgen, T. Boe, et al. "Mental Health in
 Children with Cerebral Palsy: Does Screening Capture the Complexity?"
 In: _Sci. World J._ 2013 (2013). DOI:
-[10/gb7xjt](https://doi.org/10%2Fgb7xjt). pmid: pmid.
+[10/gb7xjt](https://doi.org/10%2Fgb7xjt).
 
-[66] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
-Fem Til Femten (5-15) [Measurement Properties: FTF (Five to Fifteen -
-5-15)]". In: _PsykTestBARN_ (2013).
+[73] M. Hysing and T. Bøe. "M\aaleegenskaper Ved Den Norske Versjonen
+Av Fem Til Femten (5-15) [Measurement Properties: FTF (Five to Fifteen
+- 5-15)]". In: _PsykTestBARN_ (2013).
 
-[67] B. Sivertsen, S. Pallesen, K. M. Stormark, et al. "Delayed Sleep
+[74] B. Sivertsen, S. Pallesen, K. M. Stormark, et al. "Delayed Sleep
 Phase Syndrome in Adolescents: Prevalence and Correlates in a Large
 Population Based Study". In: _BMC Public Health_ 13 (2013). DOI:
 [10/gbfgqx](https://doi.org/10%2Fgbfgqx).
 
-[68] J. C. Skogen, T. Bøe, A. K. Knudsen, et al. "Psychometric
+[75] J. C. Skogen, T. Bøe, A. K. Knudsen, et al. "Psychometric
 Properties and Concurrent Validity of the CRAFFT among Norwegian
 Adolescents. Ung@hordaland, a Population-Based Study". In: _Addict.
 Behav._ 38 (2013). DOI: [10/f47f5w](https://doi.org/10%2Ff47f5w).
 
-[69] T. Bøe, M. Hysing, K. M. Stormark, et al. "Sleep Problems as a
+[76] T. Bøe, M. Hysing, K. M. Stormark, et al. "Sleep Problems as a
 Mediator of the Association between Parental Education Levels,
 Perceived Family Economy and Poor Mental Health in Children". In: _J.
 Psychosom. Res._ 73 (2012). DOI:
 [10/f2g67w](https://doi.org/10%2Ff2g67w).
 
-[70] T. Bøe, S. Øverland, A. J. Lundervold, et al. "Socioeconomic
+[77] T. Bøe, S. Øverland, A. J. Lundervold, et al. "Socioeconomic
 Status and Children's Mental Health: Results from the Bergen Child
 Study". In: _Soc. Psychiatry Psychiatr. Epidemiol._ 47 (2012). DOI:
-[10/bqwjjk](https://doi.org/10%2Fbqwjjk).
+[10.1007/s00127-011-0462-9](https://doi.org/10.1007%2Fs00127-011-0462-9).
 
-[71] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
-Brown Attention-Deficit Disorder Scales for Children and Adolescents,
-8-12 År (Brown ADD 8-12) [Measurement Properties: Brown
+[78] M. Hysing and T. Bøe. "M\aaleegenskaper Ved Den Norske Versjonen
+Av Brown Attention-Deficit Disorder Scales for Children and
+Adolescents, 8-12 \AAr (Brown ADD 8-12) [Measurement Properties: Brown
 Attention-Defict Disorder Scales for Children and Adolescents (Norsk
-Versjon, 8-12 År)]". In: _PsykTestBARN_ (2012).
+Versjon, 8-12 \AAr)]". In: _PsykTestBARN_ (2012).
 
-[72] T. Bøe and M. Hysing. "Måleegenskaper Ved Den Norske Versjonen Av
-Brown Attention-Deficit Disorder Scales for Children and Adolescents,
-3-7 År (Brown ADD Scales 3-7) [Measurement Properties: Brown
-Attention-Defict Disorder Scales for Children and Adolescents
+[79] T. Bøe and M. Hysing. "M\aaleegenskaper Ved Den Norske Versjonen
+Av Brown Attention-Deficit Disorder Scales for Children and
+Adolescents, 3-7 \AAr (Brown ADD Scales 3-7) [Measurement Properties:
+Brown Attention-Defict Disorder Scales for Children and Adolescents
 (Norwegian Version, 3-7 Years)]". In: _PsykTestBARN_ (2011).
 
-[73] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
-ADHD Rating Scale–IV Hjemmeversjon (ADHD-RS-IV Hjemme) [Measurement
-Properties: ADHD-RS-IV – ADHD Rating Scale – IV (Home Version)]". In:
+[80] H. Kornør and T. Bøe. "M\aaleegenskaper Ved Den Norske Versjonen
+Av ADHD Rating Scale-IV Hjemmeversjon (ADHD-RS-IV Hjemme) [Measurement
+Properties: ADHD-RS-IV - ADHD Rating Scale - IV (Home Version)]". In:
 _PsykTestBARN_ (2011).
 
-[74] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
-ADHD Rating Scale IV, Skoleversjon (ADHD-RS-IV Skole) [Measurement
-Properties: ADHD-RS-IV – ADHD Rating Scale – IV (School Version)]". In:
+[81] H. Kornør and T. Bøe. "M\aaleegenskaper Ved Den Norske Versjonen
+Av ADHD Rating Scale IV, Skoleversjon (ADHD-RS-IV Skole) [Measurement
+Properties: ADHD-RS-IV - ADHD Rating Scale - IV (School Version)]". In:
 _PsykTestBARN_ (2011).
 
-[75] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
-Swanson, Nolan Og Pelham Vurderingsskala for Lærere Og Foreldre -
+[82] H. Kornør and T. Bøe. "M\aaleegenskaper Ved Den Norske Versjonen
+Av Swanson, Nolan Og Pelham Vurderingsskala for Lærere Og Foreldre -
 Versjon IV (SNAP-IV) [Measurement Properties: SNAP-IV]". In:
-_PsykTestBARN_ 1 (2011). URL:
-[http://hdl.handle.net/11250/2385504](http://hdl.handle.net/11250/2385504).
+_PsykTestBARN_ 1 (2011).
+
+[83] C. J. Ferguson. "An Effect Size Primer: A Guide for Clinicians and
+Researchers." In: _Professional Psychology: Research and Practice_ 40
+(Oct. 2009). DOI:
+[10.1037/a0015808](https://doi.org/10.1037%2Fa0015808). (Visited on
+04/15/2024).
 
 ## Books and book chapters
-[1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn å vokse opp i
-en fattig familie? [What does it mean for children to grow up in a poor
-family?]". In: _Helsetasjonstjenesten: Barns psykiske helse og
+[1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn \aa vokse opp
+i en fattig familie? [What does it mean for children to grow up in a
+poor family?]". In: _Helsetasjonstjenesten: Barns psykiske helse og
 utvikling_. Ed. by H. Holme, E. S. Olavesen, L. Valla and M. B. Hansen.
 Gyldendal Akademisk, 2016.
 
 [2] T. Bøe. "Psykisk helse og sosioøkonomisk status". In: _Psykisk
-oppvekst. Barn og unges psykiske helse fra 0-25 år_. Ed. by C.
-Lundgren. Rådet for psykisk helse, 2022. URL:
-[https://psykiskhelse.no/psykiskoppvekst/relasjoner/psykisk-helse-og-sosiookonomisk-status/](https://psykiskhelse.no/psykiskoppvekst/relasjoner/psykisk-helse-og-sosiookonomisk-status/).
+oppvekst. Barn og unges psykiske helse fra 0-25 \aar_. Ed. by C.
+Lundgren. R\aadet for psykisk helse, 2022.
 
 ## Conference proceedings
-[1] H. B. Urke, g. . given=SM, E. Årdal, et al. "The Within-Person
+[1] H. B. Urke, \. S. Kristensen, E. \AArdal, et al. "The Within-Person
 Relationship of School Climate and Mental Wellbeing in Adolescence".
 In: _Eur. J. Public Health_. Vol. 32. Oxford University Press, 2022.
 DOI: [10/grn8jn](https://doi.org/10%2Fgrn8jn).
 
-[2] T. Bøe, M. Hysing, and B. Sivertsen. "Higher Education Students’
+[2] T. Bøe, M. Hysing, and B. Sivertsen. "Higher Education Students'
 Mental Health Problems: Results from the Norwegian SHOT Study". In:
 _Eur. J. Public Health_. Vol. 29. Oxford University Press, 2019. DOI:
 [10/ggfzxk](https://doi.org/10%2Fggfzxk).
@@ -597,7 +641,7 @@ _Eur. J. Public Health_. Vol. 29. Oxford University Press, 2019. DOI:
 Unaccompanied Refugee Minors". In: _20th Conf. Soc. Psychol. Community
 Psychol._ 2019.
 
-[4] g. . given=SA, T. Bøe, and K. Breivik. "Divorce and Adolescent
+[4] \. S. Nilsen, T. Bøe, and K. Breivik. "Divorce and Adolescent
 Mental Health: Is It All About the Money?" In: _Eur. J. Public Health_.
 Vol. 28. Oxford University Press, 2018. DOI:
 [10/gf56p7](https://doi.org/10%2Fgf56p7).
@@ -605,8 +649,8 @@ Vol. 28. Oxford University Press, 2018. DOI:
 [5] T. Bøe. "Economic Volatility and Adolescent Mental Health". In:
 _23rd Nor. Conf. Epidemiol._ 2016.
 
-[6] T. Bøe, E. Dearing, g. . given=KM, et al. "Feeling Poor versus
-Being Poor in Norway–Associations to Adolescent Mental Health". In:
+[6] T. Bøe, E. Dearing, \. K. Stormark, et al. "Feeling Poor versus
+Being Poor in Norway-Associations to Adolescent Mental Health". In:
 _Eur. J. Public Health_. Vol. 26. 2016.
 
 [7] T. Bøe. "Subjective Economic Status in Adolescence: Determinants
@@ -620,44 +664,47 @@ In: _SRCD Bienn. Meet._ 2015.
 [9] T. Bøe, B. Sivertsen, R. Goodman, et al. "Parental Emotional
 Well-Being and Parenting Practices Mediate the Association between Ses
 and Mental Health Problems in Children". In: _Soc Res Child Dev Bienn
-Meet April 18–20 2013 Seattle US_. 2013.
+Meet April 18-20 2013 Seattle US_. 2013.
 
 [10] T. Bøe, M. Hysing, A. J. Lundervold, et al. "Childhood Sleep
 Problems and Familial Socioeconomic Status". In: _15th Eur Conf Dev
 Psychol Bergen Nor._ 2012.
 
 [11] T. Bøe, M. Hysing, and S. Øverland. "Socioeconomic Status and
-Children’s Mental Health Problems — Results From the Bergen Child
-Study". In: _Nord. Child Adolesc. Psychiatr. Res. Meet. Sept. 8–9 2010
+Children's Mental Health Problems - Results From the Bergen Child
+Study". In: _Nord. Child Adolesc. Psychiatr. Res. Meet. Sept. 8-9 2010
 Alborg Den._ 2010.
 
 [12] T. Bøe, A. J. Lundervold, T. Torsheim, et al. "Stability of Mental
-Health Problems across Middle Childhood — Results from the Bergen Child
-Study". In: _Nord Child Adolesc Psychiatr Res Meet Sept 8–9 2010 Alborg
+Health Problems across Middle Childhood - Results from the Bergen Child
+Study". In: _Nord Child Adolesc Psychiatr Res Meet Sept 8-9 2010 Alborg
 Den._ 2010.
 
-[13] T. Bøe and S. Øverland. "Socioeconomic Status and Children’s
+[13] T. Bøe and S. Øverland. "Socioeconomic Status and Children's
 Mental Health: Results from the Bergen Child Study". In: _11th Conf.
 Soc. Community Psychol. Bergen Nor._ 2009.
 
 ## Reports
 
-[1] T. Bøe. _Levekårsundersøkelse i Askøy, Fjell, Sund Og Øygarden_.
-Bergen: RKBU Vest, NORCE, 2017. DOI:
+[1] T. Bøe. _Levek\aarsundersøkelse i Askøy, Fjell, Sund Og Øygarden_.
+Tech. rep. Bergen: RKBU Vest, NORCE, 2017. DOI:
 [10.13140/RG.2.2.26351.33445](https://doi.org/10.13140%2FRG.2.2.26351.33445).
 
 [2] T. Bøe. _Sosioøkonomisk status og barn og unges psykologiske
 utvikling: familiestressmodellen og familieinvesteringsperspektivet
 [SES and youth development: Family process model and the family
-investment perspective]_. Helsedirektoratet [Norwegian directorate of
-Health], 2015.
+investment perspective]_. Tech. rep. Helsedirektoratet [Norwegian
+directorate of Health], 2015.
 
-[3] I. Kvestad and T. Bøe. _Veien til selvstendighet: Et prosjekt i
-Barneverntjenesten for enslige mindreårige flyktninger i Bergen kommune
-[Road to Independence: A project in child-care services for
-unaccompanied minor refugees in Bergen municipality]_. Bergen: RKBU
-Vest, NORCE, 2019. URL:
-[https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2625986](https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2625986).
+[3] . o. b. i. f. familier. _En barndom for livet - Økt tilhørighet,
+mestring og læring for barn i fattige familier_. Tech. rep. Oslo:
+Barne- og familiedepartementet, 2023.
+
+[4] I. Kvestad and T. Bøe. _Veien til selvstendighet: Et prosjekt i
+Barneverntjenesten for enslige mindre\aarige flyktninger i Bergen
+kommune [Road to Independence: A project in child-care services for
+unaccompanied minor refugees in Bergen municipality]_. Tech. rep.
+Bergen: RKBU Vest, NORCE, 2019.
 
 
 

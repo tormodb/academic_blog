@@ -497,8 +497,8 @@ bib2 %>% as_tibble() %>%
 
 ```{r, results='asis'}
 bib<- ReadBib("pubs_zot.bib",check= FALSE)
-bib %>% as_tibble() %>% filter(bibtype == "Thesis") %>% 
-  arrange(desc(date)) %>% 
+bib %>% as_tibble() %>% filter(bibtype == "PhdThesis") %>% 
+  arrange(desc(year)) %>% 
   as.BibEntry(.)
 ```
 
@@ -508,7 +508,7 @@ bib %>% as_tibble() %>% filter(bibtype == "Thesis") %>%
 bib %>% as_tibble() %>%
   filter(bibtype == "Article") %>%
   # filter(date>2013) %>%
-  arrange(desc(date)) %>% 
+  arrange(desc(year)) %>% 
   as.BibEntry(.)
 ```
 
@@ -523,7 +523,7 @@ bib %>% as_tibble() %>%
 ```{r conference, results='asis'}
 bib %>% as_tibble() %>%
   filter(bibtype == "InProceedings") %>%
-  arrange(desc(date))  %>% 
+  arrange(desc(year))  %>% 
   as.BibEntry(.)
 
 ```
@@ -532,7 +532,7 @@ bib %>% as_tibble() %>%
 
 ```{r, results='asis'}
 bib %>% as_tibble() %>%
-  filter(bibtype == "Report") %>% 
+  filter(bibtype == "TechReport") %>% 
   as.BibEntry(.)
 ```
 
