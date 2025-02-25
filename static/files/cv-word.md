@@ -61,7 +61,7 @@ output:
 
 ``````{=openxml}
 
-<w:tbl xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><w:tblPr><w:tblLayout w:type="fixed"/><w:jc w:val="center"/><w:tblLook w:firstRow="1" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1440"/><w:gridCol w:w="1440"/><w:gridCol w:w="7200"/></w:tblGrid><w:tr><w:trPr><w:trHeight w:val="1008" w:hRule="auto"/></w:trPr>body1<w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Master’s students</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Ph.D. students</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">University/institution - Country</w:t></w:r></w:p></w:tc></w:tr><w:tr><w:trPr><w:trHeight w:val="360" w:hRule="auto"/></w:trPr>body2<w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">26</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">5</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Faculty of Psychology, University of Bergen, Norway</w:t></w:r></w:p></w:tc></w:tr></w:tbl>
+<w:tbl xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><w:tblPr><w:tblLayout w:type="fixed"/><w:jc w:val="center"/><w:tblLook w:firstRow="1" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1440"/><w:gridCol w:w="1440"/><w:gridCol w:w="7200"/></w:tblGrid><w:tr><w:trPr><w:trHeight w:val="1008" w:hRule="auto"/></w:trPr>body1<w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Master’s students</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Ph.D. students</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="F2F2F2"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">University/institution - Country</w:t></w:r></w:p></w:tc></w:tr><w:tr><w:trPr><w:trHeight w:val="360" w:hRule="auto"/></w:trPr>body2<w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">33</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">5</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcBorders><w:bottom w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:top w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:left w:val="single" w:sz="6" w:space="0" w:color="666666"/><w:right w:val="single" w:sz="6" w:space="0" w:color="666666"/></w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="FFFFFF"/><w:tcMar><w:top w:w="0" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tcMar><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="Normal"/><w:jc w:val="left"/><w:pBdr><w:bottom w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:top w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:left w:val="none" w:sz="0" w:space="0" w:color="000000"/><w:right w:val="none" w:sz="0" w:space="0" w:color="000000"/></w:pBdr><w:spacing w:after="100" w:before="100" w:line="240"/><w:ind w:left="100" w:right="100" w:firstLine="0" w:firstLineChars="0"/></w:pPr><w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri"/><w:i w:val="false"/><w:b w:val="false"/><w:u w:val="none"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:color w:val="000000"/></w:rPr><w:t xml:space="preserve">Faculty of Psychology, University of Bergen, Norway</w:t></w:r></w:p></w:tc></w:tr></w:tbl>
 ``````
 
 
@@ -106,7 +106,7 @@ output:
 
 
 
-I have authored or co-authored more than 108 publications (journal articles, book chapters and reports). I am the first author of 16 peer reviewed journal articles and the senior author on 18. My articles have been cited 3236 times, my _h_-index is 30 and my _i10_-index is 55 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 25.02.2025)_.  I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2025. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored more than 108 publications (journal articles, book chapters and reports). I am the first author of 16 peer reviewed journal articles and the senior author on 20. My articles have been cited 3236 times, my _h_-index is 30 and my _i10_-index is 55 [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated 25.02.2025)_.  I was part of the government appointed expert group on child poverty in 2023. I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give 60 talks for more than 6 700 participants in the period from 2015 to 2025. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
@@ -179,444 +179,467 @@ University of Bergen, 2013.
 
 ## Refereed research papers 
 
-[1] L. Girard, T. Bøe, S. A. Nilsen, et al. "Developmental Trajectories
+[1] A. I. O. Andersen, T. R. Finserås, G. J. Hjetland, et al. "Can
+Social Media Use Be More Health-Promoting? Description and Pilot
+Evaluation of a School-Based Program to Increase Awareness and
+Reflection on the Use of Social Media". In: _Sage Open_ 14 (Apr. 2024).
+DOI:
+[10.1177/21582440241249538](https://doi.org/10.1177%2F21582440241249538).
+(Visited on 05/29/2024).
+
+[2] L. Girard, T. Bøe, S. A. Nilsen, et al. "Developmental Trajectories
 of Conduct Problems and Time-Varying Peer Problems: The Bergen Child
 Study". In: _Soc Psychiatry Psychiatr Epidemiol_ (Mar. 2024). DOI:
 [10.1007/s00127-024-02644-y](https://doi.org/10.1007%2Fs00127-024-02644-y).
 (Visited on 03/10/2024).
 
-[2] M. Lavdas, G. M. Sandal, and T. Bøe. "Factors Associated with
+[3] O. M. Heimli, I. Kvestad, T. Bøe, et al. "Protective Factors
+Associated with Resilience among Unaccompanied Refugee Minors after
+Settling in Norway: A Matched Cross-Sectional Study". In: _Eur Child
+Adolesc Psychiatry_ 33 (Aug. 2024). DOI:
+[10.1007/s00787-023-02364-9](https://doi.org/10.1007%2Fs00787-023-02364-9).
+(Visited on 02/25/2025).
+
+[4] M. Lavdas, G. M. Sandal, and T. Bøe. "Factors Associated with
 Mental Health Outcomes among Peer Refugee Helpers in Greece: Results
 from a Cross-Sectional Study". In: _SSM - Mental Health_ (Nov. 2024).
 DOI:
 [10.1016/j.ssmmh.2024.100365](https://doi.org/10.1016%2Fj.ssmmh.2024.100365).
 (Visited on 11/03/2024).
 
-[3] T. Bøe, H. A. Ostojic, K. Haraldstad, et al. "Self-Reported and
+[5] A. Skandsen, S. A. Nilsen, M. Hysing, et al. "Associations Between
+Distinct Trauma Classes and Mental Health Care Utilization in Norwegian
+Adolescents: A National Registry Study". In: _Child Psychiatry Hum Dev_
+(Feb. 2024). DOI:
+[10.1007/s10578-024-01671-9](https://doi.org/10.1007%2Fs10578-024-01671-9).
+(Visited on 02/25/2025).
+
+[6] A. Skandsen, M. Hysing, K. G. Askeland, et al. "Using Norwegian
+National Patient Registry Data to Understand Associations between
+Potentially Traumatic Life Experiences and Mental Health Care Use in
+Adolescence". In: _J. Trauma. Stress_ 37 (2024). DOI:
+[10/gthfj9](https://doi.org/10%2Fgthfj9). (Visited on 02/12/2024).
+
+[7] T. Bøe, H. A. Ostojic, K. Haraldstad, et al. "Self-Reported and
 Parent-Reported Mental Health in Children from Low-Income Families in
 Agder, Norway: Results from Baseline Measurements of New Patterns
 Project Participants". In: _BMJ Open_ 13 (Nov. 2023). DOI:
 [10/gs6s97](https://doi.org/10%2Fgs6s97). (Visited on 11/27/2023).
 
-[4] C. J. Gosling, S. Caparos, C. Pinabiaux, et al. "Association
+[8] C. J. Gosling, S. Caparos, C. Pinabiaux, et al. "Association
 between Relative Age at School and Persistence of ADHD in Prospective
 Studies: An Individual Participant Data Meta-Analysis". In: _The Lancet
 Psychiatry_ 0 (Oct. 2023). DOI:
 [10/gszdw9](https://doi.org/10%2Fgszdw9). (Visited on 10/26/2023).
 
-[5] E. Hanevik, F. M. G. Røvik, T. Bøe, et al. "Client Predictors of
+[9] E. Hanevik, F. M. G. Røvik, T. Bøe, et al. "Client Predictors of
 Therapy Dropout in a Primary Care Setting: A Prospective Cohort Study".
 In: _BMC Psychiatry_ 23 (May. 2023). DOI:
 [10/gsbg6r](https://doi.org/10%2Fgsbg6r). (Visited on 06/06/2023).
 
-[6] O. M. Heimli, K. G. Askeland, I. Kvestad, et al. "Health-Related
+[10] O. M. Heimli, K. G. Askeland, I. Kvestad, et al. "Health-Related
 Quality of Life among Unaccompanied Refugee Minors".  (2023).
 
-[7] O. Heradstveit, M. Hysing, T. Bøe, et al. "Prospective Associations
-between Adolescent Risky Substance Use and School Dropout and the Role
-of Externalising and Internalising Problems". In: _Nord. Stud. Alcohol
-Drugs_ (2023). DOI: [10/gs2w62](https://doi.org/10%2Fgs2w62).
+[11] O. Heradstveit, M. Hysing, T. Bøe, et al. "Prospective
+Associations between Adolescent Risky Substance Use and School Dropout
+and the Role of Externalising and Internalising Problems". In: _Nord.
+Stud. Alcohol Drugs_ (2023). DOI:
+[10/gs2w62](https://doi.org/10%2Fgs2w62).
 
-[8] M. Hysing, B. Sivertsen, S. A. Nilsen, et al. "Sleep and Dropout
+[12] M. Hysing, B. Sivertsen, S. A. Nilsen, et al. "Sleep and Dropout
 from Upper Secondary School: A Register-Linked Study". In: _Sleep
 Health_ (Jul. 2023). DOI: [10/gsjjgh](https://doi.org/10%2Fgsjjgh).
 (Visited on 07/31/2023).
 
-[9] M. Jørgensen, O. R. Smith, B. Wold, et al. "Tracking of Depressed
+[13] M. Jørgensen, O. R. Smith, B. Wold, et al. "Tracking of Depressed
 Mood from Adolescence into Adulthood and the Role of Peer and Parent
 Support: A Partial Test of the Adolescent Pathway Model". In: _SSM -
 Population Health_ (2023). DOI:
 [10/gr96n9](https://doi.org/10%2Fgr96n9). (Visited on 06/02/2023).
 
-[10] K. Karhina, T. Bøe, M. Hysing, et al. "Parental Separation and
+[14] K. Karhina, T. Bøe, M. Hysing, et al. "Parental Separation and
 School Dropout in Adolescence". In: _Scand. J. Public Health_ (Apr.
 2023). DOI: [10/gr4vxf](https://doi.org/10%2Fgr4vxf). (Visited on
 04/13/2023).
 
-[11] E. Mølland, K. G. Lundberg, K. Haraldstad, et al. "Economic
+[15] E. Mølland, K. G. Lundberg, K. Haraldstad, et al. "Economic
 Composition and Income Volatility of Norwegian Low-Income Families - a
 Mixed Method Study of Its Implications". In: _Nord. J. Soc. Res._ 14
 (2023). DOI: [10/gsb6nd](https://doi.org/10%2Fgsb6nd). eprint:
 https://www.idunn.no/doi/pdf/10.18261/njsr.14.1.2.
 
-[12] L. Sand, T. Bøe, K. M. Stormark, et al. "The Relationship between
+[16] L. Sand, T. Bøe, K. M. Stormark, et al. "The Relationship between
 Perfectionism, Psychiatric Disorders and Use of Mental Health Services
 in Adolescence: Results from a National Patient Register Linkage
 Study".  (2023). DOI: [10/gs2w63](https://doi.org/10%2Fgs2w63).
 
-[13] B. Sivertsen, R. C. O'Connor, S. A. Nilsen, et al. "Mental Health
+[17] B. Sivertsen, R. C. O'Connor, S. A. Nilsen, et al. "Mental Health
 Problems and Suicidal Behavior from Adolescence to Young Adulthood in
 College: Linking Two Population-Based Studies". In: _Eur Child Adolesc
 Psychiatry_ (Feb. 2023). DOI: [10/grvcvw](https://doi.org/10%2Fgrvcvw).
 (Visited on 02/28/2023).
 
-[14] A. Skandsen, L. Sand, M. H. Teicher, et al. "Exposure to
+[18] A. Skandsen, L. Sand, M. H. Teicher, et al. "Exposure to
 Potentially Traumatic Events and PTSD Symptomatology in Norwegian
 11-13-Year-Olds: Results from the Bergen Child Study". In: _Child and
 Adolescent Psychiatry and Mental Health_ 17 (Mar. 2023). DOI:
 [10/grwc7s](https://doi.org/10%2Fgrwc7s). (Visited on 03/07/2023).
 
-[15] H. B. Urke, S. M. Kristensen, T. Bøe, et al. "Perceptions of a
+[19] H. B. Urke, S. M. Kristensen, T. Bøe, et al. "Perceptions of a
 Caring School Climate and Mental Well-Being: A One-Way Street? Results
 from a Random Intercept Cross-Lagged Panel Model". In: _Appl. Dev.
 Sci._ 0 (2023). DOI: [10/gtfvjx](https://doi.org/10%2Fgtfvjx). (Visited
 on 11/02/2023).
 
-[16] N. Wiium, S. M. Kristensen, E. Årdal, et al. "Civic Engagement and
+[20] N. Wiium, S. M. Kristensen, E. Årdal, et al. "Civic Engagement and
 Mental Health Trajectories in Norwegian Youth". In: _Front. Public
 Health_ 11 (2023). DOI:
 [10.3389/fpubh.2023.1214141](https://doi.org/10.3389%2Ffpubh.2023.1214141).
 (Visited on 10/23/2023).
 
-[17] K. G. Askeland, T. Bøe, B. Sivertsen, et al. "Association of
+[21] K. G. Askeland, T. Bøe, B. Sivertsen, et al. "Association of
 Depressive Symptoms in Late Adolescence and School Dropout". In:
 _School Mental Health_ (May. 2022). DOI:
 [10/gp5332](https://doi.org/10%2Fgp5332). (Visited on 06/13/2022).
 
-[18] O. Heradstveit, K. G. Askeland, T. Bøe, et al. "Substance-Related
+[22] O. Heradstveit, K. G. Askeland, T. Bøe, et al. "Substance-Related
 Problems in Adolescents with ADHD-Diagnoses: The Importance of
 Self-Reported Conduct Problems". In: _J Atten Disord_ (Jun. 2022). DOI:
 [10/gqmzzh](https://doi.org/10%2Fgqmzzh). (Visited on 08/10/2022).
 
-[19] S. A. Nilsen, I. Kvestad, S. B. Randal, et al. "Mental Health
+[23] S. A. Nilsen, I. Kvestad, S. B. Randal, et al. "Mental Health
 among Unaccompanied Refugee Minors after Settling in Norway: A Matched
 Cross-Sectional Study". In: _Scand J Public Health_ (Jun. 2022). DOI:
 [10/gqbvsw](https://doi.org/10%2Fgqbvsw). (Visited on 06/13/2022).
 
-[20] J. C. Skogen, T. Bøe, T. R. Finserås, et al. "Lower Subjective
+[24] J. C. Skogen, T. Bøe, T. R. Finserås, et al. "Lower Subjective
 Socioeconomic Status Is Associated With Increased Risk of Reporting
 Negative Experiences on Social Media. Findings From the
 ``LifeOnSoMe''-Study". In: _Front. Public Health_ 10 (2022). DOI:
 [10/gqbvcs](https://doi.org/10%2Fgqbvcs). (Visited on 06/13/2022).
 
-[21] T. Bøe, M. Hysing, K. G. Askeland, et al. "Do Parental
+[25] T. Bøe, M. Hysing, K. G. Askeland, et al. "Do Parental
 Education-Related Inequality Matter in Child and Adolescent Utilization
 of Mental Health Services: Results From a Norwegian Register Linkage
 Study". In: _Health Serv Insights_ 14 (2021). DOI:
 [10/gnr9hz](https://doi.org/10%2Fgnr9hz). (Visited on 12/15/2021).
 
-[22] T. Bøe, E. R. Heiervang, K. M. Stormark, et al. "Prevalence of
+[26] T. Bøe, E. R. Heiervang, K. M. Stormark, et al. "Prevalence of
 Psychiatric Disorders in Norwegian 10-14-Year-Olds: Results from a
 Cross-Sectional Study". In: _PLoS ONE_ 16 (2021). Ed. by E. U. Syed.
 DOI: [10/gjh85b](https://doi.org/10%2Fgjh85b). (Visited on 03/23/2021).
 
-[23] O. Heradstveit, B. S. M. Haugland, S. A. Nilsen, et al. "Parental
+[27] O. Heradstveit, B. S. M. Haugland, S. A. Nilsen, et al. "Parental
 Mental Illness as a Risk Factor for Adolescent Psychiatric Disorders: A
 Registry-Based Study of Specialized Child and Adolescent Health
 Services". In: _Child Youth Serv._ 0 (Nov. 2021). DOI:
 [10/gnc7sp](https://doi.org/10%2Fgnc7sp). (Visited on 11/10/2021).
 
-[24] I. Kvestad, T. Bøe, N. Sayyad, et al. "Potential Traumatic Events
+[28] I. Kvestad, T. Bøe, N. Sayyad, et al. "Potential Traumatic Events
 and Symptoms of Post-Traumatic Stress in Unaccompanied Refugee Minors-a
 Comparison with Youth in Foster Care". In: _Eur. Child Adolesc.
 Psychiatry_ (2021). DOI:
 [10.1007/s00787-021-01876-6](https://doi.org/10.1007%2Fs00787-021-01876-6).
 (Visited on 09/20/2021).
 
-[25] I. Kvestad, S. B. Randal, N. Sayyad, et al. "Study Design:
+[29] I. Kvestad, S. B. Randal, N. Sayyad, et al. "Study Design:
 Pathways to Independence - A Study of Unaccompanied Minor Refugees
 Settled in a Norwegian City Municipality". In: _Scand J Public Health_
 (2021). DOI: [10/gmgk8f](https://doi.org/10%2Fgmgk8f). (Visited on
 08/12/2021).
 
-[26] C. Lysenstøen, T. Bøe, G. J. Hjetland, et al. "A Review of the
+[30] C. Lysenstøen, T. Bøe, G. J. Hjetland, et al. "A Review of the
 Relationship between Social Media Use and Online Prosocial Behavior
 Among Adolescents". In: _Accept. Front. Psychol._ (2021). DOI:
 [10/gqsmk4](https://doi.org/10%2Fgqsmk4).
 
-[27] Y. Moussavi, G. J. Wergeland, T. Bøe, et al. "Internalizing
+[31] Y. Moussavi, G. J. Wergeland, T. Bøe, et al. "Internalizing
 Symptoms Among Youth in Foster Care: Prevalence and Associations with
 Exposure to Maltreatment". In: _Child Psychiatry Hum Dev_ (2021). DOI:
 [10/gh24r5](https://doi.org/10%2Fgh24r5). (Visited on 02/15/2021).
 
-[28] S. Nawar, S. B. Randal, T. Bøe, et al. ""Det var godt å si det jeg
+[32] S. Nawar, S. B. Randal, T. Bøe, et al. ""Det var godt å si det jeg
 hadde på hjertet". Når stemmen til enslige mindreårige flyktninger
 bidrar til tjenesteutvikling og ny kunnskap". In: _Nor. Barnevern_
 (2021).
 
-[29] S. A. Nilsen, K. G. Askeland, D. P. J. Loro, et al. "Mental
+[33] S. A. Nilsen, K. G. Askeland, D. P. J. Loro, et al. "Mental
 Health, Adverse Life Events and Health Service Use among Norwegian
 Youth in the Child Welfare System: Results from a Population-Based
 Study". In: _Child Fam. Soc. Work_ n/a (2021). DOI:
 [10.1111/cfs.12842](https://doi.org/10.1111%2Fcfs.12842). (Visited on
 05/12/2021).
 
-[30] L. Sand, T. Bøe, R. Shafran, et al. "Perfectionism in Adolescence:
+[34] L. Sand, T. Bøe, R. Shafran, et al. "Perfectionism in Adolescence:
 Associations With Gender, Age, and Socioeconomic Status in a Norwegian
 Sample". In: _Front. Public Health_ 9 (2021). DOI:
 [10.3389/fpubh.2021.688811](https://doi.org/10.3389%2Ffpubh.2021.688811).
 (Visited on 08/25/2021).
 
-[31] J. C. Skogen, G. J. Hjetland, T. Bøe, et al. "Through the Looking
+[35] J. C. Skogen, G. J. Hjetland, T. Bøe, et al. "Through the Looking
 Glass of Social Media. Focus on Self-Presentation and Association with
 Mental Health and Quality of Life. A Cross-Sectional Survey-Based
 Study". In: _Int. J. Environ. Res. Public. Health_ 18 (2021). DOI:
 [10/gjtfjg](https://doi.org/10%2Fgjtfjg). (Visited on 03/23/2021).
 
-[32] K. G. Askeland, T. Bøe, A. J. Lundervold, et al. "The Association
+[36] K. G. Askeland, T. Bøe, A. J. Lundervold, et al. "The Association
 Between Symptoms of Depression and School Absence in a Population-Based
 Study of Late Adolescents". In: _Front. Psychol._ 11 (2020). DOI:
 [10/ggzqvj](https://doi.org/10%2Fggzqvj). (Visited on 06/09/2020).
 
-[33] K. G. Askeland, T. Bøe, K. Breivik, et al. "Life Events and
+[37] K. G. Askeland, T. Bøe, K. Breivik, et al. "Life Events and
 Adolescent Depressive Symptoms: Protective Factors Associated with
 Resilience". In: _PLOS ONE_ 15 (2020). DOI:
 [10/ggzt4x](https://doi.org/10%2Fggzt4x). (Visited on 06/10/2020).
 
-[34] T. Bøe, M. Hysing, K. J. Lønning, et al. "Financial Difficulties
+[38] T. Bøe, M. Hysing, K. J. Lønning, et al. "Financial Difficulties
 and Student Health: Results from a National Cross-Sectional Survey of
 Norwegian College and University Students". In: _Mental Health &
 Prevention_ (2020). DOI: [10/ghrkfn](https://doi.org/10%2Fghrkfn).
 (Visited on 01/03/2021).
 
-[35] O. Heradstveit, S. Haugland, M. Hysing, et al. "Physical
+[39] O. Heradstveit, S. Haugland, M. Hysing, et al. "Physical
 Inactivity, Non-Participation in Sports and Socioeconomic Status: A
 Large Population-Based Study among Norwegian Adolescents". In: _BMC
 Public Health_ 20 (2020). DOI:
 [10/gg8h49](https://doi.org/10%2Fgg8h49). (Visited on 08/19/2020).
 
-[36] O. Heradstveit, M. Hysing, S. A. Nilsen, et al. "Symptoms of
+[40] O. Heradstveit, M. Hysing, S. A. Nilsen, et al. "Symptoms of
 Disordered Eating and Participation in Individual- and Team Sports: A
 Population-Based Study of Adolescents". In: _Eating Behaviors_ 39
 (2020). DOI: [10/ghcrt4](https://doi.org/10%2Fghcrt4). (Visited on
 09/25/2020).
 
-[37] M. Hysing, K. J. Petrie, T. Bøe, et al. "Only the Lonely: A Study
+[41] M. Hysing, K. J. Petrie, T. Bøe, et al. "Only the Lonely: A Study
 of Loneliness Among University Students in Norway". In: _1_ 2 (2020).
 DOI: [10/ggqmpd](https://doi.org/10%2Fggqmpd).
 
-[38] M. Hysing, O. Heradstveit, A. G. Harvey, et al. "Sleep Problems
+[42] M. Hysing, O. Heradstveit, A. G. Harvey, et al. "Sleep Problems
 among Adolescents within Child and Adolescent Mental Health Services.
 An Epidemiological Study with Registry Linkage". In: _Eur Child Adolesc
 Psychiatry_ (2020). DOI: [10/ghjk33](https://doi.org/10%2Fghjk33).
 (Visited on 11/10/2020).
 
-[39] M. Hysing, A. G. Harvey, T. Bøe, et al. "Trajectories of Sleep
+[43] M. Hysing, A. G. Harvey, T. Bøe, et al. "Trajectories of Sleep
 Problems from Adolescence to Adulthood. Linking Two Population-Based
 Studies from Norway". In: _Sleep Med_ 75 (2020). DOI:
 [10/ghcrt2](https://doi.org/10%2Fghcrt2).
 
-[40] M. Jensen, S. C. Smid, and T. Bøe. "Characteristics of Adolescent
+[44] M. Jensen, S. C. Smid, and T. Bøe. "Characteristics of Adolescent
 Boys Who Have Displayed Harmful Sexual Behaviour (HSB) against Children
 of Younger or Equal Age". In: _BMC Psychol._ 8 (2020). DOI:
 [10/ghmdp8](https://doi.org/10%2Fghmdp8). (Visited on 11/26/2020).
 
-[41] E. Mølland, K. L. Vigsnes, T. Bøe, et al. "The New Patterns Study:
+[45] E. Mølland, K. L. Vigsnes, T. Bøe, et al. "The New Patterns Study:
 Coordinated Measures to Combat Child Poverty". In: _Scand J Public
 Health_ (2020). DOI:
 [10.1177/1403494820956452](https://doi.org/10.1177%2F1403494820956452).
 
-[42] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Adolescent
+[46] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Adolescent
 Academic Achievement: Heterogeneity in the Associations by Parental
 Education". In: _PLOS ONE_ 15 (2020). DOI:
 [10/ggnqhd](https://doi.org/10%2Fggnqhd). (Visited on 03/11/2020).
 
-[43] A. Arntzen, T. Bøe, E. Dahl, et al. "29 Recommendations to Combat
+[47] A. Arntzen, T. Bøe, E. Dahl, et al. "29 Recommendations to Combat
 Social Inequalities in Health. The Norwegian Council on Social
 Inequalities in Health". In: _Scand J Public Health_ 47 (2019). DOI:
 [10/gf74rf](https://doi.org/10%2Fgf74rf). (Visited on 09/13/2019).
 
-[44] T. Bøe. "For Barn Er Fattigdom Mer Enn Dårlig Råd". In: _Bergens
+[48] T. Bøe. "For Barn Er Fattigdom Mer Enn Dårlig Råd". In: _Bergens
 Tidende_ (2019).
 
-[45] T. Bøe, K. J. Petrie, B. Sivertsen, et al. "Interplay of
+[49] T. Bøe, K. J. Petrie, B. Sivertsen, et al. "Interplay of
 Subjective and Objective Economic Well-Being on the Mental Health of
 Norwegian Adolescents". In: _SSM - Popul. Health_ (2019). DOI:
 [10/ggbnbn](https://doi.org/10%2Fggbnbn).
 
-[46] S. A. Nilsen, M. Hysing, K. Breivik, et al. "Complex Families and
+[50] S. A. Nilsen, M. Hysing, K. Breivik, et al. "Complex Families and
 Health Complaints among Adolescents: A Population-Based Cross-Sectional
 Study". In: _Scand. J. Public Health_ (2019). DOI:
 [10/ggfqn8](https://doi.org/10%2Fggfqn8).
 
-[47] J. C. Skogen, B. Sivertsen, M. Hysing, et al. "Economic
+[51] J. C. Skogen, B. Sivertsen, M. Hysing, et al. "Economic
 Circumstances in Childhood and Subsequent Substance Use in Adolescence
 - A Latent Class Analysis: The Youth@hordaland Study". In: _Front.
 Psychol._ 10 (2019). DOI: [10/gf2pcj](https://doi.org/10%2Fgf2pcj).
 (Visited on 05/14/2019).
 
-[48] J. C. Skogen, T. Bøe, M. M. Thørrisen, et al. "Sociodemographic
+[52] J. C. Skogen, T. Bøe, M. M. Thørrisen, et al. "Sociodemographic
 Characteristics Associated with Alcohol Consumption and Alcohol-Related
 Consequences, a Latent Class Analysis of The Norwegian WIRUS Screening
 Study". In: _BMC Public Health_ 19 (2019). DOI:
 [10/ggcx4c](https://doi.org/10%2Fggcx4c). (Visited on 11/15/2019).
 
-[49] T. Bøe, E. Dearing, K. M. Stormark, et al. "Subjective Economic
+[53] T. Bøe, E. Dearing, K. M. Stormark, et al. "Subjective Economic
 Status in Adolescence: Determinants and Associations with Mental Health
 in the Norwegian Youth@Hordaland Study". In: _J Fam Econ Iss_ 39
 (2018). DOI: [10/gdhdg8](https://doi.org/10%2Fgdhdg8). (Visited on
 06/06/2018).
 
-[50] O. Heradstveit, J. C. Skogen, T. Bøe, et al. "Prospective
+[54] O. Heradstveit, J. C. Skogen, T. Bøe, et al. "Prospective
 Associations between Childhood Externalising and Internalising Problems
 and Adolescent Alcohol and Drug Use: The Bergen Child Study". In:
 _Nordic Studies on Alcohol and Drugs_ (2018). DOI:
 [10/gdxwxr](https://doi.org/10%2Fgdxwxr). (Visited on 08/09/2018).
 
-[51] Ø. Hetlevik, T. Bøe, and M. Hysing. "GP-diagnosed Internalizing
+[55] Ø. Hetlevik, T. Bøe, and M. Hysing. "GP-diagnosed Internalizing
 and Externalizing Problems and Dropout from Secondary School: A
 Cross-Sectional Study". In: _Eur J Public Health_ (2018). DOI:
 [10/gddxk4](https://doi.org/10%2Fgddxk4). (Visited on 05/09/2018).
 
-[52] S. M. M. Sæther, B. Sivertsen, S. Haugland, et al. "Health
+[56] S. M. M. Sæther, B. Sivertsen, S. Haugland, et al. "Health
 Complaints in Late Adolescence; Frequency, Factor Structure and the
 Association with Socio-Economic Status". In: _Scand. J. Public Health_
 46 (2018). DOI: [10/gdb7kc](https://doi.org/10%2Fgdb7kc).
 
-[53] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Family
+[57] S. A. Nilsen, K. Breivik, B. Wold, et al. "Divorce and Family
 Structure in Norway: Associations With Adolescent Mental Health". In:
 _J. Divorce Remarriage_ 59 (2018). DOI:
 [10/gdk2zz](https://doi.org/10%2Fgdk2zz). (Visited on 06/06/2018).
 
-[54] L. B. Sandtorv, S. K. E. Fevang, S. A. Nilsen, et al. "Symptoms
+[58] L. B. Sandtorv, S. K. E. Fevang, S. A. Nilsen, et al. "Symptoms
 Associated With Attention Deficit/Hyperactivity Disorder and Autism
 Spectrum Disorders in School-Aged Children Prenatally Exposed to
 Substances". In: _J. Subst. Abuse Treat._ 12 (2018). DOI:
 [10/gd59px](https://doi.org/10%2Fgd59px). (Visited on 04/03/2018).
 
-[55] S. C. Smid, J. J. Hox, E. R. Heiervang, et al. "Measurement
+[59] S. C. Smid, J. J. Hox, E. R. Heiervang, et al. "Measurement
 Equivalence and Convergent Validity of a Mental Health Rating Scale".
 In: _Assessment_ (2018). DOI: [10/gfdbww](https://doi.org/10%2Fgfdbww).
 
-[56] T. Bøe, A. S. Serlachius, B. Sivertsen, et al. "Cumulative Effects
+[60] T. Bøe, A. S. Serlachius, B. Sivertsen, et al. "Cumulative Effects
 of Negative Life Events and Family Stress on Children's Mental Health:
 The Bergen Child Study". In: _Soc. Psychiatry Psychiatr. Epidemiol._
 (2017). DOI: [10/gcxfvb](https://doi.org/10%2Fgcxfvb).
 
-[57] T. Bøe, J. C. Skogen, B. Sivertsen, et al. "Economic Volatility in
+[61] T. Bøe, J. C. Skogen, B. Sivertsen, et al. "Economic Volatility in
 Childhood and Subsequent Adolescent Mental Health Problems: A
 Longitudinal Population-Based Study of Adolescents". In: _BMJ Open_ 7
 (2017). DOI: [10/gbw676](https://doi.org/10%2Fgbw676).
 
-[58] T. Bøe, M. Balaj, T. A. Eikemo, et al. "Financial Difficulties in
+[62] T. Bøe, M. Balaj, T. A. Eikemo, et al. "Financial Difficulties in
 Childhood and Adult Depression in Europe". In: _Eur. J. Public Health_
 27 (2017). DOI: [10/f9vrfd](https://doi.org/10%2Ff9vrfd).
 
-[59] M. Hysing, K. J. Petrie, T. Bøe, et al. "Parental Work Absenteeism
+[63] M. Hysing, K. J. Petrie, T. Bøe, et al. "Parental Work Absenteeism
 Is Associated with Increased Symptom Complaints and School Absence in
 Adolescent Children". In: _BMC Public Health_ 17 (2017). DOI:
 [10/gbgspw](https://doi.org/10%2Fgbgspw).
 
-[60] S. Lehman, T. Bøe, and K. Brevik. "The Internal Structure of
+[64] S. Lehman, T. Bøe, and K. Brevik. "The Internal Structure of
 Foster-Parent Completed SDQ for School-Aged Children". In: _PlosONE_
 (2017). DOI: [10/gbkhj6](https://doi.org/10%2Fgbkhj6).
 
-[61] A. J. Lundervold, T. Bøe, and A. Lundervold. "Inattention in
+[65] A. J. Lundervold, T. Bøe, and A. Lundervold. "Inattention in
 Primary School Is Not Good for Your Future School Achievement-A Pattern
 Classification Study". In: _PloS one_ 12 (2017). DOI:
 [10.1371/journal.pone.0188310](https://doi.org/10.1371%2Fjournal.pone.0188310).
 
-[62] B. Sivertsen, T. Bøe, J. C. Skogen, et al. "Moving into Poverty
+[66] B. Sivertsen, T. Bøe, J. C. Skogen, et al. "Moving into Poverty
 during Childhood Is Associated with Later Sleep Problems". In: _Sleep
 Med._ 37 (2017). DOI: [10/gd59j4](https://doi.org/10%2Fgd59j4).
 
-[63] T. Bøe, M. Hysing, and H. D. Zachrisson. "Low Family Income and
+[67] T. Bøe, M. Hysing, and H. D. Zachrisson. "Low Family Income and
 Behavior Problems in Norwegian Preschoolers". In: _J. Dev. Behav.
 Pediatr._ 37 (2016). DOI: [10/f8h85p](https://doi.org/10%2Ff8h85p).
 
-[64] T. Bøe, M. Hysing, J. C. Skogen, et al. "The Strengths and
+[68] T. Bøe, M. Hysing, J. C. Skogen, et al. "The Strengths and
 Difficulties Questionnaire (SDQ): Factor Structure and Gender
 Equivalence in Norwegian Adolescents". In: _PLoS One_ 11 (2016). DOI:
 [10/f9v8vm](https://doi.org/10%2Ff9v8vm).
 
-[65] T. Eilertsen, A. L. Thorsen, S. E. H. Holm, et al. "Parental
+[69] T. Eilertsen, A. L. Thorsen, S. E. H. Holm, et al. "Parental
 Socioeconomic Status and Child Intellectual Functioning in a Norwegian
 Sample". In: _Scand. J. Psychol._ 57 (2016). DOI:
 [10/gd59kf](https://doi.org/10%2Fgd59kf).
 
-[66] M. Hysing, K. J. Petrie, T. Bøe, et al. "The Social Gradient of
+[70] M. Hysing, K. J. Petrie, T. Bøe, et al. "The Social Gradient of
 Sleep in Adolescence: Results from the Youth@ Hordaland Survey". In:
 _Eur. J. Public Health_ 27 (2016).
 
-[67] J. C. Skogen, T. Bøe, B. Sivertsen, et al. "Use of Alcohol,
+[71] J. C. Skogen, T. Bøe, B. Sivertsen, et al. "Use of Alcohol,
 Tobacco and Illicit Drugs among Ethnic Norwegian and Ethnic Minority
 Adolescents in Hordaland County, Norway. The Youth@hordaland-Survey".
 In: _Ethn Health_ (2016). DOI:
 [10/gd59kd](https://doi.org/10%2Fgd59kd).
 
-[68] K. G. Askeland, S. Haugland, K. M. Stormark, et al. "Adolescent
+[72] K. G. Askeland, S. Haugland, K. M. Stormark, et al. "Adolescent
 School Absenteeism and Service Use in a Population-Based Study". In:
 _BMC Public Health_ 15 (2015). DOI:
 [10/f7h9nn](https://doi.org/10%2Ff7h9nn).
 
-[69] M. Hysing, S. Haugland, K. M. Stormark, et al. "Sleep and School
+[73] M. Hysing, S. Haugland, K. M. Stormark, et al. "Sleep and School
 Attendance in Adolescence: Results from a Large Population-Based
 Study." In: _Scand. J. Public Health_ 43 (2015). DOI:
 [10/f6v3jx](https://doi.org/10%2Ff6v3jx).
 
-[70] T. Bøe, B. Sivertsen, E. Heiervang, et al. "Socioeconomic Status
+[74] T. Bøe, B. Sivertsen, E. Heiervang, et al. "Socioeconomic Status
 and Child Mental Health: The Role of Parental Emotional Well-Being and
 Parenting Practices". In: _J. Abnorm. Child Psychol._ 42 (2014). DOI:
 [10.1007/s10802-013-9818-9](https://doi.org/10.1007%2Fs10802-013-9818-9).
 
-[71] B. S. Solberg, M. Hysing, T. Bøe, et al. "Holdninger Til Bruk Av
+[75] B. S. Solberg, M. Hysing, T. Bøe, et al. "Holdninger Til Bruk Av
 Medisiner Hos Voksne Med ADHD Målt Ved Hjelp Av Beliefs about Medicines
 Questionnaire (BMQ) [Attitudes to Medication among Adults with ADHD
 Measured with the Beliefs about Medicines Questionnaire (BMQ)]". In:
 _Tidsskr. Nor. Psykologforening_ 51 (2014).
 
-[72] H. M. Bjorgaas, I. Elgen, T. Boe, et al. "Mental Health in
+[76] H. M. Bjorgaas, I. Elgen, T. Boe, et al. "Mental Health in
 Children with Cerebral Palsy: Does Screening Capture the Complexity?"
 In: _Sci. World J._ 2013 (2013). DOI:
 [10/gb7xjt](https://doi.org/10%2Fgb7xjt).
 
-[73] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+[77] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
 Fem Til Femten (5-15) [Measurement Properties: FTF (Five to Fifteen -
 5-15)]". In: _PsykTestBARN_ (2013).
 
-[74] B. Sivertsen, S. Pallesen, K. M. Stormark, et al. "Delayed Sleep
+[78] B. Sivertsen, S. Pallesen, K. M. Stormark, et al. "Delayed Sleep
 Phase Syndrome in Adolescents: Prevalence and Correlates in a Large
 Population Based Study". In: _BMC Public Health_ 13 (2013). DOI:
 [10/gbfgqx](https://doi.org/10%2Fgbfgqx).
 
-[75] J. C. Skogen, T. Bøe, A. K. Knudsen, et al. "Psychometric
+[79] J. C. Skogen, T. Bøe, A. K. Knudsen, et al. "Psychometric
 Properties and Concurrent Validity of the CRAFFT among Norwegian
 Adolescents. Ung@hordaland, a Population-Based Study". In: _Addict.
 Behav._ 38 (2013). DOI: [10/f47f5w](https://doi.org/10%2Ff47f5w).
 
-[76] T. Bøe, M. Hysing, K. M. Stormark, et al. "Sleep Problems as a
+[80] T. Bøe, M. Hysing, K. M. Stormark, et al. "Sleep Problems as a
 Mediator of the Association between Parental Education Levels,
 Perceived Family Economy and Poor Mental Health in Children". In: _J.
 Psychosom. Res._ 73 (2012). DOI:
 [10/f2g67w](https://doi.org/10%2Ff2g67w).
 
-[77] T. Bøe, S. Øverland, A. J. Lundervold, et al. "Socioeconomic
+[81] T. Bøe, S. Øverland, A. J. Lundervold, et al. "Socioeconomic
 Status and Children's Mental Health: Results from the Bergen Child
 Study". In: _Soc. Psychiatry Psychiatr. Epidemiol._ 47 (2012). DOI:
 [10.1007/s00127-011-0462-9](https://doi.org/10.1007%2Fs00127-011-0462-9).
 
-[78] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+[82] M. Hysing and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
 Brown Attention-Deficit Disorder Scales for Children and Adolescents,
 8-12 År (Brown ADD 8-12) [Measurement Properties: Brown
 Attention-Defict Disorder Scales for Children and Adolescents (Norsk
 Versjon, 8-12 År)]". In: _PsykTestBARN_ (2012).
 
-[79] T. Bøe and M. Hysing. "Måleegenskaper Ved Den Norske Versjonen Av
+[83] T. Bøe and M. Hysing. "Måleegenskaper Ved Den Norske Versjonen Av
 Brown Attention-Deficit Disorder Scales for Children and Adolescents,
 3-7 År (Brown ADD Scales 3-7) [Measurement Properties: Brown
 Attention-Defict Disorder Scales for Children and Adolescents
 (Norwegian Version, 3-7 Years)]". In: _PsykTestBARN_ (2011).
 
-[80] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+[84] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
 ADHD Rating Scale-IV Hjemmeversjon (ADHD-RS-IV Hjemme) [Measurement
 Properties: ADHD-RS-IV - ADHD Rating Scale - IV (Home Version)]". In:
 _PsykTestBARN_ (2011).
 
-[81] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+[85] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
 ADHD Rating Scale IV, Skoleversjon (ADHD-RS-IV Skole) [Measurement
 Properties: ADHD-RS-IV - ADHD Rating Scale - IV (School Version)]". In:
 _PsykTestBARN_ (2011).
 
-[82] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
+[86] H. Kornør and T. Bøe. "Måleegenskaper Ved Den Norske Versjonen Av
 Swanson, Nolan Og Pelham Vurderingsskala for Lærere Og Foreldre -
 Versjon IV (SNAP-IV) [Measurement Properties: SNAP-IV]". In:
 _PsykTestBARN_ 1 (2011).
-
-[83] C. J. Ferguson. "An Effect Size Primer: A Guide for Clinicians and
-Researchers." In: _Professional Psychology: Research and Practice_ 40
-(Oct. 2009). DOI:
-[10.1037/a0015808](https://doi.org/10.1037%2Fa0015808). (Visited on
-04/15/2024).
 
 ## Books and book chapters
 [1] T. Bøe and H. D. Zachrisson. "Hva betyr det for barn å vokse opp i
