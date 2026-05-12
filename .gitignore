@@ -10,3 +10,7 @@ Thumbs.db
 /resources/
 .Rprofile
 .hugo_build.lock
+
+/.quarto/
+**/*.quarto_ipynb
+.positai

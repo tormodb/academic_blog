@@ -47,7 +47,7 @@ header_includes:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(tidyverse)
 library(vitae)
-source("/Users/st06810/Dropbox/AkademiskCV/baretable.R")
+source("baretable.R")
 
 id <- 'TMC38ZgAAAAJ'
 tb <- scholar::get_profile(id)
@@ -212,7 +212,7 @@ tribble(~ Year, ~ Institution,
 ```{r, echo = F, message=F, warning=F}
 library(readxl)
 library(dplyr)
-formidling <- read_excel("/Users/st06810/Dropbox/AkademiskCV/Formidling_Tormod.xlsx", sheet = "Ark2")
+formidling <- read_excel("/Users/tobo/Library/CloudStorage/OneDrive-UniversityofBergen/UiB/blog/static/files/Formidling.xlsx", sheet = "Ark2")
 saveRDS(formidling, "formidling.rds")
 n_delt <- formidling %>% select("Antall deltagere") %>% colSums(.)
 startår <- formidling %>% select(År) %>% min()
@@ -306,7 +306,7 @@ tribble(
 ## PhD thesis
 ```{r thesis}
 library(RefManageR)
-bibliography_entries("/Users/st06810/Dropbox/AkademiskCV/tpubs_zot2.bib") %>%
+bibliography_entries("/Users/tobo/Library/CloudStorage/OneDrive-UniversityofBergen/UiB/blog/static/files/tpubs_zot.bib") %>%
   filter(bibtype == "Thesis")
 ```
 

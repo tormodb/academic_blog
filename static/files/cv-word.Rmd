@@ -94,8 +94,10 @@ library(tibble)
 curpos <- tribble(
   ~ Year, ~ Institution,
   "Year", "Job title – Employer - Country",
-  "2020-", "Professor, Faculty of Psychology, University of Bergen, Norway",
-  "2018-", "Senior Researcher (20% position), Uni Research Health, Bergen, Norway",
+  "2025-", "Research director, RKBU Vest, NORCE, Norway",
+  "2025-", "Professor (20%), Faculty of Psychology, University of Bergen, Norway",
+  "2020-2025", "Professor, Faculty of Psychology, University of Bergen, Norway",
+  "2018-2025", "Senior Researcher (20% position), Uni Research Health, Bergen, Norway",
   "2018-2020",    "Associate Professor, Faculty of Psychology, University of Bergen, Norway",
   "2014-2018",    "Senior Researcher, Uni Research Health, Bergen, Norway",
   "2014-2017",    "Post doctor (funded by Norwegian Research Council), Uni Research Health, Bergen, Norway"
@@ -209,14 +211,15 @@ curpos %>% align(align="left", part="all") %>%
 proj <- tribble(
   ~ Year, ~ Institution, 
   "",          "Project owner - Project - Role - Funder",
-  "2020-",     "Longtrends, Work package leader, Funder: Norwegian research council (NRC)",
+  "2006-",     "Bergen Child Study/youth@hordaland studien, Researcher, Funder: NRC and others",
+  "2018-",     "The road to independence, Researcher, Funder: Wøyen foundation",
+  "2023-2026", "Frivillig innsats i FOR ALLE! - satsingen: Treffer den, og virker den?",
+  "2020-2025",     "Longtrends, Work package leader, Funder: Norwegian research council (NRC)",
   "2019-2024",     "New patterns - safe upringing, Researcher, Funder: NRC",
   "2014-2023",     "Linkage of youth@hordaland to national registries for education, Leader, Funder: NRC",
   "2014-2023",     "Linkage of youth@hordaland to national patient registry, Researcher, Funder: NRC",
-  "2018-",     "The road to independence, Researcher, Funder: Wøyen foundation",
-  "2006-",     "Bergen Child Study/youth@hordaland studien, Researcher, Funder: NRC and others",
-  "2014-",     "EBU project, Researcher, Funder: NRC",
-  "2016-",     "Project Perfect, Researcher, Funder: Extra foundation",
+  "2014-2020",     "EBU project, Researcher, Funder: NRC",
+  "2016-2023",     "Project Perfect, Researcher, Funder: Extra foundation",
   "2014-2017", "Social inequalities, educational attainment and mental health (UNGSES), Leader, Funder: NRC",
   "2016-2017", "Survey of living conditions in Askøy and Sotra, Leader, Funder: Municpalities",
 ) 
@@ -260,7 +263,7 @@ proj %>% align(align="left", part="all") %>%
 
 sup <- tribble(~ master, ~ phd, ~ Institution,
 "Master’s students", "Ph.D. students", "University/institution - Country",
-"33", "5", "Faculty of Psychology, University of Bergen, Norway",
+"36", "5", "Faculty of Psychology, University of Bergen, Norway",
 )
 
 sup <- flextable(sup)
@@ -467,23 +470,24 @@ startår <- formidling %>% select(År) %>% min()
 slutttår <- formidling %>% select(År) %>% max()
 ```
 
-I have authored or co-authored more than `r length(unique(p$pubid))` publications (journal articles, book chapters and reports). I am the first author of `r n_firstauthor` peer reviewed journal articles and the senior author on `r n_lastauthor`. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_.  I was part of the government appointed expert group on child poverty in 2023. I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give `r length(formidling$Lopenr)` talks for more than `r format(round(n_delt,-2), big.mark = " ")` participants in the period from `r startår` to `r format(Sys.time(),"%Y")`. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
+I have authored or co-authored more than `r length(unique(p$pubid))` publications (journal articles, book chapters and reports) and was among the 500 most publishing researchers in Norway in 2023 and 2024 [(Krohno)](https://www.khrono.no/disse-500-forskerne-publiserer-mest-i-norge/1008949). I am the first author of `r n_firstauthor` peer reviewed journal articles and the senior author on `r n_lastauthor`. My articles have been cited `r tb$total_cites` times, my _h_-index is `r tb$h_index` and my _i10_-index is `r tb$i10_index` [according to Google Scholar](https://scholar.google.com/citations?user=TMC38ZgAAAAJ&hl=en). _(Updated `r format(Sys.Date(), "%d.%m.%Y")`)_.  I was part of the government appointed expert group on child poverty in 2023. I am the sole author of a report on social inequalities in child mental health commissioned by the Norwegian Directorate of Health, and my research has been featured in several national policy documents, such as the [Government Strategy document for Children living in poverty](https://www.regjeringen.no/en/dokumenter/children-living-in-poverty/id2410107/), and it was also the foundation for the main focus of the Norwegian Psychology Association in 2016-2019. I have been invited to give `r length(formidling$Lopenr)` talks for more than `r format(round(n_delt,-2), big.mark = " ")` participants since `r startår`. Among those are several keynote presentations at national and nordic conferences. [Further details are available on my website: tboe.no](https://tormodboe.netlify.app). I have collaborated with journalists on many dissemination projects, one of the most successful being "[Historier om fattigdom [Stories of Poverty]](https://www.bt.no/emne/Historier_om_fattigdom)", a series of articles published in the Norwegian newspaper Bergens Tidende, which by January 2020 had been read more than 1.3 million times. I was also featured in an interview in the NRK documentary "Den norske fattigdommen" (The Norwegian poverty) viewed by more than 1.3 million.  Additional supervison experience include several funded student scholarships and many student papers (one of which has been published). Further details available upon request.
 
 <br><br><br><br><br>
 
 
 <br><br><br><br><br>
 
-__List of publications:__
+__List of recent publications:__
 
 <br><br><br><br><br>
 
 ```{r trackrefs, results='asis'}
 # Selected publications:  
-bib2<- ReadBib("tbup_top_10.bib",check= FALSE)
+bib2<- ReadBib("tpubs_zot.bib",check= FALSE)
 bib2 %>% as_tibble() %>% 
   # filter(!is.na(ids)) %>%
-  arrange((date)) %>% 
+  arrange(desc(year)) %>% 
+slice_head(n = 10) %>% 
   mutate(ids = as.numeric(ids)) %>%
            arrange(ids) %>%
   as.BibEntry()

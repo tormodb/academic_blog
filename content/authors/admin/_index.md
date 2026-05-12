@@ -10,10 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Community Psychology
+role: Research director at Norce and Professor of Community Psychology at UiB
 
 # Organizations/Affiliations
 organizations:
+- name: RKBU Vest, NORCE
+  url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rkbu.norceresearch.no/en/&ved=2ahUKEwjz9Knf0rOUAxV_IBAIHW4XKsQQFnoECB0QAQ&usg=AOvVaw2C6Vth11eonqglNHD6feo0
 - name: University of Bergen
   url: "https://www.uib.no/isp"
 
@@ -75,4 +77,4 @@ email: "Photo: Andreas Graven"
 # - Visitors
 ---
 
-Tormod Bøe is a professor of community psychology at the University of Bergen. His research interests include social inequalities in mental health, public mental health and psychometrics. 
+Tormod Bøe is a Research Director at NORCE Norwegian Research Centre and Professor of Psychology at the University of Bergen. His research focuses on developmental and social determinants of mental health, with particular attention to how socioeconomic conditions, family context, and perceived mattering shape well-being across the lifespan. He works extensively with longitudinal and population-based data, often focusing on vulnerable groups and cross-context variation. His approach combines advanced quantitative methods with interests in measurement, causal inference, and the implications of research for prevention, services, and policy.
